@@ -1,0 +1,132 @@
+<?php
+// Heading
+$_['heading_title']              = '주문';
+
+// Text
+$_['text_success']               = '완료: 주문을 수정했습니다.';
+$_['text_list']                  = '주문 목록';
+$_['text_add']                   = '주문 추가';
+$_['text_edit']                  = '주문 수정';
+$_['text_order_detail']          = '주문정보';
+$_['text_customer_detail']       = '고객정보';
+$_['text_option']                = '옵션';
+$_['text_store']                 = '쇼핑몰';
+$_['text_date_added']            = '주문일';
+$_['text_payment_method']        = '결제방법';
+$_['text_shipping_method']       = '배송방법';
+$_['text_customer']              = '고객';
+$_['text_customer_group']        = '고객그룹';
+$_['text_email']                 = '이메일';
+$_['text_telephone']             = '전화';
+$_['text_invoice']               = '청구서';
+$_['text_reward']                = '적립포인트';
+$_['text_affiliate']             = '제휴사';
+$_['text_order']                 = '주문 (#%s)';
+$_['text_payment_address']       = '결제주소';
+$_['text_shipping_address']      = '배송주소';
+$_['text_comment']               = '고객 메모';
+$_['text_history']               = '주문진행이력';
+$_['text_history_add']           = '주문진행이력 추가';
+$_['text_account_custom_field']  = '회원 사용자정의 필드';
+$_['text_payment_custom_field']  = '결제주소 사용자정의 필드';
+$_['text_shipping_custom_field'] = '배송주소 사용자정의 필드';
+$_['text_browser']               = '브라우저';
+$_['text_ip']                    = 'IP 주소';
+$_['text_forwarded_ip']          = 'Forwarded IP';
+$_['text_user_agent']            = 'User Agent';
+$_['text_accept_language']       = 'Accept Language';
+$_['text_order_id']              = '주문번호:';
+$_['text_fax']                   = '팩스:';
+$_['text_website']               = '웹사이트:';
+$_['text_invoice_no']            = '청구서번호:';
+$_['text_invoice_date']          = '청구일자:';
+$_['text_sku']                   = 'SKU:';
+$_['text_upc']                   = 'UPC:';
+$_['text_ean']                   = 'EAN:';
+$_['text_jan']                   = 'JAN:';
+$_['text_isbn']                  = 'ISBN:';
+$_['text_mpn']                   = 'MPN:';
+$_['text_missing']               = '누락된 주문';
+$_['text_default']               = '기본값';
+$_['text_product']               = '상품 추가';
+$_['text_voucher']               = '상품권 추가';
+$_['text_shipping']              = '배송비';
+$_['text_contact']               = '연락처';
+$_['text_reward_added']          = '완료: 적립포인트를 추가했습니다.';
+$_['text_reward_removed']        = '완료: 적립포인트를 제거했습니다.';
+$_['text_commission_added']      = '완료: 수수료를 추가했습니다.';
+$_['text_commission_removed']    = '완료: 수수료를 제거했습니다.';
+$_['text_restock']               = '완료: 상품 재고를 수정했습니다.';
+$_['text_upload']                = '파일 업로드를 완료했습니다.';
+$_['text_picklist']              = '송장';
+
+// Column
+$_['column_order_id']            = '주문번호';
+$_['column_customer']            = '고객';
+$_['column_status']              = '상태';
+$_['column_date_added']          = '작성일';
+$_['column_date_modified']       = '수정일';
+$_['column_total']               = '합계';
+$_['column_product']             = '상품';
+$_['column_model']               = '모델명';
+$_['column_quantity']            = '수량';
+$_['column_price']               = '단가';
+$_['column_comment']             = '메모';
+$_['column_notify']              = '고객에게 알림';
+$_['column_location']            = '위치';
+$_['column_reference']           = '참조';
+$_['column_action']              = '작업';
+$_['column_weight']              = '상품무게';
+
+// Entry
+$_['entry_store']                = '쇼핑몰';
+$_['entry_customer']             = '고객';
+$_['entry_customer_group']       = '고객그룹';
+$_['entry_firstname']            = '이름';
+$_['entry_lastname']             = '성';
+$_['entry_email']                = '이메일';
+$_['entry_telephone']            = '전화';
+$_['entry_fax']                  = '팩스';
+$_['entry_address']              = '주소 선택';
+$_['entry_company']              = '회사';
+$_['entry_address_1']            = '주소 1';
+$_['entry_address_2']            = '주소 2';
+$_['entry_city']                 = '시/군/구';
+$_['entry_postcode']             = '우편번호';
+$_['entry_country']              = '국가';
+$_['entry_zone']                 = '시/도';
+$_['entry_zone_code']            = '시/도 코드';
+$_['entry_product']              = '상품 선택';
+$_['entry_option']               = '옵션 선택';
+$_['entry_quantity']             = '수량';
+$_['entry_to_name']              = '받으시는 분 성함';
+$_['entry_to_email']             = '받으시는 분 이메일';
+$_['entry_from_name']            = '보내는 사람 이름';
+$_['entry_from_email']           = '보내는 사람 이메일';
+$_['entry_theme']                = '상품권 테마';
+$_['entry_message']              = '메시지';
+$_['entry_amount']               = '금액';
+$_['entry_affiliate']            = '제휴사';
+$_['entry_order_status']         = '주문진행상황';
+$_['entry_notify']               = '고객에게 알림';
+$_['entry_override']             = '무효화';
+$_['entry_comment']              = '내용';
+$_['entry_currency']             = '화폐';
+$_['entry_shipping_method']      = '배송방법';
+$_['entry_payment_method']       = '결제방법';
+$_['entry_coupon']               = '쿠폰';
+$_['entry_voucher']              = '상품권';
+$_['entry_reward']               = '적립포인트';
+$_['entry_order_id']             = '주문번호';
+$_['entry_total']                = '합계';
+$_['entry_date_added']           = '작성일';
+$_['entry_date_modified']        = '수정일';
+
+// Help
+$_['help_override']              = 'If the customers order is being blocked from changing the order status due to an anti-fraud extension enable override.';
+
+// Error
+$_['error_warning']              = '주의: 오류가 발생했습니다. 입력 항목을 다시 확인해주세요.';
+$_['error_permission']           = '주의: 주문을 수정할 수 있는 권한이 없습니다.';
+$_['error_action']               = '주의: 이 작업을 완료할 수 없습니다.';
+$_['error_filetype']			 = '잘못된 파일형식입니다.';

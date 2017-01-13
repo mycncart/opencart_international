@@ -1,0 +1,133 @@
+<?php
+// Heading
+$_['heading_title']       = 'EC Slideshow';
+$_['heading_banner_title'] = 'EC Slideshow - Banner';
+$_['heading_import_banner_title'] = 'EC Slideshow - Importa Banner';
+// Text
+$_['button_save_stay']	  = 'Salva e rimani';
+$_['button_import']		  = 'Importa';
+$_['button_export']		  = 'Esporta';
+$_['text_module']         = 'Moduli';
+$_['text_success']        = 'Modulo ecslideshow modificato con successo!';
+$_['text_content_top']    = 'Contenuto Superiore';
+$_['text_content_bottom'] = 'Contenuto Inferiore';
+$_['text_column_left']    = 'Colonna Sinistra';
+$_['text_column_right']   = 'Colonna Destra';
+$_['text_mainmenu']   = 'Menu Principale';
+$_['text_slideshow']   = 'Slideshow';
+$_['text_footer_top']   = 'Parte Superiore Pi&egrave; di pagina';
+$_['text_footer_center']   = 'Centro Pi&egrave; di pagina';
+$_['text_footer_bottom']   = 'Parte Inferiore Pi&egrave; di pagina';
+$_['text_default'] = 'Predefinito';
+$_['text_all_layout'] = 'Tutti  i layout';
+$_['text_header_top'] = 'Parte superiore Intestazione';
+$_['text_header_bottom'] = 'Parte Inferiore Intestazione';
+$_['text_ecslideshow_module'] = 'Modulo Slideshow';
+$_['text_ecslideshow_banner'] = 'Gestisci Banner';
+$_['text_ecslideshow_support'] = 'Supporto';
+$_['text_banner_image'] = 'Immagini Banner';
+$_['text_image_manager'] = 'Gestore Immagini';
+$_['text_browse'] = 'Sfoglia';
+$_['text_clear'] = 'Pulisci';
+$_['text_input_product_name'] = 'Inserisci Nome Prodotto';
+$_['text_select_banner'] = 'Seleziona Banner';
+$_['text_default'] = 'Predefinito';
+$_['text_white_space'] = 'Scala con spazi bianchi';
+$_['text_resize_width'] = 'Riempi in base alla larghezza';
+$_['text_resize_height'] = 'Riempi in base all\'altezza';
+$_['error_title'] = 'Errore <strong>Banner %s</strong>: Il Titolo del banner &egrave; obbligatorio. Aggiungere un titolo in tutte le lingue.';
+$_['text_help_import'] = '';
+$_['text_edit_banner'] = 'Modifica Banner';
+$_['text_edit'] = 'Modifica';
+$_['text_module_setting'] = 'EC Slideshow - Moduli';
+
+$_['all_page']   = 'Tutte le Pagine';
+// Entry
+
+$_['button_add_banner'] = 'Aggiungi Banner';
+$_['tab_banner'] = 'Banner ';
+$_['entry_resize_main_image'] = 'Abilita ridimensionamento Immagine Principale: ';
+$_['entry_caption_background_color'] = 'Colore di sfondo Didascalia: ';
+$_['entry_caption_text_color'] = 'Colore testo didascalia: ';
+$_['entry_caption_link_color'] = 'Colore Collegamento Didascalia: ';
+$_['entry_caption_class'] = 'Classe Didascalia: <br/><span class="help">Inserire il nome della classe del CSS class per la didascalia dello Slider.</span>';
+$_['entry_video_embed_code'] = 'Codice inserimento Video:<br/><span class="help">Inserire il codice necessario per visualizzare il video nello slider.</span>';
+
+$_['entry_async_loading'] = 'Abilita Caricamento Asincrono:<br/><span class="help">Permette di caricare pi&ugrave; velocemente le pagine scaricando in background gli script dopo il render della pagina in maniera asincrona. </span>';
+$_['entry_show_slider_link'] = 'Mostra collegamento slider:<br><span class="help">Mostra/Nascondi indirizzo di destinazione dello slide.</span>';
+$_['entry_random_slider'] = 'Modalit&agrave; slider casuale:<br/><span class="help">Abilita/Disabilita slider casuali nello slideshow.</span>';
+$_['entry_strip_html_code'] = 'Rimuovi Codice HTML:<br/><span class="help">Abilita/Disabilita rimozione codice HTML nella descrizione</span>';
+$_['entry_show_custom_code'] = 'Mostra Codice Personalizzato';
+$_['entry_custom_code'] = 'Codice Personalizzato: <br/><span class="help">Permette di inserire codice php personalizzato (senza avere <b>&lt;?php</b> e <b>?&gt;</b> ), ottimo per integrare un modulo nello slider. Per Esempio: <br/><strong>echo $this->getChild("module/ecflashsale/ecflashsale", 31);</strong> </span>';
+$_['entry_resize_type'] = 'Tipo di Ridimensionamento';
+$_['entry_support_rtl'] = 'Supporta Destra a Sinistra ?';
+$_['entry_slider_caption'] = 'Didascalia Slideshow';
+$_['entry_show_caption'] = 'Mostra Didascalia:<br/><span class="help">Mostra/Nascondi Didascalia slider.</span>';
+$_['entry_caption_effect'] = 'Effetto Didascalia';
+$_['entry_store'] = 'Negozio';
+$_['entry_name'] = 'Nome';
+$_['entry_bar_position'] = 'Posizione Barra';
+$_['entry_layout']        = 'Layout';
+$_['entry_position']      = 'Posizione';
+$_['entry_status']        = 'Stato';
+$_['entry_sort_order']    = 'Ordinamento';
+$_['help_banner']  = 'Seleziona un banner per avere immagini per lo slideshow.';
+$_['entry_banner']		= '<font style="color:#E25203">Banner</font>';
+$_['entry_module_width'] = 'Larghezza Modulo: <br/><span class="help">Da inserire numeri con tipologia "px,%, auto", per esempio: 980px, 100% oppure auto</span>';
+$_['entry_module_height'] = 'Altezzaq Modulo:  <br/><span class="help">Da inserire numeri con tipologia "px,%, auto", per esempio: 980px, 100% oppure auto</span>';
+$_['entry_main_width'] = 'Larghezza Immagine Principale';
+$_['help_main_width'] = 'Imposta la Larghezza dell\'immagine Principale dello Slideshow (valore numerico), per esempio: 980';
+$_['entry_main_height'] = 'Altezza Immagine Principale';
+$_['help_main_height'] = 'Imposta l\'Altezza dell\'immagine Principale dello Slideshow (valore numerico), per esempio: 380';
+$_['entry_thumbnail_width'] = 'Larghezza Anteprima';
+$_['entry_thumbnail_height'] = 'Altezza Anteprima';
+$_['entry_slider_effect'] = 'Effetto Slideshow';
+$_['entry_skin'] ='Tema';
+$_['entry_alignment'] ='Allineamento';
+$_['entry_auto_advance'] ='Avanzamento Automatico';
+$_['entry_mobile_auto_advance'] ='Avanzamento Automatico Mobile';
+$_['entry_bar_direction'] ='Direzione Barra';
+$_['entry_cols'] ='Colonne';
+$_['entry_rows'] ='Righe';
+$_['entry_easing'] ='Easing: <br><span class="help">Effetto animazione dello slider</span>';
+$_['entry_fx'] ='Effetto';
+$_['entry_hover'] ='Hover: <br><span class="help">Pausa al passaggio del mouse (stato "hover")</span>';
+$_['entry_loader'] ='Caricatore';
+$_['entry_navigation'] ='Navigazione: <br><span class="help">Se abilitato i pulsanti di navigazione (I pulsanti precedente, prossimo e Play/stop) sar&agrave; visibile.</span>';
+$_['entry_navigation_hover'] ='Navigazione Hover: <br><span class="help">Se abilitato i pulsanti di navigazioen (I pulsanti precedente, prossimo e Play/stop) saranno visibili al passaggio del mouse (stato "hover"). Nel caso fosse disabilitato i comandi saranno sempre visibili</span>';
+$_['entry_pagination'] ='Paginazione';
+$_['entry_play_pause'] ='Play&Pausa: <br><span class="help">Mostra o Nasconde i pulsanti play/pausa</span>';
+$_['entry_thumbnails'] ='Anteprime';
+$_['entry_time'] ='Durata: <br><span class="help">millisecondi tra la fine dell\'effetto di scorrimento e l\'inizio del successivo.</span>';
+$_['entry_trans_period'] ='Periodo di Transizione: <br><span class="help">durata dell\'effetto di scorrimento in millisecondi.</span>';
+$_['button_add_new_block'] = 'Aggiungi nuovo slideshow';
+$_['button_save_stay'] = 'Salva e Rimani';
+$_['tab_block'] = 'Slideshow ';
+$_['tab_banner'] = 'Banner ';
+$_['entry_product'] = 'Seleziona Prodotto: <br/><span class="help">Cerca Prodotto per nome o inserisci il suo ID a cui sar&agrave; collegato il banner.</span>';
+$_['entry_product_id'] = '&nbsp;id Prodotto: ';
+$_['entry_slideshow_effect'] = '<h3>Impostazione Effetto</h3>';
+$_['entry_caption_alignment'] = 'Allineamento Didascalia:<br><span class="help">Sostituisce allineamento predefinito delle Didascalie .</span>';
+$_['entry_image_alignment'] = 'Allineamento Immagine:<br><span class="help">Sostituisce allineamneto predefinito immagine.</span>';
+$_['entry_effect'] = 'Effetto Banner:<br><span class="help">Sostituisce l\\\'effetto predefinito per l\\\'immagine del banner.</span>';
+
+
+$_['entry_title'] = 'Titolo:<br/><span class="help">Limite 100 caratteri</span> ';
+$_['entry_description'] = 'Descrizione: ';
+$_['entry_link'] = 'Collegamento: ';
+$_['entry_image'] = 'Immagine: ';
+$_['entry_custom_position'] = 'Posizione Personalizzata';
+$_['help_custom_position'] = 'Inserire la posizione personalizzata del tema. Per esempio: slideshow, content_left,...Lasciare vuoto per utilizzare la posizione predefinita in opencart.';
+$_['entry_limit'] = 'Limite oggetto Slider: ';
+$_['entry_title_max_chars'] = 'Nr Massimo Caratteri del Titolo ';
+$_['entry_description_max_chars'] = 'Nr Massimo Caratteri della Descrizione';
+$_['entry_slide_height'] = 'Altezza Slider';
+$_['entry_min_height'] = 'Altezza Min';
+$_['entry_show_product_info'] = 'Mostra Informazione Prodotto:<br/><span class="help">Mostra/Nascondi prezzo prodotto, recensione, pulsante aggiungi al carrello</span>';
+$_['column_name'] = 'Nome';
+$_['column_status'] = 'Stato';
+$_['column_action'] = 'Azione';
+
+// Error
+$_['error_permission']    = 'Attenzione: non si hanno i permessi per modificare il modulo ecslideshow!';
+?>
