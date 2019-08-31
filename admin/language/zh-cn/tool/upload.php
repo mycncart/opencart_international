@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '上传文件';
 
 // Text
 $_['text_success']      = '成功: 已修改上传文件！';
-$_['text_list']         = '上传文件列表';
+$_['text_list']         = '上传文件列表 - (在线教程: <a href="http://www.mycncart.com/blog-90.html" target="_blank">http://www.mycncart.com/blog-90.html</a>)';
 
 // Column
 $_['column_name']       = '上传文件名称';

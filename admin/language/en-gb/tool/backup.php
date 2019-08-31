@@ -1,16 +1,19 @@
 <?php
-
 // Heading
-$_['heading_title']    = '备份 / 恢复';
+$_['heading_title']    = 'Backup &amp; Restore';
 
 // Text
-$_['text_success']     = '成功：已成功导入数据库！';
+$_['text_success']     = 'Success: You have successfully imported your database!';
 
 // Entry
-$_['entry_import']     = '导入恢复备份';
-$_['entry_export']     = '导出备份';
+$_['entry_progress']   = 'Progress';
+$_['entry_export']     = 'Export';
+
+// Tab
+$_['tab_backup']       = 'Backup';
+$_['tab_restore']      = 'Restore';
 
 // Error
-$_['error_permission'] = '警告：您没有权限修改备份！';
-$_['error_backup']     = '警告：您尚未选择单元格！';
-$_['error_empty']      = '警告：您上传的是空文件！';
+$_['error_permission'] = 'Warning: You do not have permission to modify Backup &amp; Restore!';
+$_['error_export']     = 'Warning: You must select at least one table to export!';
+$_['error_file']       = 'File could not be found!';

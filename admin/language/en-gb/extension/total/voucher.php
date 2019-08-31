@@ -1,16 +1,15 @@
 <?php
-
 // Heading
-$_['heading_title']    = '礼品券';
+$_['heading_title']    = 'Gift Voucher';
 
 // Text
-$_['text_total']       = '订单金额';
-$_['text_success']     = '成功: 已修改礼品券！';
-$_['text_edit']        = '编辑礼品券';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified gift voucher total!';
+$_['text_edit']        = 'Edit Gift Voucher Total';
 
 // Entry
-$_['entry_status']     = '状态';
-$_['entry_sort_order'] = '排序';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Sort Order';
 
 // Error
-$_['error_permission'] = '警告: 无权限修改礼品券！';
+$_['error_permission'] = 'Warning: You do not have permission to modify gift voucher total!';

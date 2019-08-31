@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_search']              = '搜索';
 $_['text_brand']               = '品牌';
@@ -39,7 +38,6 @@ $_['entry_review']             = '评论';
 $_['entry_rating']             = '评级';
 $_['entry_good']               = '好';
 $_['entry_bad']                = '差';
-$_['entry_captcha']            = '请在下框输入验证码：';
 
 // Tabs
 $_['tab_description']          = '详情';

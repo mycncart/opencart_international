@@ -1,10 +1,9 @@
 <?php
-
 // Heading
 $_['heading_title']    = 'Klarna 收费';
 
 // Text
-$_['text_total']       = '订单总计';
+$_['text_extension']   = '扩展功能';
 $_['text_success']     = '成功: 已修改 Klarna 收费！';
 $_['text_edit']        = '编辑 Klarna 收费';
 $_['text_sweden']      = '瑞典';

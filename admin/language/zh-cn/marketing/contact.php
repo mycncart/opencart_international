@@ -1,12 +1,11 @@
 <?php
-
 // Heading
-$_['heading_title']        = '邮件推广';
+$_['heading_title']        = '邮件通知会员';
 
 // Text
 $_['text_success']         = '您的邮件已成功发送!';
 $_['text_sent']            = '您的邮件已成功发送 %s 封，共 %s 收件人！';
-$_['text_list']            = '邮件推广列表';
+$_['text_list']            = '邮件推广列表 - (在线教程: <a href="http://www.mycncart.com/blog-93.html" target="_blank">http://www.mycncart.com/blog-93.html</a>)';
 $_['text_default']         = '默认';
 $_['text_newsletter']      = '所有资讯订阅者';
 $_['text_customer_all']    = '所有会员';
@@ -27,9 +26,9 @@ $_['entry_subject']        = '邮件标题';
 $_['entry_message']        = '邮件内容';
 
 // Help
-$_['help_customer']       = '输入时自动筛选结果';
-$_['help_affiliate']      = '输入时自动筛选结果';
-$_['help_product']        = '仅发送给购买了下面列表中商品的会员。 (输入时自动筛选结果)';
+$_['help_customer']        = '输入时自动筛选结果';
+$_['help_affiliate']       = '输入时自动筛选结果';
+$_['help_product']         = '仅发送给购买了下面列表中商品的会员。 (输入时自动筛选结果)';
 
 // Error
 $_['error_permission']     = '警告: 无权限发送邮件！';

@@ -5,7 +5,7 @@ $_['heading_title']     = '税率类别';
 
 // Text
 $_['text_success']      = '成功: 已修改税率类别!';
-$_['text_list']         = '税率类别列表';
+$_['text_list']         = '税率类别列表 - (在线教程: <a href="http://www.mycncart.com/blog-85.html" target="_blank">http://www.mycncart.com/blog-85.html</a>)';
 $_['text_add']          = '添加税率类别';
 $_['text_edit']         = '编辑税率类别';
 $_['text_shipping']     = '配送地址';

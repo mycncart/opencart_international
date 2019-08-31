@@ -1,10 +1,9 @@
 <?php
-
 // Heading
-$_['heading_title']                            = '联邦快递(Fedex)';
+$_['heading_title']                            = 'Fedex';
 
 // Text
-$_['text_shipping']                            = '配送管理';
+$_['text_shipping']                            = 'Shipping';
 $_['text_success']                             = 'Success: You have modified Fedex shipping!';
 $_['text_edit']                                = 'Edit Fedex Shipping';
 $_['text_europe_first_international_priority'] = 'Europe First International Priority';
@@ -68,7 +67,6 @@ $_['entry_status']                             = 'Status';
 $_['entry_sort_order']                         = 'Sort Order';
 
 // Help
-
 $_['help_length_class']                        = 'Set to inches or centimeters.';
 $_['help_display_time']                        = 'Do you want to display the shipping time? (e.g. Ships within 3 to 5 days)';
 $_['help_display_weight']                      = 'Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 kg)';

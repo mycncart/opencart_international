@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']    = '按重量配送';
 
 // Text
-$_['text_shipping']    = '配送管理';
+$_['text_extension']   = '扩展功能';
 $_['text_success']     = '成功: 已修改按重量配送！';
-$_['text_edit']        = '编辑按重量配送';
+$_['text_edit']        = '编辑按重量配送 - (在线教程: <a href="http://www.mycncart.com/blog-125.html" target="_blank">http://www.mycncart.com/blog-125.html</a>)';
 
 // Entry
 $_['entry_rate']       = '费率';

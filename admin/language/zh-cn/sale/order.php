@@ -4,9 +4,10 @@ $_['heading_title']            	 = '订单';
 
 // Text
 $_['text_success']               = '成功: 已修改订单!';
-$_['text_list']                  = '订单列表';
+$_['text_list']                  = '订单列表 - (在线教程: <a href="http://www.mycncart.com/blog-98.html" target="_blank">http://www.mycncart.com/blog-98.html</a>)';
 $_['text_add']                   = '新增订单';
 $_['text_edit']                  = '编辑订单';
+$_['text_filter']                = '筛选';
 $_['text_order_detail']          = '订单详情';
 $_['text_customer_detail']       = '会员详情';
 $_['text_option']                = '选项';
@@ -18,6 +19,7 @@ $_['text_customer']              = '会员';
 $_['text_customer_group']        = '会员等级';
 $_['text_email']                 = 'E-Mail';
 $_['text_telephone']             = '电话';
+$_['text_fax']                   = '传真';
 $_['text_invoice']               = '发票';
 $_['text_reward']                = '积分';
 $_['text_affiliate']             = '推广会员';
@@ -36,7 +38,6 @@ $_['text_forwarded_ip']          = '转向 IP';
 $_['text_user_agent']            = 'User Agent';
 $_['text_accept_language']       = '语言';
 $_['text_order_id']              = '订单 ID:';
-$_['text_fax']                   = '传真:';
 $_['text_website']               = '网址:';
 $_['text_invoice_no']            = '发票号.:';
 $_['text_invoice_date']          = '发票日期:';
@@ -59,7 +60,6 @@ $_['text_commission_removed']    = '成功: 已移除佣金!';
 $_['text_restock']               = '成功: 商品已回到库存!';
 $_['text_upload']                = '成功上传文件!';
 $_['text_picklist']              = '派送提示';
-$_['text_shipping_telephone']    = '收件人电话';
 
 // Column
 $_['column_order_id']            = '订单 ID';
@@ -83,11 +83,10 @@ $_['column_weight']              = '商品重量';
 $_['entry_store']                = '商店';
 $_['entry_customer']             = '会员';
 $_['entry_customer_group']       = '会员等级';
-$_['entry_firstname']            = '姓氏';
-$_['entry_lastname']             = '名称';
+$_['entry_firstname']            = '名字';
+$_['entry_lastname']             = '姓氏';
 $_['entry_email']                = 'E-Mail';
 $_['entry_telephone']            = '电话';
-$_['entry_fax']                  = '传真';
 $_['entry_address']              = '选择地址';
 $_['entry_company']              = '公司';
 $_['entry_address_1']            = '地址 1';
@@ -122,15 +121,14 @@ $_['entry_order_id']             = '订单 ID';
 $_['entry_total']                = '总计';
 $_['entry_date_added']           = '创建日期';
 $_['entry_date_modified']        = '修改日期';
-$_['entry_shipping_telephone']   = '收件人电话';
+
+// Help
+$_['help_override']              = '在由于反欺诈而造成订单被锁的情况下，仍然可以覆盖操作。';
 
 // Error
 $_['error_warning']              = '警告: 請詳細檢查錯誤！';
 $_['error_permission']           = '警告: 無權限修改訂單！';
 $_['error_action']               = '警告: 無法完成此操作！';
 $_['error_filetype']			 = '无效文件类型!';
-
-// Help
-$_['help_override']              = '在由于反欺诈而造成订单被锁的情况下，仍然可以覆盖操作。';
 
 

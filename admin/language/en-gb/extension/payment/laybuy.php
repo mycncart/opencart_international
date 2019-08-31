@@ -12,7 +12,7 @@ $_['tab_payment']                   = 'Payment Plan';
 $_['tab_modify']                    = 'Modify Plan';
 
 // Text
-$_['text_payment']                  = 'Payment';
+$_['text_extension']                = 'Extensions';
 $_['text_success']                  = 'Success: You have modified Lay-Buy payment module!';
 $_['text_edit']                     = 'Edit Lay-Buy';
 $_['text_laybuy']                   = '<a href="https://www.lay-buys.com" target="_blank"><img src="view/image/payment/laybuys.png" style="width:94px;height:25px" alt="Lay-Buys" title="Lay-Buys"></a>';
@@ -65,6 +65,7 @@ $_['text_no_cron_time']             = 'The cron has not yet been executed';
 $_['text_comment'] 	                = 'Updated by Lay-Buy';
 $_['text_comment_canceled'] 	    = 'Order canceled and recurring PayPal Profile #%s canceled.';
 $_['text_remaining'] 	            = 'Remaining:';
+$_['text_payment'] 	                = 'Payment';
 
 // Column
 $_['column_order_id']               = 'Order ID';

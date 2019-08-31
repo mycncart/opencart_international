@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']       = '选项';
 
 // Text
 $_['text_success']        = '成功: 已经修改选项！';
-$_['text_list']           = '选项列表';
+$_['text_list']           = '选项列表 - (在线教程: <a href="http://www.mycncart.com/blog-132.html" target="_blank">http://www.mycncart.com/blog-132.html</a>)';
 $_['text_add']            = '添加选项';
 $_['text_edit']           = '编辑选项';
 $_['text_choose']         = '选择';
@@ -19,6 +18,8 @@ $_['text_file']           = '文件';
 $_['text_date']           = '日期';
 $_['text_datetime']       = '日期 &amp; 时间';
 $_['text_time']           = '时间';
+$_['text_option']         = '选项';
+$_['text_value']          = '选项值';
 
 // Column
 $_['column_name']         = '选项名称';

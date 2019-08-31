@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_success']     = '成功: 已修改购物车！';
 

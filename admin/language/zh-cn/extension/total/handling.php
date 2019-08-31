@@ -1,10 +1,9 @@
 <?php
-
 // Heading
 $_['heading_title']    = '手续费';
 
 // Text
-$_['text_total']       = '所需订单金额';
+$_['text_extension']   = '扩展功能';
 $_['text_success']     = '成功: 已修改手续费！';
 $_['text_edit']        = '编辑手续费';
 

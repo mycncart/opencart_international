@@ -1,20 +1,19 @@
 <?php
-
-// header
-$_['heading_title']   = '忘记密码？';
+// Heading
+$_['heading_title']   = 'Forgot Your Password?';
 
 // Text
-$_['text_forgotten']  = '忘记密码';
-$_['text_your_email'] = '注册时所用电邮';
-$_['text_email']      = '输入注册时所用电邮。点击提交后您的邮箱会收到重置密码链接。';
-$_['text_success']    = '一封带有确认链接的邮件已发送至您的管理邮箱。';
+$_['text_forgotten']  = 'Forgotten Password';
+$_['text_your_email'] = 'Your E-Mail Address';
+$_['text_email']      = 'Enter the e-mail address associated with your account. Click submit to have a password reset link e-mailed to you.';
+$_['text_success']    = 'An email with a confirmation link has been sent your admin email address.';
 
 // Entry
-$_['entry_email']     = '电邮地址';
-$_['entry_password']  = '新密码';
-$_['entry_confirm']   = '确认密码';
+$_['entry_email']     = 'E-Mail Address';
+$_['entry_password']  = 'New Password';
+$_['entry_confirm']   = 'Confirm';
 
 // Error
-$_['error_email']     = '警告: 未发现该电邮地址，请重试！';
-$_['error_password']  = '密码必须介于4-20字符之间！';
-$_['error_confirm']   = '密码与确认密码不相符！';
+$_['error_email']     = 'Warning: The E-Mail Address was not found in our records, please try again!';
+$_['error_password']  = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']   = 'Password and password confirmation do not match!';

@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']    = '订阅本站最新动态';
 

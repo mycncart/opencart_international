@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']                               = '联邦快递(FEDEX)';
 $_['text_weight']                              = '重量:';

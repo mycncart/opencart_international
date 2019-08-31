@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']    = '订单状态';
 
 // Text
 $_['text_success']     = '成功: 已修改订单状态！';
-$_['text_list']        = '订单状态列表';
+$_['text_list']        = '订单状态列表 - (在线教程: <a href="http://www.mycncart.com/blog-79.html" target="_blank">http://www.mycncart.com/blog-79.html</a>)';
 $_['text_add']         = '新增订单状态';
 $_['text_edit']        = '编辑订单状态';
 

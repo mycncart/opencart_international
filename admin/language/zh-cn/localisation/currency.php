@@ -5,7 +5,7 @@ $_['heading_title']        = '货币';
 
 // Text
 $_['text_success']         = '成功: 已修改货币!';
-$_['text_list']            = '货币列表';
+$_['text_list']            = '货币列表 - (在线教程: <a href="http://www.mycncart.com/blog-52.html" target="_blank">http://www.mycncart.com/blog-52.html</a>)';
 $_['text_add']             = '添加货币';
 $_['text_edit']            = '编辑货币';
 $_['text_iso']             = '可以在后面的链接中找到所有的 ISO 货币代码及设定列表 <a href="http://www.xe.com/iso4217.php" target="_blank">这里</a>。';

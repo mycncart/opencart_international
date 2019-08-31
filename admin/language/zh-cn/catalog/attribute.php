@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']          = '属性';
 
 // Text
 $_['text_success']           = '成功: 已经修改属性！';
-$_['text_list']              = '属性列表';
+$_['text_list']              = '属性列表 - (在线教程: <a href="http://www.mycncart.com/blog-127.html" target="_blank">http://www.mycncart.com/blog-127.html</a>)';
 $_['text_add']               = '添加属性';
 $_['text_edit']              = '编辑属性';
 

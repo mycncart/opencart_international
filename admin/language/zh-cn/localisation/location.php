@@ -5,7 +5,7 @@ $_['heading_title']    = '线下商店';
 
 // Text
 $_['text_success']     = '成功: 已修改线下商店！';
-$_['text_list']        = '线下商店列表';
+$_['text_list']        = '线下商店列表 - (在线教程: <a href="http://www.mycncart.com/blog-77.html" target="_blank">http://www.mycncart.com/blog-77.html</a>)';
 $_['text_add']         = '添加线下商店';
 $_['text_edit']        = '编辑线下商店';
 $_['text_default']     = '默认';
@@ -20,7 +20,7 @@ $_['column_action']    = '操作';
 // Entry
 $_['entry_name']       = '商店名称';
 $_['entry_address']    = '地址';
-$_['entry_geocode']    = 'Geocode';
+$_['entry_geocode']    = '地理编码(Geocode)';
 $_['entry_telephone']  = '电话';
 $_['entry_fax']        = '传真';
 $_['entry_image']      = '图像';
@@ -28,7 +28,7 @@ $_['entry_open']       = '营业时间';
 $_['entry_comment']    = '备注';
 
 // Help
-$_['help_geocode']     = '请手工输入线下商店geocode。';
+$_['help_geocode']     = '请手工输入线下商店地理编码geocode。';
 $_['help_open']        = '填写商店营业时间。';
 $_['help_comment']     = '此内容允许您告知顾客一些特殊声明，比如商店不接受支票。';
 

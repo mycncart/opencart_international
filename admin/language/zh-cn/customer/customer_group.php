@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '会员等级';
 
 // Text
 $_['text_success']      = '成功: 已修改会员等级！';
-$_['text_list']         = '会员等级列表';
+$_['text_list']         = '会员等级列表 - (在线教程: <a href="http://www.mycncart.com/blog-94.html" target="_blank">http://www.mycncart.com/blog-94.html</a>)';
 $_['text_add']          = '添加会员等级';
 $_['text_edit']         = '编辑会员等级';
 

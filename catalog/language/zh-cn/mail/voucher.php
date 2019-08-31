@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_subject']  = '你已从%s发送礼品券';
 $_['text_greeting'] = '恭喜您， 您收到价值%s的礼品券！';

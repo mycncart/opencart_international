@@ -1,5 +1,4 @@
 <?php
-
 // Text
-$_['text_title']       = '按每件计运费';
-$_['text_description'] = '按每件计运费率';
+$_['text_title']       = '按件计运费';
+$_['text_description'] = '按件计运费率';

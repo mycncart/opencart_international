@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']       = '折扣券';
 
 // Text
 $_['text_success']        = '成功: 已修改折扣券!';
-$_['text_list']           = '折扣券列表';
+$_['text_list']           = '折扣券列表 - (在线教程: <a href="http://www.mycncart.com/blog-91.html" target="_blank">http://www.mycncart.com/blog-91.html</a>)';
 $_['text_add']            = '添加折扣券';
 $_['text_edit']           = '编辑折扣券';
 $_['text_percent']        = '百分比';

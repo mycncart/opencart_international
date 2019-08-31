@@ -5,11 +5,11 @@ class ModelExtensionPaymentWorldpay extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/worldpay');
 
-		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "zone_to_geo_zone WHERE geo_zone_id = '" . (int)$this->config->get('worldpay_geo_zone_id') . "' AND country_id = '" . (int)$address['country_id'] . "' AND (zone_id = '" . (int)$address['zone_id'] . "' OR zone_id = '0')");
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "zone_to_geo_zone WHERE geo_zone_id = '" . (int)$this->config->get('payment_worldpay_geo_zone_id') . "' AND country_id = '" . (int)$address['country_id'] . "' AND (zone_id = '" . (int)$address['zone_id'] . "' OR zone_id = '0')");
 
-		if ($this->config->get('worldpay_total') > 0 && $this->config->get('worldpay_total') > $total) {
+		if ($this->config->get('payment_worldpay_total') > 0 && $this->config->get('payment_worldpay_total') > $total) {
 			$status = false;
-		} elseif (!$this->config->get('worldpay_geo_zone_id')) {
+		} elseif (!$this->config->get('payment_worldpay_geo_zone_id')) {
 			$status = true;
 		} elseif ($query->num_rows) {
 			$status = true;
@@ -24,7 +24,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 				'code' => 'worldpay',
 				'title' => $this->language->get('text_title'),
 				'terms' => '',
-				'sort_order' => $this->config->get('worldpay_sort_order')
+				'sort_order' => $this->config->get('payment_worldpay_sort_order')
 			);
 		}
 
@@ -58,7 +58,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 	}
 
 	public function deleteCard($token) {
-		$this->db->query("DELETE FROM " . DB_PREFIX . "worldpay_card WHERE customer_id = '" . $this->customer->isLogged() . "' AND token = '" . $this->db->escape($token) . "'");
+		$this->db->query("DELETE FROM " . DB_PREFIX . "worldpay_card WHERE customer_id = '" . $this->customer->isLogged() . "' AND `token` = '" . $this->db->escape($token) . "'");
 
 		if ($this->db->countAffected() > 0) {
 			return true;
@@ -121,8 +121,9 @@ class ModelExtensionPaymentWorldpay extends Model {
 			$recurring_description .= sprintf($this->language->get('text_length'), $item['recurring']['duration']);
 		}
 
-		$order_recurring_id = $this->model_checkout_recurring->create($item, $this->session->data['order_id'], $recurring_description);
-		$this->model_checkout_recurring->addReference($order_recurring_id, $order_id_rand);
+		$order_recurring_id = $this->model_checkout_recurring->addRecurring($this->session->data['order_id'], $recurring_description, $item['recurring']);
+		
+		$this->model_checkout_recurring->editReference($order_recurring_id, $order_id_rand);
 
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
 
@@ -323,8 +324,8 @@ class ModelExtensionPaymentWorldpay extends Model {
 	}
 
 	public function updateCronJobRunTime() {
-		$this->db->query("DELETE FROM `" . DB_PREFIX . "setting` WHERE `code` = 'worldpay' AND `key` = 'worldpay_last_cron_job_run'");
-		$this->db->query("INSERT INTO `" . DB_PREFIX . "setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALUES (0, 'worldpay', 'worldpay_last_cron_job_run', NOW(), 0)");
+		$this->db->query("DELETE FROM `" . DB_PREFIX . "setting` WHERE `code` = 'payment_worldpay' AND `key` = 'payment_worldpay_last_cron_job_run'");
+		$this->db->query("INSERT INTO `" . DB_PREFIX . "setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALUES (0, 'payment_worldpay', 'payment_worldpay_last_cron_job_run', NOW(), 0)");
 	}
 
 	public function sendCurl($url, $order = null) {
@@ -343,7 +344,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 		curl_setopt($curl, CURLOPT_TIMEOUT, 10);
 		curl_setopt(
 				$curl, CURLOPT_HTTPHEADER, array(
-			"Authorization: " . $this->config->get('worldpay_service_key'),
+			"Authorization: " . $this->config->get('payment_worldpay_service_key'),
 			"Content-Type: application/json",
 			"Content-Length: " . $content_length
 				)
@@ -355,7 +356,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 	}
 
 	public function logger($data) {
-		if ($this->config->get('worldpay_debug')) {
+		if ($this->config->get('payment_worldpay_debug')) {
 			$log = new Log('worldpay_debug.log');
 			$backtrace = debug_backtrace();
 			$log->write($backtrace[6]['class'] . '::' . $backtrace[6]['function'] . ' Data:  ' . print_r($data, 1));

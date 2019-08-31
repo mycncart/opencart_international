@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']     = '搜索';
 $_['heading_tag']		= '标签 - ';

@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']                    = '网店';
 
 // Text
 $_['text_settings']                    = '系统设置';
 $_['text_success']                     = '成功： 您已成功更改设置！';
-$_['text_list']                        = '网店列表';
+$_['text_list']                        = '网店列表 - (在线教程: <a href="http://www.mycncart.com/blog-89.html" target="_blank">http://www.mycncart.com/blog-89.html</a>)';
 $_['text_add']                         = '添加网店';
 $_['text_edit']                        = '编辑网店';
 $_['text_items']                       = '商品显示';
@@ -25,6 +24,11 @@ $_['column_action']                    = '操作';
 // Entry
 $_['entry_url']                        = '网店网址 URL';
 $_['entry_ssl']                        = '使用 SSL';
+$_['entry_meta_title']                 = 'Meta 标题';
+$_['entry_meta_description']           = 'Meta Tag 描述';
+$_['entry_meta_keyword']               = 'Meta Tag 关键词';
+$_['entry_layout']                     = '默认布局排版';
+$_['entry_theme']                      = '模板主题';
 $_['entry_name']                       = '网店名称';
 $_['entry_owner']                      = '网店拥有者';
 $_['entry_address']                    = '地址';
@@ -36,17 +40,10 @@ $_['entry_image']                      = '图像';
 $_['entry_open']                       = '营业时间';
 $_['entry_comment']                    = '备注';
 $_['entry_location']                   = '店铺地址';
-$_['entry_meta_title']                 = 'Meta 标题';
-$_['entry_meta_description']           = 'Meta Tag 描述';
-$_['entry_meta_keyword']               = 'Meta Tag 关键词';
-$_['entry_layout']                     = '默认布局排版';
-$_['entry_theme']                      = '模板主题';
 $_['entry_country']                    = '国家';
 $_['entry_zone']                       = '州/省/地区';
 $_['entry_language']                   = '语言';
 $_['entry_currency']                   = '货币';
-$_['entry_product_limit'] 	           = '默认每页显示（前台）';
-$_['entry_product_description_length'] = '列表页面描述字符数量';
 $_['entry_tax']                        = '显示含税价';
 $_['entry_tax_default']                = '使用网店所在地税率';
 $_['entry_tax_customer']               = '使用会员所在地税率';
@@ -60,8 +57,8 @@ $_['entry_checkout']                   = '结账条款';
 $_['entry_order_status']               = '订单状态';
 $_['entry_stock_display']              = '显示库存';
 $_['entry_stock_checkout']             = '脱销结账';
-$_['entry_icon']                       = 'Icon';
 $_['entry_logo']                       = '网店图标';
+$_['entry_icon']                       = 'Icon';
 $_['entry_secure']                     = '使用 SSL';
 
 // Help
@@ -89,12 +86,13 @@ $_['help_secure']                      = '检查你的服务器是否安装了SS
 // Error
 $_['error_warning']                    = '警告:请仔细检查相关错误！';
 $_['error_permission']                 = '警告: 无权限修改网店设置！';
+$_['error_url'] 	                   = '商店域名地址必填！';
+$_['error_meta_title']                 = 'Meta 标题必须为3-32字符！';
 $_['error_name']                       = '商店名称必须为3-32字符！';
 $_['error_owner']                      = '商店拥有者必须为3-64字符！';
 $_['error_address']                    = '商店地址必须为10-256字符！';
 $_['error_email']                      = 'E-Mail 地址无效！';
 $_['error_telephone']                  = '电话号码必须为3-32字符！';
-$_['error_meta_title']                 = 'Meta 标题必须为3-32字符！';
 $_['error_customer_group_display']     = '若使用此特色，必须包含默认会员等级！';
 $_['error_default']                    = '警告: 不能删除默认网店！';
 $_['error_store']                      = '警告: 不能删除该网店，该网店已被关联到 %s 个订单！';

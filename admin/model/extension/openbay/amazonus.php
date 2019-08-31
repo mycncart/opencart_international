@@ -1,9 +1,9 @@
 <?php
 class ModelExtensionOpenBayAmazonus extends Model {
 	public function install() {
-		$this->load->model('extension/event');
+		$this->load->model('setting/event');
 
-		$this->model_extension_event->addEvent('openbay_amazonus_add_order', 'catalog/model/checkout/order/addOrderHistory/after', 'extension/openbay/amazonus/eventAddOrderHistory');
+		$this->model_setting_event->addEvent('openbay_amazonus_add_order', 'catalog/model/checkout/order/addOrderHistory/after', 'extension/openbay/amazonus/eventAddOrderHistory');
 
 		$this->db->query("
 			CREATE TABLE IF NOT EXISTS `" . DB_PREFIX . "amazonus_order` (
@@ -99,8 +99,8 @@ class ModelExtensionOpenBayAmazonus extends Model {
 
 		$this->db->query("DELETE FROM `" . DB_PREFIX . "setting` WHERE `code` = 'openbay_amazonus'");
 
-		$this->load->model('extension/event');
-		$this->model_extension_event->deleteEvent('openbay_amazonus_add_order');
+		$this->load->model('setting/event');
+		$this->model_setting_event->deleteEventByCode('openbay_amazonus_add_order');
 	}
 
 	public function patch() {
@@ -109,36 +109,27 @@ class ModelExtensionOpenBayAmazonus extends Model {
 		}
 	}
 
-	public function scheduleOrders($data) {
-		$log = new Log('amazonus.log');
+    public function verifyConfig($data) {
+        $log = new Log('amazonus.log');
 
-		$request_xml = '<Request>
-  <ResponseURL>' . HTTPS_CATALOG . 'index.php?route=extension/openbay/amazonus/order</ResponseURL>
-  <MarketplaceIDs>';
+        $request_xml = new SimpleXMLElement("<Request></Request>");
+        $request_xml->addChild("ResponseURL", HTTP_CATALOG . 'index.php?route=extension/openbay/amazonus/order');
 
-		foreach ($data['openbay_amazonus_orders_marketplace_ids'] as $marketplace_id) {
-			$request_xml .= '    <MarketplaceID>' . $marketplace_id . '</MarketplaceID>';
-		}
+        $response = $this->openbay->amazonus->call('order/scheduleOrders', $request_xml->asXML(), false);
 
-		$request_xml .= '
-  </MarketplaceIDs>
-</Request>';
+        libxml_use_internal_errors(true);
+        $response_xml = simplexml_load_string($response);
+        libxml_use_internal_errors(false);
 
-		$response = $this->openbay->amazonus->call('order/scheduleOrders', $request_xml, false);
+        if ($response_xml && $response_xml->Status == '0') {
+            $log->write('Scheduling orders call was successful');
+            return true;
+        }
 
-		libxml_use_internal_errors(true);
-		$response_xml = simplexml_load_string($response);
-		libxml_use_internal_errors(false);
+        $log->write('Failed to schedule orders. Response: ' . $response);
 
-		if ($response_xml && $response_xml->Status == '0') {
-			$log->write('Scheduling orders call was successful');
-			return true;
-		}
-
-		$log->write('Failed to schedule orders. Response: ' . $response);
-
-		return false;
-	}
+        return false;
+    }
 
 	public function saveProduct($product_id, $data_array) {
 		if (isset($data_array['fields']['item-price'])) {
@@ -338,7 +329,7 @@ class ModelExtensionOpenBayAmazonus extends Model {
 
 	public function linkProduct($amazonus_sku, $product_id, $var = '') {
 		$count = $this->db->query("SELECT COUNT(*) as `count` FROM `" . DB_PREFIX . "amazonus_product_link` WHERE `product_id` = '" . (int)$product_id . "' AND `amazonus_sku` = '" . $this->db->escape($amazonus_sku) . "' AND `var` = '" . $this->db->escape($var) . "' LIMIT 1")->row;
-		
+
 		if ($count['count'] == 0) {
 			$this->db->query("INSERT INTO `" . DB_PREFIX . "amazonus_product_link` SET `product_id` = '" . (int)$product_id . "', `amazonus_sku` = '" . $this->db->escape($amazonus_sku) . "', `var` = '" . $this->db->escape($var) . "'");
 		}
@@ -387,7 +378,7 @@ class ModelExtensionOpenBayAmazonus extends Model {
 			$this->load->model('tool/image');
 
 			foreach ($product_links as $key => $product_link) {
-				$variants = $this->model_extension_module_openstock->getVariants($product_link['product_id']);
+				$variants = $this->model_setting_module_openstock->getVariants($product_link['product_id']);
 
 				if (!empty($variants)) {
 					foreach($variants as $variant) {
@@ -419,7 +410,7 @@ class ModelExtensionOpenBayAmazonus extends Model {
 			$this->load->model('tool/image');
 			foreach($rows as $row) {
 				if ($row['has_option'] == 1) {
-					$stock_opts = $this->model_extension_module_openstock->getVariants($row['product_id']);
+					$stock_opts = $this->model_setting_module_openstock->getVariants($row['product_id']);
 					foreach($stock_opts as $opt) {
 						if ($this->productLinkExists($row['product_id'], $opt['sku'])) {
 							continue;
@@ -522,7 +513,7 @@ class ModelExtensionOpenBayAmazonus extends Model {
 		if ($var !== '' && $this->openbay->addonLoad('openstock')) {
 			$this->load->model('tool/image');
 			$this->load->model('extension/module/openstock');
-			$option_stocks = $this->model_extension_module_openstock->getVariants($product_id);
+			$option_stocks = $this->model_setting_module_openstock->getVariants($product_id);
 
 			$option = null;
 			foreach ($option_stocks as $option_iterator) {
@@ -697,7 +688,7 @@ class ModelExtensionOpenBayAmazonus extends Model {
 			$combinations = array();
 
 			if (isset($row['pov_id']) && !empty($row['pov_id'])) {
-				$variants = (isset($row['pov_id']) ? $this->model_extension_module_openstock->getVariant($row['pov_id']) : '');
+				$variants = (isset($row['pov_id']) ? $this->model_setting_module_openstock->getVariant($row['pov_id']) : '');
 
 				foreach ($variants as $variant) {
 					$combinations[] =  $variant['option_value_name'];

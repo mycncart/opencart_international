@@ -1,13 +1,13 @@
 <?php
-
 // Heading
 $_['heading_title']      = '区域群组';
 
 // Text
 $_['text_success']       = '成功: 已修改区域群组!';
-$_['text_list']          = '区域群组列表';
+$_['text_list']          = '区域群组列表 - (在线教程: <a href="http://www.mycncart.com/blog-76.html" target="_blank">http://www.mycncart.com/blog-76.html</a>)';
 $_['text_add']           = '添加区域群组';
 $_['text_edit']          = '编辑区域群组';
+$_['text_geo_zone']      = '区域群组';
 
 // Column
 $_['column_name']        = '区域群组名称';
@@ -18,7 +18,7 @@ $_['column_action']      = '操作';
 $_['entry_name']         = '区域群组名称';
 $_['entry_description']  = '描述';
 $_['entry_country']      = '国家';
-$_['entry_zone']         = '地区';
+$_['entry_zone']         = '州/省/地区';
 
 // Error
 $_['error_permission']   = '警告: 无权限修改区域群组!';

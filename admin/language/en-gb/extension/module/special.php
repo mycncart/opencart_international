@@ -1,22 +1,21 @@
 <?php
-
 // Heading
-$_['heading_title']    = '特价商品';
+$_['heading_title']    = 'Specials';
 
 // Text
-$_['text_module']      = '模组';
-$_['text_success']     = '成功: 已修改特价商品模组！';
-$_['text_edit']        = '编辑特价商品模组';
+$_['text_extension']   = 'Extensions';
+$_['text_success']     = 'Success: You have modified module specials!';
+$_['text_edit']        = 'Edit Specials Module';
 
 // Entry
-$_['entry_name']       = '模组名称';
-$_['entry_limit']      = '显示数量';
-$_['entry_width']      = '宽度';
-$_['entry_height']     = '高度';
-$_['entry_status']     = '状态';
+$_['entry_name']       = 'Module Name';
+$_['entry_limit']      = 'Limit';
+$_['entry_width']      = 'Width';
+$_['entry_height']     = 'Height';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = '警告: 无权限修改特价商品模组！';
-$_['error_name']       = '模组名称必须为3-64字符！';
-$_['error_width']      = '宽度必填！';
-$_['error_height']     = '高度必填！';
+$_['error_permission'] = 'Warning: You do not have permission to modify specials module!';
+$_['error_name']       = 'Module Name must be between 3 and 64 characters!';
+$_['error_width']      = 'Width required!';
+$_['error_height']     = 'Height required!';

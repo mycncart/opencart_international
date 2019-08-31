@@ -1,14 +1,13 @@
 <?php
-
 // Heading
 $_['heading_title']          = '商品';
 
 // Text
 $_['text_success']           = '成功: 已经修改商品！';
-$_['text_list']              = '商品列表';
+$_['text_list']              = '商品列表 - (在线教程: <a href="http://www.mycncart.com/blog-34.html" target="_blank">http://www.mycncart.com/blog-34.html</a>)';
 $_['text_add']               = '添加商品';
-$_['text_tmall_add']         = '导入天猫商品';
 $_['text_edit']              = '编辑商品';
+$_['text_filter']       	 = '筛选';
 $_['text_plus']              = '+';
 $_['text_minus']             = '-';
 $_['text_default']           = '默认';
@@ -104,7 +103,7 @@ $_['help_related']           = '(输入时自动筛选结果)';
 $_['help_tag']          	 = '英文逗号分割';
 
 // Error
-$_['error_warning']          = '警告: 存在错误，请检查！';
+$_['error_warning']          = '警告: 存在错误，请检查各项录入，尤其是不同语言项下是否都填写完整！';
 $_['error_permission']       = '警告: 无权限修改商品！';
 $_['error_name']             = '商品名称必须介于3-255字符之间！';
 $_['error_meta_title']       = 'Meta 标题必须介于3-255字符之间！';

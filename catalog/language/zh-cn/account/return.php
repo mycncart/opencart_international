@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']      = '商品退换';
 
@@ -40,8 +39,8 @@ $_['column_action']      = '操作';
 // Entry
 $_['entry_order_id']     = '订单号 ID';
 $_['entry_date_ordered'] = '订单日期';
-$_['entry_firstname']    = '姓氏';
-$_['entry_lastname']     = '名称';
+$_['entry_firstname']    = 'First Name';
+$_['entry_lastname']     = 'Last Name';
 $_['entry_email']        = 'E-Mail';
 $_['entry_telephone']    = '电话';
 $_['entry_product']      = '商品名称';
@@ -50,13 +49,12 @@ $_['entry_quantity']     = '数量';
 $_['entry_reason']       = '退换原因';
 $_['entry_opened']       = '商品包装已开';
 $_['entry_fault_detail'] = '瑕疵或其它细节';
-$_['entry_captcha']      = '请在下框输入验证码';
 
 // Error
 $_['text_error']         = '找不到所请求的退换！';
 $_['error_order_id']     = '订单号必须！';
-$_['error_firstname']    = '姓氏必须为 2 - 32字符！';
-$_['error_lastname']     = '名称必须为 2 - 32字符！';
+$_['error_firstname']    = '名字必须为 1 到 32 字符！';
+$_['error_lastname']     = '姓氏必须为 1 到 32 字符！';
 $_['error_email']        = 'E-Mail 地址无效！';
 $_['error_telephone']    = '电话必须为 3 - 32字符！';
 $_['error_product']      = '商品名称必须为 3-255字符！';

@@ -5,7 +5,7 @@ $_['heading_title']    = '库存状态';
 
 // Text
 $_['text_success']     = '成功: 已修改库存状态！';
-$_['text_list']        = '库存状态列表';
+$_['text_list']        = '库存状态列表 - (在线教程: <a href="http://www.mycncart.com/blog-78.html" target="_blank">http://www.mycncart.com/blog-78.html</a>)';
 $_['text_add']         = '添加库存状态';
 $_['text_edit']        = '编辑库存状态';
 

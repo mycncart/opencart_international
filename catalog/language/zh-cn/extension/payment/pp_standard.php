@@ -1,6 +1,5 @@
 <?php
-
 // Text
 $_['text_title']	= 'PayPal';
-$_['text_testmode']	= '警告: The payment gateway is in \'Sandbox Mode\'. Your account will not be charged.';
-$_['text_total']	= 'Shipping, Handling, Discounts & Taxes';
+$_['text_testmode']	= '警告: 支付接口目前为沙盒测试模式。您的帐户将不会被收取费用。';
+$_['text_total']	= '配送费, 手续费, 折扣 & 税';

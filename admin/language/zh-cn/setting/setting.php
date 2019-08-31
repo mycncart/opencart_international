@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']                    = '系统设置';
 
 // Text
 $_['text_stores']                      = '商店';
 $_['text_success']                     = '成功: 已修改系统设置！';
-$_['text_edit']                        = '编辑系统设置';
+$_['text_edit']                        = '编辑系统设置 - (在线教程: <a href="http://www.mycncart.com/blog-89.html" target="_blank">http://www.mycncart.com/blog-89.html</a>)';
 $_['text_product']                     = '商品';
 $_['text_review']                      = '商品评论';
 $_['text_voucher']                     = '礼品券';
@@ -16,12 +15,10 @@ $_['text_checkout']                    = '结算';
 $_['text_stock']                       = '库存';
 $_['text_affiliate']                   = '加盟会员';
 $_['text_captcha']                     = '验证码';
-$_['text_sms']  	                   = '短信';
 $_['text_register']                    = '注册';
 $_['text_guest']                       = '游客结帐';
 $_['text_return']                      = '退货';
 $_['text_contact']                     = '联系';
-$_['text_comment']                     = '博客评论';
 $_['text_shipping']                    = '配送地址';
 $_['text_payment']                     = '账单地址';
 $_['text_mail']                        = 'Mail';
@@ -31,23 +28,10 @@ $_['text_mail_account']                = '注册';
 $_['text_mail_affiliate']              = '推广会员';
 $_['text_mail_order']                  = '订单';
 $_['text_mail_review']                 = '评论';
-$_['text_baidu']                       = '百度';
-$_['text_google']                      = '谷歌';
 $_['text_general']                     = '常规';
 $_['text_security']                    = '安全';
 $_['text_upload']                      = '上传';
 $_['text_error']                       = '错误处理';
-$_['text_baidu']                	   = '百度参数';
-$_['text_weidian']              	   = '微店参数';
-$_['text_youzan']               	   = '有赞微商城参数';
-$_['text_baidu_signup']                = '登录您在 <a href="http://zhanzhang.baidu.com" target="_blank"><u>百度站长平台</u></a> 的账户，然后创建您的网站资料，然后复制并粘贴API到此处。该API被用于推送URL到百度功能。';
-$_['text_weidian_signup']              = '请到<a href="http://open.weidian.com" target="_blank"><u>微店开放平台(http://open.weidian.com)</u></a>登录微店平台后创建自用型管理应用后获得。';
-$_['text_youzan_signup']               = '登录您在 <a href="http://www.youzan.com" target="_blank"><u>有赞微商城</u></a> 的账户，点击左侧的【有赞开放API】，点击【启用】后获得 AppID 和 AppSecret';
-$_['text_account_edit']            	   = '编辑账户资料';
-$_['text_valid_order_to_admin']        = '生成有效订单时发送给网站管理员';
-$_['text_valid_order_to_customer']     = '生成有效订单时发送给顾客';
-$_['text_autocomplete']    		   	   = '自动完成';
-
 
 // Entry
 $_['entry_meta_title']                 = 'Meta 标题';
@@ -58,11 +42,9 @@ $_['entry_theme']                      = '模板主题';
 $_['entry_name']                       = '商店名称';
 $_['entry_owner']                      = '商店拥有者';
 $_['entry_address']                    = '地址';
-$_['entry_miit']                       = '网站备案号';
 $_['entry_geocode']                    = '地理代码';
 $_['entry_email']                      = 'E-Mail';
 $_['entry_telephone']                  = '电话';
-$_['entry_sms_telephone']              = '接收订单短信手机电话';
 $_['entry_fax']                        = '传真';
 $_['entry_image']                      = '图像';
 $_['entry_open']                       = '营业时间';
@@ -93,7 +75,6 @@ $_['entry_customer_group_display']     = '显示会员等级';
 $_['entry_customer_price']             = '登陆后显示价格';
 $_['entry_login_attempts']             = '最大登陆尝试次数';
 $_['entry_account']                    = '账户条款';
-
 $_['entry_cart_weight']                = '购物车页面显示重量';
 $_['entry_checkout_guest']             = '游客结账';
 $_['entry_checkout']                   = '结账条款';
@@ -106,6 +87,7 @@ $_['entry_api']                        = 'API 用户';
 $_['entry_stock_display']              = '显示库存';
 $_['entry_stock_warning']              = '显示脱销警告';
 $_['entry_stock_checkout']             = '脱销结账';
+$_['entry_affiliate_group']            = 'Affiliate Group';
 $_['entry_affiliate_approval']         = '加盟需要审批';
 $_['entry_affiliate_auto']             = '自动添加佣金';
 $_['entry_affiliate_commission']       = '加盟账户佣金 (%)';
@@ -114,17 +96,9 @@ $_['entry_return']                     = '退换条款';
 $_['entry_return_status']              = '退换状态';
 $_['entry_captcha']                    = '验证码';
 $_['entry_captcha_page']               = '验证码页面';
-$_['entry_sms']                   	   = '短信';
-$_['entry_sms_page']                   = '短信触发';
 $_['entry_logo']                       = '网店图标';
 $_['entry_icon']                       = 'Icon 图标';
-$_['entry_ftp_hostname']               = 'FTP 主机';
-$_['entry_ftp_port']                   = 'FTP 端口';
-$_['entry_ftp_username']               = 'FTP 用户名';
-$_['entry_ftp_password']               = 'FTP 密码';
-$_['entry_ftp_root']                   = 'FTP 根目录';
-$_['entry_ftp_status']                 = 'FTP 状态';
-$_['entry_mail_protocol']              = '邮件协议';
+$_['entry_mail_engine']                = '邮件引擎';
 $_['entry_mail_parameter']             = '邮件参数';
 $_['entry_mail_smtp_hostname']         = 'SMTP 主机';
 $_['entry_mail_smtp_username']         = 'SMTP 用户名';
@@ -147,14 +121,7 @@ $_['entry_compression']                = '输出压缩等级';
 $_['entry_error_display']              = '显示错误';
 $_['entry_error_log']                  = '日志错误';
 $_['entry_error_filename']             = '错误日志文件名';
-$_['entry_map_select']           	   = '使用地图';
 $_['entry_status']                     = '状态';
-$_['entry_baidu_api']                  = '百度API';
-$_['entry_weidian_appkey']             = '微店 APPKEY';
-$_['entry_weidian_secret']             = '微店 Secret';
-$_['entry_youzan_appid']               = '有赞 APPID';
-$_['entry_youzan_appsecret']           = '有赞 APPSECRET';
-$_['entry_limit_autocomplete']         = '自动完成默认显示条目数量';
 
 // Help
 $_['help_geocode']                     = '请手动输入您的地理代码，百度地图代码请访问 http://api.map.baidu.com/lbsapi/creatmap/ 获取。';
@@ -172,6 +139,7 @@ $_['help_voucher_max']                 = '客户可以购买优惠券的最高�
 $_['help_tax_default']                 = '非注册用户使用商店所在地税率。 你可以使用商店所在地税率计算税费。';
 $_['help_tax_customer']                = '注册客户使用客户所在地税率。 你可以使用商店所在地税率计算税费。';
 $_['help_customer_online']             = '通过客户的在线报告来跟踪客户。';
+$_['help_customer_activity']           = '通过会员报告部分追踪会员活动。';
 $_['help_customer_group']              = '默认会员等级。';
 $_['help_customer_group_display']      = '显示会员等级，会员注册时可以选择。';
 $_['help_customer_price']              = '会员登入后，才能显示价格。';
@@ -196,15 +164,13 @@ $_['help_affiliate']                   = '加盟会员和注册时必须同意�
 $_['help_return']                      = '退货时强制会员同意的条款。';
 $_['help_return_status']               = '当退货申请提交后，默认退货状态。';
 $_['help_captcha']                     = '注册/登录/联系/评论时使用验证码。';
-$_['help_sms']                         = '注册/编辑账户电话号码/改变订单为有效状态时发送手机短信验证或通知';
 $_['help_icon']                        = 'Icon图标必须为尺寸 16px x 16px 的PNG图片。';
-$_['help_ftp_root']                    = '您安装MyCnCart系统时安装所在目录，一般在 \'public_html/\'。';
-$_['help_mail_protocol']               = '只需选择\'MAIL\' 除非您的主机已禁用PHP的邮件功能。';
+$_['help_mail_engine']                 = '只需选择\'MAIL\' 除非您的主机已禁用PHP的邮件功能。';
 $_['help_mail_parameter']              = '当使用 \'MAIL\', 在此可增加额外的邮件地址(如 "-femail@storeaddress.com"。';
 $_['help_mail_smtp_hostname']          = '如果需要安全链接，则在前面添加 \'tls://\' 或者 \'ssl://\' 前缀。 (例如 tls://smtp.gmail.com).';
 $_['help_mail_smtp_password']      	   = '如果使用gmail邮箱，那么你可能需要建立一个应用的特定密码，访问后面链接设置: https://security.google.com/settings/security/apppasswords.';
 $_['help_mail_alert']                  = '何时发送提醒电邮';
-$_['help_mail_alert_email']        	   = '除了主商店邮箱外，填写任何您想收到本站邮件的额外信箱。 (请用逗号分开)';
+$_['help_alert_email']        	       = '除了主商店邮箱外，填写任何您想收到本站邮件的额外信箱。 (请用逗号分开)';
 $_['help_secure']                      = '检查你的服务器是否安装了SSL认证，如果安装了，可以使用SSL。';
 $_['help_shared']                      = '你可以让各个网店之间的购物车共享数据。';
 $_['help_robots']                      = '加入不受欢迎的爬虫/机器人。';
@@ -216,7 +182,6 @@ $_['help_maintenance']                 = '本功能将在前台首页显示系�
 $_['help_password']                    = '允许已经遗忘的密码登陆系统。Admin的遗忘密码可否被使用。如果系统检测到黑客攻击，则自动关闭此功能。';
 $_['help_encryption']                  = '请提供一个密钥, 让处理订单时可加密个人的资料。';
 $_['help_compression']                 = 'GZIP 可更有效地转移到要求的客户端。压缩级别必须在0 - 9';
-$_['help_limit_autocomplete']          = '网站后台当有自动完成功能时自动显示的条目数量，如选择选项、属性、商品、分类等。';
 
 // Error
 $_['error_warning']                    = '警告:请仔细检查相关错误！';
@@ -234,11 +199,8 @@ $_['error_voucher_min']                = '最小礼品券金额必填！';
 $_['error_voucher_max']                = '最大礼品券金额必填！';
 $_['error_processing_status']          = '必须选择至少一个订单处理状态';
 $_['error_complete_status']            = '必须选择至少一个订单完成状态';
-$_['error_ftp_hostname']               = 'FTP 主机必填！';
-$_['error_ftp_port']                   = 'FTP 端口必填！';
-$_['error_ftp_username']               = 'FTP 用户名必填！';
-$_['error_ftp_password']               = 'FTP 密码必填！';
-$_['error_error_filename']             = '错误日志文件名必填！';
-$_['error_malformed_filename']	       = '错误的日志文件名称!';
+$_['error_log_required']               = '错误日志文件名必填！';
+$_['error_log_invalid']	       		   = '错误的日志文件名称！';
+$_['error_log_extension']              = ' 错误日志文件扩展名称必须为 .log！';
 $_['error_encryption']                 = '加密密钥必须为32-1024字符！';
-$_['error_autocomplete']       	       = '自动完成条目数量必须填写！';
+

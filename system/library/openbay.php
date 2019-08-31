@@ -3,16 +3,20 @@ final class Openbay {
 	private $registry;
 	private $installed_modules = array();
 	public $installed_markets = array();
+	private $logging = 1;
 
 	public function __construct($registry) {
+		// OpenBay Pro
 		$this->registry = $registry;
 
-		$this->getInstalled();
+		if ($this->db != null) {
+			$this->getInstalled();
 
-		foreach ($this->installed_markets as $market) {
-			$class = '\openbay\\'. ucfirst($market);
+			foreach ($this->installed_markets as $market) {
+				$class = '\openbay\\'. ucfirst($market);
 
-			$this->{$market} = new $class($registry);
+				$this->{$market} = new $class($registry);
+			}
 		}
 
 		$this->logger = new \Log('openbay.log');
@@ -35,82 +39,22 @@ final class Openbay {
 		}
 	}
 
-	public function encrypt($msg, $k, $base64 = false) {
-		$td = mcrypt_module_open('rijndael-256', '', 'ctr', '');
+	public function encrypt($value, $key, $iv, $json = true) {
+		if ($json == true) {
+		    $value = json_encode($value);
+        }
 
-		if (!$td) {
-			return false;
-		}
-
-		$iv = mcrypt_create_iv(32, MCRYPT_RAND);
-
-		if (mcrypt_generic_init($td, $k, $iv) !== 0) {
-			return false;
-		}
-
-		$msg = mcrypt_generic($td, $msg);
-		$msg = $iv . $msg;
-		$mac = $this->pbkdf2($msg, $k, 1000, 32);
-		$msg .= $mac;
-
-		mcrypt_generic_deinit($td);
-		mcrypt_module_close($td);
-
-		if ($base64) {
-			$msg = base64_encode($msg);
-		}
-
-		return $msg;
+	    return strtr(base64_encode(openssl_encrypt($value, 'aes-128-cbc', hash('sha256', hex2bin($key), true), 0, hex2bin($iv))), '+/=', '-_,');
 	}
 
-	public function decrypt($msg, $k, $base64 = false) {
-		if ($base64) {
-			$msg = base64_decode($msg);
-		}
+	public function decrypt($value, $key, $iv, $json = true) {
+		$response = trim(openssl_decrypt(base64_decode(strtr($value, '-_,', '+/=')), 'aes-128-cbc', hash('sha256', hex2bin($key), true), 0, hex2bin($iv)));
 
-		if (!$td = mcrypt_module_open('rijndael-256', '', 'ctr', '')) {
-			return false;
-		}
+		if ($json == true) {
+		    $response =  json_decode($response, true);
+        }
 
-		$iv = substr($msg, 0, 32);
-		$mo = strlen($msg) - 32;
-		$em = substr($msg, $mo);
-		$msg = substr($msg, 32, strlen($msg) - 64);
-		$mac = $this->pbkdf2($iv . $msg, $k, 1000, 32);
-
-		if ($em !== $mac) {
-			return false;
-		}
-
-		if (mcrypt_generic_init($td, $k, $iv) !== 0) {
-			return false;
-		}
-
-		$msg = mdecrypt_generic($td, $msg);
-		$msg = unserialize($msg);
-
-		mcrypt_generic_deinit($td);
-		mcrypt_module_close($td);
-
-		return $msg;
-	}
-
-	public function pbkdf2($p, $s, $c, $kl, $a = 'sha256') {
-		$hl = strlen(hash($a, null, true));
-		$kb = ceil($kl / $hl);
-		$dk = '';
-
-		for ($block = 1; $block <= $kb; $block++) {
-
-			$ib = $b = hash_hmac($a, $s . pack('N', $block), $p, true);
-
-			for ($i = 1; $i < $c; $i++)
-				$ib ^= ($b = hash_hmac($a, $b, $p, true));
-
-			$dk .= $ib;
-		}
-
-		return substr($dk, 0, $kl);
+        return $response;
 	}
 
 	private function getInstalled() {
@@ -234,99 +178,132 @@ final class Openbay {
 		}
 	}
 
-	public function newOrderAdminNotify($order_id, $order_status_id) {
-		$this->load->model('checkout/order');
-		$order_info = $this->model_checkout_order->getOrder($order_id);
-		
-		if (version_compare(VERSION, '2.2', '>') == true) {
-			$language_code = $order_info['language_code'];
-		} else {
-			$language_code = $order_info['language_directory'];
-		}
-		
-		$language = new Language($language_code);
-		$language->load($language_code);
-		$language->load('mail/order');
+    public function newOrderAdminNotify($order_id, $order_status_id) {
+        $order_info = $this->model_checkout_order->getOrder($order_id);
 
-		$order_status = $this->db->query("SELECT `name` FROM " . DB_PREFIX . "order_status WHERE order_status_id = '" . (int)$order_status_id . "' AND language_id = '" . (int)$this->config->get('config_language_id') . "' LIMIT 1")->row['name'];
+        if ($order_info && !$order_info['order_status_id'] && $order_status_id && in_array('order', (array)$this->config->get('config_mail_alert'))) {
+            $this->load->language('mail/order_alert');
 
-		// Order Totals
-		$order_total_query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "order_total` WHERE `order_id` = '" . (int)$order_id . "' ORDER BY `sort_order` ASC");
+            // HTML Mail
+            $data['text_received'] = $this->language->get('text_received');
+            $data['text_order_id'] = $this->language->get('text_order_id');
+            $data['text_date_added'] = $this->language->get('text_date_added');
+            $data['text_order_status'] = $this->language->get('text_order_status');
+            $data['text_product'] = $this->language->get('text_product');
+            $data['text_total'] = $this->language->get('text_total');
+            $data['text_comment'] = $this->language->get('text_comment');
 
-		//Order contents
-		$order_product_query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "order_product` WHERE `order_id` = '" . (int)$order_id . "'");
+            $data['order_id'] = $order_info['order_id'];
+            $data['date_added'] = date($this->language->get('date_format_short'), strtotime($order_info['date_added']));
 
-		$subject = sprintf($language->get('text_new_subject'), html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8'), $order_id);
+            $order_status_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_status WHERE order_status_id = '" . (int)$order_status_id . "' AND language_id = '" . (int)$this->config->get('config_language_id') . "'");
 
-		// Text
-		$text  = $language->get('text_new_received') . "\n\n";
-		$text .= $language->get('text_new_order_id') . ' ' . $order_info['order_id'] . "\n";
-		$text .= $language->get('text_new_date_added') . ' ' . date($language->get('date_format_short'), strtotime($order_info['date_added'])) . "\n";
-		$text .= $language->get('text_new_order_status') . ' ' . $order_status . "\n\n";
-		$text .= $language->get('text_new_products') . "\n";
+            if ($order_status_query->num_rows) {
+                $data['order_status'] = $order_status_query->row['name'];
+            } else {
+                $data['order_status'] = '';
+            }
 
-		foreach ($order_product_query->rows as $product) {
-			$text .= $product['quantity'] . 'x ' . $product['name'] . ' (' . $product['model'] . ') ' . html_entity_decode($this->currency->format($product['total'] + ($this->config->get('config_tax') ? ($product['tax'] * $product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value']), ENT_NOQUOTES, 'UTF-8') . "\n";
+            $data['store_url'] = HTTP_SERVER;
+            $data['store'] = html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8');
 
-			$order_option_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_option WHERE order_id = '" . (int)$order_id . "' AND order_product_id = '" . (int)$product['order_product_id'] . "'");
+            $this->load->model('tool/image');
 
-			foreach ($order_option_query->rows as $option) {
-				if ($option['type'] != 'file') {
-					$value = $option['value'];
-				} else {
-					$value = utf8_substr($option['value'], 0, utf8_strrpos($option['value'], '.'));
-				}
+            if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+                $data['logo'] = $this->model_tool_image->resize($this->config->get('config_logo'), $this->config->get('theme_default_image_location_width'), $this->config->get('theme_default_image_cart_height'));
+            } else {
+                $data['logo'] = '';
+            }
 
-				$text .= chr(9) . '-' . $option['name'] . ' ' . (utf8_strlen($value) > 20) ? utf8_substr($value, 0, 20) . '..' : $value . "\n";
-			}
-		}
+            $this->load->model('tool/upload');
 
-		if (isset($order_voucher_query) && is_array($order_voucher_query)) {
-			foreach ($order_voucher_query->rows as $voucher) {
-				$text .= '1x ' . $voucher['description'] . ' ' . $this->currency->format($voucher['amount'], $order_info['currency_code'], $order_info['currency_value']);
-			}
-		}
+            $data['products'] = array();
 
-		$text .= "\n";
-		$text .= $language->get('text_new_order_total') . "\n";
+            $order_products = $this->model_checkout_order->getOrderProducts($order_id);
 
-		foreach ($order_total_query->rows as $total) {
-			$text .= $total['title'] . ': ' . html_entity_decode($this->currency->format($total['value'], $order_info['currency_code'], $order_info['currency_value']), ENT_NOQUOTES, 'UTF-8') . "\n";
-		}
+            foreach ($order_products as $order_product) {
+                $option_data = array();
 
-		$text .= "\n";
+                $order_options = $this->model_checkout_order->getOrderOptions($order_info['order_id'], $order_product['order_product_id']);
 
-		if ($order_info['comment']) {
-			$text .= $language->get('text_new_comment') . "\n\n";
-			$text .= $order_info['comment'] . "\n\n";
-		}
+                foreach ($order_options as $order_option) {
+                    if ($order_option['type'] != 'file') {
+                        $value = $order_option['value'];
+                    } else {
+                        $upload_info = $this->model_tool_upload->getUploadByCode($order_option['value']);
 
-		$mail = new \Mail();
-		$mail->protocol = $this->config->get('config_mail_protocol');
-		$mail->parameter = $this->config->get('config_mail_parameter');
-		$mail->smtp_hostname = $this->config->get('config_mail_smtp_hostname');
-		$mail->smtp_username = $this->config->get('config_mail_smtp_username');
-		$mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
-		$mail->smtp_port = $this->config->get('config_mail_smtp_port');
-		$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
+                        if ($upload_info) {
+                            $value = $upload_info['name'];
+                        } else {
+                            $value = '';
+                        }
+                    }
 
-		$mail->setTo($this->config->get('config_email'));
-		$mail->setFrom($this->config->get('config_email'));
-		$mail->setSender(html_entity_decode($order_info['store_name'], ENT_QUOTES, 'UTF-8'));
-		$mail->setSubject($subject);
-		$mail->setText($text);
-		$mail->send();
+                    $option_data[] = array(
+                        'name'  => $order_option['name'],
+                        'value' => (utf8_strlen($value) > 20 ? utf8_substr($value, 0, 20) . '..' : $value)
+                    );
+                }
 
-		// Send to additional alert emails
-		$emails = explode(',', $this->config->get('config_alert_emails'));
+                $data['products'][] = array(
+                    'name'     => $order_product['name'],
+                    'model'    => $order_product['model'],
+                    'quantity' => $order_product['quantity'],
+                    'option'   => $option_data,
+                    'total'    => html_entity_decode($this->currency->format($order_product['total'] + ($this->config->get('config_tax') ? ($order_product['tax'] * $order_product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value']), ENT_NOQUOTES, 'UTF-8')
+                );
+            }
 
-		foreach ($emails as $email) {
-			if ($email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				$mail->setTo($email);
-				$mail->send();
-			}
-		}
-	}
+            $data['vouchers'] = array();
+
+            $order_vouchers = $this->model_checkout_order->getOrderVouchers($order_id);
+
+            foreach ($order_vouchers as $order_voucher) {
+                $data['vouchers'][] = array(
+                    'description' => $order_voucher['description'],
+                    'amount'      => html_entity_decode($this->currency->format($order_voucher['amount'], $order_info['currency_code'], $order_info['currency_value']), ENT_NOQUOTES, 'UTF-8')
+                );
+            }
+
+            $data['totals'] = array();
+
+            $order_totals = $this->model_checkout_order->getOrderTotals($order_id);
+
+            foreach ($order_totals as $order_total) {
+                $data['totals'][] = array(
+                    'title' => $order_total['title'],
+                    'value' => html_entity_decode($this->currency->format($order_total['value'], $order_info['currency_code'], $order_info['currency_value']), ENT_NOQUOTES, 'UTF-8')
+                );
+            }
+
+            $data['comment'] = strip_tags($order_info['comment']);
+
+            $mail = new Mail($this->config->get('config_mail_engine'));
+            $mail->parameter = $this->config->get('config_mail_parameter');
+            $mail->smtp_hostname = $this->config->get('config_mail_smtp_hostname');
+            $mail->smtp_username = $this->config->get('config_mail_smtp_username');
+            $mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
+            $mail->smtp_port = $this->config->get('config_mail_smtp_port');
+            $mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
+
+            $mail->setTo($this->config->get('config_email'));
+            $mail->setFrom($this->config->get('config_email'));
+            $mail->setSender(html_entity_decode($order_info['store_name'], ENT_QUOTES, 'UTF-8'));
+            $mail->setSubject(html_entity_decode(sprintf($this->language->get('text_subject'), $this->config->get('config_name'), $order_info['order_id']), ENT_QUOTES, 'UTF-8'));
+            $mail->setText($this->load->view('mail/order_alert', $data));
+            $mail->send();
+
+            // Send to additional alert emails
+            $emails = explode(',', $this->config->get('config_mail_alert_email'));
+
+            foreach ($emails as $email) {
+                if ($email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $mail->setTo($email);
+                    $mail->send();
+                }
+            }
+        }
+    }
 
 	public function orderDelete($order_id) {
 		/**

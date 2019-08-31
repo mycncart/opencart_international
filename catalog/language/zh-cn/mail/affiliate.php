@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_subject']		        = '%s - 推广计划';
 $_['text_welcome']		        = '感谢推广 %s ！';
@@ -9,14 +8,10 @@ $_['text_services']		        = '登录后您可以生成链接代码， 以便�
 $_['text_thanks']		        = '谢谢,';
 $_['text_new_affiliate']        = '新推广会员';
 $_['text_signup']		        = '新注册一位推广会员:';
-$_['text_store']		        = '网店:';
-$_['text_firstname']    		= '姓氏';
-$_['text_lastname']     		= '名称';
+$_['text_website']        		= '网址:';
+$_['text_customer_group'] 		= '会员等级:';
+$_['text_firstname']      		= '名字:';
+$_['text_lastname']       		= '姓氏:';
 $_['text_company']		        = '公司:';
 $_['text_email']		        = 'E-Mail:';
 $_['text_telephone']	        = '电话:';
-$_['text_website']		        = 'Web Site:';
-$_['text_order_id']             = '订单号 ID:';
-$_['text_transaction_subject']  = '%s - 推广佣金';
-$_['text_transaction_received'] = '您已收到佣金 %s ！';
-$_['text_transaction_total']    = '目前佣金总计为 %s。';

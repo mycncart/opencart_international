@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '筛选';
 
 // Text
 $_['text_success']      = '成功: 已经修改筛选！';
-$_['text_list']         = '筛选列表';
+$_['text_list']         = '筛选列表 - (在线教程: <a href="http://www.mycncart.com/blog-14.html" target="_blank">http://www.mycncart.com/blog-14.html</a>)';
 $_['text_add']          = '添加筛选';
 $_['text_edit']         = '编辑筛选';
 

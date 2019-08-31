@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '下载文件';
 
 // Text
 $_['text_success']      = '成功: 已修改下载文件！';
-$_['text_list']         = '下载文件列表';
+$_['text_list']         = '下载文件列表 - (在线教程: <a href="http://www.mycncart.com/blog-130.html" target="_blank">http://www.mycncart.com/blog-130.html</a>)';
 $_['text_add']          = '添加下载文件';
 $_['text_edit']         = '编辑下载文件';
 $_['text_upload']       = '文件已成功上传！';

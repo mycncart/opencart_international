@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_information']  = '信息文章';
 $_['text_service']      = '会员服务';
@@ -15,6 +14,6 @@ $_['text_account']      = '会员中心';
 $_['text_order']        = '历史订单';
 $_['text_wishlist']     = '收藏列表';
 $_['text_newsletter']   = '订阅咨询';
-$_['text_powered']      = '技术支持 <a href="http://www.opencartchina.com">OpenCartChina</a><br /> %s &copy; %s';
+$_['text_powered']      = '技术支持 <a href="http://www.mycncart.com">MyCnCart</a><br /> %s &copy; %s';
 
 

@@ -5,7 +5,7 @@ $_['heading_title']        = '税率';
 
 // Text
 $_['text_success']         = '成功: 已修改税率！';
-$_['text_list']            = '税率列表';
+$_['text_list']            = '税率列表 - (在线教程: <a href="http://www.mycncart.com/blog-86.html" target="_blank">http://www.mycncart.com/blog-86.html</a>)';
 $_['text_add']             = '添加税率';
 $_['text_edit']            = '编辑税率';
 $_['text_percent']         = '百分比';

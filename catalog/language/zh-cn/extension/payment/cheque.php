@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']				= '支票';
 $_['text_instruction']			= '支票信息';

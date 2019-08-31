@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_refine']       = '子分类';
 $_['text_product']      = '商品';

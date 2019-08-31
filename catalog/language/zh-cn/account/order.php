@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']         = '历史订单';
 
@@ -24,7 +23,6 @@ $_['text_error']            = '请求的订单不存在！';
 $_['column_order_id']       = '订单号 ID';
 $_['column_customer']       = '会员';
 $_['column_product']        = '总件数';
-$_['column_customer']       = '会员';
 $_['column_name']           = '商品名称';
 $_['column_model']          = '型号';
 $_['column_quantity']       = '数量';

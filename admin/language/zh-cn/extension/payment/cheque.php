@@ -4,7 +4,7 @@
 $_['heading_title']					= '支票';
 
 // Text
-$_['text_payment']					= '支付方式';
+$_['text_extension']	 = '扩展功能';
 $_['text_success']					= '成功: 已修改支票支付方式信息！';
 $_['text_edit']                     = '编辑支票支付方式';
 

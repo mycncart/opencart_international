@@ -8,7 +8,11 @@ class ControllerApiLogin extends Controller {
 		$this->load->model('account/api');
 
 		// Login with API Key
-		$api_info = $this->model_account_api->getApiByKey($this->request->post['key']);
+		if(isset($this->request->post['username'])) {
+			$api_info = $this->model_account_api->login($this->request->post['username'], $this->request->post['key']);
+		} else {
+			$api_info = $this->model_account_api->login('Default', $this->request->post['key']);
+		}
 
 		if ($api_info) {
 			// Check if IP is allowed
@@ -26,35 +30,22 @@ class ControllerApiLogin extends Controller {
 				
 			if (!$json) {
 				$json['success'] = $this->language->get('text_success');
-			
-				// We want to create a seperate session so changes do not interfere with the admin user.
-				$session_id_old = $this->session->getId();
 				
-				$session_id_new = $this->session->createId();
+				$session = new Session($this->config->get('session_engine'), $this->registry);
 				
-				$this->session->start('api', $session_id_new);
+				$session->start();
 				
-				$this->session->data['api_id'] = $api_info['api_id'];
+				$this->model_account_api->addApiSession($api_info['api_id'], $session->getId(), $this->request->server['REMOTE_ADDR']);
 				
-				// Close and write the new session.
-				//$session->close();
-
-				$this->session->start('default');
-
+				$session->data['api_id'] = $api_info['api_id'];
+				
 				// Create Token
-				$json['token'] = $this->model_account_api->addApiSession($api_info['api_id'], $session_id_new, $this->request->server['REMOTE_ADDR']);
+				$json['api_token'] = $session->getId();
 			} else {
 				$json['error']['key'] = $this->language->get('error_key');
 			}
 		}
-
-		if (isset($this->request->server['HTTP_ORIGIN'])) {
-			$this->response->addHeader('Access-Control-Allow-Origin: ' . $this->request->server['HTTP_ORIGIN']);
-			$this->response->addHeader('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
-			$this->response->addHeader('Access-Control-Max-Age: 1000');
-			$this->response->addHeader('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
-		}
-
+		
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));
 	}

@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']				= '银行转账';
 $_['text_instruction']			= '银行转账信息';

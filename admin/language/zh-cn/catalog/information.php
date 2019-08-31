@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']          = '文章';
 
 // Text
 $_['text_success']           = '成功: 已经修改文章！';
-$_['text_list']              = '文章列表';
+$_['text_list']              = '文章列表 - (在线教程: <a href="http://www.mycncart.com/blog-4.html" target="_blank">http://www.mycncart.com/blog-4.html</a>)';
 $_['text_add']               = '添加文章';
 $_['text_edit']              = '编辑文章';
 $_['text_default']           = '默认';
