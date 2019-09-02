@@ -15,12 +15,12 @@ $_['text_option']            = '选项';
 $_['text_option_value']      = '选项值';
 $_['text_percent']           = '百分比';
 $_['text_amount']            = '固定值';
+$_['text_keyword']           = '不要用空格，使用-链接 SEO URL 关键字，确保该关键词为全站唯一。';
 
 // Column
 $_['column_name']            = '商品名称';
 $_['column_model']           = '型号';
 $_['column_image']           = '图像';
-$_['column_id']              = '商品ID';
 $_['column_price']           = '价格';
 $_['column_quantity']        = '数量';
 $_['column_status']          = '状态';
@@ -32,9 +32,9 @@ $_['entry_description']      = '描述';
 $_['entry_meta_title'] 	     = 'Meta Tag 标题';
 $_['entry_meta_keyword'] 	 = 'Meta Tag 关键词';
 $_['entry_meta_description'] = 'Meta Tag 描述';
-$_['entry_keyword']          = 'SEO URL';
+$_['entry_store']            = '商店';
+$_['entry_keyword']          = 'Keyword';
 $_['entry_model']            = '型号';
-$_['entry_product_id']  	 = '商品 ID';
 $_['entry_sku']              = 'SKU';
 $_['entry_upc']              = 'UPC';
 $_['entry_ean']              = 'EAN';
@@ -44,7 +44,7 @@ $_['entry_mpn']              = 'MPN';
 $_['entry_location']         = '生产地';
 $_['entry_shipping']         = '需要配送';
 $_['entry_manufacturer']     = '制造商/品牌';
-$_['entry_store']            = '商店';
+
 $_['entry_date_available']   = '上架日期';
 $_['entry_quantity']         = '数量';
 $_['entry_minimum']          = '最小购买数量';
@@ -85,7 +85,6 @@ $_['entry_layout']           = '布局排版覆盖';
 $_['entry_recurring']        = '分期付款';
 
 // Help
-$_['help_keyword']           = '不要用空格，使用-链接 SEO URL 关键字，确保该关键词为全站唯一。';
 $_['help_sku']               = 'Stock Keeping Unit';
 $_['help_upc']               = 'Universal Product Code';
 $_['help_ean']               = 'European Article Number';
@@ -109,3 +108,4 @@ $_['error_name']             = '商品名称必须介于3-255字符之间！';
 $_['error_meta_title']       = 'Meta 标题必须介于3-255字符之间！';
 $_['error_model']            = '商品型号必须介于1-64字符之间！';
 $_['error_keyword']          = '该 SEO URL 已经存在了！';
+$_['error_unique']           = 'SEO URL 必须全站唯一！';

@@ -82,7 +82,6 @@ $_['entry_points']          		= '奖励积分';
 $_['entry_name']            		= '会员姓名';
 $_['entry_ip']              		= 'IP';
 $_['entry_date_added']      		= '添加日期';
-$_['entry_shipping_telephone']      = '收件人电话';
 
 
 
@@ -97,19 +96,17 @@ $_['help_points']           		= '适用减号-以减少奖励积分';
 $_['error_warning']         		= '警告: 详细检查相关错误！';
 $_['error_permission']      		= '警告: 无权限修改会员！';
 $_['error_exists']          		= '警告: E-Mail 已被注册使用了！';
-$_['error_fullname']        		= '姓名必须为1-32字符！';
+$_['error_firstname']        		= '名字必须为1-32字符！';
+$_['error_lastname']        		= '姓氏必须为1-32字符！';
 $_['error_email']           		= 'E-Mail 无效！';
 $_['error_telephone']       		= '电话必须为3-32字符！';
 $_['error_password']        		= '密码密续为4-20字符！';
 $_['error_confirm']         		= '确认密码与密码不一致！';
-$_['error_address']         		= '地址必须为3-128字符！';
+$_['error_address_1']         		= '地址1必须为3-128字符！';
 $_['error_city']            		= '请选择城市或必须为2-128字符！';
-$_['error_district']        		= '请选择区县！';
 $_['error_postcode']        		= '邮政编码必须为2-10字符！';
 $_['error_country']         		= '请选择国家！';
 $_['error_zone']            		= '%s 必选！';
-$_['error_shipping_telephone']      = '收件人电话必填！';
-$_['error_country']             	= '国家必选！';
 $_['error_custom_field']        	= '%s 必填(选)！';
 $_['error_tracking']            	= '跟踪码必填！';
 $_['error_tracking_exists']     	= '该跟踪码已被其他推广人员使用！';
