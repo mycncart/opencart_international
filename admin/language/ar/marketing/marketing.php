@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']     = 'تتبع نظام التسويق';
 
@@ -10,6 +7,7 @@ $_['text_success']      = 'تم التعديل !';
 $_['text_list']         = 'قائمة';
 $_['text_add']          = 'ادراج';
 $_['text_edit']         = 'تحرير';
+$_['text_filter']       = 'فلتر';
 
 // Column
 $_['column_name']       = 'اسم الحملة';

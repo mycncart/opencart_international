@@ -24,11 +24,11 @@ $_['text_paid']          = '已支付';
 $_['text_purchased']     = '已购买';
 $_['text_date_modified'] = '修改日期';
 $_['text_date_added']    = '添加日期';
-$_['text_name']          = '名称';
 $_['text_rating']        = '评级';
 $_['text_reviews']       = '评论';
 $_['text_compatibility'] = '兼容性';
 $_['text_downloaded']    = '已下载';
+$_['text_member_since']  = '会员自：';
 $_['text_price']         = '价格';
 $_['text_partner']       = '由 OpenCart 合作者开发';
 $_['text_support']       = '12 个月免费支持';
@@ -37,12 +37,15 @@ $_['text_sales']         = '促销';
 $_['text_comment']       = '评论';
 $_['text_download']      = '下载中';
 $_['text_install']       = '安装中';
-$_['text_comment']       = '评论';
 $_['text_comment_add']   = '发表评论';
-$_['text_write']         = '此处填写评论';
+$_['text_write']         = '此处填写评论......';
 $_['text_purchase']      = '请确认您的身份！';
-$_['text_pin']           = '请输入 4 位 PIN 数字，该数字保护您的帐户。';
+$_['text_pin']           = '请输入 4 位 PIN 码， 该 PIN 码用来保护您的帐户。';
 $_['text_secure']        = '不要将您的　PIN　给任何人，包含开发者。如果你希望插件销售者为您安装该插件，您可以发邮件给该插件作者。';
+$_['text_name']          = '下载名称';
+$_['text_progress']      = '进度';
+$_['text_available']     = '可用安装';
+$_['text_action']        = '操作';
 
 // Entry
 $_['entry_pin']          = 'PIN';
@@ -56,6 +59,8 @@ $_['tab_comment']        = '评论';
 // Button
 $_['button_opencart']    = '商城 API';
 $_['button_purchase']    = '购买';
+$_['button_view_all']    = '查看所有扩展';
+$_['button_get_support'] = '获取支持';
 $_['button_comment']     = '评论';
 $_['button_reply']       = '回复';
 

@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']           = 'الدول';
 
@@ -39,7 +36,7 @@ $_['help_address_format']     = 'الاسم الأول = {firstname}<br />
 
 // Error
 $_['error_permission']        = 'تحذير: أنت لا تمتلك صلاحيات التعديل!';
-$_['error_name']              = 'اسم الدولة يجب أن يكون بين 3 و 128 رمزاً!';
+$_['error_name']              = 'اسم الدولة يجب أن يكون بين 1 و 128 رمزاً!';
 $_['error_default']           = 'تحذير: لا يمكن حذف الدولة الافتراضية!';
 $_['error_store']             = 'تحذير: لا يمكن حذف هذه الدولة لأنها مرتبطة مع %s متاجر!';
 $_['error_address']           = 'تحذير: لا يمكن حذف هذه الدولة لأنها مرتبطة مع %s عناويين!';

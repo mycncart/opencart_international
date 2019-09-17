@@ -1,15 +1,13 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']      = 'التقييم';
 
 // Text
 $_['text_success']      = 'تم التعديل!';
-$_['text_list']          = 'القائمة';
-$_['text_add']           = 'ادراج';
-$_['text_edit']          = 'تحرير';
+$_['text_list']         = 'القائمة';
+$_['text_add']          = 'ادراج';
+$_['text_edit']         = 'تحرير';
+$_['text_filter']       = 'فلتر';
 
 // Column
 $_['column_product']    = 'المنتج';

@@ -34,14 +34,14 @@ $_['text_payment_method']            = 'الرجاء اختيار طريقة ا�
 $_['text_comments']                  = 'كتابة ملاحظات مع الطلب.';
 $_['text_recurring_item']                 = 'مدفوعات متكررة';
 $_['text_payment_recurring']           = 'ملف المدفوعات';
-$_['text_trial_description']         = '%s كل %d %s الى %d مدفوعات';
+$_['text_trial_description']         = '%s كل %d %s الى %d مدفوعات ثم';
 $_['text_payment_description']       = '%s كل %d %s الى %d مدفوعات';
-$_['text_payment_cancel'] = '%s كل %d %sحتى يتم الغاؤها';
-$_['text_day']                       = 'يومي';
-$_['text_week']                      = 'اسبوعي';
+$_['text_payment_cancel'] = '%s كل %d %s حتى يتم الغاؤها';
+$_['text_day']                       = 'يوم';
+$_['text_week']                      = 'اسبوع';
 $_['text_semi_month']                = 'نصف شهري';
-$_['text_month']                     = 'شهري';
-$_['text_year']                      = 'سنوي';
+$_['text_month']                     = 'شهر';
+$_['text_year']                      = 'سنة';
 
 // Column
 $_['column_name']                    = 'الاسم';
@@ -58,7 +58,6 @@ $_['entry_confirm']                  = 'تأكيد كلمة المرور ';
 $_['entry_firstname']                = 'الاسم الأول ';
 $_['entry_lastname']                 = 'اسم العائلة ';
 $_['entry_telephone']                = 'رقم الهاتف أو الجوال ';
-$_['entry_fax']                      = 'الفاكس ';
 $_['entry_address']                  = 'اختيار العنوان';
 $_['entry_company']                  = 'الشركة';
 $_['entry_customer_group']           = 'نوع الشركة';

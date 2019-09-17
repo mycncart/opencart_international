@@ -4,7 +4,6 @@ $_['heading_title']    = '促销商品';
 
 // Text
 $_['text_extension']   = '扩展功能';
-$_['text_module']      = '模组';
 $_['text_success']     = '成功: 已修改促销商品模组！';
 $_['text_edit']        = '编辑促销商品模组 - (在线教程: <a href="http://www.mycncart.com/blog-117.html" target="_blank">http://www.mycncart.com/blog-117.html</a>)';
 

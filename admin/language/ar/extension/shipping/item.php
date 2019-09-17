@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']     = 'الشحن بالقطعة - Per Item';
+$_['heading_title']     = 'الشحن بالقطعة';
 
 // Text
-$_['text_shipping']    = 'الشحن';
+$_['text_extension']   = 'الموديولات';
 $_['text_success']     = 'تم التعديل !';
 $_['text_edit']        = 'تحرير';
 

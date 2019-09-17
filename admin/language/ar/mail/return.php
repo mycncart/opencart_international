@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_subject']       = '%s - تحديث إرجاع المنتج %s';
 $_['text_return_id']     = 'رقم الإرجاع:';

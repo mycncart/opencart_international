@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']      = 'مكافحة اختراق الاي بي - Anti-Fraud IP';
 

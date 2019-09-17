@@ -1,10 +1,10 @@
 <?php
 // Heading
-$_['heading_title']    = 'Flat Rate';
+$_['heading_title']    = 'تكلفة ثابتة للشحن';
 
 // Text
-$_['text_shipping']    = 'Shipping';
-$_['text_success']     = 'Success: You have modified flat rate shipping!';
+$_['text_extension']   = 'الموديولات';
+$_['text_success']     = 'تم التعديل !';
 $_['text_edit']        = 'تحرير';
 
 // Entry

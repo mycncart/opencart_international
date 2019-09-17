@@ -3,7 +3,6 @@
 $_['heading_title']    = 'Sagepay Server Card Management';
 
 $_['text_extension']   = '扩展功能';
-$_['text_module']      = 'Modules';
 $_['text_success']     = 'Success: You have modified Sagepay Server Card Management module!';
 $_['text_edit']        = 'Edit Sagepay Server Card Management Module';
 

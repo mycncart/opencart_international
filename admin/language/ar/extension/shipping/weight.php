@@ -1,12 +1,9 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']    = 'الشحن بالوزن حسب المنطقة الجغرافية';
 
 // Text
-$_['text_shipping']    = 'الشحن';
+$_['text_extension']   = 'الموديولات';
 $_['text_success']     = 'تم التعديل !';
 $_['text_edit']        = 'تحرير';
 

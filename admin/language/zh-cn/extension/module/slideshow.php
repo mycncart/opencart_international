@@ -5,7 +5,6 @@ $_['heading_title']    = '幻灯片';
 
 // Text
 $_['text_extension']   = '扩展功能';
-$_['text_module']      = '模组';
 $_['text_success']     = '成功: 已修改幻灯片模组！';
 $_['text_edit']        = '编辑幻灯片模组 - (在线教程: <a href="http://www.mycncart.com/blog-113.html" target="_blank">http://www.mycncart.com/blog-113.html</a>)';
 

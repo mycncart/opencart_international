@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']    = 'محرر القوالب';
 
@@ -11,10 +8,16 @@ $_['text_edit']        = 'تحرير';
 $_['text_store']       = 'اختيار المتجر';
 $_['text_template']    = 'اختيار القالب';
 $_['text_default']     = 'الافتراضي';
-$_['text_warning']     = 'تحذير: Security can be compromised using the theme editor!';
-$_['text_access']      = 'تأكد من ان يتم السماح فقط للمدراء المخولين الدخول الى هذه الصفحة.';
-$_['text_permission']  = 'يمكنك تعديل صلاحيات المدراء <a href="%s" class="alert-link">من هنا</a>.';
-$_['text_begin']       = 'قم باختيار ملف القالب المطلوب لبدء التحرير.';
+$_['text_history']     = 'التعديلات السابقة على القالب';
+$_['text_twig']        = 'محرر القوالب يستخدم لغة (Twig). ولمزيد من المعلومات عن هذه اللغة الرجاء زيارة <a href="http://twig.sensiolabs.org/documentation" target="_blank" class="alert-link">الرابط التالي</a>.';
+
+// Column
+$_['column_store']      = 'المتجر';
+$_['column_route']      = 'المسار';
+$_['column_theme']      = 'القالب';
+$_['column_date_added'] = 'تاريخ البداية';
+$_['column_action']     = 'تحرير';
 
 // Error
 $_['error_permission'] = 'تحذير: انت لا تمتلك صلاحيات التعديل !';
+$_['error_twig']        = 'تحذير: يمكنك فقط حفظ الملفات بصيغة .twig !';

@@ -3,7 +3,6 @@
 $_['heading_title']    = '搜索引擎分析代码';
 
 // Text
-$_['text_extension']   = '扩展功能';
 $_['text_success']     = '成功: 已修改搜索引擎分析代码！';
 $_['text_list']        = '搜索引擎分析代码列表';
 

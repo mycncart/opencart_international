@@ -9,6 +9,7 @@ $_['text_add']            = '添加折扣券';
 $_['text_edit']           = '编辑折扣券';
 $_['text_percent']        = '百分比';
 $_['text_amount']         = '固定金额';
+$_['text_coupon']         = '折扣券使用历史';
 
 // Column
 $_['column_name']         = '折扣券名称';

@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']				= 'Credit or Debit Card (Processed securely by PayPal)';
 $_['text_credit_card']			= 'Credit Card Details';
@@ -17,9 +16,9 @@ $_['entry_cc_cvv2']				= 'Card Security Code (CVV2):';
 $_['entry_cc_issue']			= 'Card Issue Number:';
 
 // Error
-$_['error_required']			= '警告: All payment information fields are required.';
-$_['error_general']				= '警告: A general problem has occurred with the transaction. Please try again.';
-$_['error_config']				= '警告: Payment module configuration error. Please verify the login credentials.';
-$_['error_address']				= '警告: A match of the 账单地址 所在城市, State, and Postal Code failed. Please try again.';
-$_['error_declined']			= '警告: This transaction has been declined. Please try again.';
-$_['error_invalid']				= '警告: The provided credit card information is invalid. Please try again.';
+$_['error_required']			= 'Warning: All payment information fields are required.';
+$_['error_general']				= 'Warning: A general problem has occurred with the transaction. Please try again.';
+$_['error_config']				= 'Warning: Payment module configuration error. Please verify the login credentials.';
+$_['error_address']				= 'Warning: A match of the Payment Address City, State, and Postal Code failed. Please try again.';
+$_['error_declined']			= 'Warning: This transaction has been declined. Please try again.';
+$_['error_invalid']				= 'Warning: The provided credit card information is invalid. Please try again.';

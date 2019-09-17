@@ -37,7 +37,6 @@ $_['entry_status']      = '状态';
 $_['help_code']         = '会员输入此代码激活该代金券。';
 
 // Error
-$_['error_selection']   = '警告: 未选择代金券！';
 $_['error_permission']  = '警告: 无权限修改代金券！';
 $_['error_exists']      = '警告: 此代金券代码已经存在！';
 $_['error_code']        = '代金券代码必须为3-10字符！';

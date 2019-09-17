@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']       = 'خيارات';
 
@@ -21,6 +18,8 @@ $_['text_file']           = 'ملف';
 $_['text_date']           = 'تاريخ';
 $_['text_datetime']       = 'التاريخ والوقت';
 $_['text_time']           = 'وقت';
+$_['text_option']        = 'الخيار';
+$_['text_value']         = 'قيمة الخيارات';
 
 // Column
 $_['column_name']         = 'اسم الخيار';

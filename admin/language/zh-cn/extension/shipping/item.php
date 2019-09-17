@@ -1,10 +1,9 @@
 <?php
-
 // Heading
 $_['heading_title']     = '按件计算运费';
 
 // Text
-$_['text_shipping']    = '配送管理';
+$_['text_extension']    = '扩展功能';
 $_['text_success']     = '成功: 已修改按件计算运费！';
 $_['text_edit']        = '编辑按件计算运费';
 

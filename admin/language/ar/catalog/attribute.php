@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']          = 'مواصفات المنتجات';
 
@@ -25,5 +22,5 @@ $_['entry_sort_order']      = 'ترتيب الفرز';
 // Error
 $_['error_permission']      = 'تحذير: أنت لا تمتلك صلاحيات التعديل!';
 $_['error_attribute_group'] = 'نوع الوصف مطلوب!';
-$_['error_name']            = 'اسم السمة يجب أن يكون بين 3 و 64 رمزاً!';
+$_['error_name']            = 'اسم السمة يجب أن يكون بين 1 و 64 رمزاً!';
 $_['error_product']         = 'تحذير: هذا الوصف لايمكن حذفه لأنه مرتبط بالمنتج %s !';

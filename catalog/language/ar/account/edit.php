@@ -16,7 +16,6 @@ $_['entry_firstname']     = 'الاسم الأول';
 $_['entry_lastname']      = 'اسم العائلة';
 $_['entry_email']         = 'البريد الالكتروني';
 $_['entry_telephone']     = 'رقم الجوال';
-$_['entry_fax']           = 'الفاكس';
 
 // Error
 $_['error_exists']        = 'تحذير : البريد الالكتروني مسجل مسبقا!';

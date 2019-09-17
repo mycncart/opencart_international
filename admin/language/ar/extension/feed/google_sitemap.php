@@ -1,14 +1,10 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']    = 'Google Sitemap';
 
 // Text
 $_['text_extension']         = 'الموديولات';
 $_['text_success']     = 'تم التعديل !';
-$_['text_list']        = 'قائمة';
 $_['text_edit']        = 'تحرير';
 
 // Entry

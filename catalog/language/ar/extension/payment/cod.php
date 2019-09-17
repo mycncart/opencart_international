@@ -3,4 +3,4 @@
 //  E-Mail : info@OpenCartArab.com
 
 // Text
-$_['text_title'] = 'الدفع عند التسليم';
+$_['text_title'] = 'الدفع عند الاستلام';

@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_subject']  = '%s - Your affiliate account has been activated!';
-$_['text_welcome']  = 'Welcome and thank you for registering at %s!';
-$_['text_login']    = 'Your account has now been approved and you can log in by using your email address and password by visiting our website or at the following URL:';
-$_['text_services'] = 'Upon logging in, you will be able to generate tracking codes, track commission payments and edit your account information.';
-$_['text_thanks']   = 'Thanks,';
+$_['text_subject']  = '%s - 推广帐号已被激活!';
+$_['text_welcome']  = '欢迎及感谢在 %s 进行注册!';
+$_['text_login']    = '帐号已被审核通过，您可以在如下网址使用电邮和密码进行登录:';
+$_['text_services'] = '一旦登录成功，您将能生成追踪码，追踪佣金支付以及编辑账户等。';
+$_['text_thanks']   = '再次感谢'

@@ -7,7 +7,7 @@ $_['heading_title']   = 'ملفات التنزيل';
 
 // Text
 $_['text_account']    = 'الحساب';
-$_['text_downloads']  = 'التنزيلات';
+$_['text_downloads']  = 'روابط التنزيل';
 $_['text_empty']        = 'لم تقم بطلب أي ملف رقمي للتنزيل حتى الآن!';
 
 // Column

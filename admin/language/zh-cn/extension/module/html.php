@@ -4,7 +4,6 @@ $_['heading_title']     = 'HTML 内容';
 
 // Text
 $_['text_extension']   = '扩展功能';
-$_['text_module']       = '模组';
 $_['text_success']      = '成功: 已修改HTML 内容模组！';
 $_['text_edit']         = '编辑 HTML 内容模组 - (在线教程: <a href="http://www.mycncart.com/blog-74.html" target="_blank">http://www.mycncart.com/blog-74.html</a>)';
 

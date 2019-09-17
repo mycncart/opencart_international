@@ -1,10 +1,8 @@
 <?php
-
 // Heading
 $_['heading_title']     = '订单小计项';
 
 // Text
-$_['text_extension']   = '扩展功能';
 $_['text_success']      = '成功: 已修改订单小计项！';
 $_['text_list']         = '订单小计项列表';
 

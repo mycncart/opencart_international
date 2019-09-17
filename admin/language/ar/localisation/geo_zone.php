@@ -1,15 +1,13 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']      = 'المناطق الجغرافية';
 
 // Text
 $_['text_success']       = 'تم التعديل !';
-$_['text_list']               = 'قائمة';
-$_['text_add']                = 'ادراج';
-$_['text_edit']               = 'تحرير';
+$_['text_list']          = 'قائمة';
+$_['text_add']           = 'ادراج';
+$_['text_edit']          = 'تحرير';
+$_['text_geo_zone']      = 'المناطق الجغرافية';
 
 // Column
 $_['column_name']        = 'المناطق الجغرافية';

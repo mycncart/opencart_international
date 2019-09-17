@@ -1,15 +1,14 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']     = 'نوع الضريبة';
 
 // Text
 $_['text_success']      = 'تم بنجاح: تعديل نوع الضرائب!';
-$_['text_list']               = 'قائمة';
-$_['text_add']                = 'ادراج';
-$_['text_edit']               = 'تحرير';
+$_['text_list']         = 'قائمة';
+$_['text_add']          = 'ادراج';
+$_['text_edit']         = 'تحرير';
+$_['text_tax_class']    = 'نوع الضريبة';
+$_['text_tax_rate']     = 'تكلفة الضريبة';
 $_['text_shipping']     = 'عنوان الشحن';
 $_['text_payment']      = 'عنوان الدفع';
 $_['text_store']        = 'عنوان المتجر';

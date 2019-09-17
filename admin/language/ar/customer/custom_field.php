@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']         = 'حقول مخصصة';
 
@@ -23,7 +20,10 @@ $_['text_datetime']         = 'التاريخ والوقت';
 $_['text_time']             = 'وقت';
 $_['text_account']          = 'الحساب';
 $_['text_address']          = 'العنوان';
+$_['text_affiliate']       	= 'نظام العمولة';
 $_['text_regex']            = 'رموز';
+$_['text_custom_field']    = 'حقول مخصصة';
+$_['text_value']           = 'قيمة الحقول المخصصة';
 
 // Column
 $_['column_name']           = 'اسم الخيار';

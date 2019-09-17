@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']     = 'قسائم الهدايا';
 
@@ -40,7 +37,6 @@ $_['entry_status']      = 'الحالة';
 $_['help_code']         = 'الرمز الذي يدخله العميل لتفعيل القسيمة.';
 
 // Error
-$_['error_selection']   = 'تحذير: لم يتم اختيار القسيمة !';
 $_['error_permission']  = 'تحذير: أنت لاتمتلك صلاحيات التعديل!';
 $_['error_exists']      = 'تحذير: تم استخدام رمز القسيمة!';
 $_['error_code']        = 'يجب أن يكون بين 3 و 10 رمزاً!';

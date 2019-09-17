@@ -1,20 +1,18 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
-$_['heading_title']       = 'إرجاع الطلب';
+$_['heading_title']        = 'إرجاع الطلب';
 
 // Text
-$_['text_success']        = 'تم التعديل !';
-$_['text_list']           = 'قائمة';
-$_['text_add']            = 'ادراج';
-$_['text_edit']           = 'تحرير';
-$_['text_opened']         = 'مفتوح';
-$_['text_unopened']       = 'غير مفتوح';
-$_['text_order']          = 'معلومات الطلب';
-$_['text_product']        = 'معلومات المنتج وسبب الارجاع';
-$_['text_history']        = 'اضافة للسجل';
+$_['text_success']         = 'تم التعديل !';
+$_['text_list']            = 'قائمة';
+$_['text_add']             = 'ادراج';
+$_['text_edit']            = 'تحرير';
+$_['text_opened']          = 'مفتوح';
+$_['text_unopened']        = 'غير مفتوح';
+$_['text_order']           = 'معلومات الطلب';
+$_['text_product']         = 'معلومات المنتج وسبب الارجاع';
+$_['text_history']         = 'السجل';
+$_['text_history_add']     = 'اضافة للسجل';
 
 // Column
 $_['column_return_id']     = 'رقم الإرجاع';

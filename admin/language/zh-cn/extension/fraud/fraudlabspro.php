@@ -4,7 +4,6 @@ $_['heading_title']                           = 'FraudLabs Pro';
 
 // Text
 $_['text_extension']   = '扩展功能';
-$_['text_fraud']                              = 'Anti-Fraud';
 $_['text_success']                            = 'Success: You have modified FraudLabs Pro Settings!';
 $_['text_edit']                               = 'Settings';
 $_['text_signup']                             = 'FraudLabs Pro is a fraud detection service. You can <a href="http://www.fraudlabspro.com/plan?ref=1730" target="_blank"><u>sign up here</u></a> for a free API Key.';

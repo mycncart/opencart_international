@@ -2,7 +2,7 @@
 //  Website: WWW.OpenCartArab.com
 //  E-Mail : info@OpenCartArab.com
 
-// header
+// Heading
 $_['heading_title']  = 'تغيير كلمة المرور';
 
 // Text

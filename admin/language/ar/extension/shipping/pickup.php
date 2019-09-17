@@ -2,8 +2,8 @@
 // Heading
 $_['heading_title']    = 'الاستلام من المتجر';
 
-// Text 
-$_['text_shipping']    = 'الشحن';
+// Text
+$_['text_extension']   = 'الموديولات';
 $_['text_success']     = 'تم التعديل !';
 $_['text_edit']        = 'تحرير';
 

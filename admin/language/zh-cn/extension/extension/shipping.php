@@ -4,7 +4,6 @@
 $_['heading_title']     = '配送方式';
 
 // Text
-$_['text_extension']   = '扩展功能';
 $_['text_success']      = '成功: 已修改配送方式！';
 $_['text_list']         = '配送方式列表';
 

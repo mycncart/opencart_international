@@ -4,6 +4,3 @@
 
 // Text
 $_['text_title']    = 'البريد الالسترالي - Australia Post';
-$_['text_express']  = 'شحن سريع';
-$_['text_standard'] = 'شحن عادي';
-$_['text_eta']      = 'أيام';

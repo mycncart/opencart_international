@@ -1,15 +1,14 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Heading
 $_['heading_title']     = 'الفلاتر';
 
 // Text
 $_['text_success']      = 'تم التعديل !';
-$_['text_list']              = 'القائمة';
-$_['text_add']               = 'ادراج';
-$_['text_edit']              = 'تحرير';
+$_['text_list']         = 'القائمة';
+$_['text_add']          = 'ادراج';
+$_['text_edit']         = 'تحرير';
+$_['text_group']        = 'مجموعة الفلتر';
+$_['text_value']        = 'قيمة الفلتر';
 
 // Column
 $_['column_group']        = 'اسم الفلتر';

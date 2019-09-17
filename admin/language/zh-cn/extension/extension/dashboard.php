@@ -3,7 +3,6 @@
 $_['heading_title']     = '仪表盘';
 
 // Text
-$_['text_extension']   = '扩展功能';
 $_['text_success']      = '成功: 已修改仪表盘！';
 $_['text_list']         = '仪表盘列表';
 

@@ -7,7 +7,7 @@ $_['text_success']      = '成功: 已修改推广跟踪！';
 $_['text_list']         = '推广跟踪列表 - (在线教程: <a href="http://www.mycncart.com/blog-92.html" target="_blank">http://www.mycncart.com/blog-92.html</a>)';
 $_['text_add']          = '添加推广跟踪';
 $_['text_edit']         = '编辑推广跟踪';
-
+$_['text_filter']       = '筛选';
 // Column
 $_['column_name']       = '活动名称';
 $_['column_code']       = '跟踪代码';

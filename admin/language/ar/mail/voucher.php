@@ -1,8 +1,6 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
+$_['text_success']  = 'تم التعديل !';
 $_['text_subject']  = 'لقد قمت بإرسال قسيمة هدية من %s';
 $_['text_greeting'] = 'مبروك, لقد وصلتك قسيمة بقيمة %s';
 $_['text_from']     = 'هذه القسيمة وصلتك من %s';

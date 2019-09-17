@@ -21,4 +21,4 @@ $_['text_reward']      = 'نقاط المكافآت';
 $_['text_return']      = 'المنتجات المرتجعة';
 $_['text_transaction'] = 'رصيدي';
 $_['text_newsletter']  = 'القائمة البريدية';
-$_['text_recurring']   = 'المدفوعات الدورية';
+$_['text_recurring']   = 'المدفوعات المتكررة';

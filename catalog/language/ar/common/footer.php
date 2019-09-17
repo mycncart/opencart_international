@@ -1,4 +1,7 @@
 <?php
+//  Website: WWW.OpenCartArab.com
+//  E-Mail : info@OpenCartArab.com
+
 // Text
 $_['text_information']  = 'معلومات';
 $_['text_service']      = 'خدمات العملاء';
@@ -14,4 +17,4 @@ $_['text_account']      = 'حسابي';
 $_['text_order']        = 'طلباتي';
 $_['text_wishlist']     = 'قائمة رغباتي';
 $_['text_newsletter']   = 'القائمة البريدية';
-$_['text_powered']      = 'ترجمة  <a href="http://www.opencartchina.com">OpenCartChina</a><br /> %s &copy; %s';
+$_['text_powered']      = 'ترجمة <a href="http://www.opencartarab.com" target="_blank">OpenCartArab</a> | دعـم <a href="http://www.opencart.com" target="_blank">OpenCart</a><br /> %s &copy; %s';
