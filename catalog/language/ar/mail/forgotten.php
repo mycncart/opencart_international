@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_subject']  = '%s - طلب إعادة تعيين كلمة المرور';
 $_['text_greeting'] = 'كلمة المرور الجديدة التي تم طلبها %s.';

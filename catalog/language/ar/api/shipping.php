@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_address']       = 'نجاح: تم ضبط عنوان الشحن !';
 $_['text_method']        = 'نجاح: تم ضبط طريقة الشحن !';

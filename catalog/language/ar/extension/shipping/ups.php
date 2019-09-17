@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_title']           = 'يو بي اس - United Parcel Service';
 $_['text_weight']          = 'الوزن:';

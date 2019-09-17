@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_success']     = 'نجاح: تم قبول قسيمة التخفيض !';
 $_['text_cart']        = 'نجاح: تم تحديث محتويات سلة الشراء!';

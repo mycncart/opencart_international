@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Locale
 $_['code']                  = 'ar';
 $_['direction']             = 'rtl';

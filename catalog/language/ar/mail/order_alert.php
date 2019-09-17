@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_subject']      = '%s - الطلب %s';
 $_['text_received']     = 'طلب جديد من المتجر.';

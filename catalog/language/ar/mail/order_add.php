@@ -1,7 +1,4 @@
 <?php
-//  Website: WWW.OpenCartArab.com
-//  E-Mail : info@OpenCartArab.com
-
 // Text
 $_['text_subject']          = '%s - الطلب %s';
 $_['text_greeting']         = 'شكرا لتعاملكم مع - %s لقد تم استلام طلبك وسيتم انهاء الطلب بعد التأكد من اتمام عملية الدفع.';
