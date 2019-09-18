@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: bluepay_hosted.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation - Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']				= 'Kreditkarte (BluePay)';
 $_['text_credit_card']			= 'Kartendetails';
@@ -16,7 +8,6 @@ $_['text_card_name']			= 'Kartenname ';
 $_['text_card_digits']			= 'Letzte Ziffern ';
 $_['text_card_expiry']			= 'Gültig bis ';
 $_['text_transaction_error']	= 'Leider gab es Fehler während der Transaktion - ';
-
 
 // Entry
 $_['entry_card']				= 'Neue oder vorhandene Karte ';

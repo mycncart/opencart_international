@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: coupon.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Gutschein';
 
@@ -17,6 +9,7 @@ $_['text_add']				= 'Neu';
 $_['text_edit']				= 'Bearbeiten';
 $_['text_percent']			= 'Prozent';
 $_['text_amount']			= 'Fixbetrag';
+$_['text_coupon']			= 'Verlauf';
 
 // Column
 $_['column_name']			= 'Name';
@@ -48,8 +41,8 @@ $_['entry_uses_customer']	= 'Verwendung pro Kunde';
 $_['entry_status']			= 'Status';
 
 // Help
-$_['help_code']				= 'Code welchen Kunden angeben müssen um Nachlass zu erhalten';
-$_['help_type']				= 'Prozente oder Fixbetrag';
+$_['help_code']				= 'Code welchen Kunden angeben müssen um Nachlass zu erhalten<br>Maximal 20 Zeichen, Klein- und/oder Grossschreibung und Zahlen. Oder Begriff wie z.B. Ostern2020, superweihnacht usw.';
+$_['help_type']				= 'Prozent oder Fixbetrag<br>Wird jeweils auf den Bruttobetrag gerechnet';
 $_['help_logged']			= 'Kunden müssen angemeldet sein um den Gutschein anwenden zu können';
 $_['help_total']			= 'Gesamtbetrag welcher mind. erreicht werden muss um den Gutschein anwenden zu können';
 $_['help_category']			= 'Alle Produkte der ausgewählten Kategorie';

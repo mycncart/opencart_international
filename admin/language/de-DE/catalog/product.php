@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: product.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']				= 'Produkte';
 
@@ -15,6 +7,9 @@ $_['text_success']				= 'Produkt erfolgreich bearbeitet';
 $_['text_list']					= 'Übersicht';
 $_['text_add']					= 'Neu';
 $_['text_edit']					= 'Bearbeiten';
+$_['text_filter']				= 'Filter';
+
+
 $_['text_plus']					= '+';
 $_['text_minus']				= '-';
 $_['text_default']				= 'Standard';
@@ -22,6 +17,7 @@ $_['text_option']				= 'Option';
 $_['text_option_value']			= 'Optionswert';
 $_['text_percent']				= 'Prozentsatz';
 $_['text_amount']				= 'Fixbetrag';
+$_['text_keyword']				= '<b style="color:lightcoral;">Keine Umlaute, Leerzeichen sowie Sonderzeichen (&%$ usw.) verwenden!</b><br />Statt Leerzeichen - oder _ (Binde-, Unterstrich) verwenden, Umlaute z.B. ä als ae eintragen.<br />Der Begriff muss einmalig sein, da ansonsten der Linkaufbau nicht mehr stimmt und ein Begriff auf mehrere zutreffen könnte!';
 
 // Column
 $_['column_name']				= 'Name';
@@ -38,6 +34,7 @@ $_['entry_description']			= 'Beschreibung';
 $_['entry_meta_title']			= 'Metatag Titel';
 $_['entry_meta_keyword']		= 'Metatag Schlüsselwörter (4-5 Begriffe)';
 $_['entry_meta_description']	= 'Metatag Beschreibung (max. 255 Zeichen)';
+$_['entry_store']				= 'Geschäfte';
 $_['entry_keyword']				= 'SEO-URL';
 $_['entry_model']				= 'Artikelnr.';
 $_['entry_sku']					= 'Bestandseinheit (SKU)';
@@ -49,19 +46,17 @@ $_['entry_mpn']					= 'Strichcode MPN';
 $_['entry_location']			= 'Lagerort';
 $_['entry_shipping']			= 'Erfordert Versand';
 $_['entry_manufacturer']		= 'Hersteller';
-$_['entry_store']				= 'Geschäfte';
 $_['entry_date_available']		= 'Verfügbar ab';
-$_['entry_quantity']			= 'Menge';
-$_['entry_minimum']				= 'Mindestbestellmenge';
+$_['entry_quantity']			= 'Lagerstand';
+$_['entry_minimum']				= 'Min. Bestellmenge';
 $_['entry_stock_status']		= 'Kein Lagerstand';
 $_['entry_price']				= 'Nettopreis';
 $_['entry_tax_class']			= 'Steuerklasse';
 $_['entry_points']				= 'Punkte';
-$_['entry_option_points']		= 'Punkte';
 $_['entry_subtract']			= 'Von Lagerstand abziehen';
 $_['entry_weight_class']		= 'Gewichtseinheit';
 $_['entry_weight']				= 'Gewicht';
-$_['entry_dimension']			= 'Abmessungen (L x B x H)';
+$_['entry_dimension']			= 'Abmessungen<br>(L x B x H)';
 $_['entry_length_class']		= 'Längeneinheit';
 $_['entry_length']				= 'Länge';
 $_['entry_width']				= 'Breite';
@@ -89,28 +84,29 @@ $_['entry_reward']				= 'Bonuspunkte';
 $_['entry_layout']				= 'Layout überschreiben';
 $_['entry_recurring']			= 'Abozahlung';
 
+
 // Help
-$_['help_keyword']				= '<b style=&quot;color:lightcoral;&quot;>Keine Umlaute, Sonderzeichen, Beistriche und Leerzeichen verwenden!</b><br />Statt Leerzeichen, Sonderzeichen - oder _ verwenden, wenn Umlaute dann ae, ue, usw.<br />Der Begriff darf insgesamt nur 1x vorkommen!';
-$_['help_sku']					= 'Siehe <a href=&quot;http://de.wikipedia.org/wiki/Stock_Keeping_Unit&quot; title=&quot;SKU bei Wikipedia&quot; target=&quot;_blank&quot;>SKU auf Wikipedia</a>';
+$_['help_sku']					= 'Artikelnummer wenn lagergeführt';
 $_['help_upc']					= 'Universale Artikelnummer';
 $_['help_ean']					= 'Europäische Artikelnummer';
 $_['help_jan']					= 'Japanische Artikelnummer';
 $_['help_isbn']					= 'Internationale Standard Buchnummer';
 $_['help_mpn']					= 'Hersteller Artikelnummer';
-$_['help_manufacturer']			= 'Begriff eintippen, System zeigt passende an';
+$_['help_manufacturer']			= 'Von welchem Hersteller ist dieser Artikel<br>(Begriff eintippen, System zeigt passende an)';
 $_['help_minimum']				= 'Mindestmenge welche bestellt werden muss';
 $_['help_stock_status']			= 'Angezeigter Status wenn Produkt nicht (mehr) lagernd ist';
 $_['help_points']				= 'Anzahl Punkte die nötig sind um dieses Produkt zu kaufen. 0 (Null) bedeutet, dass das Produkt nicht mit Punkten gekauft werden kann';
-$_['help_category']				= 'Begriff eintippen, System zeigt passende an';
-$_['help_filter']				= 'Begriff eintippen, System zeigt passende an';
-$_['help_download']				= 'Begriff eintippen, System zeigt passende an';
-$_['help_related']				= 'Begriff eintippen, System zeigt passende an';
+$_['help_category']				= 'In welchen Kategorien wird dieser Artikel geführt<br>(Begriff eintippen, System zeigt passende an)';
+$_['help_filter']				= 'Welche Filter können angewendet werden<br>(Begriff eintippen, System zeigt passende an)';
+$_['help_download']				= 'Welche Dateien sind diesem Artikel als Download zugewiesen<br>(Begriff eintippen, System zeigt passende an)';
+$_['help_related']				= 'Welche ähnlichen Artikel passen zu diesem Artikel<br>(Begriff eintippen, System zeigt passende an)';
 $_['help_tag']					= 'Begriffe mit Komma trennen, keine Wiederholungen<br />Wichtigste Begriffe an den Anfang, am besten 4-5 Begriffe';
 
 // Error
 $_['error_warning']				= 'Erforderliche Daten nicht angegeben - bitte Felder überprüfen.';
 $_['error_permission']			= 'Hinweis: keine Rechte für diese Aktion';
-$_['error_name']				= 'Produktname muss zwischen 3 und 255 Buchstaben lang sein';
-$_['error_meta_title']			= 'Metatag Titel muss zwischen 3 und 255 Zeichen lang sein';
-$_['error_model']				= 'Artikelnr. muss zwischen 2 und 64 Zeichen lang sein';
+$_['error_name']				= 'Produktname muss zwischen 1 und 255 Buchstaben lang sein';
+$_['error_meta_title']			= 'Metatag Titel muss zwischen 1 und 255 Zeichen lang sein';
+$_['error_model']				= 'Artikelnr. muss zwischen 1 und 64 Zeichen lang sein';
 $_['error_keyword']				= 'SEO URL wird bereits verwendet';
+$_['error_unique']				= 'SEO URL muss einmalig sein';

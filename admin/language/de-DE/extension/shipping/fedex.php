@@ -1,20 +1,11 @@
 <?php
-/**
- * @version		$Id: fedex.php 4467 2016-10-11 14:59:21Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']								= 'Fedex';
 
 // Text
-$_['text_extension']							= 'Erweiterungen';
 $_['text_shipping']								= 'Versand';
-$_['text_success']								= 'Datensatz erfolgreich bearbeitet!';
-$_['text_list']									= 'Übersicht';
+$_['text_success']								= 'Datensatz erfolgreich bearbeitet';
+$_['text_edit']									= 'Bearbeiten';
 $_['text_europe_first_international_priority']	= 'Europa Erste Priorität';
 $_['text_fedex_1_day_freight']					= 'Fedex 1 Tag Fracht';
 $_['text_fedex_2_day']							= 'Fedex 2 Tage';

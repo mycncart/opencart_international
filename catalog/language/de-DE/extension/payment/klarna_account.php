@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: klarna_account.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation - Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']			= 'Klarna - Bezahlen ab %s/Monat';
 $_['text_terms']			= '<span id="klarna_account_toc"></span><script type="text/javascript">var terms = new Klarna.Terms.Account({el: \'klarna_account_toc\', eid: \'%s\', country: \'%s\'});</script>';
@@ -21,8 +13,6 @@ $_['text_payment_option']	= 'Zahlungsoptionen';
 $_['text_single_payment']	= 'Einmalzahlung';
 $_['text_monthly_payment']	= '%s - %s pro Monat';
 $_['text_comment']			= "Klarna Rechnungsnr.: %s\n%s/%s: %.4f";
-	// old
-$_['text_pay_month']		= 'Klarna Zahlung von %s / Monat <span id="klarna_account_toc_link"></span><script text="javascript">$.getScript(\'http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js\', function(){ var terms = new Klarna.Terms.Account({ el: \'klarna_account_toc_link\', eid: \'%s\', country: \'%s\'});})</script>';
 
 // Entry
 $_['entry_gender']			= 'Geschlecht';

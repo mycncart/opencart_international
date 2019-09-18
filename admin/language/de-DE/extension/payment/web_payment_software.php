@@ -1,41 +1,32 @@
 <?php
-/**
- * @version		$Id: web_payment_software.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']				= 'Web Payment Software';
 
 // Text
-$_['text_extension']			= 'Erweiterungen';
-$_['text_success']				= 'Datensatz erfolgreich bearbeitet';
-$_['text_edit']					= 'Bearbeiten';
+$_['text_extension']			= 'Extensions';
+$_['text_success']				= 'Success: You have modified Web Payment Software account details!';
+$_['text_edit']                 = 'Edit AWeb Payment Software';
 $_['text_web_payment_software']	= '<a href="http://www.web-payment-software.com/" target="_blank"><img src="view/image/payment/wps-logo.jpg" alt="Web Payment Software" title="Web Payment Software" style="border: 1px solid #EEEEEE;" /></a>';
 $_['text_test']					= 'Test';
 $_['text_live']					= 'Live';
-$_['text_authorization']		= 'Genehmigung';
-$_['text_capture']				= 'Erfassung';
-	// old
-$_['text_payment']				= 'Zahlart';
+$_['text_authorization']		= 'Authorization';
+$_['text_capture']				= 'Capture';
 
 // Entry
-$_['entry_login']				= 'Händlernummer';
-$_['entry_key']					= 'Händlerschlüssel';
-$_['entry_mode']				= 'Transaktionsmodus';
-$_['entry_method']              = 'Transaktionsart';
-$_['entry_total']				= 'Summe';
-$_['entry_order_status']		= 'Auftragsstatus';
-$_['entry_geo_zone']			= 'Geozone';
+$_['entry_login']				= 'Merchant ID';
+$_['entry_key']					= 'Merchant Key';
+$_['entry_mode']				= 'Transaction Mode';
+$_['entry_method']				= 'Transaction Method';
+$_['entry_total']				= 'Total';
+$_['entry_order_status']		= 'Order Status';
+$_['entry_geo_zone']			= 'Geo Zone';
 $_['entry_status']				= 'Status';
-$_['entry_sort_order']			= 'Reihenfolge';
+$_['entry_sort_order']			= 'Sort Order';
 
-$_['help_total']				= 'Mindestgesamtsumme im Warenkorb damit diese Zahlungsart verfügbar ist';
+// Help
+$_['help_total']				= 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']			= 'Keine Rechte für diese Aktion';
-$_['error_login']				= 'Händlernummer erforderlich';
-$_['error_key']					= 'Händlerschlüssel erforderlich';
+$_['error_permission']			= 'Warning: You do not have permission to modify payment Web Payment Software!';
+$_['error_login']				= 'Login ID Required!';
+$_['error_key']					= 'Transaction Key Required!';

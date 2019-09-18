@@ -14,4 +14,4 @@ $_['text_account']		= 'Konto';
 $_['text_order']		= 'Auftragsverlauf';
 $_['text_wishlist']		= 'Wunschliste';
 $_['text_newsletter']	= 'Newsletter';
-$_['text_powered']		= 'Powered By  <a href="http://www.opencartchina.com">OpenCartChina</a><br /> %s &copy; %s';
+$_['text_powered']		= '<span style="color:#666666">Powered By <a href="http://www.opencart.com" target="_blank" title="OpenCart">OpenCart</a> &amp; <a href="https://osworx.net" title="OSWorX" target="_blank">OSWorX</a><br /> %s &copy; %s</span>';

@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: length_class.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Längeneinheiten';
 

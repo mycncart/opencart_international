@@ -1,108 +1,98 @@
 <?php
-/**
- * @version		$Id: realex.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']			= 'Realex Redirect';
-$_['text_realex']			= '<a target="_blank" href="http://www.realexpayments.co.uk/partner-refer?id=opencart"><img src="view/image/payment/realex.png" alt="Realex" title="Realex" style="border: 1px solid #EEEEEE;" /></a>';
+$_['heading_title']					 = 'Realex Redirect';
 
 // Text
-$_['text_extension']		= 'Erweiterungen';
-$_['text_success']			= 'Datensatz erfolgreich aktualisiert';
-$_['text_edit']				= 'Bearbeiten';
-$_['text_live']				= 'Live';
-$_['text_demo']				= 'Demo';
-$_['text_card_type']		= 'Kartenart';
-$_['text_enabled']			= 'Aktiviert';
-$_['text_use_default']		= 'Standard verwenden';
-$_['text_merchant_id']		= 'Händlernr.';
-$_['text_subaccount']		= 'Unterkonto';
-$_['text_secret']			= 'Geheimbegriff';
-$_['text_card_visa']		= 'Visa';
-$_['text_card_master']		= 'Mastercard';
-$_['text_card_amex']		= 'American Express';
-$_['text_card_switch']		= 'Switch/Maestro';
-$_['text_card_laser']		= 'Laser';
-$_['text_card_diners']		= 'Diners';
-$_['text_capture_ok']		= 'Daten erfolgreich geholt';
-$_['text_capture_ok_order']	= 'Daten erfolgreich geholt, Auftragsstatus angepasst';
-$_['text_rebate_ok']		= 'Nachlass erfolgreich';
-$_['text_rebate_ok_order']	= 'Nachlass war erfolgreich, Auftragsstatus angepasst';
-$_['text_void_ok']			= 'Ungültig war erfolgreich, Auftargsstatus angepasst';
-$_['text_settle_auto']		= 'Auto';
-$_['text_settle_delayed']	= 'Verzögert';
-$_['text_settle_multi']		= 'Multi';
-$_['text_url_message']		= 'Die URL muss dem Realexbetreuer vor dem Liveschalten mitgeteilt werden';
-$_['text_payment_info']		= 'Zahlungsinfo';
-$_['text_capture_status']	= 'Zahlung übernommen';
-$_['text_void_status']		= 'Zahlung ungültig';
-$_['text_rebate_status']	= 'Zahlung rabbatiert';
-$_['text_order_ref']		= 'Auftragsreferenz';
-$_['text_order_total']		= 'Gesamt authorisiert';
-$_['text_total_captured']	= 'Gesamt übernommen';
-$_['text_transactions']		= 'Transaktionen';
-$_['text_column_amount']	= 'Betrag';
-$_['text_column_type']		= 'Art';
-$_['text_column_date_added'] = 'Erstellt';
-$_['text_confirm_void']		= 'Sicher diese Zahlung für ungültig erklären?';
-$_['text_confirm_capture']	= 'Sicher diese Zahlung übernehmen?';
-$_['text_confirm_rebate']	= 'Sicher diese Zahlung rabattieren?';
-	// old
-$_['text_payment']			= 'Zahlart';
+$_['text_extension']				 = 'Extensions';
+$_['text_success']					 = 'Success: You have modified Realex account details!';
+$_['text_edit']                      = 'Edit Realex Redirect';
+$_['text_live']						 = 'Live';
+$_['text_demo']						 = 'Demo';
+$_['text_card_type']				 = 'Card type';
+$_['text_enabled']					 = 'Enabled';
+$_['text_use_default']				 = 'Use default';
+$_['text_merchant_id']				 = 'Merchant ID';
+$_['text_subaccount']				 = 'Subaccount';
+$_['text_secret']					 = 'Shared secret';
+$_['text_card_visa']				 = 'Visa';
+$_['text_card_master']				 = 'Mastercard';
+$_['text_card_amex']				 = 'American Express';
+$_['text_card_switch']				 = 'Switch/Maestro';
+$_['text_card_laser']				 = 'Laser';
+$_['text_card_diners']				 = 'Diners';
+$_['text_capture_ok']				 = 'Capture was successful';
+$_['text_capture_ok_order']			 = 'Capture was successful, order status updated to success - settled';
+$_['text_rebate_ok']				 = 'Rebate was successful';
+$_['text_rebate_ok_order']			 = 'Rebate was successful, order status updated to rebated';
+$_['text_void_ok']					 = 'Void was successful, order status updated to voided';
+$_['text_settle_auto']				 = 'Auto';
+$_['text_settle_delayed']			 = 'Delayed';
+$_['text_settle_multi']				 = 'Multi';
+$_['text_url_message']				 = 'You must supply the store URL to your Realex account manager before going live';
+$_['text_payment_info']				 = 'Payment information';
+$_['text_capture_status']			 = 'Payment captured';
+$_['text_void_status']				 = 'Payment voided';
+$_['text_rebate_status']			 = 'Payment rebated';
+$_['text_order_ref']				 = 'Order ref';
+$_['text_order_total']				 = 'Total authorised';
+$_['text_total_captured']			 = 'Total captured';
+$_['text_transactions']				 = 'Transactions';
+$_['text_column_amount']			 = 'Amount';
+$_['text_column_type']				 = 'Type';
+$_['text_column_date_added']		 = 'Created';
+$_['text_confirm_void']				 = 'Are you sure you want to void the payment?';
+$_['text_confirm_capture']			 = 'Are you sure you want to capture the payment?';
+$_['text_confirm_rebate']			 = 'Are you sure you want to rebate the payment?';
+$_['text_realex']					 = '<a target="_blank" href="http://www.realexpayments.co.uk/partner-refer?id=opencart"><img src="view/image/payment/realex.png" alt="Realex" title="Realex" style="border: 1px solid #EEEEEE;" /></a>';
 
 // Entry
-$_['entry_merchant_id']		= 'Händlernummer';
-$_['entry_secret']			= 'Geheimbegriff';
-$_['entry_rebate_password']	= 'Rabattpasswort';
-$_['entry_total']			= 'Gesamt';
-$_['entry_sort_order']		= 'Reihenfolge';
-$_['entry_geo_zone']		= 'Geozone';
-$_['entry_status']			= 'Status';
-$_['entry_debug']			= 'Berichte aktiv';
-$_['entry_live_demo']		= 'Live / Demo';
-$_['entry_auto_settle']		= 'Abrechnungsart';
-$_['entry_card_select']		= 'Karte wählen';
-$_['entry_tss_check']		= 'Prüfe TSS';
-$_['entry_live_url']		= 'URL Liveverbindung';
-$_['entry_demo_url']		= 'URL Demoverbindung';
-$_['entry_status_success_settled']		= 'Abrechnung erfolgreich';
-$_['entry_status_success_unsettled']	= 'Keine Abrechnung erfolgreich';
-$_['entry_status_decline']				= 'Ablehnen';
-$_['entry_status_decline_pending']		= 'Ablehnung Offline';
-$_['entry_status_decline_stolen']		= 'Ablehnung - Karte gestohlen';
-$_['entry_status_decline_bank']			= 'Ablehnung - Bankenfehler';
-$_['entry_status_void']					= 'Ungültig';
-$_['entry_status_rebate']				= 'Ermässigt';
-$_['entry_notification_url']			= 'Benachrichtigungs-URL';
+$_['entry_merchant_id']				 = 'Merchant ID';
+$_['entry_secret']					 = 'Shared secret';
+$_['entry_rebate_password']			 = 'Rebate password';
+$_['entry_total']					 = 'Total';
+$_['entry_sort_order']				 = 'Sort order';
+$_['entry_geo_zone']				 = 'Geo zone';
+$_['entry_status']					 = 'Status';
+$_['entry_debug']					 = 'Debug logging';
+$_['entry_live_demo']				 = 'Live / Demo';
+$_['entry_auto_settle']				 = 'Settlement type';
+$_['entry_card_select']				 = 'Select card';
+$_['entry_tss_check']				 = 'TSS checks';
+$_['entry_live_url']				 = 'Live connection URL';
+$_['entry_demo_url']				 = 'Demo connection URL';
+$_['entry_status_success_settled']	 = 'Success - settled';
+$_['entry_status_success_unsettled'] = 'Success - not settled';
+$_['entry_status_decline']			 = 'Decline';
+$_['entry_status_decline_pending']	 = 'Decline - offline auth';
+$_['entry_status_decline_stolen']	 = 'Decline - lost or stolen card';
+$_['entry_status_decline_bank']		 = 'Decline - bank error';
+$_['entry_status_void']				 = 'Voided';
+$_['entry_status_rebate']			 = 'Rebated';
+$_['entry_notification_url']		 = 'Notification URL';
 
 // Help
-$_['help_total']			= 'Mindestgesamtsumme der Warenkorb haben muss damit diese Zahlart angezeigt wird';
-$_['help_card_select']		= 'Kunde fragen welche Karte verwendet wird vor der Weiterleitung';
-$_['help_notification']		= 'Diese URL muss an Realex übermittelt werden damit Zahlungsbenachrichtigungen möglich sind';
-$_['help_debug']			= 'Zeichnet Transaktionsdaten auf - nur verwenden bei Fehlersuche!';
-$_['help_dcc_settle']		= 'Wenn das Unterkonto DCC aktiviert hat, dann muss Autosettle verwendet werden';
+$_['help_total']					 = 'The checkout total the order must reach before this payment method becomes active';
+$_['help_card_select']				 = 'Ask the user to choose their card type before they are redirected';
+$_['help_notification']				 = 'You need to supply this URL to Realex to get payment notifications';
+$_['help_debug']					 = 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise';
+$_['help_dcc_settle']				 = 'If your subaccount is DCC enabled you must use Autosettle';
 
 // Tab
-$_['tab_api']				= 'API Details';
-$_['tab_account']			= 'API info';
-$_['tab_order_status']		= 'Auftragsstatus';
-$_['tab_payment']			= 'Zahlungseinstellungen';
-$_['tab_advanced']			= 'Erweitert';
+$_['tab_api']					     = 'API Details';
+$_['tab_account']		     		 = 'Accounts';
+$_['tab_order_status']				 = 'Order status';
+$_['tab_payment']					 = 'Payment settings';
+$_['tab_advanced']					 = 'Advanced';
 
 // Button
-$_['button_capture']		= 'Holen';
-$_['button_rebate']			= 'Rabatt / Rückzahlen';
-$_['button_void']			= 'Ungültig';
+$_['button_capture']				 = 'Capture';
+$_['button_rebate']					 = 'Rebate / refund';
+$_['button_void']					 = 'Void';
 
 // Error
-$_['error_merchant_id']		= 'Händlernummer erforderlich';
-$_['error_secret']			= 'Geheimbegriff erforderlich';
-$_['error_live_url']		= 'Live URL ist erforderlich';
-$_['error_demo_url']		= 'Demo URL ist erforderlich';
-$_['error_data_missing']	= 'Einige Angaben fehlen';
-$_['error_use_select_card']	= '<b>Karte wählen</b> muss aktiviert sein für Unterkonten';
+$_['error_merchant_id']				 = 'Merchant ID is required';
+$_['error_secret']					 = 'Shared secret is required';
+$_['error_live_url']				 = 'Live URL is required';
+$_['error_demo_url']				 = 'Demo URL is required';
+$_['error_data_missing']			 = 'Data missing';
+$_['error_use_select_card']			 = 'You must have "Select Card" enabled for subaccount routing by card type to work';

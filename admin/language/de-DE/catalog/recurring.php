@@ -1,17 +1,9 @@
 <?php
-/**
- * @version		$Id: recurring.php 3858 2015-03-05 11:05:09Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Abozahlungen';
 
 // Text
-$_['text_success']			= 'Abozahlung wurde erfolgreich bearbeitet';
+$_['text_success']			= 'Abozahlung erfolgreich bearbeitet';
 $_['text_list']				= 'Übersicht';
 $_['text_add']				= 'Neu';
 $_['text_edit']				= 'Bearbeiten';

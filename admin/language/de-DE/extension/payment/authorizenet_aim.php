@@ -1,47 +1,34 @@
 <?php
-/**
- * @version		$Id: authorizenet_aim.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
-// Link
-$_['text_authorizenet_aim'] = '<a onclick="window.open(\'http://reseller.authorize.net/application/?id=5561103\');"><img src="view/image/payment/authorizenet.png" alt="Authorize.Net" title="Authorize.Net" style="border: 1px solid #EEEEEE;" /></a>';
-
 // Heading
-$_['heading_title']			= 'Authorize.Net (AIM)';
+$_['heading_title']         = 'Authorize.Net (AIM)';
 
 // Text
-$_['text_extension']		= 'Erweiterungen';
-$_['text_success']			= 'Datensatz erfolgreich bearbeitet';
-$_['text_edit']				= 'Bearbeiten';
-$_['text_test']				= 'Test';
-$_['text_live']				= 'Live';
-$_['text_authorization']	= 'Genehmigung';
-$_['text_capture']			= 'Erfassen';
-$_['text_authorizenet_aim']	= '<a onclick="window.open(\'http://reseller.authorize.net/application/?id=5561103\');"><img src="view/image/payment/authorizenet.png" alt="Authorize.Net" title="Authorize.Net" style="border: 1px solid #EEEEEE;" /></a>';
-	// old
-$_['text_payment']			= 'Zahlung';
+$_['text_extension']        = 'Extensions';
+$_['text_success']          = 'Success: You have modified Authorize.Net (AIM) account details!';
+$_['text_edit']             = 'Edit Authorize.Net (AIM)';
+$_['text_test']             = 'Test';
+$_['text_live']             = 'Live';
+$_['text_authorization']    = 'Authorization';
+$_['text_capture']          = 'Capture';
+$_['text_authorizenet_aim'] = '<a href="https://account.authorize.net/signUpNow?resellerID=26357" target="_BLANK"><img src="view/image/payment/authorizenet.png" alt="Authorize.Net" title="Authorize.Net" style="border: 1px solid #EEEEEE;" /></a>';
 
 // Entry
-$_['entry_login']			= 'Anmeldename';
-$_['entry_key']				= 'Transaktionsschlüssel';
-$_['entry_hash']			= 'MD5 Hash';
-$_['entry_server']			= 'Transaktionsserver';
-$_['entry_mode']			= 'Transaktionsmodus';
-$_['entry_method']			= 'Transaktionsmethode';
-$_['entry_total']			= 'Summe';
-$_['entry_order_status']	= 'Auftragsstatus';
-$_['entry_geo_zone']		= 'Geozone';
-$_['entry_status']			= 'Status';
-$_['entry_sort_order']		= 'Reihenfolge';
+$_['entry_login']           = 'Login ID';
+$_['entry_key']             = 'Transaction Key';
+$_['entry_hash']            = 'MD5 Hash';
+$_['entry_server']          = 'Transaction Server';
+$_['entry_mode']            = 'Transaction Mode';
+$_['entry_method']          = 'Transaction Method';
+$_['entry_total']           = 'Total';
+$_['entry_order_status']    = 'Order Status';
+$_['entry_geo_zone']        = 'Geo Zone';
+$_['entry_status']          = 'Status';
+$_['entry_sort_order']      = 'Sort Order';
 
 // Help
-$_['help_total']			= 'Gesamtsumme der Warenkorb haben muss damit diese Zahlart angewendet wird';
+$_['help_total']            = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']		= 'Keine Rechte für diese Aktion';
-$_['error_login']			= 'Anmeldename erforderlich!';
-$_['error_key']				= 'Transaktionsschlüssel erforderlich!';
+$_['error_permission']      = 'Warning: You do not have permission to modify payment Authorize.Net (SIM)!';
+$_['error_login']           = 'Login ID Required!';
+$_['error_key']             = 'Transaction Key Required!';

@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: module.php 4564 2016-12-01 13:12:47Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Module';
 
@@ -18,6 +10,7 @@ $_['text_list']			= 'Übersicht';
 
 // Column
 $_['column_name']		= 'Name';
+$_['column_status']		= 'Status';
 $_['column_action']		= 'Aktion';
 
 // Entry
@@ -25,6 +18,6 @@ $_['entry_code']		= 'Modul';
 $_['entry_name']		= 'Name';
 
 // Error
-$_['error_permission']	= 'Keine Rechte zum Bearbeiten';
+$_['error_permission']	= 'Keine Berechtigung zum bearbeiten';
 $_['error_name']		= 'Name muss zwischen 3 und 64 Zeichen lang sein';
 $_['error_code']		= 'Erweiterung erforderlich';

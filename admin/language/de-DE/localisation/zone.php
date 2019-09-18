@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: zone.php 4074 2015-10-07 14:46:06Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Länderzone';
 
@@ -30,7 +22,7 @@ $_['entry_status']			= 'Status';
 
 // Error
 $_['error_permission']		= 'Keine Rechte für diese Aktion';
-$_['error_name']			= 'Name muss zwischen 3 und 128 Zeichen lang sein';
+$_['error_name']			= 'Name muss zwischen 1 und 128 Zeichen lang sein';
 $_['error_default']			= 'Zone kann nicht gelöscht werden da als Standardvorgabe definiert';
 $_['error_store']			= 'Zone kann nicht gelöscht werden da sie aktuell %s Shop(s) zugeordnet ist';
 $_['error_address']			= 'Zone kann nicht gelöscht werden da sie %s Adressbucheinträgen zugeordnet ist';

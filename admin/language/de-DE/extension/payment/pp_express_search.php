@@ -1,93 +1,73 @@
 <?php
-/**
- * @version		$Id: pp_express_search.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']				= 'Durchsuche Transaktionen';
+$_['heading_title']			   = 'Search Transactions';
 
 // Text
-$_['text_pp_express']			= 'PayPal Express';
-$_['text_date_search']			= 'Suche nach Datum';
-$_['text_searching']			= 'Suche ..';
-$_['text_name']					= 'Name';
-$_['text_buyer_info']			= 'Käuferinfo';
-$_['text_view']					= 'Anzeigen';
-$_['text_format']				= 'Format';
+$_['text_pp_express']		   = 'PayPal Express Checkout';
+$_['text_date_search']		   = 'Search by date';
+$_['text_searching']		   = 'Searching';
+$_['text_name']				   = 'Name';
+$_['text_buyer_info']		   = 'Buyer information';
+$_['text_view']				   = 'View';
+$_['text_format']			   = 'Format';
 
 // Column
-$_['column_date']				= 'Datum';
-$_['column_type']				= 'Art';
-$_['column_email']				= 'Email';
-$_['column_name']				= 'Name';
-$_['column_transid']			= 'Transaktionsnr.';
-$_['column_status']				= 'Status';
-$_['column_currency']			= 'Währung';
-$_['column_amount']				= 'Betrag';
-$_['column_fee']				= 'Gebühr';
-$_['column_netamt']				= 'Nettobetrag';
-$_['column_action']				= 'Aktion';
-	// OC < 2.2
-$_['tbl_column_date']			= 'Datum';
-$_['tbl_column_type']			= 'Art';
-$_['tbl_column_email']			= 'Email';
-$_['tbl_column_name']			= 'Name';
-$_['tbl_column_transid']		= 'Transaktionsnr.';
-$_['tbl_column_status']			= 'Status';
-$_['tbl_column_currency']		= 'Währung';
-$_['tbl_column_amount']			= 'Betrag';
-$_['tbl_column_fee']			= 'Gebühr';
-$_['tbl_column_netamt']			= 'Nettobetrag';
-$_['tbl_column_action']			= 'Aktion';
+$_['column_date']			   = 'Date';
+$_['column_type']			   = 'Type';
+$_['column_email']			   = 'Email';
+$_['column_name']			   = 'Name';
+$_['column_transid']		   = 'Transaction ID';
+$_['column_status']			   = 'Status';
+$_['column_currency']		   = 'Currency';
+$_['column_amount']			   = 'Amount';
+$_['column_fee']			   = 'Fee';
+$_['column_netamt']		       = 'Net Amount';
+$_['column_action']		       = 'Action';
 
 // Entry
-$_['entry_trans_all']			= 'Alle';
-$_['entry_trans_sent']			= 'Gesendet';
-$_['entry_trans_received']		= 'Erhalten';
-$_['entry_trans_masspay']		= 'Massenzahlung';
-$_['entry_trans_money_req']		= 'Anforderung';
-$_['entry_trans_funds_add']		= 'Barmittel hinzugefügt';
-$_['entry_trans_funds_with']	= 'Barmittel zurückgezogen';
-$_['entry_trans_referral']		= 'Verwiesen';
-$_['entry_trans_fee']			= 'Gebühr';
-$_['entry_trans_subscription']	= 'Abo';
-$_['entry_trans_dividend']		= 'Gewinnanteil';
-$_['entry_trans_billpay']		= 'Rechnungszahlung';
-$_['entry_trans_refund']		= 'Rückerstattung';
-$_['entry_trans_conv']			= 'Währungsumrechung';
-$_['entry_trans_bal_trans']		= 'Transfer ausgleichen';
-$_['entry_trans_reversal']		= 'Storno';
-$_['entry_trans_shipping']		= 'Versand';
-$_['entry_trans_bal_affect']	= 'Ausgleich ausgeführt';
-$_['entry_trans_echeque']		= 'E-Check';
-$_['entry_date']				= 'Datum';
-$_['entry_date_start']			= 'Beginn';
-$_['entry_date_end']			= 'Ende';
-$_['entry_date_to']				= 'bis';
-$_['entry_transaction']			= 'Transaktion';
-$_['entry_transaction_type']	= 'Art';
-$_['entry_transaction_status']	= 'Status';
-$_['entry_email']				= 'Email';
-$_['entry_email_buyer']			= 'Käufer';
-$_['entry_email_merchant']		= 'Händler';
-$_['entry_receipt']				= 'Empfangsnr.';
-$_['entry_transaction_id']		= 'Transaktionsnr.';
-$_['entry_invoice_no']			= 'Rechnungsnr.';
-$_['entry_auction']				= 'Auktionsnummer';
-$_['entry_amount']				= 'Betrag';
-$_['entry_recurring_id']		= 'Abo-Profilnr.';
-$_['entry_salutation']			= 'Anrede';
-$_['entry_firstname']			= 'Vorname';
-$_['entry_middlename']			= '2. Vorname';
-$_['entry_lastname']			= 'Nachname';
-$_['entry_suffix']				= 'Vorzeichen';
-$_['entry_status_all']			= 'Alle';
-$_['entry_status_pending']		= 'In Wartestellung';
-$_['entry_status_processing']	= 'In Verarbeitung';
-$_['entry_status_success']		= 'Erfolgreich';
-$_['entry_status_denied']		= 'Abgelehnt';
-$_['entry_status_reversed']		= 'Umgebucht';
+$_['entry_trans_all']		   = 'All';
+$_['entry_trans_sent']		   = 'Sent';
+$_['entry_trans_received']     = 'Received';
+$_['entry_trans_masspay']	   = 'Mass Pay';
+$_['entry_trans_money_req']	   = 'Money Request';
+$_['entry_trans_funds_add']	   = 'Funds Added';
+$_['entry_trans_funds_with']   = 'Funds Withdrawn';
+$_['entry_trans_referral']	   = 'Referral';
+$_['entry_trans_fee']		   = 'Fee';
+$_['entry_trans_subscription'] = 'Subscription';
+$_['entry_trans_dividend']     = 'Dividend';
+$_['entry_trans_billpay']      = 'Bill Pay';
+$_['entry_trans_refund']       = 'Refund';
+$_['entry_trans_conv']         = 'Currency Conversion';
+$_['entry_trans_bal_trans']	   = 'Balance Transfer';
+$_['entry_trans_reversal']	   = 'Reversal';
+$_['entry_trans_shipping']	   = 'Shipping';
+$_['entry_trans_bal_affect']   = 'Balance Affecting';
+$_['entry_trans_echeque']	   = 'E Check';
+$_['entry_date']			   = 'Date';
+$_['entry_date_start']		   = 'Start';
+$_['entry_date_end']		   = 'End';
+$_['entry_date_to']			   = 'to';
+$_['entry_transaction']		   = 'Transaction';
+$_['entry_transaction_type']   = 'Type';
+$_['entry_transaction_status'] = 'Status';
+$_['entry_email']			   = 'Email';
+$_['entry_email_buyer']		   = 'Buyer';
+$_['entry_email_merchant']	   = 'Receiver';
+$_['entry_receipt']			   = 'Receipt ID';
+$_['entry_transaction_id']	   = 'Transaction ID';
+$_['entry_invoice_no']		   = 'Invoice number';
+$_['entry_auction']			   = 'Auction item number';
+$_['entry_amount']			   = 'Amount';
+$_['entry_recurring_id']	   = 'Recurring Profile ID';
+$_['entry_salutation']		   = 'Salutation';
+$_['entry_firstname']		   = 'First';
+$_['entry_middlename']		   = 'Middle';
+$_['entry_lastname']		   = 'Last';
+$_['entry_suffix']			   = 'Suffix';
+$_['entry_status_all']		   = 'All';
+$_['entry_status_pending']	   = 'Pending';
+$_['entry_status_processing']  = 'Processing';
+$_['entry_status_success']	   = 'Success';
+$_['entry_status_denied']	   = 'Denied';
+$_['entry_status_reversed']	   = 'Reversed';

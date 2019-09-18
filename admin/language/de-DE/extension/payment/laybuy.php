@@ -1,31 +1,20 @@
 <?php
-/**
- * @version		$Id: laybuy.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- *
- * Hinweis: da australische Zahlungsart nur tw. übersetzt
- * Wird Übersetzung benötigt, kann diese gegen Bezahlung erfolgen
- */
-
 // Heading
 $_['heading_title']                 = 'Lay-Buy';
-$_['heading_transaction_title']     = 'Transaktion';
+$_['heading_transaction_title']     = 'Transaction';
 
 // Tab
-$_['tab_settings']                  = 'Einstellungen';
-$_['tab_reports']                   = 'Berichte';
-$_['tab_reference']                 = 'Referenz Information';
-$_['tab_customer']                  = 'Kunden Information';
-$_['tab_payment']                   = 'Zahlungen';
-$_['tab_modify']                    = 'Bearbeiten';
+$_['tab_settings']                  = 'Settings';
+$_['tab_reports']                   = 'Reports';
+$_['tab_reference']                 = 'Reference Information';
+$_['tab_customer']                  = 'Customer Information';
+$_['tab_payment']                   = 'Payment Plan';
+$_['tab_modify']                    = 'Modify Plan';
 
 // Text
-$_['text_extension']                = 'Erweiterungen';
-$_['text_success']                  = 'Einstellungen erfolgreich bearbeitet';
-$_['text_edit']                     = 'Bearbeiten';
+$_['text_extension']                = 'Extensions';
+$_['text_success']                  = 'Success: You have modified Lay-Buy payment module!';
+$_['text_edit']                     = 'Edit Lay-Buy';
 $_['text_laybuy']                   = '<a href="https://www.lay-buys.com" target="_blank"><img src="view/image/payment/laybuys.png" style="width:94px;height:25px" alt="Lay-Buys" title="Lay-Buys"></a>';
 $_['text_cancel_success']           = 'Transaction was canceled successfully.';
 $_['text_cancel_failure']           = 'Cancel request was unsuccessful. Please try again!';
@@ -76,8 +65,7 @@ $_['text_no_cron_time']             = 'The cron has not yet been executed';
 $_['text_comment'] 	                = 'Updated by Lay-Buy';
 $_['text_comment_canceled'] 	    = 'Order canceled and recurring PayPal Profile #%s canceled.';
 $_['text_remaining'] 	            = 'Remaining:';
-	// old
-$_['text_payment']                  = 'Zahlung';
+$_['text_payment'] 	                = 'Payment';
 
 // Column
 $_['column_order_id']               = 'Order ID';

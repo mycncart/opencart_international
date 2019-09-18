@@ -1,17 +1,6 @@
 <?php
-/**
- * @version		$Id: pilibaba.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- *
- * da dies eine Zahlart für China ist, wird eine Übersetzung
- * nur gegen Bezahlung angeboten
- */
-
 // Heading
-$_['heading_title']         = 'Pilibaba für chinesische Kunden';
+$_['heading_title']         = 'Pilibaba for Chinese Checkout';
 
 // Tab
 $_['tab_register']          = 'Register';

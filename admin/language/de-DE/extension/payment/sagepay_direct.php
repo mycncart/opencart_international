@@ -1,73 +1,65 @@
 <?php
-/**
- * @version		$Id: sagepay_direct.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']			= 'SagePay Direkt';
+$_['heading_title']			  = 'SagePay Direct';
 
 // Text
-$_['text_extension']		= 'Erweiterungen';
-$_['text_success']			= 'Datensatz erfolgreich bearbeitet';
-$_['text_edit']				= 'Bearbeiten';
-$_['text_sagepay_direct']	= '<a href="https://support.sagepay.com/apply/default.aspx?PartnerID=E511AF91-E4A0-42DE-80B0-09C981A3FB61" target="_blank"><img src="view/image/payment/sagepay.png" alt="SagePay" title="SagePay" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_sim']				= 'Simulation';
-$_['text_test']				= 'Test';
-$_['text_live']				= 'Live';
-$_['text_defered']			= 'Zurück gestellt';
-$_['text_authenticate']		= 'Genehmigen';
-$_['text_release_ok']		= 'Freigabe erfolgreich';
-$_['text_release_ok_order']	= 'Freigabe erfolgreich durchgeführt, Auftragstatus angepasst';
-$_['text_rebate_ok']		= 'Nachlass erfolgreich';
-$_['text_rebate_ok_order']	= 'Nachlass erfolgreich angewendet, Auftragsstatus angepasst';
-$_['text_void_ok']			= 'Ungültig erfolgreich angwendet, Auftragsstatus angepasst';
-$_['text_payment_info']		= 'Zahlungsinfo';
-$_['text_release_status']	= 'Zahlung freigegeben';
-$_['text_void_status']		= 'Zahlung ungültig';
-$_['text_rebate_status']	= 'Zahlugn ermässigt';
-$_['text_order_ref']		= 'Auftragsreferenz';
-$_['text_order_total']		= 'Gesamt genehmigt';
-$_['text_total_released']	= 'Gesamt freigegeben';
-$_['text_transactions']		= 'Transaktionen';
-$_['text_column_amount']	= 'Betrag';
-$_['text_column_type']		= 'Art';
-$_['text_column_date_added']= 'Erstellt';
-$_['text_confirm_void']		= 'Sicher diese Zahlung ungültig erklären?';
-$_['text_confirm_release']	= 'Sicher diese Zahlung freigeben?';
-$_['text_confirm_rebate']	= 'Sicher diese Zahlung ermässigen?';
-	// old
-$_['text_payment']			= 'Zahlart';
+$_['text_extension']		  = 'Extensions';
+$_['text_success']			  = 'Success: You have modified SagePay account details!';
+$_['text_edit']               = 'Edit SagePay Direct';
+$_['text_sagepay_direct']	  = '<a href="https://support.sagepay.com/apply/default.aspx?PartnerID=E511AF91-E4A0-42DE-80B0-09C981A3FB61" target="_blank"><img src="view/image/payment/sagepay.png" alt="SagePay" title="SagePay" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_sim']				  = 'Simulator';
+$_['text_test']				  = 'Test';
+$_['text_live']				  = 'Live';
+$_['text_defered']			  = 'Defered';
+$_['text_authenticate']		  = 'Authenticate';
+$_['text_payment']		  = 'Payment';
+$_['text_release_ok']		  = 'Release was successful';
+$_['text_release_ok_order']	  = 'Release was successful, order status updated to success - settled';
+$_['text_rebate_ok']		  = 'Rebate was successful';
+$_['text_rebate_ok_order']	  = 'Rebate was successful, order status updated to rebated';
+$_['text_void_ok']			  = 'Void was successful, order status updated to voided';
+$_['text_payment_info']		  = 'Payment information';
+$_['text_release_status']	  = 'Payment released';
+$_['text_void_status']		  = 'Payment voided';
+$_['text_rebate_status']	  = 'Payment rebated';
+$_['text_order_ref']		  = 'Order ref';
+$_['text_order_total']		  = 'Total authorised';
+$_['text_total_released']	  = 'Total released';
+$_['text_transactions']		  = 'Transactions';
+$_['text_column_amount']	  = 'Amount';
+$_['text_column_type']		  = 'Type';
+$_['text_column_date_added']  = 'Created';
+$_['text_confirm_void']		  = 'Are you sure you want to void the payment?';
+$_['text_confirm_release']	  = 'Are you sure you want to release the payment?';
+$_['text_confirm_rebate']	  = 'Are you sure you want to rebate the payment?';
 
 // Entry
-$_['entry_vendor']			= 'Händler';
-$_['entry_test']			= 'Testmodus';
-$_['entry_transaction']		= 'Transaktionsmethode';
-$_['entry_total']			= 'Summe';
-$_['entry_order_status']	= 'Auftragsstatus';
-$_['entry_geo_zone']		= 'Geozone';
-$_['entry_status']			= 'Status';
-$_['entry_sort_order']		= 'Reihenfolge';
-$_['entry_debug']			= 'Berichte aufzeichnen';
-$_['entry_card']			= 'Speichere Karten';
-$_['entry_cron_job_token']	= 'Geheimbegriff';
-$_['entry_cron_job_url']	= 'URL für Cronjob';
-$_['entry_last_cron_job_run']	= 'Cronjob lief zuletzt';
+$_['entry_vendor']			  = 'Vendor';
+$_['entry_test']			  = 'Test Mode';
+$_['entry_transaction']		  = 'Transaction Method';
+$_['entry_total']			  = 'Total';
+$_['entry_order_status']	  = 'Order Status';
+$_['entry_geo_zone']		  = 'Geo Zone';
+$_['entry_status']			  = 'Status';
+$_['entry_sort_order']		  = 'Sort Order';
+$_['entry_debug']			  = 'Debug logging';
+$_['entry_card']			  = 'Store Cards';
+$_['entry_cron_job_token']	  = 'Secret Token';
+$_['entry_cron_job_url']	  = 'Cron Job\'s URL';
+$_['entry_last_cron_job_run'] = 'Last cron job\'s run time:';
 
 // Help
-$_['help_total']			= 'Mindestgesamtsumme Warenkorb erreichen muss damit diese Zahlungsart angewendet werden kann';
-$_['help_debug']			= 'Aktivieren der Berichte zeichnet auch sensible Daten auf - nur zur Fehlersuche aktivieren!';
-$_['help_transaction']		= 'Transaktionsart <b>muss</b> auf Zahlung gesetzt sein um Abozahlungen zu ermöglichen';
-$_['help_cron_job_token']	= 'Ein möglichst schwer zu erratender Begriff';
-$_['help_cron_job_url']		= 'URL um einen Cronjob aufrufen zu können';
+$_['help_total']			  = 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_debug']			  = 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise';
+$_['help_transaction']		  = 'Transaction method MUST be set to Payment to allow subscription payments';
+$_['help_cron_job_token']	  = 'Make this long and hard to guess';
+$_['help_cron_job_url']		  = 'Set a cron job to call this URL';
 
-$_['btn_release']			= 'Freigeben';
-$_['btn_rebate']			= 'Ermässigen / Rückerstatten';
-$_['btn_void']				= 'Ungültig';
+// Button
+$_['button_release']		  = 'Release';
+$_['button_rebate']			  = 'Rebate / refund';
+$_['button_void']			  = 'Void';
 
 // Error
-$_['error_permission']		= 'Keine Rechte für diese Aktion';
-$_['error_vendor']			= 'Lieferant erforderlich!';
+$_['error_permission']		  = 'Warning: You do not have permission to modify payment SagePay!';
+$_['error_vendor']			  = 'Vendor ID Required!';

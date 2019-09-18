@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: amazon_pay.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Bezahlen mit Amazon';
 
@@ -17,8 +9,8 @@ $_['text_content_top']		= 'Inhalt Oben';
 $_['text_content_bottom']	= 'Inhalt Unten';
 $_['text_column_left']		= 'Spalte Links';
 $_['text_column_right']		= 'Spalte Rechts';
-$_['text_lwa_button']		= 'Anmelden mit Amazon';
-$_['text_login_button']		= 'Anmelden';
+$_['text_pwa_button']		= 'Anmelden mit Amazon';
+$_['text_pay_button']		= 'Anmelden';
 $_['text_a_button']			= 'Ein';
 $_['text_gold_button']		= 'Gold';
 $_['text_darkgray_button']	= 'Dunkelgrau';
@@ -38,4 +30,4 @@ $_['entry_status']			= 'Status';
 $_['entry_sort_order']		= 'Reihenfolge';
 
 //Error
-$_['error_permission']		= 'Keine Rechte zum Bearbeiten';
+$_['error_permission']		= 'Keine Rechte zum bearbeiten';

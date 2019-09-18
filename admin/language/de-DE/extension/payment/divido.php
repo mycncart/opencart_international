@@ -1,28 +1,16 @@
 <?php
-/**
- * @version		$Id: divido.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- *
- * Hinweis: da englische Zahlungsart nur tw. übersetzt
- */
-
 // Heading
-$_['heading_title']						= 'Divido (nur für engl. Kunden)';
+$_['heading_title']                    = 'Divido';
 
 // Text
-$_['text_divido']						= '<a href="http://divido.com" target="_blank"><img src="view/image/payment/divido.png"></a>';
-$_['text_edit']							= 'Bearbeiten';
-$_['text_extension']					= 'Erweiterungen';
+$_['text_divido']                      = '<a href="http://divido.com" target="_blank"><img src="view/image/payment/divido.png"></a>';
+$_['text_edit']                        = 'Edit Divido';
+$_['text_extension']                   = 'Extensions';
 $_['text_order_info']                  = 'Divido info';
 $_['text_success']                     = 'Success: You have modified the Divido module';
 $_['text_proposal_id']                 = 'Proposal ID';
 $_['text_application_id']              = 'Application ID';
 $_['text_deposit_amount']              = 'Deposit amount';
-	// old
-$_['text_payment']						= 'Zahlung';
 
 // Entry
 $_['entry_order_status']               = 'Order status when approved';
@@ -43,6 +31,7 @@ $_['entry_cart_threshold']             = 'Cart total threshold';
 $_['entry_threshold_list']             = 'Plan thresholds';
 $_['entry_category']                   = 'Categories';
 
+// Help
 $_['help_api_key']                     = 'Key that identifies you with Divido (obtained from Divido)';
 $_['help_status']                      = 'Status of the payment method';
 $_['help_order_status']                = 'Status of the order when lender has approved';

@@ -1,17 +1,9 @@
 <?php
-/**
- * @version		$Id: special.php 4233 2016-01-30 10:06:21Z mic $
- * @package		Translation Frontend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Angebote';
 
 // Text
-$_['text_empty']		= 'Aktuell keine Angebote vorhanden';
+$_['text_empty']	= 'Aktuell keine Angebote vorhanden';
 $_['text_quantity']		= 'Menge';
 $_['text_manufacturer']	= 'Hersteller';
 $_['text_model']		= 'Artikelnr.';

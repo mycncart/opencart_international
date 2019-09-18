@@ -1,60 +1,52 @@
 <?php
-/**
- * @version		$Id: cardinity.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']					= 'Cardinity';
+$_['heading_title']			= 'Cardinity';
 
 // Text
-$_['text_extension']				= 'Erweiterungen';
-$_['text_success']					= 'Einstellungen erfolgreich bearbeitet';
-$_['text_edit']                     = 'Bearbeiten';
-$_['text_cardinity']				= '<a href="http://cardinity.com/?crdp=opencart" target="_blank"><img src="view/image/payment/cardinity.png" alt="Cardinity" title="Cardinity" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_production']				= 'Live';
-$_['text_sandbox']					= 'Test (Sandbox)';
-$_['text_payment_info']				= 'Info Rückzahlung';
-$_['text_no_refund']				= 'Keine Rückzahlungen';
-$_['text_confirm_refund']			= 'Sicher Rückzahlung veranlassen?';
-$_['text_na']						= 'k.A.';
-$_['text_success_action']			= 'Erfolgreich';
-$_['text_error_generic']			= 'Bei der Anfrage trat ein Fehler auf, mehr dazu im Bericht';
+$_['text_extension']		= 'Extensions';
+$_['text_success']			= 'Success: You have modified Cardinity payment module!';
+$_['text_edit']             = 'Edit Cardinity';
+$_['text_cardinity']		= '<a href="http://cardinity.com/?crdp=opencart" target="_blank"><img src="view/image/payment/cardinity.png" alt="Cardinity" title="Cardinity" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_production']		= 'Production';
+$_['text_sandbox']			= 'Sandbox';
+$_['text_payment_info']		= 'Refund information';
+$_['text_no_refund']		= 'No refund history';
+$_['text_confirm_refund']	= 'Are you sure you want to refund';
+$_['text_na']				= 'N/A';
+$_['text_success_action']	= 'Success';
+$_['text_error_generic']	= 'Error: There was an error with your request. Please check the logs.';
 
 // Column
-$_['column_refund']					= 'Rückzahlung';
-$_['column_date']					= 'Datum';
-$_['column_refund_history']			= 'Verlauf';
-$_['column_action']					= 'Aktion';
-$_['column_status']					= 'Status';
-$_['column_amount']					= 'Betrag';
-$_['column_description']			= 'Beschreibung';
+$_['column_refund']			= 'Refund';
+$_['column_date']			= 'Date';
+$_['column_refund_history'] = 'Refund History';
+$_['column_action']			= 'Action';
+$_['column_status']			= 'Status';
+$_['column_amount']			= 'Amount';
+$_['column_description']	= 'Description';
 
 // Entry
-$_['entry_total']					= 'Gesamt';
-$_['entry_order_status']			= 'Auftragsstatus';
-$_['entry_geo_zone']				= 'Geozone';
-$_['entry_status']					= 'Status';
-$_['entry_sort_order']				= 'Reihenfolge';
-$_['entry_key']						= 'Schlüssel';
-$_['entry_secret']					= 'Geheimbegriff';
-$_['entry_debug']					= 'Berichte';
+$_['entry_total']			= 'Total';
+$_['entry_order_status']	= 'Order Status';
+$_['entry_geo_zone']		= 'Geo Zone';
+$_['entry_status']			= 'Status';
+$_['entry_sort_order']		= 'Sort Order';
+$_['entry_key']				= 'Key';
+$_['entry_secret']			= 'Secret';
+$_['entry_debug']			= 'Debug';
 
 // Help
-$_['help_debug']					= 'Berichte aktivieren wird auch sensible Daten speichern - nur aktivieren wenn notwendig!';
-$_['help_total']					= 'Gesamtbetrag im Warenkorb damit diese Zahlungsart angezeigt wird';
+$_['help_debug']			= 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise.';
+$_['help_total']			= 'The checkout total the order must reach before this payment method becomes active.';
 
 // Button
-$_['button_refund']					= 'Rückzahlung';
+$_['button_refund']			= 'Refund';
 
 // Error
-$_['error_key']						= 'Schlüssel erforderlich';
-$_['error_secret']					= 'Geheimbegriff erforderlich';
-$_['error_composer']				= 'Kann Cardinity SDK nicht laden. Entweder eine komilierte Version downladen oder composer verwenden';
-$_['error_php_version']				= 'Mind. PHP Version 5.4.0 ist erforderlich';
-$_['error_permission']				= 'Keine Rechte für diese Aktion';
-$_['error_connection']				= 'Konnte keine Verbindung zur Cardinity API herstellen. Bitte Schlüssel und Geheimbegriff überprüfen';
-$_['error_warning']					= 'Achtung: Formular auf Fehler überprüfen';
+$_['error_key']				= 'Key Required!';
+$_['error_secret']			= 'Secret Required!';
+$_['error_composer']		= 'Unable to load Cardinity SDK. Please download a compiled vendor folder or run composer.';
+$_['error_php_version']		= 'Minimum version of PHP 5.4.0 is required!';
+$_['error_permission']		= 'Warning: You do not have permission to modify payment Cardinity!';
+$_['error_connection']		= 'There was a problem establishing a connection to the Cardinity API. Please check your Key and Secret settings.';
+$_['error_warning']			= 'Warning: Please check the form carefully for errors!';

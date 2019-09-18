@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: laybuy_layout.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']				= 'Lay-Buy Information';
 
@@ -27,7 +19,7 @@ $_['text_downpayment']			= 'Abschlag';
 $_['text_month']				= 'Monat';
 
 // Column
-$_['column_instalment']			= 'Anzahlung';
+$_['column_instalment']			= 'Rate';
 $_['column_amount']				= 'Betrag';
 $_['column_date']				= 'Datum';
 $_['column_pp_trans_id']		= 'PayPal Transaktionsnr.';

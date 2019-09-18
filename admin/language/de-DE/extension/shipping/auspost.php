@@ -1,25 +1,15 @@
 <?php
-/**
- * @version		$Id: auspost.php 4467 2016-10-11 14:59:21Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Australische Post';
 
 // Text
 $_['text_extension']	= 'Erweiterungen';
-$_['text_shipping']		= 'Versand';
-$_['text_success']		= 'Datensatz erfolgreich bearbeitet!';
+$_['text_success']		= 'Datensatz erfolgreich bearbeitet';
+$_['text_edit']			= 'bearbeiten';
 
 // Entry
+$_['entry_api']			= 'API Schlüssel';
 $_['entry_postcode']	= 'Postleitzahl';
-$_['entry_express']		= 'Expresskosten';
-$_['entry_standard']	= 'Standardkosten';
-$_['entry_display_time']= 'Zeige Zustellzeit';
 $_['entry_weight_class']= 'Gewichtsklasse';
 $_['entry_tax_class']	= 'Steuerklasse';
 $_['entry_geo_zone']	= 'Geozone';
@@ -27,9 +17,8 @@ $_['entry_status']		= 'Status';
 $_['entry_sort_order']	= 'Reihenfolge';
 
 // Help
-$_['help_display_time']	= 'Soll die Versandzeit angezeigt werden? (z.B. Versand innerhalb 3-5 Tage)';
 $_['help_weight_class']	= 'Gramm auswählen';
 
 // Error
 $_['error_permission']	= 'Keine Rechte für diese Aktion';
-$_['error_postcode']	= 'Postleitzahl müssen 4 Zahlen sein!';
+$_['error_postcode']	= 'Postleitzahl muss 4 Stellen lang sein';

@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: tax_rate.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Steuersatz';
 
@@ -14,7 +6,7 @@ $_['heading_title']			= 'Steuersatz';
 $_['text_success']			= 'Datensatz erfolgreich bearbeitet';
 $_['text_list']				= 'Übersicht';
 $_['text_add']				= 'Neu';
-$_['text_edit']				= 'Bearbeiten';
+$_['text_edit']				= 'Bearbeiten<br><ul style="font-size: 0.8em; font-weight: normal; margin-top: 15px; list-style: disclosure-closed;"><li>Name: Begriff wie er im Warenkorb, Rechnung usw. angezeigt wird</li><li>Betrag: abhängig von der Berechnungsart hier Wert angeben - nur Zahlen &amp; Punkt</li><li>Berechnungsart: Fixbetrag oder Prozent - jeweils gerechnet vom Nettowarenwert</li><li>Kundengruppe: für welche Kundengruppe(n) soll dieser Steuersatz gelten</li><li>Geozone: für welche Länder gilt dieser Steuersatz<br>(wenn noch nicht vorhanden, dann Menü > System > Lokale Einst. >> Geozonen und neu anlegen)</ul>';
 $_['text_percent']			= 'Prozent';
 $_['text_amount']			= 'Fixbetrag';
 
@@ -28,10 +20,10 @@ $_['column_date_modified']	= 'Geändert';
 $_['column_action']			= 'Aktion';
 
 // Entry
-$_['entry_name']			= 'Name (Begriff wie er im Warenkorb, Rechnung usw. angezeigt wird)';
-$_['entry_rate']			= 'Betrag (Abhängig von der Berechnungsart hier Wert angeben - nur Zahlen &amp; Punkt)';
-$_['entry_type']			= 'Berechnungsart (Fixbetrag oder Prozent - jeweils gerechnet vom Nettowarenwert';
-$_['entry_customer_group']	= 'Kundengruppe (Für welche Kundengruppe(n) soll dieser Steuersatz gelten)';
+$_['entry_name']			= 'Name';
+$_['entry_rate']			= 'Betrag';
+$_['entry_type']			= 'Berechnungsart';
+$_['entry_customer_group']	= 'Kundengruppe';
 $_['entry_geo_zone']		= 'Geozone';
 
 // Error

@@ -1,27 +1,19 @@
 <?php
-/**
- * @version		$Id: globalpay.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['text_title']				= 'Kreditkarte (Globalpay)';
 
 // Button
-$_['button_confirm']			= 'Kostenpflichtig Kaufen';
+$_['button_confirm']			= 'Kostenpflichtig Bestellen';
 
 // Entry
 $_['entry_cc_type']				= 'Kartenart';
 
 // Text
-$_['text_success']				= 'Zahlung erfolgriech genehmigt.';
+$_['text_success']				= 'Zahlung erfolgreich genehmigt';
 $_['text_decline']				= 'Zahlung nicht erfolgreich';
-$_['text_bank_error']			= 'Die Zahlungsanfrage an die Bank war nicht erfolgreich.';
-$_['text_generic_error']		= 'Zahlung nicht erfolgreich, leider gab es Fehler während der Bearbeitung.';
-$_['text_hash_failed']			= 'Überprüfung fehlgeschlagen. Bitte nicht nochmals probieren, sattdessen den Händler kontaktieren.';
+$_['text_bank_error']			= 'Die Zahlungsanfrage an die Bank war nicht erfolgreich';
+$_['text_generic_error']		= 'Zahlung nicht erfolgreich, leider gab es Fehler während der Bearbeitung';
+$_['text_hash_failed']			= 'Überprüfung fehlgeschlagen. Bitte nicht nochmals probieren, sattdessen den Händler kontaktieren';
 $_['text_link']					= 'Bitte <a href="%s">hier klicken</a> um forzufahren';
 $_['text_select_card']			= 'Bitte Kartenart wählen';
 $_['text_result']				= 'ergebnis Genehmigung';

@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: contact.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Translation Deutsch
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Kontakt';
 
@@ -19,7 +11,7 @@ $_['text_telephone']	= 'Telefon';
 $_['text_fax']			= 'Fax';
 $_['text_open']			= 'Öffnungszeiten';
 $_['text_comment']		= 'Anmerkung';
-$_['text_success']		= '<p>Nachricht wurde erfolgreich versendet!</p>';
+$_['text_success']		= '<p>Nachricht wurde erfolgreich versendet</p>';
 
 // Entry
 $_['entry_name']		= 'Name';
@@ -33,7 +25,3 @@ $_['email_subject']		= 'Nachricht %s';
 $_['error_name']		= 'Name muss zwischen 3 und 32 Zeichen lang sein';
 $_['error_email']		= 'Emailadresse ist nicht gültig';
 $_['error_enquiry']		= 'Text muss zwischen 10 und 3000 Zeichen lang sein';
-
-	// OC < 2.2
-$_['entry_captcha']		= 'Bitte den angezeigten Code angeben';
-$_['error_captcha']		= 'Verifizierungscode stimmt nicht mit dem im Bild angezeigten Code überein';

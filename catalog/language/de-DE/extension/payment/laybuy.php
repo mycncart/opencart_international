@@ -1,14 +1,6 @@
 <?php
-/**
- * @version		$Id: laybuy.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Deutsch Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']			= 'Bitte ein anderes Abonnement wählen';
+$_['heading_title']			= 'Bitte ein Abonnement wählen';
 
 // Text
 $_['text_title']			= 'LAY-BUY powered by PayPal';
@@ -34,4 +26,4 @@ $_['entry_initial']			= 'Erste Zahlung';
 $_['entry_months']			= 'Monate';
 
 // Button
-$_['button_confirm']		= 'Kostenpflichtig Kaufen';
+$_['button_confirm']		= 'Kostenpflichtig Bestellen';

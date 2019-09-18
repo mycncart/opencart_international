@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: perpetual_payments.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation - Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']			= 'Kreditkartenzahlung (VoicePay)';
 $_['text_credit_card']		= 'Kreditkartendetails';

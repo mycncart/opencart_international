@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: securetrading_ws.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 $_['text_title']				= 'Kreditkarte';
 $_['text_card_details']			= 'Kartendetails';
 $_['text_wait']					= 'Bitte warten .. verarbeite Zahlung ..';
@@ -32,6 +24,6 @@ $_['entry_number']				= 'Kartennummer';
 $_['entry_expire_date']			= 'Gilt bis';
 $_['entry_cvv2']				= 'Sicherheitscode (CVV2)';
 
-$_['button_confirm']			= 'Kostenpflichtig Kaufen';
+$_['button_confirm']			= 'Kostenpflichtig Bestellen';
 
 $_['error_failure']				= 'Verbindungsfehler - bitte später nochmal probieren oder andere Zahlungsart verwenden';

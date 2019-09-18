@@ -1,13 +1,6 @@
 <?php
-/**
- * @version		$Id: voucher.php 4074 2015-10-07 14:46:06Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
+$_['text_success']	= 'Datensatz erfolgreich bearbeitet';
 $_['text_subject']	= '%s hat einen Geschenkgutschein gesendet.';
 $_['text_greeting']	= 'Herzlichen Glückwunsch zum Geschenkgutschein im Wert von %s';
 $_['text_from']		= 'Dieser Gutschein wurde von %s gesendet';

@@ -1,17 +1,8 @@
 <?php
-/**
- * @version		$Id: eway.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Deutsch Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']												= 'Kredikarte (eWAY)';
 $_['text_credit_card']											= 'Kartendetails';
 $_['text_testing']												= 'Diese Zahlungsart ist aktuell im Testmodus, Kreidkarte wird nicht belastet.<br />Falls diese Bestellung jedoch durchgeführt werden soll, dann bitte eine andere Zahlungsart wählen.';
-
 $_['text_basket']												= 'Warenkorb';
 $_['text_checkout']												= 'Kassa';
 $_['text_success']												= 'Erfolgreich';
@@ -23,7 +14,7 @@ $_['entry_cc_name']												= 'Karteninhaber';
 $_['entry_cc_expire_date']										= 'Gilt bis';
 $_['entry_cc_cvv2']												= 'Sicherheitscode (CVV2)';
 
-$_['button_pay']												= 'Kostenpflichtig Kaufen';
+$_['button_pay']												= 'Kostenpflichtig Bestellen';
 
 $_['text_card_accepted']										= 'Akzeptierte Karten: ';
 $_['text_card_type_m']											= 'Mastercard';
@@ -34,7 +25,7 @@ $_['text_card_type_j']											= 'JCB';
 $_['text_card_type_pp']											= 'Paypal';
 $_['text_card_type_mp']											= 'Masterpass';
 $_['text_card_type_vm']											= 'Visa Checkout';
-$_['text_type_help']											= 'Nach dem Klicken auf "Kostenpflichtig Kaufen" erfolgt eine Weiterleitung zu ';
+$_['text_type_help']											= 'Nach dem Klicken auf "Kostenpflichtig Bestellen" erfolgt eine Weiterleitung zu ';
 
 $_['text_transaction_failed']									= 'Wir bedauern aber diese Zahlung wurde abgelehnt';
 

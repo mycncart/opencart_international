@@ -1,17 +1,9 @@
 <?php
-/**
- * @version		$Id: location.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Geschäftsadressen';
 
 // Text
-$_['text_success']		= 'Geschäftsadresse erfolgreich bearbeitet';
+$_['text_success']		= 'Datensatz erfolgreich bearbeitet';
 $_['text_list']			= 'Übersicht';
 $_['text_add']			= 'Neu';
 $_['text_edit']			= 'Bearbeiten';
@@ -41,6 +33,6 @@ $_['help_comment']		= 'Hier angeben falls Anmerkungen den Kunden angezeigt werde
 
 // Error
 $_['error_permission']	= 'Keine Rechte für diese Aktion';
-$_['error_name']		= 'Geschäftsname muss mindestens 1 Zeichen lang sein';
+$_['error_name']		= 'Geschäftsname muss zwischen 3 und 32 Zeichen lang sein';
 $_['error_address']		= 'Adresse muss zwischen 3 und 128 Zeichen lang sein';
 $_['error_telephone']	= 'Telefon muss zwischen 3 und 32 Zeichen lang sein';

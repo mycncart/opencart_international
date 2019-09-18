@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: weight_class.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Gewichtseinheit';
 
@@ -24,11 +16,11 @@ $_['column_action']		= 'Aktion';
 
 // Entry
 $_['entry_title']		= 'Name';
-$_['entry_unit']		= 'Gewichtseinheit';
+$_['entry_unit']		= 'Kurzbez.<br>z.B. g gr oder k kg';
 $_['entry_value']		= 'Wert';
 
 // Help
-$_['help_value']		= 'Wert mit 1.00000 definieren wenn dieses das Standardgewicht ist';
+$_['help_value']		= 'Wert mit 1.00000 definieren wenn dies das Standardgewicht ist';
 
 // Error
 $_['error_permission']	= 'Keine Rechte für diese Aktion';

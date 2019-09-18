@@ -1,17 +1,9 @@
 <?php
-/**
- * @version		$Id: order.php 4074 2015-10-07 14:46:06Z mic $
- * @package		Language Translation german
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
-$_['text_success']			= 'Gesamtsumme erfolgreich neu berechnet';
+$_['text_success']			= 'Auftrag erfolgreich gespeichert';
 
 // Error
-$_['error_permission']		= 'Keine Rechte für diese Aktion';
+$_['error_permission']		= 'Keine Rechte die API anzuwenden oder die Session ist abgelaufen (bitte neu anmelden oder Seite neu laden)';
 $_['error_customer']		= 'Kundendetails müssen angegeben werden';
 $_['error_payment_address']	= 'Rechnungsadresse fehlt';
 $_['error_payment_method']	= 'Zahlungsart fehlt';

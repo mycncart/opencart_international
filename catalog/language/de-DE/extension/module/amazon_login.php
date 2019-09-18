@@ -1,18 +1,10 @@
 <?php
-/**
- * @version		$Id: amazon_login.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Anmelden mit Amazon';
 
 // Text
 $_['text_module']			= 'Module';
-$_['text_success']			= 'Datensazu erfolgreich bearbeitet';
+$_['text_success']			= 'Datensatz erfolgreich bearbeitet';
 $_['text_content_top']		= 'Inhalt Oben';
 $_['text_content_bottom']	= 'Inhalt Unten';
 $_['text_column_left']		= 'Spalte Links';
@@ -38,4 +30,4 @@ $_['entry_status']			= 'Status';
 $_['entry_sort_order']		= 'Reihenfolge';
 
 //Error
-$_['error_permission']		= 'Keine Rechte zum Bearbeiten';
+$_['error_permission']		= 'Keine Rechte zum bearbeiten';

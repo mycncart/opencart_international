@@ -1,38 +1,27 @@
 <?php
-/**
- * @version		$Id: perpetual_payments.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']		= 'VoicePay';
+$_['heading_title']		 = 'Perpetual Payments';
 
 // Text
-$_['text_extensiont']	= 'Erweiterungen';
-$_['text_success']		= 'Datensatz erfolgreich bearbeitet';
-$_['text_edit']			= 'Bearbeiten';
-$_['text_perpetual_payments']	= '<a href="http://www.voice-pay.com/"><img src="view/image/payment/voicepay.png" alt="VoicePay" title="VoicePay" style="border: 1px solid #EEEEEE;" /></a>';
-	// old
-$_['text_payment']		= 'Zahlung';
+$_['text_extension']	 = 'Extensions';
+$_['text_success']		 = 'Success: You have modified Perpetual Payments account details!';
+$_['text_edit']          = 'Edit Perpetual Payments';
 
 // Entry
-$_['entry_auth_id']		= 'Genehmigungsnummer';
-$_['entry_auth_pass']	= 'Genehmigungspasswort';
-$_['entry_test']		= 'Testmodus';
-$_['entry_total']		= 'Summe';
-$_['entry_order_status']= 'Auftragsstatus';
-$_['entry_geo_zone']	= 'Geozone';
-$_['entry_status']		= 'Status';
-$_['entry_sort_order']	= 'Reihenfolge';
+$_['entry_auth_id']		 = 'Authorization ID';
+$_['entry_auth_pass']	 = 'Authorization Password';
+$_['entry_test']		 = 'Test Mode';
+$_['entry_total']		 = 'Total';
+$_['entry_order_status'] = 'Order Status';
+$_['entry_geo_zone']	 = 'Geo Zone';
+$_['entry_status']		 = 'Status';
+$_['entry_sort_order']	 = 'Sort Order';
 
 // Help
-$_['help_test']			= 'Testmodus (JA) oder Livemodus (Nein)';
-$_['help_total']		= 'Mindestgesamtsumme im Warenkorb damit diese Zahlungsart verfügbar ist';
+$_['help_test']			 = 'Use this module in Test (YES) or Production mode (NO)?';
+$_['help_total']		 = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']	= 'Keine Rechte für diese Aktion';
-$_['error_auth_id']		= 'Genehmigungsnummer erforderlich';
-$_['error_auth_pass']	= 'Genehmigungspasswort erforderlich';
+$_['error_permission']	 = 'Warning: You do not have permission to modify payment Perpetual Payments!';
+$_['error_auth_id']		 = 'Authorization ID Required!';
+$_['error_auth_pass']	 = 'Authorization Password Required!';

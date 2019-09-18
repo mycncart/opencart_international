@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: filter.php 3857 2015-03-02 20:53:49Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Filter';
 
@@ -15,6 +7,8 @@ $_['text_success']		= 'Einstellungen erfolgreich bearbeitet';
 $_['text_list']			= 'Übersicht';
 $_['text_add']			= 'Neu';
 $_['text_edit']			= 'Bearbeiten';
+$_['text_group']		= 'Filtergruppe';
+$_['text_value']		= 'Filterwerte';
 
 // Column
 $_['column_group']		= 'Filtergruppe';

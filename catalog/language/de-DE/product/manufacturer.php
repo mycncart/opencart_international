@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: manufacturer.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Translation Frontend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Hersteller';
 
@@ -14,7 +6,7 @@ $_['heading_title']		= 'Hersteller';
 $_['text_brand']		= 'Hersteller';
 $_['text_index']		= 'Herstellerübersicht';
 $_['text_error']		= 'Hersteller nicht gefunden!';
-$_['text_empty']		= 'Von diesem Hersteller sind keine Produkte vorhanden.';
+$_['text_empty']	= 'Von diesem Hersteller sind keine Produkte vorhanden.';
 $_['text_quantity']		= 'Menge';
 $_['text_manufacturer']	= 'Hersteller';
 $_['text_model']		= 'Art.Nr.';

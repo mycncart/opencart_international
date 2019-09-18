@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: voucher.php 4455 2016-10-04 09:51:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Geschenkgutschein';
 
@@ -42,10 +34,9 @@ $_['entry_amount']		= 'Betrag';
 $_['entry_status']		= 'Status';
 
 // Help
-$_['help_code']			= 'Code den Kunde eingeben muss um den Gutschein einzulösen';
+$_['help_code']			= 'Code den Kunde eingeben muss um Gutschein einzulösen';
 
 // Error
-$_['error_selection']	= 'Keine Gutscheine ausgewählt';
 $_['error_permission']	= 'Keine Rechte für diese Aktion';
 $_['error_exists']		= 'Achtung: Gutscheincode ist bereits in Verwendung';
 $_['error_code']		= 'Code muss zwischen 3 und 10 Zeichen lang sein';

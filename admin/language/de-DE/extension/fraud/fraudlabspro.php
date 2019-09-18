@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: fraudlabspro.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']				= 'FraudLabs Pro';
 
@@ -22,13 +14,13 @@ $_['text_ip_isp_name']			= 'IP ISP Name';
 $_['text_ip_usage_type']		= 'IP Art';
 $_['text_ip_domain']			= 'IP Domain';
 $_['text_ip_time_zone']			= 'IP Zeitzone';
-$_['text_ip_location']			= 'IP ort';
+$_['text_ip_location']			= 'IP Ort';
 $_['text_ip_distance']			= 'IP Entfernung';
 $_['text_ip_latitude']			= 'IP Breitengrad';
 $_['text_ip_longitude']			= 'IP Längengrad';
 $_['text_risk_country']			= 'Land mit hohem Risiko';
 $_['text_free_email']			= 'Freie Emailadresse';
-$_['text_ship_forward']			= 'Kommerz. Versanadresse';
+$_['text_ship_forward']			= 'Kommerz. Versandadresse';
 $_['text_using_proxy']			= 'Verwendet Proxy';
 $_['text_bin_found']			= 'BIN Gefunden';
 $_['text_email_blacklist']		= 'Email Blacklist';
@@ -41,7 +33,6 @@ $_['text_credits']				= 'Guthaben';
 $_['text_error']				= 'Fehler';
 $_['text_flp_upgrade']			= '<a href="http://www.fraudlabspro.com/?ref=6039" target="_blank">[Upgrade]</a>';
 $_['text_flp_merchant_area']	= 'Bitte <a href="http://www.fraudlabspro.com/merchant/login" target="_blank">hier anmelden</a> für weitere Informationen zu diesem Auftrag';
-
 
 // Entry
 $_['entry_status']				= 'Status';
@@ -84,5 +75,5 @@ $_['help_transaction_id']		= 'Einmalige Identifikationnummer bei FraudLabs Pro';
 $_['help_credits']				= 'Guthaben nach dieser Transaktion';
 
 // Error
-$_['error_permission']			= 'Keine Rechte zum Bearbeiten';
+$_['error_permission']			= 'Keine Berechtigung zum bearbeiten';
 $_['error_key']					= 'API-SChlüssel erforderlich';

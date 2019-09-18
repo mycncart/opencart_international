@@ -1,40 +1,30 @@
 <?php
-/**
- * @version		$Id: paypoint.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']		= 'PayPoint';
+$_['heading_title']		 = 'PayPoint';
 
 // Text
-$_['text_extension']	= 'Erweiterungen';
-$_['text_success']		= 'Datensatz erfolgreich bearbeitet';
-$_['text_edit']			= 'Bearbeiten';
-$_['text_paypoint']		= '<a href="https://www.paypoint.net/partners/opencart" target="_blank"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_live']			= 'Live';
-$_['text_successful']	= 'Immer erfolgreich';
-$_['text_fail']			= 'Immer fehlgeschlagen';
-	// old
-$_['text_payment']		= 'Zahlung';
+$_['text_extension']	 = 'Extensions';
+$_['text_success']		 = 'Success: You have modified PayPoint account details!';
+$_['text_edit']          = 'Edit PayPoint';
+$_['text_paypoint']		 = '<a href="https://www.paypoint.net/partners/opencart" target="_blank"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_live']			 = 'Production';
+$_['text_successful']	 = 'Always Successful';
+$_['text_fail']			 = 'Always Fail';
 
 // Entry
-$_['entry_merchant']	= 'Händlernummer';
-$_['entry_password']	= 'Remote Passwort';
-$_['entry_test']		= 'Testmodus';
-$_['entry_total']		= 'Summe';
-$_['entry_order_status']= 'Auftragsstatus';
-$_['entry_geo_zone']	= 'Geozone';
-$_['entry_status']		= 'Status';
-$_['entry_sort_order']	= 'Reihenfolge';
+$_['entry_merchant']	 = 'Merchant ID';
+$_['entry_password']	 = 'Remote Password';
+$_['entry_test']		 = 'Test Mode';
+$_['entry_total']		 = 'Total';
+$_['entry_order_status'] = 'Order Status';
+$_['entry_geo_zone']	 = 'Geo Zone';
+$_['entry_status']		 = 'Status';
+$_['entry_sort_order']	 = 'Sort Order';
 
 // Help
-$_['help_password']		= 'Leer lassen wenn nicht der "Digest Key Authentication" im Konto aktiviert wurde';
-$_['help_total']		= 'Mindestgesamtsumme im Warenkorb damit diese Zahlungsart verfügbar ist';
+$_['help_password']		 = 'Leave empty if you do not have "Digest Key Authentication" enabled on your account.';
+$_['help_total']		 = 'The checkout total the order must reach before this payment method becomes active.';
 
 // Error
-$_['error_permission']	= 'Keine Rechte für diese Aktion';
-$_['error_merchant']	= 'Händlernummer erforderlich';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment PayPoint!';
+$_['error_merchant']	 = 'Merchant ID Required!';

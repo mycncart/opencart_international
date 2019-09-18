@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: contact.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Rundschreiben';
 
@@ -14,8 +6,6 @@ $_['heading_title']			= 'Rundschreiben';
 $_['text_success']			= 'Nachricht wurde erfolgreich versendet';
 $_['text_sent']				= 'Nachricht wurde erfolgreich an %s von %s Empfängern gesendet';
 $_['text_list']				= 'Übersicht';
-$_['text_add']				= 'Neu';
-$_['text_edit']				= 'Bearbeiten';
 $_['text_default']			= 'Standard';
 $_['text_newsletter']		= 'Alle Newsletterabonnenten';
 $_['text_customer_all']		= 'Alle Kunden';
@@ -27,7 +17,7 @@ $_['text_product']			= 'Produkt(e)';
 
 // Entry
 $_['entry_store']			= 'Von';
-$_['entry_to']				= 'An';
+$_['entry_to']				= 'An<br><br><i class="label label-danger col-sm-12">Achtung!! Double-Opt-In beachten,<br>Empfänger müssen Zusendungen zugestimmt haben!</i>';
 $_['entry_customer_group']	= 'Kundengruppe';
 $_['entry_customer']		= 'Kunde';
 $_['entry_affiliate']		= 'Partner';

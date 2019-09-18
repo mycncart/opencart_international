@@ -1,14 +1,6 @@
 <?php
-/**
- * @version		$Id: voucher_theme.php 3758 2014-10-02 10:29:50Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']			= 'Gutscheinthema';
+$_['heading_title']			= 'Gutscheinvorlage';
 
 // Text
 $_['text_success']			= 'Datensatz erfolgreich bearbeitet';
@@ -29,4 +21,4 @@ $_['entry_image']			= 'Bild';
 $_['error_permission']		= 'Keine Rechte für diese Aktion';
 $_['error_name']			= 'Name muss zwischen 3 und 32 Zeichen lang sein';
 $_['error_image']			= 'Bild erforderlich';
-$_['error_voucher']			= 'Gutscheinthema kann nicht gelöscht werden da es %s Gutschein(en) zugeordnet ist';
+$_['error_voucher']			= 'Gutscheinvorlage kann nicht gelöscht werden da ihr %s Gutschein(e) zugeordnet ist/sind';

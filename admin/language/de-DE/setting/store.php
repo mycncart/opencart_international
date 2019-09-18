@@ -1,14 +1,6 @@
 <?php
-/**
- * @version		$Id: store.php 4455 2016-10-04 09:51:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2014 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
-$_['heading_title']					= 'Shopverwaltung';
+$_['heading_title']					= 'Stores';
 
 // Text
 $_['text_settings']					= 'Einstellungen';
@@ -69,23 +61,6 @@ $_['entry_logo']					= 'Shoplogo';
 $_['entry_icon']					= 'Icon';
 $_['entry_secure']					= 'SSL verwenden';
 
-	// OC < 2.2
-$_['entry_template']				= 'Vorlage';
-$_['entry_image_category']			= 'Größe Bild Kategorie';
-$_['entry_image_thumb']				= 'Größe Produktbild Vorschau';
-$_['entry_image_popup']				= 'Größe Produktbild Popup';
-$_['entry_image_product']			= 'Größe Bilder Produktliste';
-$_['entry_image_additional']		= 'Größe Bilder weitere Produkte';
-$_['entry_image_related']			= 'Größe Bilder ähnliche Produkte';
-$_['entry_image_compare']			= 'Größe Bild Vergleich';
-$_['entry_image_wishlist']			= 'Größe Bild Wunschzettel';
-$_['entry_image_cart']				= 'Größe Bild Einkaufswagen';
-$_['entry_image_location']			= 'Größe Bild Shop ';
-$_['entry_width']					= 'Höhe';
-$_['entry_height']					= 'Breite';
-$_['entry_secure']					= 'Verwende SSL';
-$_['entry_product_limit']			= 'Standardanzahl Produkte pro Seite (Shop)';
-$_['entry_product_description_length']	= 'Zeichen Beschreibung in Listenansicht (Shop)';
 
 // Help
 $_['help_url']						= 'URL für diesen Shop, muss mit einem Slash \'/\' abschliessen.<br />Beispiel: http://www.meinedomain.com/path/ oder http://untershop.meinedomain.com/<br /><br />Kein Verzeichniss für neuen Shop verwenden.<br /><strong>Es sollte immer entweder auf eine andere Domain oder Subdomain des Hauptshops verwiesen werden</strong>';
@@ -109,10 +84,6 @@ $_['help_stock_checkout']			= 'Kunden können auch dann bezahlen wenn kein Lager
 $_['help_icon']						= 'Icon sollte im Format PNG vorliegen und nicht größer als 16x16 Pixel sein';
 $_['help_secure']					= 'Soll eine SSL-Verbindung verwendet werden (empfohlen!), hier aktivieren (Zertifikat muss zuvor am Server installiert sein!)';
 
-	// OC < 2.2
-$_['help_product_limit']			= 'Wieviele Einträge sollen im Shop pro Übersicht angezeigt werden (Produkte, Kategorien, usw.)';
-$_['help_product_description_length']	= 'Anzahl Zeichen für Beschreibung in der Listenansicht (Shop)';
-
 // Error
 $_['error_warning']					= 'Erforderliche Daten nicht angegeben, bitte Felder überprüfen';
 $_['error_permission']				= 'Keine Rechte für diese Aktion';
@@ -126,17 +97,3 @@ $_['error_telephone']				= 'Telefon muss zwischen 3 und 32 Zeichen lang sein';
 $_['error_customer_group_display']	= 'Standardgruppe muss aus einer der aktivierten Kundengruppen ausgewählt sein';
 $_['error_default']					= 'Der Standardshop kann nicht gelöscht werden';
 $_['error_store']					= 'Dieser Shop kann nicht gelöscht werden da aktuell %s Aufträge damit verbunden sind';
-
-	// OC < 2.2
-$_['error_image_thumb']				= 'Bildgröße Produktbild Vorschaubilder erforderlich';
-$_['error_image_popup']				= 'Bildgröße Produktbild Popup erforderlich';
-$_['error_image_product']			= 'Bildgröße Produktliste erforderlich';
-$_['error_image_category']			= 'Bildgröße Kategoriebilder erforderlich';
-$_['error_image_additional']		= 'Bildgröße weitere Produkte erforderlich';
-$_['error_image_related']			= 'Bildgröße ähnliche Produkte erforderlich';
-$_['error_image_compare']			= 'Bildgröße Vergleich erforderlich';
-$_['error_image_wishlist']			= 'Bildgröße Wunschzettel erforderlich';
-$_['error_image_cart']				= 'Bildgröße Einkaufswagenbild erforderlich';
-$_['error_image_location']			= 'Bildgröße Shop erforderlich';
-$_['error_title']					= 'Bezeichnung muss zwischen 3 und 32 Zeichen lang sein'; // < OC 2.0.3
-$_['error_limit']					= 'Limit erforderlich';

@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: user_group.php 4455 2016-10-04 09:51:37Z mic $
- * @package		Language Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Benutzergruppe';
 

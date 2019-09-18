@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: review.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Bewertungen';
 
@@ -15,6 +7,7 @@ $_['text_success']		= 'Datensatz erfolgreich bearbeitet';
 $_['text_list']			= 'Übersicht';
 $_['text_add']			= 'Neu';
 $_['text_edit']			= 'Bearbeiten';
+$_['text_filter']		= 'Filter';
 
 // Column
 $_['column_product']	= 'Produkt';

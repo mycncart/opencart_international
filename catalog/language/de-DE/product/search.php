@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: search.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Translation Frontend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Suche';
 $_['heading_tag']		= 'Tag - ';
@@ -16,7 +8,7 @@ $_['text_search']		= 'Produkte die den Suchkriterien entsprechen';
 $_['text_keyword']		= 'Suchbegriff(e)';
 $_['text_category']		= 'Alle Kategorien';
 $_['text_sub_category']	= 'In Unterkategorien suchen';
-$_['text_empty']		= 'Keine Produkte vorhanden, die den Suchkriterien entsprechen';
+$_['text_empty']	= 'Keine Produkte vorhanden, die den Suchkriterien entsprechen';
 $_['text_quantity']		= 'Menge';
 $_['text_manufacturer']	= 'Hersteller';
 $_['text_model']		= 'Artikelnr.';

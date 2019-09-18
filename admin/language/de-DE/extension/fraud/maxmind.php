@@ -1,17 +1,4 @@
 <?php
-/**
- * @version		$Id: maxmind.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- *
- * Hinweis: da dies eine kommerzielle Ereiterung ist,
- * erfolgt keine Übersetzung da dieses Paket kostenlos zur verfügug gestellt wird.
- * Sollte eine dt. Übersetzung benötigt werden kann man uns enweder kontaktieren,
- * oder selber übersetzen.
- */
-
 // Heading
 $_['heading_title']                           = 'MaxMind Betrugserkennung';
 

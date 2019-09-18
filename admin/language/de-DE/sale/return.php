@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: return.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Retouren';
 
@@ -19,7 +11,8 @@ $_['text_opened']			= 'Geöffnet';
 $_['text_unopened']			= 'Ungeöffnet';
 $_['text_order']			= 'Auftragsinfo';
 $_['text_product']			= 'Produktinfo &amp; Grund der Rückgabe';
-$_['text_history']			= '+ Retourenverlauf';
+$_['text_history']			= 'Retourenverlauf';
+$_['text_history_add']		= '+ Retourenverlauf';
 
 // Column
 $_['column_return_id']		= 'Retourennummer';

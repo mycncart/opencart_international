@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: klarna_invoice.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation - Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']		= 'Klarna - Kauf auf Rechnung';
 $_['text_terms_fee']	= '<span id="klarna_invoice_toc"></span> (+%s)<script type="text/javascript">var terms = new Klarna.Terms.Invoice({el: \'klarna_invoice_toc\', eid: \'%s\', country: \'%s\', charge: %s});</script>';
@@ -18,9 +10,6 @@ $_['text_year']			= 'Jahr';
 $_['text_month']		= 'Monat';
 $_['text_day']			= 'Tag';
 $_['text_comment']		= "Klarna Rechnungsnr.: %s\n%s/%s: %.4f";
-	// old
-$_['text_fee']			= 'Klarna Rechnungskauf - Zahlung binnen 14 Tage - Gebühren <span id="klarna_invoice_toc_link"></span> (+%s)<script text="javascript\">$.getScript(\'http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js\', function(){ var terms = new Klarna.Terms.Invoice({ el: \'klarna_invoice_toc_link\', eid: \'%s\', country: \'%s\', charge: %s});})</script>';
-$_['text_no_fee']		= 'Klarna Rechnungskauf - Zahlung binnen 14 Tage - keine Gebühren <span id="klarna_invoice_toc_link"></span><script text="javascript">$.getScript(\'http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js\', function(){ var terms = new Klarna.Terms.Invoice({ el: \'klarna_invoice_toc_link\', eid: \'%s\', country: \'%s\'});})</script>';
 
 // Entry
 $_['entry_gender']		= 'Geschlecht';

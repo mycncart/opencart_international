@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: cardinity.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Deutsch Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']				= 'Kreditkarte (Cardinity)';
 $_['text_payment_success']		= 'Zahlung erfolgreich, Details nachstehend';
@@ -29,4 +21,4 @@ $_['error_invalid_hash']		= 'Ungültiger Hashwert';
 $_['error_payment_declined']	= 'Zahlung wurde von Ausstellerbank abgelehnt';
 
 // Button
-$_['button_confirm']			= 'Kostenpflichtig Kaufen';
+$_['button_confirm']			= 'Kostenpflichtig Bestellen';

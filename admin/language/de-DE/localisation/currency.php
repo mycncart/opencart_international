@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: currency.php 4343 2016-06-01 10:18:23Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'Währungen';
 
@@ -15,6 +7,7 @@ $_['text_success']			= 'Datensatz erfolgreich bearbeitet';
 $_['text_list']				= 'Übersicht';
 $_['text_add']				= 'Neu';
 $_['text_edit']				= 'Bearbeiten';
+$_['text_iso']				= 'Für gültige ISO Codes siehe <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">hier</a>';
 
 // Column
 $_['column_title']			= 'Name';
@@ -33,13 +26,13 @@ $_['entry_decimal_place']	= 'Dezimalstellen';
 $_['entry_status']			= 'Status';
 
 // Help
-$_['help_code']				= 'Nicht ändern wenn dies die Standardwährung ist.<br />Für gültige ISO Codes siehe <a href="http://www.xe.com/iso4217.php" target="_blank">hier</a>';
+$_['help_code']				= '3-stelliger ISO-Code z.B. EUR, USD, HUF<br><i style=&quot;color:coral&quot;>Nicht ändern wenn dies die Standardwährung ist</i>';
 $_['help_value']			= 'Wert mit 1.00000 definieren wenn dies die Standardwährung ist';
 
 // Error
 $_['error_permission']		= 'Keine Rechte für diese Aktion';
-$_['error_title']			= 'Währungsbezeichnung muss zwischen 3 und 32 Buchstaben lang sein';
-$_['error_code']			= 'Währungscode muss aus 3 Buchstaben bestehen';
+$_['error_title']			= 'Währungsbezeichnung muss zwischen 3 und 32 Zeichen lang sein';
+$_['error_code']			= 'Währungscode muss 3 Zeichen lang sein';
 $_['error_default']			= 'Währung kann nicht gelöscht werden da Standardwährung des Shops';
 $_['error_store']			= 'Währung kann nicht gelöscht werden weil sie noch in %s Shop(s) verwendet wird';
 $_['error_order']			= 'Währung kann nicht gelöscht werden weil damit noch %s Bestellung(en) verknüpft ist/sind';

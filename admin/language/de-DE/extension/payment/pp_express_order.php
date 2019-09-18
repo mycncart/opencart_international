@@ -1,73 +1,52 @@
 <?php
-/**
- * @version		$Id: pp_express_order.php 4457 2016-10-05 10:04:36Z mic $
- * @package		Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
-$_['text_extension']			= 'Erweiterungen';
-$_['text_capture_status']		= 'Erfassungsstatus';
-$_['text_amount_auth']			= 'Betrag genehmigt';
-$_['text_amount_authorised']	= 'Betrag genehmigt';
-$_['text_amount_captured']		= 'Betrag erfasst';
-$_['text_amount_refunded']		= 'Betrag rückerstattet';
-$_['text_transactions']			= 'Transaktionen';
-$_['text_transaction']			= 'Transaktionen';
-$_['text_complete']				= 'Komplett';
-$_['text_capture_amount']		= 'Erfasster Betrag';
-$_['text_complete_capture']		= 'Erfassung komplett';
-$_['text_confirm_void']			= 'Wenn ungültig kann kein weiterer Betrag erfasst werden';
-$_['text_view']					= 'Ansehen';
-$_['text_refund']				= 'Erstatten';
-$_['text_resend']				= 'Nochmal senden';
-$_['text_success']				= 'Transaktion erfolgreich gesendet';
-$_['text_full_refund']			= 'Vollständig rückerstattet';
-$_['text_partial_refund']		= 'Teilweise rückerstattet';
-$_['text_current_refunds']		= 'Rückerstattungen bereits erfolgt, max. Betrag ist';
-
-$_['success_transaction_resent']= 'Transaktion wurde nochmals erfolgreich gesendet';
-	// old
-$_['text_payment']				= 'Zahlungsart';
-$_['text_payment_info']			= 'Zahlungsart';
+$_['text_extension']		 = 'Payment Information';
+$_['text_capture_status']	 = 'Capture status';
+$_['text_amount_authorised'] = 'Amount authorised';
+$_['text_amount_captured']	 = 'Amount captured';
+$_['text_amount_refunded']	 = 'Amount refunded';
+$_['text_transaction']		 = 'Transactions';
+$_['text_complete']			 = 'Complete';
+$_['text_confirm_void']		 = 'If you void you cannot capture any further funds';
+$_['text_view']				 = 'View';
+$_['text_refund']			 = 'Refund';
+$_['text_resend']			 = 'Resend';
+$_['text_success']           = 'Transaction was successfully sent';
+$_['text_full_refund']		 = 'Full refund';
+$_['text_partial_refund']	 = 'Partial refund';
+$_['text_payment']		 	 = 'Payment';
+$_['text_current_refunds']   = 'Refunds have already been done for this transaction. The max refund is';
 
 // Column
-$_['column_trans_id']			= 'Transaktionsnr.';
-$_['column_transaction']		= 'Transaktionsnr.';
-$_['column_amount']				= 'Betrag';
-$_['column_type']				= 'Zahlungsart';
-$_['column_status']				= 'Status';
-$_['column_pend_reason']		= 'Grund Wartestellung';
-$_['column_pending_reason']		= 'Grund Wartestellung';
-$_['column_date_added']			= 'Erstellt';
-$_['column_action']				= 'Aktion';
+$_['column_transaction']	 = 'Transaction ID';
+$_['column_amount']			 = 'Amount';
+$_['column_type']			 = 'Payment Type';
+$_['column_status']			 = 'Status';
+$_['column_pending_reason']	 = 'Pending Reason';
+$_['column_date_added']		 = 'Date Added';
+$_['column_action']			 = 'Action';
 
 // Entry
-$_['entry_capture_amount']		= 'Erfassungsbetrag';
-$_['entry_capture_complete']	= 'Vollständig erfasst';
-$_['entry_full_refund']			= 'Vollständig rückerstattet';
-$_['entry_amount']				= 'Betrag';
-$_['entry_note']				= 'Anmerkung';
+$_['entry_capture_amount']	 = 'Capture amount';
+$_['entry_capture_complete'] = 'Complete capture';
+$_['entry_full_refund']		 = 'Full refund';
+$_['entry_amount']			 = 'Amount';
+$_['entry_note']             = 'Note';
 
 // Help
-$_['help_capture_complete']		= 'Falls dies die letzte Erfassung ist';
+$_['help_capture_complete']  = 'If this is a the last capture.';
 
 // Tab
-$_['tab_capture']				= 'Erfassen';
-$_['tab_refund']				= 'Rückerstatten';
+$_['tab_capture']		     = 'Capture';
+$_['tab_refund']             = 'Refund';
 
 // Button
-$_['button_void']				= 'Ungültig';
-$_['button_capture']			= 'Erfassen';
-$_['button_refund']				= 'Rückerstatten';
+$_['button_void']			 = 'Void';
+$_['button_capture']		 = 'Capture';
+$_['button_refund']		     = 'Issue refund';
 
 // Error
-$_['error_capture_amt']			= 'Betrag zum Erfassen angeben';
-$_['error_capture']				= 'Betrag zum Erfassen angeben';
-$_['error_transaction']			= 'Transaktion konnte nicht abgeschlossen werden';
-$_['error_not_found']			= 'Transaktion nicht gefunden';
-$_['error_partial_amt']			= 'Ein (Teil)Betrag muss angegeben werden';
-$_['error_timeout']				= 'Anforderungzeit überschritten';
-$_['error_transaction_missing']	= 'Transaktion konnte nicht gefunden werden';
+$_['error_capture']		     = 'Enter an amount to capture';
+$_['error_transaction']	     = 'Transaction could not be carried out!';
+$_['error_not_found']	     = 'Transaction could not be found!';
+$_['error_partial_amt']		 = 'You must enter a partial refund amount';

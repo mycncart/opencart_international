@@ -1,12 +1,4 @@
 <?php
-/**
- * @version		$Id: tax_class.php 4036 2015-08-23 15:48:37Z mic $
- * @package		Language Translation German Backend
- * @author		mic - http://osworx.net
- * @copyright	2014 OSWorX - http://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']		= 'Steuerklasse';
 
@@ -15,6 +7,8 @@ $_['text_success']      = 'Datensatz erfolgreich bearbeitet';
 $_['text_list']			= 'Übersicht';
 $_['text_add']			= 'Neu';
 $_['text_edit']			= 'Bearbeiten';
+$_['text_tax_class']	= 'Steuerklasse';
+$_['text_tax_rate']		= 'Steuern';
 $_['text_shipping']		= 'Versandadresse';
 $_['text_payment']		= 'Rechnungsadresse';
 $_['text_store']		= 'Geschäftsadresse';
@@ -29,7 +23,7 @@ $_['entry_description'] = 'Beschreibung';
 $_['entry_rate']        = 'Steuersatz';
 $_['entry_based']		= 'Basiert auf';
 $_['entry_geo_zone']    = 'Geozone';
-$_['entry_priority']    = 'Reihenfolge';
+$_['entry_priority']    = 'Priorität';
 
 // Error
 $_['error_permission']  = 'Keine Rechte für diese Aktion';

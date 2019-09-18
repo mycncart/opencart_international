@@ -1,19 +1,9 @@
 <?php
-/**
- * @version		$Id: pp_pro.php 4582 2016-12-07 09:25:24Z mic $
- * @package		Translation Frontend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Text
 $_['text_title']			= 'Kreditkartenzahlung (PayPal)';
 $_['text_wait']				= 'Bitte warten ..';
 $_['text_credit_card']		= 'Kreditkartendetails';
-	// OC < 2.2
-$_['text_loading']			= 'Lade ..';
-
+	
 // Entry
 $_['entry_cc_type']        = 'Kartentyp';
 $_['entry_cc_number']      = 'Kartennummer';

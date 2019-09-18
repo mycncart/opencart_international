@@ -1,18 +1,9 @@
 <?php
-/**
- * @version		$Id: usps.php 4467 2016-10-11 14:59:21Z mic $
- * @package		Language Language Translation German Backend
- * @author		mic - https://osworx.net
- * @copyright	2016 OSWorX - https://osworx.net
- * @license		GPL - www.gnu.org/copyleft/gpl.html
- */
-
 // Heading
 $_['heading_title']			= 'United States Postal Service (USPS)';
 
 // Text
 $_['text_extension']		= 'Erweiterungen';
-$_['text_shipping']			= 'Versand';
 $_['text_success']			= 'Datensatz erfolgreich bearbeitet';
 $_['text_edit']				= 'Bearbeiten';
 $_['text_domestic_00']		= 'First-Class Mail Packet';
