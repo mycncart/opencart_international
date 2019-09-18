@@ -1,7 +1,7 @@
 <?php
 // Heading
 $_['heading_title']     = 'Поиск';
-$_['heading_tag']		= 'По тегу - ';
+$_['heading_tag']       = 'По тегу - ';
 
 // Text
 $_['text_search']       = 'Результаты поиска';
@@ -32,3 +32,4 @@ $_['text_limit']        = 'Показать:';
 // Entry
 $_['entry_search']      = 'Поиск:';
 $_['entry_description'] = 'Искать в описании товаров';
+

@@ -5,6 +5,7 @@ $_['heading_title']                        = 'Периодические зак�
 // Text
 $_['text_success']                         = 'Настройки успешно изменены!';
 $_['text_list']                            = 'Периодические заказы';
+$_['text_filter']                          = 'Фильтр';
 $_['text_recurring_detail']                = 'Подробности';
 $_['text_order_detail']                    = 'Заказ';
 $_['text_product_detail']                  = 'Товар';
@@ -36,7 +37,7 @@ $_['text_status_6']                        = 'Ожидает';
 $_['text_transactions']                    = 'Операция';
 $_['text_cancel_confirm']                  = 'Данное действие необратимо. Вы уверены?';
 $_['text_transaction_date_added']          = 'Дата создания';
-$_['text_transaction_payment'] 			   = 'Платеж';
+$_['text_transaction_payment']             = 'Платеж';
 $_['text_transaction_outstanding_payment'] = 'Непоступивший платеж';
 $_['text_transaction_skipped']             = 'Платеж пропущен';
 $_['text_transaction_failed']              = 'Проблема с оплатой';

@@ -11,6 +11,23 @@ $_['text_authorization']			 = 'Авторизация';
 $_['text_sale']						 = 'Продажа';
 $_['text_signup']                    = 'Зарегистрируйтесь в PayPal - сначала сохраните настройки перед обновлением';
 $_['text_sandbox']                   = 'Зарегистрируйтесь PayPal Sandbox - сначала сохраните настройки перед обновлением';
+$_['text_configure_live']            = 'Configure Live';
+$_['text_configure_sandbox']         = 'Configure Sandbox';
+$_['text_show_advanced']             = 'Show Advanced';
+$_['text_show_quick_setup']          = 'Show Quick Setup';
+$_['text_quick_setup']             	 = 'Quick setup - Link an existing or create a new PayPal account to start accepting payments in minutes';
+$_['text_paypal_consent']		 	 = 'By using the quick setup tool you allow PayPal to receive information about your store';
+$_['text_success_connect']			 = 'Success: You have connected your PayPal account!';
+$_['text_preferred_main']		 	 = 'Gives your buyers a simplified checkout experience on multiple devices that keeps them local to your website throughout the payment authorization process';
+$_['text_learn_more']			 	 = '(Learn more)';
+$_['text_preferred_li_1']			 = 'Start accepting PayPal in three clicks';
+$_['text_preferred_li_2']			 = 'Accept payments from around the world';
+$_['text_preferred_li_3']			 = 'Offer Express Checkout Shortcut, letting buyers checkout directly from your basket page';
+$_['text_preferred_li_4']			 = 'Improve conversion with PayPal One Touch and In-Context checkout';
+$_['text_connect_paypal']			 = 'Connect with PayPal';
+$_['text_incontext_not_supported']	 = '* Not supported with In-Context Checkout';
+$_['text_retrieve']	 				 = 'Your details have been entered from PayPal';
+$_['text_enable_button']			 = 'We recommend offering PayPal Express Shortcut to maximise checkout conversion, this allows customers to use their PayPal address book and <strong>checkout is as little as three taps</strong> from the basket page. Click enable to install the extension and access the layout manager, you will ned to add "PayPal Express Checkout Button" to the checkout layout';
 
 // Entry
 $_['entry_username']				 = 'API Username';
@@ -20,7 +37,7 @@ $_['entry_sandbox_username']		 = 'API Sandbox Username';
 $_['entry_sandbox_password']		 = 'API Sandbox Password';
 $_['entry_sandbox_signature']		 = 'API Sandbox Signature';
 $_['entry_ipn']						 = 'IPN URL';
-$_['entry_test']					 = 'Тестовый режим (Sandbox) Mode';
+$_['entry_test']					 = 'Тестовый режим (Sandbox)';
 $_['entry_debug']					 = 'Запись ошибок';
 $_['entry_currency']				 = 'Валюта по умолчанию';
 $_['entry_recurring_cancel']	     = 'Разрешить клиентам отменять периодические платежи';
@@ -42,6 +59,7 @@ $_['entry_voided_status']			 = 'Статус заказа при аннулир�
 $_['entry_allow_notes']				 = 'Разрешить заметки';
 $_['entry_colour']	      			 = 'Цвет фона';
 $_['entry_logo']					 = 'Логотип';
+$_['entry_incontext']				 = 'Disable In-Context Checkout';
 
 // Tab
 $_['tab_api']				         = 'API информация';
@@ -65,4 +83,6 @@ $_['error_sandbox_password']		 = 'API Sandbox Password Required!';
 $_['error_sandbox_signature']		 = 'API Sandbox Signature Required!';
 $_['error_api']						 = 'Paypal Authorization Error';
 $_['error_api_sandbox']				 = 'Paypal Sandbox Authorization Error';
+$_['error_consent']				 	 = 'To use quick setup you need to permit PayPal to use your store information';
+
 

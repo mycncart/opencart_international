@@ -15,7 +15,7 @@ $_['column_action']     = 'Действие';
 // Entry
 $_['entry_name']        = 'Название Файла';
 $_['entry_filename']    = 'Имя Файла';
-$_['entry_date_added'] 	= 'Дата добавления';
+$_['entry_date_added']  = 'Дата добавления';
 
 // Error
 $_['error_permission']  = 'У Вас нет прав для управления данным модулем!';

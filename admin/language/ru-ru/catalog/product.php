@@ -4,9 +4,10 @@ $_['heading_title']          = 'Товары';
 
 // Text
 $_['text_success']           = 'Настройки успешно изменены!';
-$_['text_list']              = 'Товары';
+$_['text_list']              = 'Список товаров';
 $_['text_add']               = 'Добавить';
 $_['text_edit']              = 'Редактирование';
+$_['text_filter']            = 'Фильтр';
 $_['text_plus']              = '+';
 $_['text_minus']             = '-';
 $_['text_default']           = 'Основной магазин';
@@ -14,6 +15,7 @@ $_['text_option']            = 'Опция';
 $_['text_option_value']      = 'Значение опции';
 $_['text_percent']           = 'Процент';
 $_['text_amount']            = 'Фиксированная сумма';
+$_['text_keyword']           = 'Должно быть уникальным на всю систему и без пробелов.';
 
 // Column
 $_['column_name']            = 'Название товара';
@@ -27,9 +29,10 @@ $_['column_action']          = 'Действие';
 // Entry
 $_['entry_name']             = 'Название товара';
 $_['entry_description']      = 'Описание';
-$_['entry_meta_title'] 	     = 'Мета-тег Title';
-$_['entry_meta_keyword'] 	 = 'Мета-тег Keyword';
+$_['entry_meta_title']       = 'Мета-тег Title';
+$_['entry_meta_keyword']     = 'Мета-тег Keyword';
 $_['entry_meta_description'] = 'Мета-тег Description';
+$_['entry_store']            = 'Магазины';
 $_['entry_keyword']          = 'SEO URL';
 $_['entry_model']            = 'Модель';
 $_['entry_sku']              = 'Артикул';
@@ -41,7 +44,6 @@ $_['entry_mpn']              = 'MPN';
 $_['entry_location']         = 'Расположение';
 $_['entry_shipping']         = 'Необходима доставка';
 $_['entry_manufacturer']     = 'Производитель';
-$_['entry_store']            = 'Магазины';
 $_['entry_date_available']   = 'Дата поступления';
 $_['entry_quantity']         = 'Количество';
 $_['entry_minimum']          = 'Минимальное количество';
@@ -76,13 +78,12 @@ $_['entry_category']         = 'Показывать в категориях';
 $_['entry_filter']           = 'Фильтры';
 $_['entry_download']         = 'Загрузки';
 $_['entry_related']          = 'Рекомендуемые товары';
-$_['entry_tag']          	 = 'Теги товара';
+$_['entry_tag']              = 'Теги товара';
 $_['entry_reward']           = 'Бонусные баллы';
 $_['entry_layout']           = 'Макет';
 $_['entry_recurring']        = 'Профиль периодичности';
 
 // Help
-$_['help_keyword']           = 'Должно быть уникальным на всю систему и без пробелов.';
 $_['help_sku']               = 'SKU или код производителя';
 $_['help_upc']               = 'Универсальный код товара';
 $_['help_ean']               = 'Европейский код товара';
@@ -102,9 +103,9 @@ $_['help_tag']               = 'теги разделяются запятой';
 // Error
 $_['error_warning']          = 'Внимательно проверьте форму на ошибки!';
 $_['error_permission']       = 'У Вас нет прав для изменения товаров!';
-$_['error_name']             = 'Название товара должно содержать от 3 до 255 символов!';
-$_['error_meta_title']       = 'Мета-тег Title должен содержать от 3 до 255 символов!';
-$_['error_model']            = 'Модель товара должна содержать от 3 до 64 символов!';
+$_['error_name']             = 'Название товара должно содержать от 1 до 255 символов!';
+$_['error_meta_title']       = 'Мета-тег Title должен содержать от 1 до 255 символов!';
+$_['error_model']            = 'Модель товара должна содержать от 1 до 64 символов!';
 $_['error_keyword']          = 'SEO URL занят!';
-
+$_['error_unique']           = 'SEO URL должен быть уникальным!';
 

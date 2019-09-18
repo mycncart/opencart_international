@@ -3,7 +3,6 @@
 $_['text_title']				= 'Карты Visa и MasterCard (PayPal)';
 $_['text_wait']					= 'Пожалуйста, подождите!';
 $_['text_credit_card']			= 'Информация платежной карты';
-$_['text_loading']				= 'Загрузка';
 
 // Entry
 $_['entry_cc_type']				= 'Тип карты:';

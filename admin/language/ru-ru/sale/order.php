@@ -4,9 +4,10 @@ $_['heading_title']              = 'Заказы';
 
 // Text
 $_['text_success']               = 'Заказы успешно изменены!';
-$_['text_list']                  = 'Заказы';
+$_['text_list']                  = 'Список заказов';
 $_['text_add']                   = 'Добавить';
 $_['text_edit']                  = 'Редактирование';
+$_['text_filter']                = 'Фильтр';
 $_['text_order_detail']          = 'Заказ';
 $_['text_customer_detail']       = 'Клиент';
 $_['text_option']                = 'Опции';
@@ -18,6 +19,7 @@ $_['text_customer']              = 'Клиент';
 $_['text_customer_group']        = 'Группа клиентов';
 $_['text_email']                 = 'E-Mail';
 $_['text_telephone']             = 'Телефон';
+$_['text_fax']                   = 'Факс';
 $_['text_invoice']               = 'Счет';
 $_['text_reward']                = 'Бонусные баллы';
 $_['text_affiliate']             = 'Партнер';
@@ -36,7 +38,6 @@ $_['text_forwarded_ip']          = 'Переадресация IP';
 $_['text_user_agent']            = 'User Agent';
 $_['text_accept_language']       = 'Язык';
 $_['text_order_id']              = '№ Заказа';
-$_['text_fax']                   = 'Факс';
 $_['text_website']               = 'Сайт';
 $_['text_invoice_no']            = '№ Счета';
 $_['text_invoice_date']          = 'Дата выписки счета';
@@ -86,7 +87,6 @@ $_['entry_firstname']            = 'Имя, Отчество';
 $_['entry_lastname']             = 'Фамилия';
 $_['entry_email']                = 'E-Mail';
 $_['entry_telephone']            = 'Телефон';
-$_['entry_fax']                  = 'Факс';
 $_['entry_address']              = 'Выбрать адрес';
 $_['entry_company']              = 'Компания';
 $_['entry_address_1']            = 'Адрес 1';
@@ -129,6 +129,5 @@ $_['help_override']              = 'Если заказ заблокирован
 $_['error_warning']              = 'Внимательно проверьте форму на ошибки!!';
 $_['error_permission']           = 'У Вас нет прав для изменения настроек Заказов!';
 $_['error_action']               = 'Не удалось завершить действие!';
-$_['error_filetype']			 = 'Неправильный тип файла!';
-
+$_['error_filetype']             = 'Неправильный тип файла!';
 

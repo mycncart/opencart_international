@@ -4,7 +4,7 @@ $_['heading_title']    = 'Google Sitemap';
 
 // Text
 $_['text_extension']   = 'Расширения';
-$_['text_success']     = 'Настройки модуля обновлены!';
+$_['text_success']     = 'Настройки успешно изменены!';
 $_['text_edit']        = 'Редактирование';
 
 // Entry

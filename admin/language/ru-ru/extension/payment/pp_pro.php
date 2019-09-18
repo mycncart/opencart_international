@@ -3,11 +3,12 @@
 $_['heading_title']		 = 'PayPal Pro';
 
 // Text
+$_['text_extension']     = 'Расширения';
 $_['text_success']		 = 'Настройки успешно изменены!';
 $_['text_edit']          = 'Редактирование';
 $_['text_pp_pro']		 = '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
 $_['text_authorization'] = 'Авторизация';
-$_['text_sale']						= 'Продажа';
+$_['text_sale']			 = 'Продажа';
 
 // Entry
 $_['entry_username']	 = 'API Username';

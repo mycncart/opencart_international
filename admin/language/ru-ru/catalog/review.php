@@ -7,6 +7,7 @@ $_['text_success']      = 'Настройки успешно изменены!';
 $_['text_list']         = 'Отзывы';
 $_['text_add']          = 'Добавить';
 $_['text_edit']         = 'Редактирование';
+$_['text_filter']       = 'Фильтр';
 
 // Column
 $_['column_product']    = 'Товар';
