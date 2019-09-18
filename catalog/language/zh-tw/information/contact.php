@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']  = '聯系我們';
 

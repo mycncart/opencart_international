@@ -5,7 +5,7 @@ $_['heading_title']      = '橫幅廣告';
 
 // Text
 $_['text_success']       = '成功: 已修改橫幅廣告！';
-$_['text_list']          = '橫幅廣告列表';
+$_['text_list']          = '橫幅廣告列表 - (在線教程: <a href="http://www.mycncart.com/blog-6.html" target="_blank">http://www.mycncart.com/blog-6.html</a>)';
 $_['text_add']           = '添加橫幅廣告';
 $_['text_edit']          = '編輯橫幅廣告';
 $_['text_default']       = '默認';

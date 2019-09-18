@@ -1,14 +1,13 @@
 <?php
-
 // Heading
 $_['heading_title']          = '商品';
 
 // Text
 $_['text_success']           = '成功: 已經修改商品！';
-$_['text_list']              = '商品列表';
+$_['text_list']              = '商品列表 - (在線教程: <a href="http://www.mycncart.com/blog-34.html" target="_blank">http://www.mycncart.com/blog-34.html</a>)';
 $_['text_add']               = '添加商品';
-$_['text_tmall_add']         = '導入天貓商品';
 $_['text_edit']              = '編輯商品';
+$_['text_filter']       	 = '篩選';
 $_['text_plus']              = '+';
 $_['text_minus']             = '-';
 $_['text_default']           = '默認';
@@ -16,12 +15,12 @@ $_['text_option']            = '選項';
 $_['text_option_value']      = '選項值';
 $_['text_percent']           = '百分比';
 $_['text_amount']            = '固定值';
+$_['text_keyword']           = '不要用空格，使用-鏈接 SEO URL 關鍵字，確保該關鍵詞為全站唯壹。';
 
 // Column
 $_['column_name']            = '商品名稱';
 $_['column_model']           = '型號';
 $_['column_image']           = '圖像';
-$_['column_id']              = '商品ID';
 $_['column_price']           = '價格';
 $_['column_quantity']        = '數量';
 $_['column_status']          = '狀態';
@@ -33,9 +32,9 @@ $_['entry_description']      = '描述';
 $_['entry_meta_title'] 	     = 'Meta Tag 標題';
 $_['entry_meta_keyword'] 	 = 'Meta Tag 關鍵詞';
 $_['entry_meta_description'] = 'Meta Tag 描述';
-$_['entry_keyword']          = 'SEO URL';
+$_['entry_store']            = '商店';
+$_['entry_keyword']          = 'Keyword';
 $_['entry_model']            = '型號';
-$_['entry_product_id']  	 = '商品 ID';
 $_['entry_sku']              = 'SKU';
 $_['entry_upc']              = 'UPC';
 $_['entry_ean']              = 'EAN';
@@ -45,7 +44,7 @@ $_['entry_mpn']              = 'MPN';
 $_['entry_location']         = '生產地';
 $_['entry_shipping']         = '需要配送';
 $_['entry_manufacturer']     = '制造商/品牌';
-$_['entry_store']            = '商店';
+
 $_['entry_date_available']   = '上架日期';
 $_['entry_quantity']         = '數量';
 $_['entry_minimum']          = '最小購買數量';
@@ -86,7 +85,6 @@ $_['entry_layout']           = '布局排版覆蓋';
 $_['entry_recurring']        = '分期付款';
 
 // Help
-$_['help_keyword']           = '不要用空格，使用-鏈接 SEO URL 關鍵字，確保該關鍵詞為全站唯壹。';
 $_['help_sku']               = 'Stock Keeping Unit';
 $_['help_upc']               = 'Universal Product Code';
 $_['help_ean']               = 'European Article Number';
@@ -104,9 +102,10 @@ $_['help_related']           = '(輸入時自動篩選結果)';
 $_['help_tag']          	 = '英文逗號分割';
 
 // Error
-$_['error_warning']          = '警告: 存在錯誤，請檢查！';
+$_['error_warning']          = '警告: 存在錯誤，請檢查各項錄入，尤其是不同語言項下是否都填寫完整！';
 $_['error_permission']       = '警告: 無權限修改商品！';
 $_['error_name']             = '商品名稱必須介於3-255字符之間！';
 $_['error_meta_title']       = 'Meta 標題必須介於3-255字符之間！';
 $_['error_model']            = '商品型號必須介於1-64字符之間！';
 $_['error_keyword']          = '該 SEO URL 已經存在了！';
+$_['error_unique']           = 'SEO URL 必須全站唯壹！';

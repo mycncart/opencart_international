@@ -1,7 +1,6 @@
 <?php
-
 // Heading
-$_['heading_title']   = '無此權限！';
+$_['heading_title']   = '權限不足！';
 
 // Text
-$_['text_permission'] = '您沒有權限訪問此頁面，請聯系系統管理員。';
+$_['text_permission'] = '無權限訪問該頁面，請聯系系統管理員。';

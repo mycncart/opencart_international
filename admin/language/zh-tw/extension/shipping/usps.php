@@ -1,11 +1,10 @@
 <?php
-
 // Heading
-$_['heading_title']         = '美国邮政服务';
+$_['heading_title']         = '美國郵政服務';
 
 // Text
-$_['text_shipping']         = '配送管理';
-$_['text_success']          = '成功: 已修改美国邮政服务！';
+$_['text_extension']        = 'Extensions';
+$_['text_success']          = 'Success: You have modified United States Postal Service!';
 $_['text_edit']             = 'Edit United States Postal Service Shipping';
 $_['text_domestic_00']      = 'First-Class Mail Parcel';
 $_['text_domestic_01']      = 'First-Class Mail Large Envelope';
@@ -65,12 +64,12 @@ $_['entry_height']          = 'Height';
 $_['entry_width']           = 'Width';
 $_['entry_display_time']    = 'Display Delivery Time';
 $_['entry_display_weight']  = 'Display Delivery Weight';
-$_['entry_weight_class']    = '重量单位';
-$_['entry_tax']             = '税种';
-$_['entry_geo_zone']        = '区域群组';
-$_['entry_status']          = '状态';
-$_['entry_sort_order']      = '排序';
-$_['entry_debug']      		= '调试模式';
+$_['entry_weight_class']    = 'Weight Class';
+$_['entry_tax']             = 'Tax Class';
+$_['entry_geo_zone']        = 'Geo Zone';
+$_['entry_status']          = 'Status';
+$_['entry_sort_order']      = 'Sort Order';
+$_['entry_debug']           = 'Debug Mode';
 
 // Help
 $_['help_dimension']        = 'Average package dimensions for shipping package. Product dimensions are not used for shipping at this time.';
@@ -80,7 +79,7 @@ $_['help_weight_class']     = 'Must be set to Pound.';
 $_['help_debug']      		= 'Saves send/recv data to the system log';
 
 // Error
-$_['error_permission']      = '警告: You do not have permission to modify United States Postal Service!';
+$_['error_permission']      = 'Warning: You do not have permission to modify United States Postal Service!';
 $_['error_user_id']         = 'User ID Required!';
 $_['error_postcode']        = 'Zip Code Required!';
 $_['error_width']        	= 'Width Required!';

@@ -1,14 +1,13 @@
 <?php
-
 // Heading
 $_['heading_title']     = '推廣跟蹤';
 
 // Text
 $_['text_success']      = '成功: 已修改推廣跟蹤！';
-$_['text_list']         = '推廣跟蹤列表';
+$_['text_list']         = '推廣跟蹤列表 - (在線教程: <a href="http://www.mycncart.com/blog-92.html" target="_blank">http://www.mycncart.com/blog-92.html</a>)';
 $_['text_add']          = '添加推廣跟蹤';
 $_['text_edit']         = '編輯推廣跟蹤';
-
+$_['text_filter']       = '篩選';
 // Column
 $_['column_name']       = '活動名稱';
 $_['column_code']       = '跟蹤代碼';

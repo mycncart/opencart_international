@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '屬性分組';
 
 // Text
 $_['text_success']      = '成功: 已經修改屬性分組！';
-$_['text_list']         = '屬性分組列表';
+$_['text_list']         = '屬性分組列表 - (在線教程: <a href="http://www.mycncart.com/blog-128.html" target="_blank">http://www.mycncart.com/blog-128.html</a>)';
 $_['text_add']          = '添加屬性分組';
 $_['text_edit']         = '編輯屬性分組';
 

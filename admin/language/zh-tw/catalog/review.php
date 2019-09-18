@@ -1,13 +1,13 @@
 <?php
-
 // Heading
 $_['heading_title']     = '評論';
 
 // Text
 $_['text_success']      = '成功: 已經修改評論！';
-$_['text_list']         = '評論列表';
+$_['text_list']         = '評論列表 - (在線教程: <a href="http://www.mycncart.com/blog-131.html" target="_blank">http://www.mycncart.com/blog-131.html</a>)';
 $_['text_add']          = '添加評論';
 $_['text_edit']         = '編輯';
+$_['text_filter']       = '篩選';
 
 // Column
 $_['column_product']    = '商品';

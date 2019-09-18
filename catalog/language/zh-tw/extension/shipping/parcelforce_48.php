@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']       = '包裹 48';
 $_['text_description'] = '包裹 48';

@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title'] = '您的推廣賬戶已建立！';
 

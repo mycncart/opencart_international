@@ -1,16 +1,15 @@
 <?php
-
 // Heading
-$_['heading_title']    = '獎勵積分';
+$_['heading_title']    = '奖励积分';
 
 // Text
-$_['text_total']       = '訂單總計';
-$_['text_success']     = '成功: 已修改獎勵積分！';
-$_['text_edit']        = '編輯獎勵積分';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改奖励积分！';
+$_['text_edit']        = '编辑奖励积分';
 
 // Entry
-$_['entry_status']     = '狀態';
+$_['entry_status']     = '状态';
 $_['entry_sort_order'] = '排序';
 
 // Error
-$_['error_permission'] = '警告: 無權限修改獎勵積分！';
+$_['error_permission'] = '警告: 无权限修改奖励积分！';

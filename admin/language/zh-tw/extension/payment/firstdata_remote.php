@@ -4,11 +4,11 @@ $_['heading_title']					 = 'First Data EMEA Web Service API';
 
 // Text
 $_['text_firstdata_remote']			 = '<img src="view/image/payment/firstdata.png" alt="First Data" title="First Data" style="border: 1px solid #EEEEEE;" />';
-$_['text_payment']					 = 'Payment';
+$_['text_extension']	 = '扩展功能';
 $_['text_success']					 = 'Success: You have modified First Data account details!';
 $_['text_edit']                      = 'Edit First Data EMEA Web Service API';
 $_['text_card_type']				 = 'Card type';
-$_['text_enabled']					 = 'Enabled';
+$_['text_enabled']					 = '启用';
 $_['text_merchant_id']				 = 'Store ID';
 $_['text_subaccount']				 = 'Subaccount';
 $_['text_user_id']					 = 'User ID';

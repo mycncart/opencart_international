@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']         = '歷史訂單';
 
@@ -24,7 +23,6 @@ $_['text_error']            = '請求的訂單不存在！';
 $_['column_order_id']       = '訂單號 ID';
 $_['column_customer']       = '會員';
 $_['column_product']        = '總件數';
-$_['column_customer']       = '會員';
 $_['column_name']           = '商品名稱';
 $_['column_model']          = '型號';
 $_['column_quantity']       = '數量';

@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']    = '最新商品';
 
 // Text
-$_['text_module']      = '模組s';
+$_['text_extension']   = '擴展功能';
 $_['text_success']     = '成功: 已修改最新商品模組！';
-$_['text_edit']        = '編輯最新商品模組';
+$_['text_edit']        = '編輯最新商品模組 - (在線教程: <a href="http://www.mycncart.com/blog-115.html" target="_blank">http://www.mycncart.com/blog-115.html</a>)';
 
 // Entry
 $_['entry_name']       = '模組名稱';

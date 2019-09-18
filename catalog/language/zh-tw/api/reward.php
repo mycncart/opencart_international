@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_success']     = '成功: 已使用獎勵積分！';
 

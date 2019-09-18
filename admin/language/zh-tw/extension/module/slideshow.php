@@ -4,9 +4,9 @@
 $_['heading_title']    = '幻燈片';
 
 // Text
-$_['text_module']      = '模組';
+$_['text_extension']   = '擴展功能';
 $_['text_success']     = '成功: 已修改幻燈片模組！';
-$_['text_edit']        = '編輯幻燈片模組';
+$_['text_edit']        = '編輯幻燈片模組 - (在線教程: <a href="http://www.mycncart.com/blog-113.html" target="_blank">http://www.mycncart.com/blog-113.html</a>)';
 
 // Entry
 $_['entry_name']       = '模組名稱';

@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']        = '您的訂單已成功提交了！';
 

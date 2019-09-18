@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_success'] = '成功: API 會話成功開啟！';
 

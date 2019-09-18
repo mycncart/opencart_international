@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']     = '會員等級';
 
 // Text
 $_['text_success']      = '成功: 已修改會員等級！';
-$_['text_list']         = '會員等級列表';
+$_['text_list']         = '會員等級列表 - (在線教程: <a href="http://www.mycncart.com/blog-94.html" target="_blank">http://www.mycncart.com/blog-94.html</a>)';
 $_['text_add']          = '添加會員等級';
 $_['text_edit']         = '編輯會員等級';
 

@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']		 = '銀行轉賬';
 
 // Text
-$_['text_payment']		 = '支付方式';
+$_['text_extension']	 = '擴展功能';
 $_['text_success']		 = '成功: 已修改銀行轉賬信息！';
-$_['text_edit']          = '編輯銀行轉賬';
+$_['text_edit']          = '編輯銀行轉賬 - (在線教程: <a href="http://www.mycncart.com/blog-120.html" target="_blank">http://www.mycncart.com/blog-120.html</a>)';
 
 // Entry
 $_['entry_bank']		 = '銀行轉賬指導信息';

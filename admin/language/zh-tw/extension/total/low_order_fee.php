@@ -1,22 +1,21 @@
 <?php
-
 // Heading
-$_['heading_title']    = '小額訂單收費';
+$_['heading_title']    = '小额订单收费';
 
 // Text
-$_['text_total']       = '訂單總計';
-$_['text_success']     = '成功: 已修改小額訂單收費！';
-$_['text_edit']        = '編輯小額訂單收費';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改小额订单收费！';
+$_['text_edit']        = '编辑小额订单收费';
 
 // Entry
-$_['entry_total']      = '小額訂單最高金額';
-$_['entry_fee']        = '收費';
-$_['entry_tax_class']  = '稅種';
-$_['entry_status']     = '狀態';
+$_['entry_total']      = '小额订单最高金额';
+$_['entry_fee']        = '收费';
+$_['entry_tax_class']  = '税种';
+$_['entry_status']     = '状态';
 $_['entry_sort_order'] = '排序';
 
 // Help
-$_['help_total']       = '若想取消小額訂單收費，訂單所需要達到的最低總計金額。';
+$_['help_total']       = '若想取消小额订单收费，订单所需要达到的最低总计金额。';
 
 // Error
-$_['error_permission'] = '警告: 無權限修改小額訂單收費！';
+$_['error_permission'] = '警告: 无权限修改小额订单收费！';

@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']  = 'ÕÒ²»µ½Ò³Ãæ£¡';
+$_['heading_title']  = 'æœªå‘çŽ°è¯¥é¡µé¢Page Not Found!';
 
 // Text
-$_['text_not_found'] = 'ÕÒ²»µ½¸ÃÒ³Ãæ£¡ÇëÁªÏµÍøÕ¾¹ÜÀíÔ±¡£';
+$_['text_not_found'] = 'è¯¥é¡µé¢ä¸å­˜åœ¨ï¼Œå¦‚æžœæŒç»­å­˜åœ¨æ­¤é—®é¢˜ï¼Œè¯·è”ç³»ç½‘ç«™ç®¡ç†å‘˜è§£å†³ã€‚The page you are looking for could not be found!';

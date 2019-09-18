@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_success']           = '已成功修改訂單';
 

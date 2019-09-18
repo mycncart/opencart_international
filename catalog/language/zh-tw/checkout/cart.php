@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']            = '購物車內的商品';
 
@@ -19,14 +18,12 @@ $_['text_month']               = '月';
 $_['text_year']                = '年';
 $_['text_trial']               = '%s every %s %s for %s payments then ';
 $_['text_recurring']           = '%s every %s %s';
-$_['text_length']              = ' for %s payments';
-$_['text_until_cancelled']     = 'until cancelled';
+$_['text_payment_cancel']      = 'until cancelled';
 $_['text_recurring_item']      = 'Recurring Item';
 $_['text_payment_recurring']   = 'Payment Profile';
 $_['text_trial_description']   = '%s every %d %s(s) for %d payment(s) then';
 $_['text_payment_description'] = '%s every %d %s(s) for %d payment(s)';
 $_['text_payment_cancel']      = '%s every %d %s(s) until canceled';
-
 
 // Column
 $_['column_image']             = '圖片';

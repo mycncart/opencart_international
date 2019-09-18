@@ -1,12 +1,11 @@
 <?php
-
 // Heading
 $_['heading_title']    = '品牌展示';
 
 // Text
-$_['text_module']      = '模組';
+$_['text_extension']   = '擴展功能';
 $_['text_success']     = '成功: 已修改品牌展示模組！';
-$_['text_edit']        = '編輯品牌展示模組';
+$_['text_edit']        = '編輯品牌展示模組 - (在線教程: <a href="http://www.mycncart.com/blog-112.html" target="_blank">http://www.mycncart.com/blog-112.html</a>)';
 
 // Entry
 $_['entry_name']       = '模組名稱';

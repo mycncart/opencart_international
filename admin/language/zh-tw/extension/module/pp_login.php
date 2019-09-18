@@ -4,7 +4,7 @@
 $_['heading_title']        = 'PayPal(貝寶)賬號登錄';
 
 //Text
-$_['text_module']          = '模組';
+$_['text_extension']   = '擴展功能';
 $_['text_success']         = '成功: 已修改PayPal(貝寶)賬號登錄模組！';
 $_['text_edit']            = '編輯PayPal(貝寶)賬號登錄 模組';
 $_['text_button_grey']     = '灰色';

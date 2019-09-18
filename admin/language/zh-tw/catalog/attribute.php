@@ -1,11 +1,10 @@
 <?php
-
 // Heading
 $_['heading_title']          = '屬性';
 
 // Text
 $_['text_success']           = '成功: 已經修改屬性！';
-$_['text_list']              = '屬性列表';
+$_['text_list']              = '屬性列表 - (在線教程: <a href="http://www.mycncart.com/blog-127.html" target="_blank">http://www.mycncart.com/blog-127.html</a>)';
 $_['text_add']               = '添加屬性';
 $_['text_edit']              = '編輯屬性';
 

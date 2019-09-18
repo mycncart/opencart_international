@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_subject']	= '%s - 商品評論';
 $_['text_waiting']	= '收到壹新的商品評論等待審核。';

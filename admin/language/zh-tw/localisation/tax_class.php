@@ -5,9 +5,11 @@ $_['heading_title']     = '稅率類別';
 
 // Text
 $_['text_success']      = '成功: 已修改稅率類別!';
-$_['text_list']         = '稅率類別列表';
+$_['text_list']         = '稅率類別列表 - (在線教程: <a href="http://www.mycncart.com/blog-85.html" target="_blank">http://www.mycncart.com/blog-85.html</a>)';
 $_['text_add']          = '添加稅率類別';
 $_['text_edit']         = '編輯稅率類別';
+$_['text_tax_class']    = '稅類';
+$_['text_tax_rate']     = '稅率';
 $_['text_shipping']     = '配送地址';
 $_['text_payment']      = '賬單地址';
 $_['text_store']        = '商店地址';

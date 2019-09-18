@@ -1,11 +1,11 @@
 <?php
 
 // Heading
-$_['heading_title']     = '語言';
+$_['heading_title']     = '語言管理';
 
 // Text
 $_['text_success']      = '成功: 已修改語言！';
-$_['text_list']         = '語言列表';
+$_['text_list']         = '語言列表 - (在線教程: <a href="http://www.mycncart.com/blog-60.html" target="_blank">http://www.mycncart.com/blog-60.html</a>)';
 $_['text_add']          = '添加語言';
 $_['text_edit']         = '編輯語言';
 

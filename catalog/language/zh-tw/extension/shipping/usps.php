@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_title']  = '美國郵政服務';
 $_['text_weight'] = '重量:';

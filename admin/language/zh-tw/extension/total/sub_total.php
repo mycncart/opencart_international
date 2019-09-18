@@ -1,16 +1,15 @@
 <?php
-
 // Heading
-$_['heading_title']    = '小計';
+$_['heading_title']    = '小计';
 
 // Text
-$_['text_total']       = '訂單總計';
-$_['text_success']     = '成功: 已修改小計！';
-$_['text_edit']        = '編輯小計';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改小计！';
+$_['text_edit']        = '编辑小计';
 
 // Entry
-$_['entry_status']     = '狀態';
+$_['entry_status']     = '状态';
 $_['entry_sort_order'] = '排序';
 
 // Error
-$_['error_permission'] = '警告: 無權限修改小計！';
+$_['error_permission'] = '警告: 无权限修改小计！';

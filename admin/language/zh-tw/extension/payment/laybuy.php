@@ -12,6 +12,7 @@ $_['tab_payment']                   = 'Payment Plan';
 $_['tab_modify']                    = 'Modify Plan';
 
 // Text
+$_['text_extension']   = '扩展功能';
 $_['text_payment']                  = 'Payment';
 $_['text_success']                  = 'Success: You have modified Lay-Buy payment module!';
 $_['text_edit']                     = 'Edit Lay-Buy';
@@ -52,8 +53,7 @@ $_['text_revise_plan']              = 'Revise Plan';
 $_['text_today']                    = 'Today';
 $_['text_due_date']                 = 'Due Date';
 $_['text_cancel_plan']              = 'Cancel Plan';
-$_['text_firstname']                = 'First Name';
-$_['text_lastname']                 = 'Last Name';
+$_['text_fullname']                = 'Full Name';
 $_['text_email']                    = 'E-Mail';
 $_['text_address']                  = 'Address';
 $_['text_suburb']                   = 'Suburb';

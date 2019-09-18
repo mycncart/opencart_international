@@ -5,7 +5,7 @@ $_['heading_title']       = '布局排版';
 
 // Text
 $_['text_success']        = '成功: 已修改布局排版！';
-$_['text_list']           = '布局排版列表';
+$_['text_list']           = '布局排版列表 - (在線教程: <a href="http://www.mycncart.com/blog-1.html" target="_blank">http://www.mycncart.com/blog-1.html</a>)';
 $_['text_add']            = '添加布局排版';
 $_['text_edit']           = '編輯布局排版';
 $_['text_remove']         = '移除';

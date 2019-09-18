@@ -5,7 +5,7 @@ $_['heading_title']    = '庫存狀態';
 
 // Text
 $_['text_success']     = '成功: 已修改庫存狀態！';
-$_['text_list']        = '庫存狀態列表';
+$_['text_list']        = '庫存狀態列表 - (在線教程: <a href="http://www.mycncart.com/blog-78.html" target="_blank">http://www.mycncart.com/blog-78.html</a>)';
 $_['text_add']         = '添加庫存狀態';
 $_['text_edit']        = '編輯庫存狀態';
 

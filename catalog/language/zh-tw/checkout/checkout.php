@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']                  = '結賬';
 
@@ -40,7 +39,6 @@ $_['text_week']                      = '周';
 $_['text_semi_month']                = '半月';
 $_['text_month']                     = '月';
 $_['text_year']                      = '年';
-$_['text_get_sms_code']    			 = '點擊獲取手機短信驗證碼';
 
 // Column
 $_['column_name']                    = '商品名稱';
@@ -54,10 +52,9 @@ $_['entry_email_address']            = 'E-Mail 地址';
 $_['entry_email']                    = 'E-Mail';
 $_['entry_password']                 = '密碼';
 $_['entry_confirm']                  = '確認密碼';
-$_['entry_firstname']    			 = '姓氏';
-$_['entry_lastname']     			 = '名稱';
+$_['entry_firstname']                = '名字';
+$_['entry_lastname']                 = '姓氏';
 $_['entry_telephone']                = '電話';
-$_['entry_fax']                      = '傳真';
 $_['entry_address']                  = '選擇地址';
 $_['entry_company']                  = '公司';
 $_['entry_customer_group']           = '會員等級';
@@ -69,8 +66,6 @@ $_['entry_country']                  = '國家';
 $_['entry_zone']                     = '州/省/地區';
 $_['entry_newsletter']               = '訂閱 %s 新聞郵件。';
 $_['entry_shipping'] 	             = '配送地址與賬單地址壹致。';
-$_['entry_shipping_telephone'] 	     = '收件人電話';
-$_['entry_sms_code']       			 = '短信驗證碼';
 
 // Error
 $_['error_warning']                  = '存在問題，無法完成訂單！如果持續出現此問題，請變換付款方式或者 <a href="%s">點擊這裏</a>聯系網站管理員。';
@@ -78,15 +73,14 @@ $_['error_login']                    = '警告: 用戶名或密碼錯誤。';
 $_['error_attempts']                 = '警告: 超過登錄失敗最大次數，請壹小時後再登錄。';
 $_['error_approved']                 = '警告: 登錄前需要審核通過。';
 $_['error_exists']                   = '警告: E-Mail 已被註冊使用！';
-$_['error_firstname']    			 = '姓氏必須為 1 - 32字符！';
-$_['error_lastname']     			 = '名稱必須為 1 - 32字符！';
+$_['error_firstname']                = '名字必須為 1 到 32 字符！';
+$_['error_lastname']                 = '姓氏必須為 1 到 32 字符！';
 $_['error_email']                    = 'E-Mail 無效！';
-$_['error_shipping_telephone']       = '收件人電話必須為3到32字節！';
 $_['error_telephone']                = '電話必須為 3 - 32字符！';
 $_['error_password']                 = '密碼必須為 4 - 20字符！';
 $_['error_confirm']                  = '確認密碼與密碼不壹致！';
-$_['error_address_1']                = '地址 1必須為 3 - 128字符！';
-$_['error_city']                     = '所在城市必須為 2 - 128字符！';
+$_['error_address_1']                = '地址 1 必須為 3 - 128字符！';
+$_['error_city']                     = '請選擇城市或必須為 2 - 128字符！';
 $_['error_postcode']                 = '郵政編碼必須為 2 - 10字符！';
 $_['error_country']                  = '請選擇國家';
 $_['error_zone']                     = '請選擇州/省/地區！';
@@ -97,5 +91,3 @@ $_['error_no_shipping']              = '警告: 無配送選項，請 <a href="%
 $_['error_payment']                  = '警告: 必須選擇支付方式！';
 $_['error_no_payment']               = '警告: 無支付選項，請 <a href="%s">聯系我們</a> 獲取幫助！';
 $_['error_custom_field']             = '%s 必須！';
-$_['error_custom_field_validate']    = '%s 無效！';
-$_['error_sms_code']       			 = '錯誤的短信驗證碼!';

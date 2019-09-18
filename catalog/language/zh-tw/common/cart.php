@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_items']    = '%s 項商品 - %s';
 $_['text_empty']    = '您的購物車沒有添加商品！';

@@ -1,5 +1,4 @@
 <?php
-
 // Text
-$_['text_footer'] 	= '<a href="http://www.opencartchina.com">OpenCartChina</a> &copy; 2015-' . date('Y') . ' 版權所有。';
-$_['text_version'] 	= '版本號 %s';
+$_['text_footer']  = '技術支持 <a href="http://www.mycncart.com">MyCnCart</a>&nbsp;&nbsp;<a href="http://www.opencart.com">OpenCart</a> &copy; 2009-' . date('Y') . ' 版權所有。';
+$_['text_version'] = '版本 %s';

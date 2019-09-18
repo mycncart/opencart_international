@@ -196,7 +196,7 @@ $_['error_curl']                    = 'CURL: 错误代码(%s): %s';
 //$_['summernote']                    = 'tr-TR';
 //$_['summernote']                    = 'uk-UA';
 //$_['summernote']                    = 'vi-VN';
-//$_['summernote']                    = 'zh-CN';
+$_['summernote']                      = 'zh-CN';
 //$_['summernote']                    = 'zh-TW';
 
 // Datepicker
@@ -313,6 +313,6 @@ $_['error_curl']                    = 'CURL: 错误代码(%s): %s';
 //$_['datepicker']                    = 'vi';
 //$_['datepicker']                    = 'x-pseudo';
 //$_['datepicker']                    = 'yo';
-$_['datepicker']                    = 'zh-cn';
+$_['datepicker']                      = 'zh-cn';
 //$_['datepicker']                    = 'zh-hk';
 //$_['datepicker']                    = 'zh-tw';

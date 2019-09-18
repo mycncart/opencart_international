@@ -4,9 +4,9 @@
 $_['heading_title']					= '貨到付款';
 
 // Text
-$_['text_payment']					= '支付方式';
+$_['text_extension']	 			= '擴展功能';
 $_['text_success']					= '成功: 已修改貨到付款支付方式！';
-$_['text_edit']                     = '編輯貨到付款';
+$_['text_edit']                     = '編輯貨到付款 - (在線教程: <a href="http://www.mycncart.com/blog-121.html" target="_blank">http://www.mycncart.com/blog-121.html</a>)';
 
 // Entry
 $_['entry_total']					= '金額';

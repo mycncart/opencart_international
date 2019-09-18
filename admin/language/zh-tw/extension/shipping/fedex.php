@@ -1,7 +1,7 @@
 <?php
 
 // Heading
-$_['heading_title']                            = '联邦快递(Fedex)';
+$_['heading_title']                            = '聯邦快遞(Fedex)';
 
 // Text
 $_['text_shipping']                            = '配送管理';

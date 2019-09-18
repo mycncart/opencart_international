@@ -4,7 +4,7 @@
 $_['heading_title']    = '到商店自提';
 
 // Text
-$_['text_shipping']    = '配送管理';
+$_['text_extension']   = '擴展功能';
 $_['text_success']     = '成功: 已修改到商店自提！';
 $_['text_edit']        = '編輯到商店自提';
 

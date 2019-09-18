@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title'] = '您查詢的頁面不存在！';
 

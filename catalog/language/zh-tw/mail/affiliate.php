@@ -1,5 +1,4 @@
 <?php
-
 // Text
 $_['text_subject']		        = '%s - 推廣計劃';
 $_['text_welcome']		        = '感謝推廣 %s ！';
@@ -9,14 +8,10 @@ $_['text_services']		        = '登錄後您可以生成鏈接代碼， 以便�
 $_['text_thanks']		        = '謝謝,';
 $_['text_new_affiliate']        = '新推廣會員';
 $_['text_signup']		        = '新註冊壹位推廣會員:';
-$_['text_store']		        = '網店:';
-$_['text_firstname']    		= '姓氏';
-$_['text_lastname']     		= '名稱';
+$_['text_website']        		= '網址:';
+$_['text_customer_group'] 		= '會員等級:';
+$_['text_firstname']      		= '名字:';
+$_['text_lastname']       		= '姓氏:';
 $_['text_company']		        = '公司:';
 $_['text_email']		        = 'E-Mail:';
 $_['text_telephone']	        = '電話:';
-$_['text_website']		        = 'Web Site:';
-$_['text_order_id']             = '訂單號 ID:';
-$_['text_transaction_subject']  = '%s - 推廣傭金';
-$_['text_transaction_received'] = '您已收到傭金 %s ！';
-$_['text_transaction_total']    = '目前傭金總計為 %s。';

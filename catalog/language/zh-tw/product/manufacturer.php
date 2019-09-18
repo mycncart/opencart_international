@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']     = '尋找您喜愛的品牌';
 
