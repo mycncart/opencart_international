@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Honorarios Para Pedidos Bajo Demanda';
+$_['heading_title']    = 'Bajo Costo del Pedido';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado los Honorarios para los Pedidos bajo demanda!';
-$_['text_edit'] = 'Editar Hornorarios para Pedidos bajo demanda';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Bajo Costo Modificado.';
+$_['text_edit']        = 'Editar Total de Bajo Costo del Pedido';
 
-// Entrada
-$_['entry_total'] = 'Pedido total';
-$_['entry_fee'] = 'Tarifa';
-$_['entry_tax_class'] = 'Clase de Impuesto';
-$_['entry_status'] = 'Estado';
-$_['entry_sort_order'] = 'Pedido';
+// Entry
+$_['entry_total']      = 'Total de Pedido';
+$_['entry_fee']        = 'Costo de la Factura';
+$_['entry_tax_class']  = 'Clase de Impuesto';
+$_['entry_status']     = 'Estado';
+$_['entry_sort_order'] = 'Orden';
 
-// Ayuda
-$_['help_total'] = 'El Pagar Total de la orden debe alcanzar antes de que se desactiva este orden total.';
+// Help
+$_['help_total']       = 'Total del Pedido que debe alcanzarse antes de que la Opción se active.';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar la baja total del importe del pedido';
+$_['error_permission'] = 'Error: Sin permiso para modificar el total de Bajo Costo.';

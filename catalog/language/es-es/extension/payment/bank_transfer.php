@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_title']				= 'Transferencia Bancaria';
-$_['text_instruction']			= 'Instrucciones para Transferencia Bancaria';
-$_['text_description']			= 'Por favor transfiera el importe total a la siguiente cuenta bancaria.';
-$_['text_payment']				= 'Su pedido no se enviar&aacute; hasta que recibamos el pago.';
+$_['text_title']       = 'Transferencia Bancaria';
+$_['text_instruction'] = 'Instrucciones de la Transferencia Bancaria';
+$_['text_description'] = 'Transferir el Monto Total a la Siguiente Cuenta Bancaria.';
+$_['text_payment']     = 'El Pedido no será enviado hasta que no se reciba el Pago.';

@@ -1,49 +1,49 @@
 <?php
 // Heading
-$_['heading_title'] 				= 'Bulk Listing';
+$_['heading_title'] 				= 'Listado Masivo';
 $_['text_openbay'] 					= 'OpenBay Pro';
 $_['text_amazon'] 					= 'Amazon EU';
 
 // Text
-$_['text_searching'] 				= 'Searching';
-$_['text_finished'] 				= 'Finished';
-$_['text_marketplace'] 				= 'Marketplace';
-$_['text_de'] 						= 'Germany';
-$_['text_fr'] 						= 'France';
-$_['text_es'] 						= 'Spain';
-$_['text_it'] 						= 'Italy';
-$_['text_uk'] 						= 'United Kingdom';
-$_['text_dont_list'] 				= 'Do not list';
-$_['text_listing_values'] 			= 'Listing values';
-$_['text_new'] 						= 'New';
-$_['text_used_like_new'] 			= 'Used - Like New';
-$_['text_used_very_good'] 			= 'Used - Very Good';
-$_['text_used_good'] 				= 'Used - Good';
-$_['text_used_acceptable'] 			= 'Used - Acceptable';
-$_['text_collectible_like_new'] 	= 'Collectible - Like New';
-$_['text_collectible_very_good'] 	= 'Collectible - Very Good';
-$_['text_collectible_good'] 		= 'Collectible - Good';
-$_['text_collectible_acceptable'] 	= 'Collectible - Acceptable';
-$_['text_refurbished'] 				= 'Refurbished';
+$_['text_searching'] 				= 'Buscando';
+$_['text_finished'] 				= 'Finalizado';
+$_['text_marketplace'] 				= 'Mercado';
+$_['text_de'] 						= 'Alemania';
+$_['text_fr'] 						= 'Francia';
+$_['text_es'] 						= 'España';
+$_['text_it'] 						= 'Italia';
+$_['text_uk'] 						= 'Reino Unido';
+$_['text_dont_list'] 				= 'No Listar';
+$_['text_listing_values'] 			= 'Valor de Listado';
+$_['text_new'] 						= 'Nuevo';
+$_['text_used_like_new'] 			= 'Usado - Como Nuevo';
+$_['text_used_very_good'] 			= 'Usado - Muy Bueno';
+$_['text_used_good'] 				= 'Usado - bueno';
+$_['text_used_acceptable'] 			= 'Usado - Aceptable';
+$_['text_collectible_like_new'] 	= 'Coleccionable - Como Nuevo';
+$_['text_collectible_very_good'] 	= 'Coleccionable - Muy Bueno';
+$_['text_collectible_good'] 		= 'Coleccionable - Bueno';
+$_['text_collectible_acceptable'] 	= 'Coleccionable - Aceptable';
+$_['text_refurbished'] 				= 'Reformado';
 
 // Entry
-$_['entry_condition'] 				= 'Condition';
-$_['entry_condition_note'] 			= 'Condition note';
-$_['entry_start_selling'] 			= 'Start Selling';
+$_['entry_condition'] 				= 'Condición';
+$_['entry_condition_note'] 			= 'Nota de Condición';
+$_['entry_start_selling'] 			= 'Comenzar a Vender';
 
 // Column
-$_['column_name'] 					= 'Name';
-$_['column_image'] 					= 'Image';
-$_['column_model'] 					= 'Model';
-$_['column_status'] 				= 'Status';
-$_['column_matches']				= 'Matches';
-$_['column_result'] 				= 'Result';
+$_['column_name'] 					= 'Nombre';
+$_['column_image'] 					= 'Imagen';
+$_['column_model'] 					= 'Modelo';
+$_['column_status'] 				= 'Estado';
+$_['column_matches']				= 'Coincidencias';
+$_['column_result'] 				= 'Resultado';
 
 // Button
-$_['button_list'] 					= 'List';
+$_['button_list'] 					= 'Listar';
 
 // Error
-$_['error_product_sku'] 			= 'Product must have an SKU';
-$_['error_searchable_fields'] 		= 'Product must have ISBN, EAN, UPC or JAN field populated';
-$_['error_bulk_listing_permission'] = 'Bulk listing is not available on your plan, please upgrade to use this feature.';
-$_['error_select_items'] 			= 'You must select at least 1 item to search';
+$_['error_product_sku'] 			= 'El Producto debe contener un SKU.';
+$_['error_searchable_fields'] 		= 'El Producto debe tener pueblicado ISBN, EAN, UPC o JAN.';
+$_['error_bulk_listing_permission'] = 'La lista masiva no está disponible en este plan, actualizar para usar esta característica.';
+$_['error_select_items'] 			= 'Seleccionar al menos 1 Item para buscar.';

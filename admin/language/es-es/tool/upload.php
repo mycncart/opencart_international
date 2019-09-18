@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']     = 'Archivos Subidos';
+$_['heading_title']     = 'Subidas';
 
 // Text
-$_['text_success'] = 'Se han modificado los Archivos Subidos.';
-$_['text_list'] = 'Cargar Lista';
+$_['text_success']      = 'Operación Exitosa: Subidas Modificadas.';
+$_['text_list']         = 'Listado de Subidas';
 
-// Columna
-$_['column_name'] = 'Nombre';
-$_['column_filename'] = 'Nombre del Archivo';
+// Column
+$_['column_name']       = 'Nombre de la Subida';
+$_['column_filename']   = 'Nombre de Archivo';
 $_['column_date_added'] = 'Fecha Alta';
-$_['column_action'] = 'Acci&oacute;n';
+$_['column_action']     = 'Acción';
 
-// Entrada
-$_['entry_name'] = 'Nombre';
-$_['entry_filename'] = 'Nombre del Archivo';
-$_['entry_date_added'] = 'Fecha Alta';
+// Entry
+$_['entry_name']        = 'Nombre de la Subida';
+$_['entry_filename']    = 'Nombre de Archivo';
+$_['entry_date_added']  = 'Fecha Alta';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar los Archivos Subidos.';
+$_['error_permission']  = 'Error: Sin permiso para modificar Subidas.';

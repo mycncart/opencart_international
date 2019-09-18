@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title']    = 'Sagepay Server Card Management';
+$_['heading_title']    = 'Gestor de Sagepay Server Card Management';
 
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Sagepay Server Card Management module!';
-$_['text_edit']        = 'Edit Sagepay Server Card Management Module';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Gestor de Sagepay Server Card Modificado.';
+$_['text_edit']        = 'Editar  Módulo Gestor de Sagepay Server Card';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Sagepay Server Card Management module!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Gestor de Sagepay Server Card.';

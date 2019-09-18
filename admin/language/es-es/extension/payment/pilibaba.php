@@ -1,79 +1,79 @@
 <?php
 // Heading
-$_['heading_title']         = 'Pilibaba for Chinese Checkout';
+$_['heading_title']         = 'Pilibaba para Pagos de China';
 
 // Tab
-$_['tab_register']          = 'Register';
-$_['tab_settings']          = 'Settings';
+$_['tab_register']          = 'Registrar';
+$_['tab_settings']          = 'Configuración';
 
 // Text
-$_['text_extension']        = 'Extensions';
-$_['text_success']          = 'Success: You have modified Pilibaba payment module!';
-$_['text_edit']             = 'Edit Pilibaba';
+$_['text_extension']        = 'Extensiones';
+$_['text_success']          = 'Operación Exitosa: Módulo de Pago Pilibaba Modificado.';
+$_['text_edit']             = 'Editar Pilibaba';
 $_['text_pilibaba']         = '<a href="http://www.pilibaba.com" target="_blank"><img src="view/image/payment/pilibaba.png" alt="Pilibaba" title="Pilibaba"></a>';
-$_['text_live']             = 'Live';
-$_['text_test']             = 'Test';
-$_['text_payment_info']     = 'Payment Info';
-$_['text_order_id']         = 'Order ID';
-$_['text_amount']           = 'Amount';
-$_['text_fee']              = 'Fee';
-$_['text_date_added']       = 'Date Added';
-$_['text_tracking']         = 'Tracking';
-$_['text_barcode']          = 'Barcode';
-$_['text_barcode_info']     = '(Print out this unique barcode and stick it on the surface of the parcel)';
-$_['text_confirm']          = 'Are you sure you want to update the tracking number?';
-$_['text_register_success'] = 'You have successfully registered. You should receive an email shortly.';
-$_['text_tracking_success'] = 'The tracking number was successfully updated.';
-$_['text_other']            = 'Other';
-$_['text_email']            = 'The registered email address for your Pilibaba account is %s';
+$_['text_live']             = 'Sitio en Producción';
+$_['text_test']             = 'Sitio en Testing';
+$_['text_payment_info']     = 'Información de Pago';
+$_['text_order_id']         = 'Pedido ID';
+$_['text_amount']           = 'Monto';
+$_['text_fee']              = 'Cuota';
+$_['text_date_added']       = 'Fecha Alta';
+$_['text_tracking']         = 'Seguimiento';
+$_['text_barcode']          = 'Código de Barra';
+$_['text_barcode_info']     = '(Imprimir este código de barras único y pegarlo en la superficie del paquete)';
+$_['text_confirm']          = 'Seguro de Actualizar el Número de Seguimiento?';
+$_['text_register_success'] = 'Se ha registrado exitosamente. Recibirá un email a la brevedad.';
+$_['text_tracking_success'] = 'El Número de Seguimiento fue actualizado exitosamente.';
+$_['text_other']            = 'Otros';
+$_['text_email']            = 'La Dirección de Email Registrada paa la Cuenta Pilibaba es %s';
 
 // Entry
-$_['entry_email_address']   = 'Email Address';
-$_['entry_password']        = 'Password';
-$_['entry_currency']        = 'Currency';
-$_['entry_warehouse']       = 'Warehouse';
-$_['entry_country']         = 'Country';
-$_['entry_merchant_number'] = 'Merchant Number';
-$_['entry_secret_key']      = 'Secret Key';
-$_['entry_environment']     = 'Environment';
-$_['entry_shipping_fee']    = 'Shipping Fee';
-$_['entry_order_status']    = 'Order Status';
-$_['entry_status']          = 'Status';
-$_['entry_logging']         = 'Debug Logging';
-$_['entry_sort_order']      = 'Sort Order';
+$_['entry_email_address']   = 'Dirección de Email';
+$_['entry_password']        = 'Contraseña';
+$_['entry_currency']        = 'Moneda';
+$_['entry_warehouse']       = 'Almacén';
+$_['entry_country']         = 'País';
+$_['entry_merchant_number'] = 'Número de Comercio';
+$_['entry_secret_key']      = 'Key Secreta';
+$_['entry_environment']     = 'Ambiente';
+$_['entry_shipping_fee']    = 'Cuota de Envío';
+$_['entry_order_status']    = 'Estado del Pedido';
+$_['entry_status']          = 'Estado';
+$_['entry_logging']         = 'Registro de Depuración';
+$_['entry_sort_order']      = 'Orden';
 
 // Help
-$_['help_email_address']    = 'Please enter the email address for the owner of this business.';
-$_['help_password']         = 'Please enter a password between 8 and 30 characters.';
-$_['help_currency']         = 'Select the currency used on your website and to withdraw to your bank account.';
-$_['help_warehouse']        = 'Select the nearest warehouse you will be shipping to. When you receive orders from Chinese customers (via Pilibaba gateway) you can deliver parcels to this warehouse.';
-$_['help_country']          = 'Tell us your country, and we will inform you once a warehouse in this country is opened.';
-$_['help_merchant_number']  = 'Your personal Pilibaba account merchant number.';
-$_['help_secret_key']       = 'Your secret key to access the Pilibaba API.';
-$_['help_shipping_fee']     = 'The shipping cost from your warehouse to Pilibaba warehouse. Use two decimal places.';
-$_['help_order_status']     = 'The order status after the customer has placed the order.';
-$_['help_total']            = 'The checkout total the order must reach before this payment method becomes active. Must be a value with no currency sign.';
-$_['help_logging']          = 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise.';
+$_['help_email_address']    = 'Ingresar la Dirección de Email del Propietario del Comercio.';
+$_['help_password']         = 'La Contraseña debe contener entre 8 y 30 caracteres.';
+$_['help_currency']         = 'Seleccionar la Moneda utilizada en el Sitio Web para poder retirar de la Cuenta Bancaria.';
+$_['help_warehouse']        = 'Seleccionar el Almacén más cercano al que se hará el Envío. Cuando se reciban pedidos de Clientes de China (via Pilibaba gateway) se pueden entregar paquetes a este Almacén.';
+$_['help_country']          = 'Indicar el País y se informará una vez que se abra un Almacén en dicho país.';
+$_['help_merchant_number']  = 'Número de comerciante personal de la cuenta de Pilibaba.';
+$_['help_secret_key']       = 'La Key Secreta para acceder a la API Pilibaba.';
+$_['help_shipping_fee']     = 'Costo de Envío desde el Almacén hasta el Almacén de Pilibaba. Usar 2 decimales.';
+$_['help_order_status']     = 'Estado del Pedido luego que el Cliente lo ha realizado.';
+$_['help_total']            = 'Total del Pedido a Alcanzar antes de que el método de pago se active. Debe ser un valor sin el Signo de Moneda.';
+$_['help_logging']          = 'Al habilitar la depuración, se escribirán los datos confidenciales en un archivo de registro. Siempre desactivar a menos que se indique lo contrario.';
 
 // Error
-$_['error_warning']         = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']      = 'Warning: You do not have permission to modify payment Pilibaba!';
-$_['error_merchant_number'] = 'Merchant Number Required!';
-$_['error_secret_key']      = 'Secret Key Required!';
-$_['error_shipping_fee']    = 'Shipping fee must be a decimal number!';
-$_['error_not_enabled']     = 'Module not enabled!';
-$_['error_data_missing']    = 'Data missing!';
-$_['error_tracking_length'] = 'Tracking number must be between 1 and 50 characters!';
-$_['error_email_address']   = 'Please enter your email address!';
-$_['error_email_invalid']   = 'The email address is not valid!';
-$_['error_password']        = 'Password must be at least 8 characters!';
-$_['error_currency']        = 'Please select a currency!';
-$_['error_warehouse']       = 'Please select a warehouse!';
-$_['error_country']         = 'Please select a country!';
-$_['error_weight']          = 'Please change your <a href="%s">Weight Class</a> setting to grams. It\'s in \'System -> Settings\' in the \'Local\' tab.';
-$_['error_bad_response']    = 'An invalid response was received. Please try again later.';
+$_['error_warning']         = 'Error: Verificar el Formulario.';
+$_['error_permission']      = 'Error: Sin permiso para modificar el Módulo de Pago Pilibaba.';
+$_['error_merchant_number'] = 'Número de Comercio Obligatorio.';
+$_['error_secret_key']      = 'Key Secreta Obligatoria.';
+$_['error_shipping_fee']    = 'La tarifa de Envío debe ser un Valor Decimal.';
+$_['error_not_enabled']     = 'Módulo no habilitado.';
+$_['error_data_missing']    = 'Datos Perdidos.';
+$_['error_tracking_length'] = 'El Número de Envío debe contener entre 1 y 50 caracteres.';
+$_['error_email_address']   = 'Ingresar Dirección de Email.';
+$_['error_email_invalid']   = 'Email Inválido.';
+$_['error_password']        = 'La Contraseña debe contener al menos 8 caracteres.';
+$_['error_currency']        = 'Seleccionar Moneda.';
+$_['error_warehouse']       = 'Seleccionar Almacén.';
+$_['error_country']         = 'Seleccionar País.';
+$_['error_weight']          = 'Cambiar la <a href="%s">Clase de Peso</a>, setear a gramos.';
+$_['error_bad_response']    = 'Se recibió una respuesta inválida. Intentar nuevamente.';
 
 // Button
-$_['button_register']       = 'Register';
-$_['button_tracking']       = 'Update Tracking Number';
-$_['button_barcode']        = 'Generate Barcode';
+$_['button_register']       = 'Registrar';
+$_['button_tracking']       = 'Actualizar Número de Seguimiento';
+$_['button_barcode']        = 'Generar Código de Barras';

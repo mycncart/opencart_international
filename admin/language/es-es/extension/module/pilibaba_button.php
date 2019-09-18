@@ -1,14 +1,14 @@
 <?php
 // Heading
-$_['heading_title']    = 'Pilibaba Checkout Button';
+$_['heading_title']    = 'Botón de Pago Pilibaba';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Pilibaba Checkout Button module!';
-$_['text_edit']        = 'Edit Pilibaba Checkout Button Module';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Botón de Pago Pilibaba.';
+$_['text_edit']        = 'Editar Módulo Botón de Pago Pilibaba';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Pilibaba Checkout Button module!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Pilibaba.';

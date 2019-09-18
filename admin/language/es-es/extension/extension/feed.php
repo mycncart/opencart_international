@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Feeds';
 
 // Text
-$_['text_success']     = 'Genial: Usted ha modificado los feeds!';
-$_['text_list']        = 'Feeds';
+$_['text_success']     = 'Operación Exitosa: Feed Modificado.';
+$_['text_list']        = 'Lista de Feeds';
 
 // Column
-$_['column_name']      = 'Nombre del Feed de Producto';
+$_['column_name']      = 'Nombre del Feed de Productos';
 $_['column_status']    = 'Estado';
-$_['column_action']    = 'Acci&oacute;n';
+$_['column_action']    = 'Acción';
 
 // Error
-$_['error_permission'] = 'Atenci&oacute;n: Usted no tiene permisos para modificar los feeds!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Feeds.';

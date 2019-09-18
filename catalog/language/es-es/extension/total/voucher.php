@@ -1,13 +1,14 @@
 <?php
 // Heading
-$_['heading_title'] = 'Use vale regalo';
+$_['heading_title'] = 'Usar Voucher de Regalo';
 
 // Text
-$_['text_success']  = '&Eacute;xito: Tu descuento del vale de regalo se ha aplicado!';
+$_['text_voucher']  = 'Voucher de Regalo (%s)';
+$_['text_success']  = 'Operación Exitosa: Descuento del Voucher de Regalo Aplicado.';
 
 // Entry
-$_['entry_voucher'] = 'Introduzca su c&oacute;digo de bono regalo aqu&iacute; ';
+$_['entry_voucher'] = 'Ingresar el Código del Voucher de Regalo';
 
 // Error
-$_['error_voucher'] = 'Advertencia: Vale de Regalo no es v&aacute;lido o el saldo se ha agotado!';
-$_['error_empty']   = 'Advertencia: Por favor, introduzca un c&oacute;digo del cup&oacute;n!';
+$_['error_voucher'] = 'Error: El Voucher de Regalo es inválido o ya se ha utilizado.';
+$_['error_empty']   = 'Error: Ingresar el Código del Voucher de Regalo.';

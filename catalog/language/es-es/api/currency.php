@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_success']     = 'La Moneda ha sido Actualizada.';
+$_['text_success']     = 'Operación Exitosa: Moneda Modificada.';
 
 // Error
-$_['error_permission'] = 'Sin permiso para acceder a la API.';
-$_['error_currency']   = 'C&oacute;digo de Moneda Inv&aacute;lido.';
+$_['error_permission'] = 'Error: Sin permiso para acceder a la API.';
+$_['error_currency']   = 'Error: Código de Moneda Inválido.';

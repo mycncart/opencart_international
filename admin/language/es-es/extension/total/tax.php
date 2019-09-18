@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Impuestos';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado los impuestos totales!';
-$_['text_edit'] = 'Editar Impuesto Total';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Impuestos Modificado.';
+$_['text_edit']        = 'Editar Total de Impuestos';
 
-// Entrada
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar los impuestos total';
+$_['error_permission'] = 'Error: Sin permiso para modificar Total de Impuestos';

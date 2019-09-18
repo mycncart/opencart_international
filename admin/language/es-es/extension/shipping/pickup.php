@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Recogida en Tienda';
+$_['heading_title']    = 'Recogida en Comercio';
 
 // Text
-$_['text_shipping'] = 'Env&iacute;o';
-$_['text_success'] = 'Genial: Ha modificado recogida en la tienda';
-$_['text_edit'] = 'Editar Recogida en la Tienda';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Recogida en Comercio Modificada.';
+$_['text_edit']        = 'Editar Recogida en Comercio';
 
-// Entrada
-$_['entry_geo_zone'] = 'Zona Geo';
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_geo_zone']   = 'Zona Geográfica';
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar recogida en la tienda!';
+$_['error_permission'] = 'Error: Sin permiso para modificar Recogida en Comercio.';

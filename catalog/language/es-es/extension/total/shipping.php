@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']        = 'Estimaci&oacute;n de env&iacute;o &amp; tasas';
+$_['heading_title']        = 'Envío Estimado y Tasas';
 
 // Text
-$_['text_success']         = 'Genial: Su precio estimado de env&iacute;o se ha aplicado!';
-$_['text_shipping']        = 'Ingrese su destino para obtener un precio estimado de env&iacute;o.';
-$_['text_shipping_method'] = 'Por favor, seleccione el m&eacute;todo de env&iacute;o preferido para usar en esta pedido.';
+$_['text_success']         = 'Operación Exitosa: Envío Estimado Aplicado.';
+$_['text_shipping']        = 'Ingresar el destino para obtener el precio estimado de Envío.';
+$_['text_shipping_method'] = 'Selccionar el Método de Envío para el Pedido.';
 
 // Entry
-$_['entry_country']        = 'Pa&iacute;s';
-$_['entry_zone']           = 'Provincia';
-$_['entry_postcode']       = 'C&oacute;digo Postal';
+$_['entry_country']        = 'País';
+$_['entry_zone']           = 'Provincia/Estado';
+$_['entry_postcode']       = 'Código Postal';
 
 // Error
-$_['error_postcode']       = 'C&oacute;digo Postal debe tener entre 2 y 10 caracteres!';
-$_['error_country']        = 'Por favor seleccione Pa&iacute;s!';
-$_['error_zone']           = 'Por favor seleccione regi&oacute;n / provincia!';
-$_['error_shipping']       = 'Advertencia: M&eacute;todo del env&iacute;o requerido!';
-$_['error_no_shipping']    = 'Advertencia: No hay opciones de env&iacute;o disponibles. Por favor,<a href="%s">contacte</a> para recibir asistencia!';
+$_['error_postcode']       = 'El Código Postal debe contener entre 2 y 10 caracteres.';
+$_['error_country']        = 'Seleccionar País.';
+$_['error_zone']           = 'Seleccionar Provincia/Estado.';
+$_['error_shipping']       = 'Error: Método de Envío Obligatorio.';
+$_['error_no_shipping']    = 'Error: No hay Opciones de Envío disponibles. <a href="%s">Contactar</a> para obtener ayuda.';

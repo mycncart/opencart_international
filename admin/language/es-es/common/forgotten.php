@@ -1,19 +1,19 @@
 <?php
-// header
-$_['heading_title']   = 'Contrase&ntilde;a Olvidada';
+// Heading
+$_['heading_title']   = 'Olvidó su Contraseña';
 
 // Text
-$_['text_forgotten']  = 'Contrase&ntilde;a Olvidada';
+$_['text_forgotten']  = 'Contraseña Olvidada';
 $_['text_your_email'] = 'Email';
-$_['text_email']      = 'Introducir el Email asociado a la cuenta.';
-$_['text_success']    = 'Un Email con el link de confirmaci&oacute;n fue enviado a la Casilla de Correo Indicada.';
+$_['text_email']      = 'Ingresar el Email asociado a la Cuenta. Un enlace será enviado al mismo para reestablecer la Contraseña.';
+$_['text_success']    = 'Un Email con el enlace ha sido enviado.';
 
 // Entry
 $_['entry_email']     = 'Email';
-$_['entry_password']  = 'Nueva Contrase&ntilde;a';
-$_['entry_confirm']   = 'Confirmar';
+$_['entry_password']  = 'Nueva Contraseña';
+$_['entry_confirm']   = 'Confirmar Contraseña';
 
 // Error
-$_['error_email']     = 'Email no encontrado, intentar nuevamente.';
-$_['error_password']  = 'La contrase&ntilde;a debe contener entre 3 y 20 caracteres.';
-$_['error_confirm']   = 'La contrase&ntilde;a y su confirmaci&oacute;n no coinciden.';
+$_['error_email']     = 'Error: Email Inválido.';
+$_['error_password']  = 'La Contraseña debe contener entre 4 y 20 caracteres.';
+$_['error_confirm']   = 'La Contraseña y su confirmación no coinciden.';

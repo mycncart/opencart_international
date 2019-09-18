@@ -1,72 +1,77 @@
 <?php
 //Heading
-$_['heading_title']               	= 'New listings';
-$_['text_ebay']               		= 'eBay';
-$_['text_openbay']               	= 'Openbay Pro';
+$_['heading_title']                = 'Nueva Lista';
+$_['text_ebay']               	   = 'eBay';
+$_['text_openbay']                 = 'Openbay Pro';
 
 // Buttons
-$_['text_none']                     = 'None';
-$_['text_preview']                  = 'Preview';
-$_['text_add']                      = 'Add';
-$_['text_preview_all']              = 'Verify all';
-$_['text_submit']                   = 'Submit';
-$_['text_features']                 = 'Features';
-$_['text_catalog']                  = 'Select catalog';
-$_['text_catalog_search']           = 'Search catalog';
-$_['text_search_term']           	= 'Search term';
-$_['text_close']           			= 'Close';
-$_['text_bulk']           			= 'Create new listings in bulk';
+$_['text_none']                    = 'Ninguno';
+$_['text_preview']                 = 'Anterior';
+$_['text_add']                     = 'Agregar';
+$_['text_preview_all']             = 'Verificar Todos';
+$_['text_submit']                  = 'Enviar';
+$_['text_features']                = 'Características';
+$_['text_catalog']                 = 'Seleccionar Catálogo';
+$_['text_catalog_search']          = 'Buscar Catálogo';
+$_['text_search_term']             = 'Término de Búsqueda';
+$_['text_close']           		   = 'Cerrar';
+$_['text_bulk']           		   = 'Crear Nuevas Listas Masivas';
 
 //Form options / text
-$_['text_pixels']                   = 'Pixels';
-$_['text_other']                    = 'Other';
+$_['text_pixels']                  = 'Pixeles';
+$_['text_other']                   = 'Otros';
 
 //Profile names
-$_['text_profile']            		= 'Profiles';
-$_['text_profile_theme']            = 'Theme profile';
-$_['text_profile_shipping']         = 'Shipping profile';
-$_['text_profile_returns']          = 'Returns profile';
-$_['text_profile_generic']          = 'Generic profile';
+$_['text_profile']            	   = 'Perfiles';
+$_['text_profile_theme']           = 'Perfil del Tema';
+$_['text_profile_shipping']        = 'Perfil de Envío';
+$_['text_profile_returns']         = 'Perfil de Devoluciones';
+$_['text_profile_generic']         = 'Perfil Genérico';
 
-//Text
-$_['text_title']                    = 'Title';
-$_['text_price']                    = 'Price';
-$_['text_stock']                    = 'Stock';
-$_['text_search']                   = 'Search';
-$_['text_loading']                  = 'Loading details';
-$_['text_preparing0']               = 'Preparing';
-$_['text_preparing1']               = 'of';
-$_['text_preparing2']               = 'elements';
-$_['entry_condition']                = 'Condition';
-$_['text_duration']                 = 'Duration';
-$_['text_category']                 = 'Category';
-$_['text_exists']                   = 'Some items are already listed on eBay so have been removed';
-$_['text_error_count']              = 'You have selected %s items, it may take a while to process your data';
-$_['text_verifying']                = 'Verifying items';
-$_['text_processing']               = 'Processing <span id="activeItems"></span> items';
-$_['text_listed']                   = 'Item listed! ID: ';
-$_['text_ajax_confirm_listing']     = 'Are you sure you want to bulk list these items?';
-$_['text_bulk_plan_error']          = 'Your current plan does not allow for bulk uploads, upgrade your plan <a href="%s">here</a>';
-$_['text_item_limit']               = 'You cannot list these items as you would exceed your plan limit, upgrade your plan <a href="%s">here</a>';
-$_['text_search_text']              = 'Enter some search text';
-$_['text_catalog_no_products']      = 'No catalog items found';
-$_['text_search_failed']            = 'Search failed';
-$_['text_esc_key']                  = 'The splash page has been hidden but may not have finished loading';
-$_['text_loading_categories']       = 'Loading categories';
-$_['text_loading_condition']        = 'Loading product conditions';
-$_['text_loading_duration']         = 'Loading listing durations';
-$_['text_total_fee']         		= 'Total fees';
-$_['text_category_choose']         	= 'Find category';
-$_['text_suggested']         		= 'Suggested categories';
+// Text
+$_['text_title']                   = 'Título';
+$_['text_price']                   = 'Precio';
+$_['text_stock']                   = 'Stock';
+$_['text_search']                  = 'Buscar';
+$_['text_loading']                 = 'Cargando Detalles';
+$_['text_preparing0']              = 'Preparando';
+$_['text_preparing1']              = 'de';
+$_['text_preparing2']              = 'elementos';
+$_['entry_condition']              = 'Condición';
+$_['text_duration']                = 'Duración';
+$_['text_category']                = 'Categoría';
+$_['text_exists']                  = 'Algunos artículos ya están listados en eBay, por lo que se eliminaron.';
+$_['text_error_count']             = 'Se seleccionaron %s artículos, puede tardar un tiempo procesar los datos.';
+$_['text_verifying']               = 'Verificando Artículos';
+$_['text_processing']              = 'Procesando <span id="activeItems"></span> artículos';
+$_['text_listed']                  = 'ID de Artículo Listado: ';
+$_['text_ajax_confirm_listing']    = 'Seeguro de Listar Masivamente los Artículos?';
+$_['text_bulk_plan_error']         = 'El Plan Actual no permite cargar Listas Masivas, actualizar Plan desde <a href="%s">aquí</a>.';
+$_['text_item_limit']              = 'No se pueden Listar los Artículos porque exceden el límite del Plan, actualizar Plan desde <a href="%s">aquí</a>.';
+$_['text_search_text']             = 'Ingresar Texto de Búsqueda';
+$_['text_catalog_no_products']     = 'No se encontraron Productos en el Catálogo.';
+$_['text_search_failed']           = 'Búsqueda Fallida';
+$_['text_esc_key']                 = 'La página de bienvenida se ha ocultado pero es posible que no haya terminado de cargarse';
+$_['text_loading_categories']      = 'Cargando Categorías';
+$_['text_loading_condition']       = 'Cargando Condiciones de Productos';
+$_['text_loading_duration']        = 'Cargando Duraciones de Listas';
+$_['text_total_fee']         	   = 'Tarifas Totales';
+$_['text_category_choose']         = 'Buscar Categoría';
+$_['text_suggested']         	   = 'Categorías Sugeridas';
+$_['text_product_identifiers']     = 'Identificadores de Productos';
+$_['text_ean']    				   = 'EAN';
+$_['text_upc']    				   = 'UPC';
+$_['text_isbn']    				   = 'ISBN';
+$_['text_identifier_not_required'] = 'No Obligatorio';
 
 //Errors
-$_['text_error_ship_profile']       = 'You need to have a default shipping profile set up';
-$_['text_error_generic_profile']    = 'You need to have a default generic profile set up';
-$_['text_error_return_profile']     = 'You need to have a default return profile set up';
-$_['text_error_theme_profile']      = 'You need to have a default theme profile set up';
-$_['text_error_variants']           = 'Items with variations cannot be bulk listed and have been unselected';
-$_['text_error_stock']              = 'Some items are not in stock and have been removed';
-$_['text_error_no_product']         = 'There is no eligible products selected to use the bulk upload feature';
-$_['text_error_reverify']           = 'There was an error, you should edit and re-verify the items';
-$_['error_missing_settings']   = 'You cannot bulk list items until you syncronise your eBay settings';
-$_['text_error_no_selection']   	= 'You must select at least 1 item to list';
+$_['text_error_ship_profile']      = 'Es necesario configurar un perfil de envío predeterminado.';
+$_['text_error_generic_profile']   = 'Es necesario configurar un perfil genérico predeterminado.';
+$_['text_error_return_profile']    = 'Es necesario configurar un perfil de devolución predeterminado.';
+$_['text_error_theme_profile']     = 'Es necesario configurar un perfil de tema predeterminado.';
+$_['text_error_variants']          = 'Los artículos con variaciones no pueden ser masivos y han sido deseleccionados.';
+$_['text_error_stock']             = 'Algunos artículos no están en stock y se han eliminado.';
+$_['text_error_no_product']        = 'No hay productos seleccionados para usar la función de carga masiva.';
+$_['text_error_reverify']          = 'Hubo un error, se deben editar y volver a verificar los Artículos.';
+$_['error_missing_settings']       = 'No puede incluir Artículos en una lista masiva hasta que sincronice la configuración de eBay.';
+$_['text_error_no_selection']      = 'Seleccionar al menos 1 Artículo para listar.';

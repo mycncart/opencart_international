@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title'] = 'Estado de Devoluciones';
+$_['heading_title']    = 'Estados de Devolución';
 
 // Text
-$_['text_success'] = 'Se ha modificado el Estado de Devoluci&oacute;n.';
-$_['text_list'] = 'Estados de Devoluciones';
-$_['text_add'] = 'Agregar Estado';
-$_['text_edit'] = 'Editar Estado';
+$_['text_success']     = 'Operación Exitosa: Estado de Devolución Modificado.';
+$_['text_list']        = 'Lista de Estado de Devolución';
+$_['text_add']         = 'Agregar Estado de Devolución';
+$_['text_edit']        = 'Editar Estado de Devolución';
 
-// column
-$_['column_name'] = 'Estado';
-$_['column_action'] = 'Acci&oacute;n';
+// Column
+$_['column_name']      = 'Nombre del Estado';
+$_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name'] = 'Estados de Devoluciones';
+$_['entry_name']       = 'Nombre del Estado';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar el Estado de Devoluci&oacute;n.';
-$_['error_name'] = 'El nombre del Estado de Devoluci&oacute;n debe contener entre 3 y 32 caracteres.';
-$_['error_default'] = 'Este estado de Devoluci&oacute;n no se puede eliminar, ya que est&aacute; actualmente asignado como el Estado de Devoluci&oacute;n por Defecto.';
-$_['error_return'] = 'Este estado de Devoluci&oacute;n no se puede eliminar ya que se asigna actualmente a las devoluciones% s.';
+$_['error_permission'] = 'Error: Sin permiso para modificar Estados de Devolución.';
+$_['error_name']       = 'El Nombre del Estado debe contener entre 3 y 32 caracteres.';
+$_['error_default']    = 'Error: El Estado no puede ser eliminado porque está asignado como Estado de Devolución por Defecto.';
+$_['error_return']     = 'Error: El Estado no puede ser eliminado porque está asignado a %s Devoluciones.';

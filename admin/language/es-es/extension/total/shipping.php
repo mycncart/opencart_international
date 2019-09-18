@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Env&iacute;o';
+$_['heading_title']    = 'Envío';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado total del env&iacute;o';
-$_['text_edit'] = 'Editar env&iacute;o Total';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Envío Modificado.';
+$_['text_edit']        = 'Editar Total de Envío';
 
-// Entrada
-$_['entry_estimator'] = 'Env&iacute;o Estimador';
-$_['entry_status'] = 'Estado';
-$_['entry_sort_order'] = 'Pedidos';
+// Entry
+$_['entry_estimator']  = 'Estimador de Envíos';
+$_['entry_status']     = 'Estado';
+$_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar total del env&iacute;o';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Envíos.';

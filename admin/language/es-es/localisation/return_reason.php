@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title'] = 'Razones de Devoluci&oacute;n';
+$_['heading_title']    = 'Razones de Devolución';
 
 // Text
-$_['text_success'] = 'Se han modificado las Razones de Devoluci&oacute;n';
-$_['text_list'] = 'Lista de Razones de Devoluci&oacute;n';
-$_['text_add'] = 'Agregar Raz&oacute;n de Devoluci&oacute;n';
-$_['text_edit'] = 'Editar Raz&oacute;n de Devoluci&oacute;n';
+$_['text_success']     = 'Operación Exitosa: Razones de Devolución Modificada.';
+$_['text_list']        = 'Lista de Razones de Devolución';
+$_['text_add']         = 'Agregar Razón de Devolución';
+$_['text_edit']        = 'Editar Razón de Devolución';
 
-// column
-$_['column_name'] = 'Nombre de la Raz&oacute;n';
-$_['column_action'] = 'Acci&oacute;n';
+// Column
+$_['column_name']      = 'Nombre de la Razón';
+$_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name'] = 'Raz&oacute;n';
+$_['entry_name']       = 'Nombre de la Razón';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar las Razones de Devoluci&oacute;n.';
-$_['error_name'] = 'El Nombre de la Raz&oacute;n debe contener entre 3 y 128 caracteres.';
-$_['error_return'] = 'Esta raz&oacute;n no se puede eliminar ya que est&aacute; asignada actualmente a% s productos devueltos.';
+$_['error_permission'] = 'Error: Sin permiso para modificar Razones de Devolución.';
+$_['error_name']       = 'El Nombre de la Razón debe contener entre 3 y 128 caracteres.';
+$_['error_return']     = 'Error: La Razón de Devolución no puede ser eliminada porque está asignada a %s Productos devueltos.';

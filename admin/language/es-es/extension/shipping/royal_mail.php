@@ -3,45 +3,45 @@
 $_['heading_title']                    = 'Royal Mail';
 
 // Text
-$_['text_shipping'] = 'Env&iacute;o';
-$_['text_success'] = 'Genial: Ha modificado el env&iacute;o Royal Mail';
-$_['text_edit'] = 'Editar Royal Mail del env&iacute;o';
+$_['text_extension']                   = 'Extensiones';
+$_['text_success']                     = 'Operación Exitosa: Envíos Royal Mail Modificados.';
+$_['text_edit']                        = 'Editar Envíos Royal Mail';
 
-// Entrada
-$_['entry_rate'] = 'Tarifas';
-$_['entry_rate_eu'] = 'Europa tarifas';
-$_['entry_rate_non_eu'] = 'No tarifas de Europa';
-$_['entry_rate_zone_1'] = 'Mundial de la Zona 1 Precios';
-$_['entry_rate_zone_2'] = 'Mundial de la Zona 2 Precios';
-$_['entry_insurance'] = 'Las tasas de compensaci&oacute;n';
-$_['entry_display_weight'] = 'Mostrar Peso de entrega';
-$_['entry_display_insurance'] = 'Seguros Display';
-$_['entry_weight_class'] = 'Peso Clase';
-$_['entry_tax_class'] = 'Clase de Impuesto ';
-$_['entry_geo_zone'] = 'Zona Geo';
-$_['entry_status'] = 'Estado';
-$_['entry_sort_order'] = 'Orden';
+// Entry
+$_['entry_rate']                       = 'Tarifas';
+$_['entry_rate_eu']                    = 'Tarifas Europ';
+$_['entry_rate_non_eu']                = 'Tarifas Fuera de Europa';
+$_['entry_rate_zone_1']                = 'Tarifas Zona 1 Mundial';
+$_['entry_rate_zone_2']                = 'Tarifas Zona 2 Mundial';
+$_['entry_insurance']                  = 'Tasas de Compensación';
+$_['entry_display_weight']             = 'Mostrar Peso de Entrega';
+$_['entry_display_insurance']          = 'Mostrar Seguro';
+$_['entry_weight_class']               = 'Clase de Peso';
+$_['entry_tax_class']                  = 'Clase de Impuesto';
+$_['entry_geo_zone']                   = 'Zona Geográfica';
+$_['entry_status']                     = 'Estado';
+$_['entry_sort_order']                 = 'Orden';
 
-// Ayuda
-$_['help_rate'] = 'Ejemplo: 5: 10.00,7: 12,00 Peso: Costo, Peso: Costo, etc ..';
-$_['help_insurance'] = 'Introduzca valores hasta 5,2 decimales. (12.345,67) Ejemplo: 34: 0100: 1250: 2.25 - La cobertura del seguro para el carrito valores upto 34 costar&iacute;a 0.00 adicionales, esos valores m&aacute;s de 100 y upto 250 costar&aacute; 2,25 extra. No introduzca los s&iacute;mbolos de moneda. ';
-$_['help_display_weight'] = '�Quieres mostrar el peso del env&iacute;o? (por ejemplo, entrega Peso: 2.7674 kg) ';
-$_['help_display_insurance'] = '�Quieres mostrar el seguro de env&iacute;o? (por ejemplo Asegurado hasta y libra; 500) ';
-$_['help_international'] = '<p> servicios de env&iacute;o y precios gu&iacute;a est&aacute; disponibles aqu&iacute;: </ p> <p> <a href = "http://www.royalmail.com/international-zones" target = " _blank "> http://www.royalmail.com/international-zones </a> </ p> <p> <a href =" http://www.royalmail.com/sites/default/files/RM_OurPrices_Mar2014a. pdf "target =" _blank "> http://www.royalmail.com/sites/default/files/RM_OurPrices_Mar2014a.pdf </a> </ p> <p> <a href="http://www.royalmail.com/sites/default/files/RoyalMail_International_TrackedCoverage_Jan2014.pdf" target="_blank">http://www.royalmail.com/sites/default/files/RoyalMail_International_TrackedCoverage_Jan2014.pdf</a></p>';
+// Help
+$_['help_rate']                        = 'Ej: 5:10.00,7:12.00 Peso:Costo,Peso:Costo, etc.';
+$_['help_insurance']                   = 'Introducir valores de hasta 2 decimales. (12345.67) Ej: 34:0,100:1,250:2.25 - La cobertura de seguro para valores del Carro de hasta 34 costaría 0.00 extra, más de 100 y hasta 250 costarán 2.25 extra. No ingresar símbolos de moneda.';
+$_['help_display_weight']              = 'Mostrar Peso del Envío? (ej. Peso de Entrega: 2.7674 kg)';
+$_['help_display_insurance']           = 'Mostrar Seguro del Envío? (ej. Asegurado hasta $500)';
+$_['help_international']               = '<p>Los Servicios de Envío y la Guía de Precios están disponibles en:</p><p><a href="http://www.royalmail.com/international-zones" target="_blank">http://www.royalmail.com/international-zones</a></p><p><a href="http://www.royalmail.com/sites/default/files/RM_OurPrices_Mar2014a.pdf" target="_blank">http://www.royalmail.com/sites/default/files/RM_OurPrices_Mar2014a.pdf</a></p><p><a href="http://www.royalmail.com/sites/default/files/RoyalMail_International_TrackedCoverage_Jan2014.pdf" target="_blank">http://www.royalmail.com/sites/default/files/RoyalMail_International_TrackedCoverage_Jan2014.pdf</a></p>';
 
 // Tab
-$_['tab_special_delivery_500'] = 'Entrega al siguiente d&iacute;a especial (y libra; 500)';
-$_['tab_special_delivery_1000'] = 'Entrega al siguiente d&iacute;a especial (y libra; 1,000)';
-$_['tab_special_delivery_2500'] = 'Entrega al siguiente d&iacute;a especial (y libra; 2500)';
-$_['tab_1st_class_signed'] = 'primera clase Firmado';
-$_['tab_2nd_class_signed'] = 'segunda clase Firmado';
-$_['tab_1st_class_standard'] = '1st Class Standard';
-$_['tab_2nd_class_standard'] = 'segunda clase Standard';
-$_['tab_international_standard'] = 'Norma Internacional';
-$_['tab_international_tracked_signed'] = 'Internacional de orugas y firmado';
-$_['tab_international_tracked'] = 'Internacional de orugas';
-$_['tab_international_signed'] = 'International Signed';
-$_['tab_international_economy'] = 'Econom&iacute;a Internacional';
+$_['tab_special_delivery_500']         = 'Entrega Especial Próximo Día (&pound;500)';
+$_['tab_special_delivery_1000']        = 'Entrega Especial Próximo Día (&pound;1000)';
+$_['tab_special_delivery_2500']        = 'Entrega Especial Próximo Día (&pound;2500)';
+$_['tab_1st_class_signed']             = '1ra Clase Firmada';
+$_['tab_2nd_class_signed']             = '2da Clase Firmada';
+$_['tab_1st_class_standard']           = '1ra Clase Standard';
+$_['tab_2nd_class_standard']           = '2da Clase Standard';
+$_['tab_international_standard']       = 'Standard Internacional';
+$_['tab_international_tracked_signed'] = 'Seguimiento Internacional y Firmado';
+$_['tab_international_tracked']        = 'Seguimiento Internacional';
+$_['tab_international_signed']         = 'Firmado Internacional';
+$_['tab_international_economy']        = 'Economía Internacional';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el env&iacute;o de Royal Mail';
+$_['error_permission']                 = 'Error: Sin permiso para modificar el Módulo de Envío Royal Mail.';

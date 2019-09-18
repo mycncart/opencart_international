@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Error 404 - P&aacute;gina No Encontrada.';
+$_['heading_title'] = 'La Página solicitada no puede ser Encontrada.';
 
 // Text
-$_['text_error']    = 'Error 404 - P&aacute;gina No Encontrada.';
+$_['text_error']    = 'La Página solicitada no puede ser Encontrada.';

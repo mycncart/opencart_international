@@ -1,32 +1,32 @@
 <?php
 // Heading
-$_['heading_title']    = 'Compra un Voucher de Regalo';
+$_['heading_title']    = 'Comprar un Voucher de Regalo';
 
 // Text
 $_['text_account']     = 'Cuenta';
-$_['text_voucher']     = 'Vouchers de Regalo';
-$_['text_description'] = 'Este Voucher de regalo ser&aacute; enviado por Email al Destinatario despu&eacute;s que el Pedido haya sido pagado.';
-$_['text_agree']       = 'Entiendo que los Vouchers de Regalo no son reembolsables.';
-$_['text_message']     = '<p>Gracias por comprar un Voucher de regalo. Una vez que se haya completado el pedido, Destinatario se enviar&aacute; un Email al Destinatario con detalles dec&oacute;mo canjear el Voucher de regalo.</p>';
-$_['text_for']         = '%s Voucher Regalo para %s';
+$_['text_voucher']     = 'Certificado de Regalo';
+$_['text_description'] = 'El certificado de regalo será enviado por Email al destinatario después de que se haya pagado el pedido.';
+$_['text_agree']       = 'Los Certificados de Regalo no son Reembolsables.';
+$_['text_message']     = '<p>Gracias por comprar un Cerfificado de Regalo. Una vez completado el Pedido del Cerfificado de Regalo se enviará un Email con los detalles sobre cómo canjearlo.</p>';
+$_['text_for']         = '%s Certificado de Regalo para %s';
 
 // Entry
 $_['entry_to_name']    = 'Nombre del Destinatario';
 $_['entry_to_email']   = 'Email del Destinatario';
 $_['entry_from_name']  = 'Nombre';
 $_['entry_from_email'] = 'Email';
-$_['entry_theme']      = 'Raz&oacute;n del Voucher Regalo';
+$_['entry_theme']      = 'Tema del Certificado de Regalo';
 $_['entry_message']    = 'Mensaje';
-$_['entry_amount']     = 'Importe';
+$_['entry_amount']     = 'Monto';
 
 // Help
 $_['help_message']     = 'Opcional';
-$_['help_amount']      = 'El valor debe estar entre %s y %s';
+$_['help_amount']      = 'El Valor debe estar entre %s y %s';
 
 // Error
-$_['error_to_name']    = 'El Nombre de Destinatario\'s debe contener entre 1 y 64 caracteres.';
+$_['error_to_name']    = 'El Nombre del Destinatario debe contener entre 1 y 64 caracteres.';
 $_['error_from_name']  = 'El Nombre debe contener entre 1 y 64 caracteres.';
-$_['error_email']      = 'Email Inv&aacute;lido.';
-$_['error_theme']      = 'Seleccionar Raz&oacute;n.';
-$_['error_amount']     = 'El importe debe estar entre %s y %s.';
-$_['error_agree']      = 'Se debe estar de acuerdo en que los Vouchers de Regalo no son reembolsables.';
+$_['error_email']      = 'Email Inválido.';
+$_['error_theme']      = 'Seleccionar un Tema.';
+$_['error_amount']     = 'El Monto debe estar entre %s y %s.';
+$_['error_agree']      = 'Error: Se debe aceptar que los Certificados de Regalo no son Reembolsables.';

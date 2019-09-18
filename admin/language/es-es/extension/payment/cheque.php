@@ -1,23 +1,23 @@
 <?php
 // Heading
-$_['heading_title']		 = 'Cheque / Money Order';
+$_['heading_title']      = 'Cheque';
 
 // Text
-$_['text_payment']		 = 'Payment';
-$_['text_success']		 = 'Success: You have modified cheque / money order account details!';
-$_['text_edit']          = 'Edit Cheque / Money Order';
+$_['text_extension']     = 'Extensiones';
+$_['text_success']       = 'Operación Exitosa: Deatlle de Pago con Cheque Modificados.';
+$_['text_edit']          = 'Editar Cheque';
 
 // Entry
-$_['entry_payable']		 = 'Payable To';
-$_['entry_total']		 = 'Total';
-$_['entry_order_status'] = 'Order Status';
-$_['entry_geo_zone']	 = 'Geo Zone';
-$_['entry_status']		 = 'Status';
-$_['entry_sort_order']	 = 'Sort Order';
+$_['entry_payable']      = 'A Nombre de';
+$_['entry_total']        = 'Total';
+$_['entry_order_status'] = 'Estado del Pedido';
+$_['entry_geo_zone']     = 'Zona Geográfica';
+$_['entry_status']       = 'Estado';
+$_['entry_sort_order']   = 'Orden';
 
 // Help
-$_['help_total']		 = 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_total']         = 'Total del Pedido a Alcanzar antes de que el método de pago se active.';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify payment cheque / money order!';
-$_['error_payable']	     = 'Payable To Required!';
+$_['error_permission']   = 'Error: Sin permiso para modificar los Pagos con Cheque.';
+$_['error_payable']      = 'Nombre Obligatorio.';

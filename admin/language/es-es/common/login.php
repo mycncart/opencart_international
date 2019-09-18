@@ -1,19 +1,19 @@
 <?php
-// header
-$_['heading_title']  = 'Administrador';
+// Heading
+$_['heading_title']  = 'Administración';
 
 // Text
-$_['text_heading']   = 'Administrador';
+$_['text_heading']   = 'Administración';
 $_['text_login']     = 'Ingresar Datos de Acceso.';
-$_['text_forgotten'] = 'Contrase&ntilde;a Olvidada';
+$_['text_forgotten'] = 'Contraseña Olvidada';
 
 // Entry
-$_['entry_username'] = 'Nombre de Usuario';
-$_['entry_password'] = 'Contrase&ntilde;a';
+$_['entry_username'] = 'Usuario';
+$_['entry_password'] = 'Contraseña';
 
 // Button
-$_['button_login']   = 'Acceder';
+$_['button_login']   = 'Acceso';
 
 // Error
-$_['error_login']    = 'Datos Incorrectos.';
-$_['error_token']    = 'Token Inv&aacute;lido. Ingresar Nuevamente.';
+$_['error_login']    = 'Datos Erróneos.';
+$_['error_token']    = 'Token Inválido. Acceder Nuevamente.';

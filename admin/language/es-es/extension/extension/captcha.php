@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Captchas';
 
 // Text
-$_['text_success']     = 'Success: You have modified captchas!';
-$_['text_list']        = 'Captcha List';
+$_['text_success']     = 'Operación Exitosa: Captcha Modificado.';
+$_['text_list']        = 'Lista de Captchas';
 
 // Column
-$_['column_name']      = 'Captcha Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Nombre de Captcha';
+$_['column_status']    = 'Estado';
+$_['column_action']    = 'Acción';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify captchas!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Captchas.';

@@ -1,17 +1,17 @@
 <?php
 // Heading
-$_['heading_title']         		= 'Etsy';
-$_['text_openbay']					= 'OpenBay Pro';
-$_['text_dashboard']				= 'Etsy Dashboard';
+$_['heading_title']         = 'Etsy';
+$_['text_openbay']			= 'OpenBay Pro';
+$_['text_dashboard']		= 'Inicio Etsy';
 
 // Messages
-$_['text_success']         			= 'You have saved your changes to the Etsy extension';
-$_['text_heading_settings']         = 'Settings';
-$_['text_heading_sync']             = 'Syncronise';
-$_['text_heading_register']         = 'Register here';
-$_['text_heading_products']        	= 'Item links';
-$_['text_heading_listings']        	= 'Etsy listings';
+$_['text_success']         	= 'Extensión Etsy Modificada';
+$_['text_heading_settings'] = 'Configuración';
+$_['text_heading_sync']     = 'Sincronizar';
+$_['text_heading_register'] = 'Registrar aquí';
+$_['text_heading_products'] = 'Enlaces de Artículo';
+$_['text_heading_listings'] = 'Lista Etsy';
 
 // Errors
-$_['error_generic_fail']			= 'An unknown error just happened!';
-$_['error_permission']				= 'You do not have permission to Etsy settings';
+$_['error_generic_fail']	= 'Ocurrió un error desconocido.';
+$_['error_permission']		= 'Sin permiso para modificar la Extensión Etsy,';

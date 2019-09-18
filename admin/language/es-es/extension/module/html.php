@@ -3,16 +3,16 @@
 $_['heading_title']     = 'Contenido HTML';
 
 // Text
-$_['text_module'] = 'm&oacute;dulos';
-$_['text_success'] = 'Genial: Ha modificado HTML m&oacute;dulo de contenido';
-$_['text_edit'] = 'Editar HTML M&oacute;dulo de contenidos';
+$_['text_extension']    = 'Extensiones';
+$_['text_success']      = 'Operación Exitosa: Módulo Contenido HTML modificado.';
+$_['text_edit']         = 'Editar Módulo Contenido HTML';
 
 // Entry
-$_['entry_name'] = 'Nombre del m&oacute;dulo';
-$_['entry_title'] = 'Heading T&iacute;tulo';
-$_['entry_description'] = 'Descripci&oacute;n';
-$_['entry_status'] = 'Estado';
+$_['entry_name']        = 'Nombre del Módulo';
+$_['entry_title']       = 'Título';
+$_['entry_description'] = 'Descripción';
+$_['entry_status']      = 'Estado';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar HTML m&oacute;dulo de contenido';
-$_['error_name'] = 'El Nombre del m&oacute;dulo debe estar entre 3 y 64 caracteres';
+$_['error_permission']  = 'Error: Sin permiso para modificar el Módulo Contenido HTML.';
+$_['error_name']        = 'El Nombre del Módulo debe contener entre 3 y 64 caracteres.';

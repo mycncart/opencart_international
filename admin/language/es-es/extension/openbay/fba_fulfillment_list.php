@@ -1,26 +1,26 @@
 <?php
 // Heading
-$_['heading_title']					     = 'Fulfillments';
+$_['heading_title']					     = 'Cumplimientos';
 $_['text_openbay']					     = 'OpenBay Pro';
-$_['text_fba']						     = 'Fulfillment By Amazon';
+$_['text_fba']						     = 'Cumplimiento por parte de Amazon';
 
 // Buttons
-//$_['button_pull_orders']        	     = 'Start';
+//$_['button_pull_orders']        	     = 'Inicio';
 
 // Entry
-$_['entry_start_date']             		 = 'Start date (format YYYY-MM-DD)';
+$_['entry_start_date']             		 = 'Fecha Inicio (formato AAAA-MM-DD)';
 
 // Text
-$_['text_no_results'] 					 = 'No fulfillment\'s found on Amazon';
-$_['text_fulfillment_list'] 			 = 'Amazon Fulfillment list';
+$_['text_no_results'] 					 = 'No se encuentra ningún cumplimiento en Amazon';
+$_['text_fulfillment_list'] 			 = 'Lista de Cumplimientos Amazon';
 
-// Columns
-$_['column_seller_fulfillment_order_id'] = 'Seller Order ID';
-$_['column_displayable_order_id'] 		 = 'Displayable Order ID';
-$_['column_displayable_order_date'] 	 = 'Displayable date/time';
-$_['column_shipping_speed_category'] 	 = 'Shipping speed';
-$_['column_fulfillment_order_status'] 	 = 'Order Status';
-$_['column_action'] 					 = 'Action';
+// Columnas
+$_['column_seller_fulfillment_order_id'] = 'ID de Pedido del Vendedor';
+$_['column_displayable_order_id'] 		 = 'ID de Pedido Visualizable';
+$_['column_displayable_order_date'] 	 = 'Fecha/Hora Visualizable';
+$_['column_shipping_speed_category'] 	 = 'Velocidad de Envío';
+$_['column_fulfillment_order_status'] 	 = 'Estado del Pedido';
+$_['column_action'] 					 = 'Acción';
 
 // Errors
-//$_['error_validation']                 = 'You need to register for your API token and enable the module.';
+//$_['error_validation']                 = 'Es necesario registrar el API token y habilitar el módulo.';

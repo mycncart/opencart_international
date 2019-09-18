@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Analytics';
 
 // Text
-$_['text_success']     = 'Success: You have modified analytics!';
-$_['text_list']        = 'Analytics List';
+$_['text_success']     = 'Operación Exitosa: Analytics Modificado.';
+$_['text_list']        = 'Lista de Analytics';
 
 // Column
-$_['column_name']      = 'Analytics Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Nombre de Analytics';
+$_['column_status']    = 'Estado';
+$_['column_action']    = 'Acción';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify analytics!';
+$_['error_permission'] = 'Error: Sin permiso para modficardel Módulo Analytics.';

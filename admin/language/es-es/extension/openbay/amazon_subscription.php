@@ -1,35 +1,35 @@
 <?php
 // Heading
-$_['heading_title']        				= 'Subscription';
-$_['text_openbay']						= 'OpenBay Pro';
-$_['text_amazon']						= 'Amazon EU';
+$_['heading_title']        	  = 'Subscripción';
+$_['text_openbay']			  = 'OpenBay Pro';
+$_['text_amazon']			  = 'Amazon EU';
 
 // Text
-$_['text_current_plan']             	= 'Current plan';
-$_['text_register_invite']          	= 'Don\'t have your API details yet?';
-$_['text_available_plans']          	= 'Available plans';
-$_['text_listings_remaining']       	= 'Listings remaining';
-$_['text_listings_reserved']        	= 'Products being processed';
-$_['text_account_status']           	= 'Account status';
-$_['text_merchantid']               	= 'Merchant ID';
-$_['text_change_merchantid']        	= 'Change';
-$_['text_allowed']                  	= 'Allowed';
-$_['text_not_allowed']              	= 'Not Allowed';
-$_['text_price']              			= 'Price';
-$_['text_name']              			= 'Name';
-$_['text_description']              	= 'Description';
-$_['text_order_frequency']          	= 'Order import frequency';
-$_['text_bulk_listing']             	= 'Bulk Listing';
-$_['text_product_listings']         	= 'Listings per month';
+$_['text_current_plan']       = 'Plan Actual';
+$_['text_register_invite']    = 'Aún no se ingresaron los detalles de API?';
+$_['text_available_plans']    = 'Planes Disponibles';
+$_['text_listings_remaining'] = 'Listados Restantes';
+$_['text_listings_reserved']  = 'Productos en Proceso';
+$_['text_account_status']     = 'Estado de Cuenta';
+$_['text_merchantid']         = 'Comerciante ID';
+$_['text_change_merchantid']  = 'Cambiar';
+$_['text_allowed']            = 'Permititdo';
+$_['text_not_allowed']        = 'No Permitido';
+$_['text_price']              = 'Precio';
+$_['text_name']               = 'Nombre';
+$_['text_description']        = 'Descripción';
+$_['text_order_frequency']    = 'Frecuencia de Importación de Pedidos';
+$_['text_bulk_listing']       = 'Listado Masivo';
+$_['text_product_listings']   = 'Listados por Mes';
 
-// Columns
-$_['column_name']                     	= 'Name';
-$_['column_description']              	= 'Description';
-$_['column_order_frequency']          	= 'Order import frequency';
-$_['column_bulk_listing']             	= 'Bulk Listing';
-$_['column_product_listings']         	= 'Listings per month';
-$_['column_price']                    	= 'Price';
+// Columnas
+$_['column_name']             = 'Nombre';
+$_['column_description']      = 'Descripción';
+$_['column_order_frequency']  = 'Frecuencia de Importación de Pedidos';
+$_['column_bulk_listing']     = 'Listado Masivo';
+$_['column_product_listings'] = 'Listados por Mes';
+$_['column_price']            = 'Precio';
 
 // Buttons
-$_['button_change_plan']              	= 'Change plan';
-$_['button_register']                 	= 'Register';
+$_['button_change_plan']      = 'Cambiar Plan';
+$_['button_register']         = 'Registrar';

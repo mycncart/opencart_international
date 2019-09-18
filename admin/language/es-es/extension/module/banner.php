@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']    = 'Banner';
+$_['heading_title']    = 'Banners';
 
 // Text
-$_['text_module'] = 'm&oacute;dulos';
-$_['text_success'] = 'Genial: Ha modificado m&oacute;dulo de banners';
-$_['text_edit'] = 'Editar m&oacute;dulo Banner';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Banners Modificado.';
+$_['text_edit']        = 'Editar Módulo Banners';
 
 // Entry
-$_['entry_name'] = 'Nombre del m&oacute;dulo';
-$_['entry_banner'] = 'Banner';
-$_['entry_dimension'] = 'Dimensiones (W x H) y Redimensionar Tipo';
-$_['entry_width'] = 'Ancho';
-$_['entry_height'] = 'Altura';
-$_['entry_status'] = 'Estado';
+$_['entry_name']       = 'Nombre del Módulo';
+$_['entry_banner']     = 'Banner';
+$_['entry_dimension']  = 'Dimension (Ancho x Alto) y Tipo Redimensionable';
+$_['entry_width']      = 'Ancho';
+$_['entry_height']     = 'Alto';
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el m&oacute;dulo banners';
-$_['error_name'] = 'Nombre del m&oacute;dulo debe estar entre 3 y 64 caracteres';
-$_['error_width'] = 'Ancho requerido!';
-$_['error_height'] = 'Altura necesario!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Banners.';
+$_['error_name']       = 'El Nombre del Módulo debe contener entre 3 y 64 caracteres.';
+$_['error_width']      = 'Ancho Obligatorio.';
+$_['error_height']     = 'Alto Obligatorio.';

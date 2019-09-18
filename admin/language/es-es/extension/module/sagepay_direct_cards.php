@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title']    = 'Sagepay Direct Card Management';
+$_['heading_title']    = 'Gestor de Sagepay Direct Card';
 
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Sagepay Direct Card Management module!';
-$_['text_edit']        = 'Edit Sagepay Direct Card Management Module';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Gestor de Sagepay Direct Card Modificado.';
+$_['text_edit']        = 'Editar Módulo Gestor de Sagepay Direct Card';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Sagepay Direct Card Management module!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Sagepay Direct Card.';

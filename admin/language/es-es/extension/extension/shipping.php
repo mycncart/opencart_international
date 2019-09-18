@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']     = 'Formas de Env&iacute;o';
+$_['heading_title']     = 'Envíos';
 
 // Text
-$_['text_success']      = 'Genial: Usted ha modificado la forma de env&iacute;o!';
-$_['text_list']         = 'Lista de Formas de Env&iacute;o';
+$_['text_success']      = 'Operación Exitosa: Envío Modificado.';
+$_['text_list']         = 'Lista de Envíos';
 
 // Column
-$_['column_name']       = 'Metodo de Env&iacute;o';
+$_['column_name']       = 'Método de Envío';
 $_['column_status']     = 'Estado';
-$_['column_sort_order'] = 'Ordenar';
-$_['column_action']     = 'Acci&oacute;n';
+$_['column_sort_order'] = 'Orden';
+$_['column_action']     = 'Acción';
 
 // Error
-$_['error_permission']  = 'Atenci&oacute;n: Usted no tiene permisos para modificar el m&eacute;todo de env&iacute;o!';
+$_['error_permission']  = 'Error: Sin permiso para modificar el Módulo Envíos.';

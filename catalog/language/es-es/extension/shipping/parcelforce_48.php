@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_title']       = 'Entrega 48';
-$_['text_description'] = 'Entrega 48';
+$_['text_title']       = 'Parcelforce 48';
+$_['text_description'] = 'Parcelforce 48';
 $_['text_weight']      = 'Peso:';
-$_['text_insurance']   = 'Asegurado hasta:';
-$_['text_time']        = 'Tiempo Estimado: En 48 Horas';
+$_['text_insurance']   = 'Asegurado Hasta:';
+$_['text_time']        = 'Tiempo Estimado: Dentro de las 48 Horas.';

@@ -1,2 +1,3 @@
 <?php
-$_['text_handling'] = 'Tasa de Tramitaci&oacute;n';
+// Text
+$_['text_handling'] = 'Tasa de Tramitación';

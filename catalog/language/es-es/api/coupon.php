@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_success']     = 'El Cup&oacute;n de Descuento se ha aplicado.';
+$_['text_success']     = 'Operación Exitosa: Cupón de Descuento Aplicado.';
 
 // Error
-$_['error_permission'] = 'Sin permiso para acceder a la API.';
-$_['error_coupon']     = 'Cup&oacute;n Inv&aacute;lido, Vencido o lleg&oacute; al L&iacute;mite de Uso.';
+$_['error_permission'] = 'Error: Sin permiso para acceder a la API.';
+$_['error_coupon']     = 'Error: El Cupón es Inválido o alcanzó el Límite de Uso.';

@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Gastos de Manipulaci&oacute;n';
+$_['heading_title']    = 'Tasa de Tramitación';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado total de gastos de gesti&oacute;n';
-$_['text_edit'] = 'Editar el total de los gastos de manipulaci&oacute;n';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Tasa de Tramitación Modificado.';
+$_['text_edit']        = 'Editar Total de Tasa de Tramitación';
 
-// Entrada
-$_['entry_total'] = 'Orden total';
-$_['entry_fee'] = 'Tarifa';
-$_['entry_tax_class'] = 'Clase de Impuesto';
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_total']      = 'Total de Pedido';
+$_['entry_fee']        = 'Cuota';
+$_['entry_tax_class']  = 'Clase de Impuesto';
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
-// Ayuda
-$_['help_total'] = 'El Pagar Total de la orden debe alcanzar antes de que esta orden total se activa.';
+// Help
+$_['help_total']       = 'Total del Pedido que debe alcanzarse antes de que la Opción se active.';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el manejo total de tarifa';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Tasa de Tramitación.';

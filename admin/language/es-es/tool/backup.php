@@ -1,23 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Copia de Seguridad y Restauraci&oacute;n';
+$_['heading_title']    = 'Backup y Restauración';
 
 // Text
-$_['text_backup'] = 'Descargar Copia de Seguridad';
-$_['text_success'] = 'Se ha importado Exitosamente la Base de Datos.';
-$_['text_list'] = 'Cargar lista';
+$_['text_success']     = 'Operación Exitosa: Importación de Base de Datos Exitosa.';
 
-// Entrada
-$_['entry_restore'] = 'Restaurar Copia de Seguridad';
-$_['entry_backup'] = 'Copia de Seguridad';
+// Entry
+$_['entry_progress']   = 'Progreso';
+$_['entry_export']     = 'Exportar';
+
+// Tab
+$_['tab_backup']       = 'Backup';
+$_['tab_restore']      = 'Restaurar';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar las Copias de Seguridad.';
-$_['error_backup'] = 'Se debe seleccionar al menos una tabla de copia de seguridad.';
-$_['error_empty'] = 'El archivo subido est&aacute; vac&iacute;o.';
-
-$_['button_export'] = 'Exportar';
-$_['button_import'] = 'Importar';
-
-$_['entry_import']     = 'Importar';
-$_['entry_export']     = 'Exportar';
+$_['error_permission'] = 'Error: Sin permiso para modificar Backup &amp; Restauración.';
+$_['error_export']     = 'Error: Se debe seleccionar al menos una Tabla a Exportar.';
+$_['error_file']       = 'Nombre del Archivo no encontrado.';

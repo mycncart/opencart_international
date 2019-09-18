@@ -1,30 +1,29 @@
 <?php
+$_['text_title'] = 'Tarjeta de Crédito/Débito';
+$_['text_card_details'] = 'Detalles de la Tarjeta';
+$_['text_wait'] = 'Procesando el pago';
+$_['text_auth_code'] = 'Código de Autorización: %s';
+$_['text_postcode_check'] = 'Verificación de Código Postal: %s';
+$_['text_security_code_check'] = 'Verificación de CVV2: %s';
+$_['text_address_check'] = 'Verificación de Dirección: %s';
+$_['text_3d_secure_check'] = 'Seguridad3D: %s';
+$_['text_not_given'] = 'No proporcionado';
+$_['text_not_checked'] = 'No verificado';
+$_['text_match'] = 'Coincidencia';
+$_['text_not_match'] = 'Sin Coincidencias';
+$_['text_authenticated'] = 'Autenticado';
+$_['text_not_authenticated'] = 'No Autenticado';
+$_['text_authentication_not_completed'] = 'Intentado pero no Completado';
+$_['text_unable_to_perform'] = 'No se pudo Realizar';
+$_['text_transaction_declined'] = 'El Banco ha rechazado la Transacción. Utilizar otro Método de Pago.';
+$_['text_transaction_failed'] = 'No se puede procesar el pago. Verificar la Información Proporcionada.';
+$_['text_connection_error'] = 'Intentar más tarde o bien utilizar otro Método de Pago.';
 
-$_['text_title'] = 'Credit / Debit card';
-$_['text_card_details'] = 'Card details';
-$_['text_wait'] = 'Processing your payment';
-$_['text_auth_code'] = 'Authorisation code: %s';
-$_['text_postcode_check'] = 'Postcode check: %s';
-$_['text_security_code_check'] = 'CVV2 check: %s';
-$_['text_address_check'] = 'Address check: %s';
-$_['text_3d_secure_check'] = '3D Secure: %s';
-$_['text_not_given'] = 'Not given';
-$_['text_not_checked'] = 'Not checked';
-$_['text_match'] = 'Matched';
-$_['text_not_match'] = 'Not matched';
-$_['text_authenticated'] = 'Authenticated';
-$_['text_not_authenticated'] = 'Not authenticated';
-$_['text_authentication_not_completed'] = 'Attempted but not completed';
-$_['text_unable_to_perform'] = 'Unable to perform';
-$_['text_transaction_declined'] = 'Your bank has declined the transaction. Please use a different payment method.';
-$_['text_transaction_failed'] = 'Could not process the payment. Please check the details you provided.';
-$_['text_connection_error'] = 'Please try again later or use a different payment method.';
+$_['entry_type'] = 'Tipo de Tarjeta';
+$_['entry_number'] = 'Número de Tarjeta';
+$_['entry_expire_date'] = 'Fecha de Expiración';
+$_['entry_cvv2'] = 'Código de Seguridad (CVV2)';
 
-$_['entry_type'] = "Card type";
-$_['entry_number'] = "Card number";
-$_['entry_expire_date'] = "Expiry date";
-$_['entry_cvv2'] = "Security Code (CVV2)";
+$_['button_confirm'] = 'Confirmar';
 
-$_['button_confirm'] = 'Confirm';
-
-$_['error_failure'] = 'Could not complete transaction. Please try again later or use a different payment method.';
+$_['error_failure'] = 'No se puede completar la Transacción. Intentar más tarde o bien utilizar otro Método de Pago.';

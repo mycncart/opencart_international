@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Anti-Fraude';
+$_['heading_title']    = 'Antifraude';
 
 // Text
-$_['text_success']     = 'Genial: Ha modificado anti-fraude!';
-$_['text_list']        = 'Lista Anti-Fraude';
+$_['text_success']     = 'Operación Exitosa: Antifraude Modificado.';
+$_['text_list']        = 'Lista de Antifraudes';
 
 // Column
-$_['column_name']      = 'Nombre Anti-Fraud';
+$_['column_name']      = 'Nombre del Antifraude';
 $_['column_status']    = 'Estado';
-$_['column_action']    = 'Acci&oacute;n';
+$_['column_action']    = 'Acción';
 
 // Error
-$_['error_permission'] = 'Atenci&oacute;n: Usted no tiene permisos para modificar anti-fraude!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Antifraude.';

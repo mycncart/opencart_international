@@ -1,57 +1,57 @@
 <?php
 // Heading
-$_['heading_title'] 					= 'Manage listings';
+$_['heading_title'] 				  = 'Gestionar Listas';
 
 // Text
-$_['text_markets']                  	= 'Markets';
-$_['text_openbay']                  	= 'OpenBay Pro';
-$_['text_ebay'] 						= 'eBay';
-$_['text_amazon'] 						= 'Amazon EU';
-$_['text_amazonus'] 					= 'Amazon US';
-$_['text_etsy'] 						= 'Etsy';
-$_['text_status_all'] 					= 'All';
-$_['text_status_ebay_active'] 			= 'eBay active';
-$_['text_status_ebay_inactive'] 		= 'eBay not active';
-$_['text_status_amazoneu_saved'] 		= 'Amazon EU saved';
-$_['text_status_amazoneu_processing'] 	= 'Amazon EU processing';
-$_['text_status_amazoneu_active'] 		= 'Amazon EU active';
-$_['text_status_amazoneu_notlisted'] 	= 'Amazon EU not listed';
-$_['text_status_amazoneu_failed'] 		= 'Amazon EU failed';
-$_['text_status_amazoneu_linked'] 		= 'Amazon EU linked';
-$_['text_status_amazoneu_notlinked'] 	= 'Amazon EU not linked';
-$_['text_status_amazonus_saved'] 		= 'Amazon US saved';
-$_['text_status_amazonus_processing'] 	= 'Amazon US processing';
-$_['text_status_amazonus_active'] 		= 'Amazon US active';
-$_['text_status_amazonus_notlisted'] 	= 'Amazon US not listed';
-$_['text_status_amazonus_failed'] 		= 'Amazon US failed';
-$_['text_status_amazonus_linked'] 		= 'Amazon US linked';
-$_['text_status_amazonus_notlinked'] 	= 'Amazon US not linked';
-$_['text_processing']       			= 'Processing';
-$_['text_category_missing'] 			= 'Missing category';
-$_['text_variations'] 					= 'variations';
-$_['text_variations_stock'] 			= 'stock';
-$_['text_min']                      	= 'Min';
-$_['text_max']                      	= 'Max';
-$_['text_option']                   	= 'Option';
-$_['text_list']              			= 'Product List';
+$_['text_markets']                    = 'Mercados';
+$_['text_openbay']                    = 'OpenBay Pro';
+$_['text_ebay'] 					  = 'eBay';
+$_['text_amazon'] 					  = 'Amazon EU';
+$_['text_amazonus'] 				  = 'Amazon US';
+$_['text_etsy'] 					  = 'Etsy';
+$_['text_status_all'] 				  = 'Todos';
+$_['text_status_ebay_active'] 		  = 'eBay activo';
+$_['text_status_ebay_inactive'] 	  = 'eBay no activo';
+$_['text_status_amazoneu_saved'] 	  = 'Amazon EU guardado';
+$_['text_status_amazoneu_processing'] = 'Amazon EU procesando';
+$_['text_status_amazoneu_active'] 	  = 'Amazon EU activo';
+$_['text_status_amazoneu_notlisted']  = 'Amazon EU no listado';
+$_['text_status_amazoneu_failed'] 	  = 'Amazon EU fallido';
+$_['text_status_amazoneu_linked'] 	  = 'Amazon EU vinculado';
+$_['text_status_amazoneu_notlinked']  = 'Amazon EU no vinculado';
+$_['text_status_amazonus_saved'] 	  = 'Amazon US guardado';
+$_['text_status_amazonus_processing'] = 'Amazon US procesando';
+$_['text_status_amazonus_active'] 	  = 'Amazon US activo';
+$_['text_status_amazonus_notlisted']  = 'Amazon US no listado';
+$_['text_status_amazonus_failed'] 	  = 'Amazon US fallido';
+$_['text_status_amazonus_linked'] 	  = 'Amazon US vinculado';
+$_['text_status_amazonus_notlinked']  = 'Amazon US no vinculado';
+$_['text_processing']       		  = 'Procesando';
+$_['text_category_missing'] 		  = 'Categoría Perdida';
+$_['text_variations'] 				  = 'variaciones';
+$_['text_variations_stock'] 		  = 'stock';
+$_['text_min']                        = 'Min';
+$_['text_max']                        = 'Max';
+$_['text_option']                     = 'Opción';
+$_['text_list']              		  = 'Lista de Productos';
 
 // Entry
-$_['entry_title'] 						= 'Title';
-$_['entry_model'] 						= 'Model';
-$_['entry_manufacturer'] 				= 'Manufacturer';
-$_['entry_status'] 						= 'Status';
-$_['entry_status_marketplace'] 			= 'Marketplace status';
-$_['entry_stock_range'] 				= 'Stock range';
-$_['entry_category'] 					= 'Category';
-$_['entry_populated'] 					= 'Populated';
-$_['entry_sku'] 						= 'SKU';
-$_['entry_description'] 				= 'Description';
+$_['entry_title'] 					  = 'Título';
+$_['entry_model'] 					  = 'Modelo';
+$_['entry_manufacturer'] 			  = 'Fabrcante';
+$_['entry_status'] 					  = 'Estado';
+$_['entry_status_marketplace'] 		  = 'Estado de Mercado';
+$_['entry_stock_range'] 			  = 'Rango de Stock';
+$_['entry_category'] 				  = 'Categoría';
+$_['entry_populated'] 				  = 'Publicado';
+$_['entry_sku'] 					  = 'SKU';
+$_['entry_description'] 			  = 'Descripción';
 
 // Button
-$_['button_error_fix']              	= 'Fix errors';
-$_['button_amazon_eu_bulk']         	= 'Amazon EU bulk upload';
-$_['button_amazon_us_bulk']         	= 'Amazon US bulk upload';
-$_['button_ebay_bulk']              	= 'eBay bulk upload';
+$_['button_error_fix']                = 'Corregir Errores.';
+$_['button_amazon_eu_bulk']           = 'Subida Masiva de Amazon EU';
+$_['button_amazon_us_bulk']           = 'Subida Masiva de Amazon US';
+$_['button_ebay_bulk']                = 'Subida Masiva de eBay';
 
 // Error
-$_['error_select_items']            	= 'You must select at least 1 item to bulk list';
+$_['error_select_items']              = 'Se debe seleccionar al menos 1 Artículo para la Lista Masiva.';

@@ -3,23 +3,24 @@
 $_['heading_title']          = 'Atributos';
 
 // Text
-$_['text_success']           = 'Se han modificado los Atributos.';
+$_['text_success']           = 'Operación Exitosa: Atributo Modificado.';
 $_['text_list']              = 'Lista de Atributos';
-$_['text_add']               = 'Nuevo Atributo';
+$_['text_add']               = 'Agregar Atributo';
 $_['text_edit']              = 'Editar Atributo';
 
 // Column
-$_['column_name']            = 'Nombre de Atributo';
-$_['column_attribute_group'] = 'Grupo de Atributos';
+$_['column_name']            = 'Nombre del Atributo';
+$_['column_attribute_group'] = 'Grupo de Atributo';
 $_['column_sort_order']      = 'Orden';
-$_['column_action']          = 'Acci&oacute;n';
+$_['column_action']          = 'Acción';
 
 // Entry
-$_['entry_name']            = 'Nombre de Atributo';
-$_['entry_attribute_group'] = 'Grupo de Atributos';
-$_['entry_sort_order']      = 'Orden';
+$_['entry_name']             = 'Nombre del Atributo';
+$_['entry_attribute_group']  = 'Grupo de Atributo';
+$_['entry_sort_order']       = 'Orden';
 
 // Error
-$_['error_permission']      = 'Sin permiso para modificar los Atributos.';
-$_['error_name']            = 'El Nombre del Atributo debe contener entre 3 y 64 caracteres.';
-$_['error_product']         = 'Este Atributo no puede ser eliminado, ya que est&aacute; asignado actualmente a Productos.';
+$_['error_permission']       = 'Error: Sin pemiso para modificar el Módulo Atributos.';
+$_['error_attribute_group']  = 'Grupo del Atributo Obligatorio.';
+$_['error_name']             = 'El Nombre del Atributo debe contener entre 1 y 64 caracteres.';
+$_['error_product']          = 'Error: El Atributo no puede ser eliminado porque está asignado a %s productos.';

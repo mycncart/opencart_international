@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'Recoger en la tienda';
-$_['text_description'] = 'Recoger en la Tienda';
+$_['text_title']       = 'Recoger en Comercio';
+$_['text_description'] = 'Recoger en Comercio';

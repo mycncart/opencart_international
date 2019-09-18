@@ -1,24 +1,24 @@
 <?php
 // Heading
-$_['heading_title']     = 'Ofertas';
+$_['heading_title']     = 'Ofertas Especiales';
 
 // Text
-$_['text_empty']        = 'No hay productos en Oferta para mostrar.';
+$_['text_empty']        = 'No hay Ofertas Especiales de Productos para Mostrar.';
 $_['text_quantity']     = 'Cantidad:';
 $_['text_manufacturer'] = 'Marca:';
-$_['text_model']        = 'C&oacute;digo de Producto:';
+$_['text_model']        = 'Código de Producto:';
 $_['text_points']       = 'Puntos de Recompensa:';
 $_['text_price']        = 'Precio:';
-$_['text_tax']          = 'Sin Iva:';
-$_['text_compare']      = 'Comparar Producto (%s)';
-$_['text_sort']         = 'Ordenar Por:';
-$_['text_default']      = 'Defecto';
+$_['text_tax']          = 'Impuestos:';
+$_['text_compare']      = 'Comparar Productos (%s)';
+$_['text_sort']         = 'Ordenar por:';
+$_['text_default']      = 'Por Defecto';
 $_['text_name_asc']     = 'Nombre (A - Z)';
 $_['text_name_desc']    = 'Nombre (Z - A)';
-$_['text_price_asc']    = 'Precio (Bajo &gt; Alto)';
-$_['text_price_desc']   = 'Precio (Alto &gt; Bajo)';
-$_['text_rating_asc']   = 'Clasificar (M&aacute;s Bajo)';
-$_['text_rating_desc']  = 'Clasificar (M&aacute;s Alto)';
+$_['text_price_asc']    = 'Precio (Menor a Mayor)';
+$_['text_price_desc']   = 'Precio (Mayor a Menor)';
+$_['text_rating_asc']   = 'Rating (Más Bajo)';
+$_['text_rating_desc']  = 'Rating (Más Alto)';
 $_['text_model_asc']    = 'Modelo (A - Z)';
 $_['text_model_desc']   = 'Modelo (Z - A)';
-$_['text_limit']        = 'Ver:';
+$_['text_limit']        = 'Mostrar:';

@@ -6,14 +6,15 @@ $_['heading_title'] = 'Pago Fallido.';
 $_['text_basket']   = 'Carro de Compras';
 $_['text_checkout'] = 'Pagar';
 $_['text_failure']  = 'Pago Fallido';
-$_['text_message']  = '<p>Hubo un problema al procesar el pago y el Pedido no se ha completado.</p>
+$_['text_message']  = '<p>Hay un problema al Procesa el Pago y el mismo no pudo ser completado.</p>
 
-<p>Las razones posibles son:</p>
+<p>Las Posibles Razones son:</p>
 <ul>
-  <li>Insuficiencia de Fondos</li>
-  <li>Fallo en la Verificaci&oacute;n</li>
+  <li>Fondos Insuficientes</li>
+  <li>Verificación Fallida</li>
 </ul>
 
-<p>Reintentar usando otro M&eacute;todo de Pago.</p>
+<p>Tratar nuevamente utilizando otro Método de Pago.</p>
 
-<p>Si el problema persiste <a href="%s">contactar</a> con los detalles del Pedido.</p>';
+<p>Si el problema persiste <a href="%s">contactarse</a> con los detalles del Pedido.</p>
+';

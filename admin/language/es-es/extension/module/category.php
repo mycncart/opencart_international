@@ -1,14 +1,14 @@
 <?php
 // Heading
-$_['heading_title']    = 'Categor&iacute;a';
+$_['heading_title']    = 'Categoría';
 
 // Text
-$_['text_module']      = 'M&oacute;dulos';
-$_['text_success']     = 'Genial: Usted ha modificado el m&oacute;dulo de las categor&iacute;as!';
-$_['text_edit']        = 'Editar M&oacute;dulo';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Categoría Modificado.';
+$_['text_edit']        = 'Editar Módulo Categoría';
 
 // Entry
 $_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Atenci&oacute;n: No tiene permisos para modificar el m&oacute;dulo de categor&iacute;as!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Categoría.';

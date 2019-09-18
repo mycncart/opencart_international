@@ -3,29 +3,29 @@
 $_['heading_title']			= 'Authorize.Net (SIM)';
 
 // Text
-$_['text_payment']			= 'Payment';
-$_['text_success']			= 'Success: You have modified Authorize.Net (SIM) account details!';
-$_['text_edit']             = 'Edit Authorize.Net (SIM)';
+$_['text_extension']		= 'Extensiones';
+$_['text_success']			= 'Operación Exitosa: Detalles de Cuenta Authorize.Net (SIM) Modificados.';
+$_['text_edit']             = 'Editar Authorize.Net (SIM)';
 $_['text_authorizenet_sim']	= '<a onclick="window.open(\'http://reseller.authorize.net/application/?id=5561142\');"><img src="view/image/payment/authorizenet.png" alt="Authorize.Net" title="Authorize.Net" style="border: 1px solid #EEEEEE;" /></a>';
 
 // Entry
-$_['entry_merchant']		= 'Merchant ID';
-$_['entry_key']				= 'Transaction Key';
-$_['entry_callback']		= 'Relay Response URL';
-$_['entry_md5']				= 'MD5 Hash Value';
-$_['entry_test']			= 'Test Mode';
+$_['entry_merchant']		= 'Mercado ID';
+$_['entry_key']				= 'Key de Transacción';
+$_['entry_callback']		= 'URL de Respuesta de Retransmisión';
+$_['entry_md5']				= 'Valor MD5 Hash';
+$_['entry_test']			= 'Modo Testing';
 $_['entry_total']			= 'Total';
-$_['entry_order_status']	= 'Order Status';
-$_['entry_geo_zone']		= 'Geo Zone';
-$_['entry_status']			= 'Status';
-$_['entry_sort_order']		= 'Sort Order';
+$_['entry_order_status']	= 'Estado del Pedido';
+$_['entry_geo_zone']		= 'Zona Geográfica';
+$_['entry_status']			= 'Estado';
+$_['entry_sort_order']		= 'Orden';
 
 // Help
-$_['help_callback']			= 'Please login and set this at <a href="https://secure.authorize.net" target="_blank" class="txtLink">https://secure.authorize.net</a>.';
-$_['help_md5']				= 'The MD5 Hash feature enables you to authenticate that a transaction response is securely received from Authorize.Net.Please login and set this at <a href="https://secure.authorize.net" target="_blank" class="txtLink">https://secure.authorize.net</a>.(Optional)';
-$_['help_total']			= 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_callback']			= 'Iniciar sesión y configurar en <a href="https://secure.authorize.net" target="_blank" class="txtLink">https://secure.authorize.net</a>.';
+$_['help_md5']				= 'La función MD5 Hash permite autenticar que una respuesta de transacción se recibe de forma segura desde Authorize.Net. Iniciar sesión y configurar en <a href="https://secure.authorize.net" target="_blank" class="txtLink">https://secure.authorize.net</a>.(Optional)';
+$_['help_total']			= 'Total del Pedido a Alcanzar antes de que el método de pago se active.';
 
 // Error
-$_['error_permission']		= 'Warning: You do not have permission to modify payment Authorize.Net (SIM)!';
-$_['error_merchant']		= 'Merchant ID Required!';
-$_['error_key']				= 'Transaction Key Required!';
+$_['error_permission']		= 'Error: Sin permiso para modificar Pago Authorize.Net (SIM).';
+$_['error_merchant']		= 'Mercado ID Obligatorio.';
+$_['error_key']				= 'Key de Transacción Obligatoria.';

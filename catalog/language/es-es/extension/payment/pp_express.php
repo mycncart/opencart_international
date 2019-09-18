@@ -1,27 +1,27 @@
 <?php
 // Heading
-$_['express_text_title']		= 'Confirmar Pedido';
+$_['express_text_title']      = 'Confirmar Pedido';
 
 // Text
-$_['text_title']				= 'PayPal Express Checkout';
-$_['button_continue']			= 'Continuar';
-$_['text_cart']					= 'Carro de Compra';
-$_['text_shipping_updated']		= 'Servicio de env&iacute;o actualizada';
-$_['text_trial']				= '%s cada %s %s para %s Pagos Posteriores ';
-$_['text_recurring']			= '%s cada %s %s';
-$_['text_recurring_item']		= 'Elemento Peri&oacute;dico';
-$_['text_length']				= ' para %s pagos';
+$_['text_title']              = 'Pago Express PayPal';
+$_['text_cart']               = 'Carro de Compras';
+$_['text_shipping_updated']   = 'Servicio de Envío Actualizado';
+$_['text_trial']              = '%s cada %s %s para %s pagos luego ';
+$_['text_recurring']          = '%s cada %s %s';
+$_['text_recurring_item']     = 'Item Recurrente';
+$_['text_length']             = ' para %s pagos';
 
 // Entry
-$_['express_entry_coupon']		= 'Introduzca su cup&oacute;n aqu&iacute;:';
+$_['express_entry_coupon']    = 'Ingresar el Cupón aquí:';
 
 // Button
-$_['express_button_coupon']		= 'A&ntilde;adir';
-$_['express_button_confirm']	= 'Confirmar';
-$_['express_button_login']		= 'Continuar a PayPal';
-$_['express_button_shipping']	= 'Acutalizaci&oacute;n de env&iacute;o';
-$_['button_cancel_recurring']	= 'Cancelar Pagos';
+$_['button_express_coupon']   = 'Agregar';
+$_['button_express_confirm']  = 'Confirmar';
+$_['button_express_login']    = 'Continuar a PayPal';
+$_['button_express_shipping'] = 'Actualizar Envío';
 
 // Error
-$_['error_heading_title']		= 'Hubo un error';
-$_['error_too_many_failures']	= 'Su pago ha fallado demasiadas veces';
+$_['error_heading_title']	  = 'Hay un Error';
+$_['error_too_many_failures'] = 'El Pago ha Fallado demasiadas veces';
+$_['error_unavailable'] 	  = 'Utilizar Pago Completo con este pedido.';
+$_['error_no_shipping']    	  = 'Error: No hay Opciones de Envío disponibles. Contactar <a href="%s">aquí</a> para obtener Asistencia Técnica.';

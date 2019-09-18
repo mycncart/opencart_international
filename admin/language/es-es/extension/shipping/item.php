@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']     = 'Por Art&iacute;culo';
+$_['heading_title']    = 'Envío Por Item';
 
 // Text
-$_['text_shipping'] = 'Env&iacute;o';
-$_['text_success'] = 'Genial: Se ha modificado el env&iacute;o por tasas art&iacute;culo!';
-$_['text_edit'] = 'Editar Por art&iacute;culo del env&iacute;o';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Envío Por Item Modificado.';
+$_['text_edit']        = 'Editar Envío Por Item';
 
-// Entrada
-$_['entry_cost'] = 'Coste';
-$_['entry_tax_class'] = 'Clase de Impuesto';
-$_['entry_geo_zone'] = 'Zona Geo';
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_cost']       = 'Costo';
+$_['entry_tax_class']  = 'Clase de Impuesto';
+$_['entry_geo_zone']   = 'Zona Geográfica';
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el env&iacute;o por tasas art&iacute;culo!';
+$_['error_permission'] = 'Error: Sin permiso para modificar Envíos Por Item.';

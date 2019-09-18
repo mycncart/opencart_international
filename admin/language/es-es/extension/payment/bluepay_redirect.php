@@ -1,63 +1,63 @@
 <?php
 // Heading
-$_['heading_title']					= 'BluePay Redirect (Requires SSL)';
+$_['heading_title']			 = 'BluePay Redirect (Requiere SSL)';
 
 // Text
-$_['text_payment']					= 'Payment';
-$_['text_success']					= 'Success: You have modified BluePay Redirect account details!';
-$_['text_edit']                     = 'Edit BluePay Redirect (Requires SSL)';
-$_['text_bluepay_redirect']			= '<a href="http://www.bluepay.com/preferred-partner/opencart" target="_blank"><img src="view/image/payment/bluepay.jpg" alt="BluePay Redirect" title="BluePay Redirect" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_sim']						= 'Simulator';
-$_['text_test']						= 'Test';
-$_['text_live']						= 'Live';
-$_['text_sale']					    = 'Sale';
-$_['text_authenticate']				= 'Authenticate';
-$_['text_release_ok']				= 'Release was successful';
-$_['text_release_ok_order']			= 'Release was successful';
-$_['text_rebate_ok']				= 'Rebate was successful';
-$_['text_rebate_ok_order']			= 'Rebate was successful, order status updated to rebated';
-$_['text_void_ok']					= 'Void was successful, order status updated to voided';
-$_['text_payment_info']				= 'Payment information';
-$_['text_release_status']			= 'Payment released';
-$_['text_void_status']				= 'Payment voided';
-$_['text_rebate_status']			= 'Payment rebated';
-$_['text_order_ref']				= 'Order ref';
-$_['text_order_total']				= 'Total authorised';
-$_['text_total_released']			= 'Total released';
-$_['text_transactions']				= 'Transactions';
-$_['text_column_amount']			= 'Amount';
-$_['text_column_type']				= 'Type';
-$_['text_column_date_added']		= 'Created';
-$_['text_confirm_void']				= 'Are you sure you want to void the payment?';
-$_['text_confirm_release']			= 'Are you sure you want to release the payment?';
-$_['text_confirm_rebate']			= 'Are you sure you want to rebate the payment?';
+$_['text_extension']		 = 'Extensiones';
+$_['text_success']			 = 'Operación Exitosa: Detalles de Cuenta BluePay Redirect Modificados.';
+$_['text_edit']              = 'Editar BluePay Redirect (Requiere SSL)';
+$_['text_bluepay_redirect']	 = '<a href="http://www.bluepay.com/preferred-partner/opencart" target="_blank"><img src="view/image/payment/bluepay.jpg" alt="BluePay Redirect" title="BluePay Redirect" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_sim']				 = 'Simulador';
+$_['text_test']				 = 'Testing';
+$_['text_live']				 = 'Sitio en Producción';
+$_['text_sale']				 = 'Venta';
+$_['text_authenticate']		 = 'Autenticar';
+$_['text_release_ok']		 = 'Liberación exitosa';
+$_['text_release_ok_order']	 = 'Liberación exitosa';
+$_['text_rebate_ok']		 = 'Reembolso exitoso';
+$_['text_rebate_ok_order']	 = 'Reembolso exitoso, Estado del Pedido actualizado a Reembolso';
+$_['text_void_ok']			 = 'Anulación exitosa, Estado del Pedido actualizado a Anulado';
+$_['text_payment_info']		 = 'Información de Pago';
+$_['text_release_status']	 = 'Liberación de Pago';
+$_['text_void_status']		 = 'Pago Anulado';
+$_['text_rebate_status']	 = 'Pago Reembolsado';
+$_['text_order_ref']		 = 'Referencia de Pedido';
+$_['text_order_total']		 = 'Total Autorizado';
+$_['text_total_released']	 = 'Total Liberado';
+$_['text_transactions']		 = 'Transacciones';
+$_['text_column_amount']	 = 'Monto';
+$_['text_column_type']		 = 'Tipo';
+$_['text_column_date_added'] = 'Creado';
+$_['text_confirm_void']		 = 'Seguro de Anular el Pago?';
+$_['text_confirm_release']	 = 'Seguro de Liberar el Pago?';
+$_['text_confirm_rebate']	 = 'Seguro de Reembolsar el Pago?';
 
 // Entry
-$_['entry_vendor']					= 'Account ID';
-$_['entry_secret_key']				= 'Secret Key';
-$_['entry_test']					= 'Test Mode';
-$_['entry_transaction']				= 'Transaction Method';
-$_['entry_total']					= 'Total';
-$_['entry_order_status']			= 'Order Status';
-$_['entry_geo_zone']				= 'Geo Zone';
-$_['entry_status']					= 'Status';
-$_['entry_sort_order']				= 'Sort Order';
-$_['entry_debug']					= 'Debug logging';
-$_['entry_card']					= 'Store Cards';
+$_['entry_vendor']			 = 'Cuenta ID';
+$_['entry_secret_key']		 = 'Key Secreta';
+$_['entry_test']			 = 'Modo de Transacción';
+$_['entry_transaction']		 = 'Método de Transacción';
+$_['entry_total']			 = 'Total';
+$_['entry_order_status']	 = 'Estado del Pedido';
+$_['entry_geo_zone']		 = 'Zona Geográfica';
+$_['entry_status']			 = 'Estado';
+$_['entry_sort_order']		 = 'Orden';
+$_['entry_debug']			 = 'Registro de Depuración';
+$_['entry_card']			 = 'Tarjetas de la Tienda';
 
 // Help
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active.';
-$_['help_debug']					= 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise';
-$_['help_transaction']				= 'Transaction method MUST be set to Payment to allow subscription payments';
-$_['help_cron_job_token']			= 'Make this long and hard to guess';
-$_['help_cron_job_url']				= 'Set a cron job to call this URL';
+$_['help_total']			 = 'Total del Pedido a Alcanzar antes de que el método de pago se active.';
+$_['help_debug']			 = 'Al habilitar la depuración, se escribirán los datos confidenciales en un archivo de registro. Siempre desactivar a menos que se indique lo contrario.';
+$_['help_transaction']		 = 'La venta se cobrará al cliente de inmediato. La autorización pondrá los fondos en espera para captura futura.';
+$_['help_cron_job_token']	 = 'De mayor longitud y difícil de adivinar.';
+$_['help_cron_job_url']		 = 'Configurar el Cron para llamar a la URL.';
 
 // Button
-$_['btn_release']					= 'Release';
-$_['btn_rebate']					= 'Rebate / refund';
-$_['btn_void']						= 'Void';
+$_['button_release']		 = 'Liberar';
+$_['button_rebate']			 = 'Reembolso/Reembolso';
+$_['button_void']			 = 'Anular';
 
 // Error
-$_['error_permission']				= 'Warning: You do not have permission to modify payment BluePay!';
-$_['error_account_id']				= 'Account ID Required!';
-$_['error_secret_key']				= 'Secret Key Required!';
+$_['error_permission']		 = 'Error: Sin permiso para modificar Pago BluePay.';
+$_['error_account_id']		 = 'Cuenta ID Obligatoria.';
+$_['error_secret_key']		 = 'Key Secreta Obligatoria.';

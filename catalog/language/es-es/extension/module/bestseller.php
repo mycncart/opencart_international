@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'M&aacute;s Vendido';
+$_['heading_title'] = 'Más Vendidos';
 
 // Text
-$_['text_tax']      = 'Sin Iva:';
+$_['text_tax']      = 'Impuesto:';

@@ -1,45 +1,47 @@
 <?php
 // Heading
-$_ ['heading_title'] = 'Rubros';
+$_['heading_title']          = 'Categorías';
 
 // Text
-$_ ['text_success'] = 'Se han modificado las Rubros.';
-$_['text_list'] = 'Lista de Rubros';
-$_ ['text_add'] = 'Agregar Rubro';
-$_ ['text_edit'] = 'Editar Rubro';
-$_ ['text_default'] = 'Por Defecto';
+$_['text_success']           = 'Operación Exitosa: Categoría Modificada.';
+$_['text_list']              = 'Lista de Categorías';
+$_['text_add']               = 'Agregar Categoría';
+$_['text_edit']              = 'Editar Categoría';
+$_['text_default']           = 'Por Defecto';
+$_['text_keyword']           = 'No utilizar espacios, utilizar - y asegurarse de que la SEO URL sea única.';
 
-//Column
-$_ ['column_name'] = 'Nombre del Rubros';
-$_ ['column_sort_order'] = 'Orden';
-$_ ['column_action'] = 'Acci&oacute;n';
+// Column
+$_['column_name']            = 'Nombre de la Categoría';
+$_['column_sort_order']      = 'Orden';
+$_['column_action']          = 'Acción';
 
 // Entry
-$_['entry_name']             = 'Nombre del Rubro';
-$_ ['entry_description'] = 'Descripci&oacute;n';
-$_ ['entry_meta_title'] = 'T&iacute;tulo Meta Tag';
-$_ ['entry_meta_keyword'] = 'Palabras Clave Meta Tag';
-$_ ['entry_meta_description'] = 'Meta Descripci&oacute;n de la etiqueta';
-$_ ['entry_keyword'] = 'SEO palabra clave';
-$_ ['entry_parent'] = 'Padre';
-$_ ['entry_filter'] = 'Filtros';
-$_ ['entry_store'] = 'Comercios';
-$_ ['entry_image'] = 'Imagen';
-$_ ['entry_top'] = 'Top';
-$_ ['entry_column'] = 'Columnas';
-$_ ['entry_sort_order'] = 'Orden';
-$_ ['entry_status'] ='Estado';
-$_ ['entry_layout'] ='Ignorar Layout';
+$_['entry_name']             = 'Nombre de la Categoría';
+$_['entry_description']      = 'Descripción';
+$_['entry_meta_title'] 	     = 'Título Meta Tag';
+$_['entry_meta_keyword']     = 'Palabras Clave Meta Tag';
+$_['entry_meta_description'] = 'Descripción Meta Tag';
+$_['entry_store']            = 'Comercios';
+$_['entry_keyword']          = 'Palabra Clave';
+$_['entry_parent']           = 'Padre';
+$_['entry_filter']           = 'Filtros';
+$_['entry_image']            = 'Imagen';
+$_['entry_top']              = 'Menú Superior';
+$_['entry_column']           = 'Columnas';
+$_['entry_sort_order']       = 'Orden';
+$_['entry_status']           = 'Estado';
+$_['entry_layout']           = 'Sobreescribir Diseño';
 
 // Help
-$_ ['help_filter'] = '(Autocompletar)';
-$_ ['help_keyword'] = 'No utilizar espacios, reemplazarlos con -. La palabra clave debe ser &uacute;nica.';
-$_ ['help_top'] = 'Mostrar en la barra de men&uacute; superior. S&oacute;lo funciona para los Rubros Padres ';
-$_ ['help_column'] = 'N&uacute;mero de columnas que se utilizar&aacute; para los 3 Rubros inferiores. S&oacute;lo funciona para los Rubros Padres';
+$_['help_filter']            = '(Autocompletar)';
+$_['help_top']               = 'Mostrar en la Barra Superior de Menú. Sólo funciona con categorías padre.';
+$_['help_column']            = 'Número de Columnas bajo las categorías. Sólo funciona con categorías padre.';
 
-//Error
-$_ ['error_warning'] = 'El Formulario contiene Errores.';
-$_ ['error_permission'] = 'Error: Sin permiso para modificar los Rubros.';
-$_ ['error_name'] = 'El Nombre del Rubro debe contener entre 2 y 32 caracteres.';
-$_ ['error_meta_title'] = 'El Meta T&iacute;tulo debe contener entre 3 y 255 caracteres.';
-$_ ['error_keyword'] = 'Palabra clave SEO ya en uso.';
+// Error
+$_['error_warning']          = 'Error: Verificar los datos ingresados.';
+$_['error_permission']       = 'Error: Sin pemiso para modificar el Módulo Categorías.';
+$_['error_name']             = 'El Nombre de la Categoría debe contener entre 1 y 255 caracteres.';
+$_['error_meta_title']       = 'El Meta Título debe contener entre 1 y 255 caracteres.';
+$_['error_keyword']          = 'La URL SEO está en uso.';
+$_['error_unique']           = 'La URL SEO debe ser única.';
+$_['error_parent']           = 'La categoría padre es hija de la categoría actual.';

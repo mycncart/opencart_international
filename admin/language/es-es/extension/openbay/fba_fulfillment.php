@@ -1,50 +1,50 @@
 <?php
 // Heading
-$_['heading_title']						= 'Fulfillments';
+$_['heading_title']						= 'Cumplimientos';
 $_['text_openbay']						= 'OpenBay Pro';
-$_['text_fba']							= 'Fulfillment By Amazon';
-$_['heading_order_info']				= 'Order info';
-$_['heading_products']					= 'Products';
+$_['text_fba']							= 'Cumplimiento por parte de Amazon';
+$_['heading_order_info']				= 'Información de Pedido';
+$_['heading_products']					= 'Productos';
 
 // Entry
-$_['entry_seller_fulfillment_order_id'] = 'Seller fulfillment order ID';
-$_['entry_displayable_order_id']     	= 'Displayable order ID';
-$_['entry_displayable_date']     		= 'Displayable date/time';
-$_['entry_displayable_comment']     	= 'Displayable comment';
-$_['entry_shipping_speed_category']     = 'Shipping speed category';
-$_['entry_fulfillment_policy']     		= 'Fulfillment policy';
-$_['entry_fulfillment_order_status']    = 'Status';
-$_['entry_notification_email_list']     = 'Notification email list';
-$_['entry_button_cancel']     			= 'Cancel fulfillment';
-$_['entry_button_ship']     			= 'Ship fulfillment';
+$_['entry_seller_fulfillment_order_id'] = 'Pedido ID de Cumplimiento de Vendedor';
+$_['entry_displayable_order_id']     	= 'ID Orden de Visualización';
+$_['entry_displayable_date']     		= 'Visualización de Fecha/hora';
+$_['entry_displayable_comment']     	= 'Visualización de Comentario';
+$_['entry_shipping_speed_category']     = 'Categoría de Velocidad de Envío';
+$_['entry_fulfillment_policy']     		= 'Política de Cumplimiento';
+$_['entry_fulfillment_order_status']    = 'Estado';
+$_['entry_notification_email_list']     = 'Lista de Emails de Notificación';
+$_['entry_button_cancel']     			= 'Cancelar Cumplimiento';
+$_['entry_button_ship']     			= 'Enviar Cumplimiento';
 
 // Text
-$_['text_no_results'] 					= 'No fulfillment\'s found on Amazon';
-$_['text_fulfillment_list'] 			= 'Amazon Fulfillment list';
-$_['text_form'] 						= 'Amazon Fulfillment';
-$_['text_ship_success'] 				= 'Fulfillment has been confirmed to ship, it may take a few minutes for Amazon to update';
-$_['text_cancel_success'] 				= 'Fulfillment has been cancelled, it may take a few minutes for Amazon to update';
-$_['text_cancel_confirm'] 				= 'Are you sure you want to cancel this fulfillment?';
-$_['text_ship_confirm'] 				= 'Are you sure you want to ship this fulfillment?';
-$_['text_status'] 						= 'Fulfillment status';
-$_['text_fulfillment_sent'] 			= 'Fulfillment has been sent!';
-$_['text_fulfillment_shipped'] 			= 'Fulfillment has been shipped!';
-$_['text_fulfillment_cancelled'] 		= 'Fulfillment has been cancelled!';
+$_['text_no_results'] 					= 'No se encontraron Cumplimientos con Amazon,';
+$_['text_fulfillment_list'] 			= 'Lista de Cumplimientos Amazon,';
+$_['text_form'] 						= 'Cumplimiento Amazon,';
+$_['text_ship_success'] 				= 'Se ha confirmado que se ha completado el envío, Amazon puede tardar unos minutos en actualizar.';
+$_['text_cancel_success'] 				= 'El cumplimiento ha sido cancelado, puede tomar unos minutos para que Amazon actualice.';
+$_['text_cancel_confirm'] 				= 'Seguro de Cancelar este Cumplimiento?';
+$_['text_ship_confirm'] 				= 'Seguro de Enviar este Cumplimiento?';
+$_['text_status'] 						= 'Estado del Cumplimiento';
+$_['text_fulfillment_sent'] 			= 'Cumplimiento Enviado.';
+$_['text_fulfillment_shipped'] 			= 'Cumplimiento Enviado.';
+$_['text_fulfillment_cancelled'] 		= 'Cumplimiento Cancelado.';
 
-// Columns
+// Columnas
 $_['column_sku'] 						= 'SKU';
-$_['column_order_item_id'] 				= 'Order item ID';
-$_['column_quantity'] 					= 'Quantity';
-$_['column_cancelled_quantity'] 		= 'Cancelled Quantity';
-$_['column_unfulfillable_quantity'] 	= 'Unfulfillable Quantity';
-$_['column_estimated_ship'] 			= 'Estimated ship';
-$_['column_estimated_arrive'] 			= 'Estimated arrive';
+$_['column_order_item_id'] 				= 'ID de Artículo del Pedido';
+$_['column_quantity'] 					= 'Cantidad';
+$_['column_cancelled_quantity'] 		= 'Cantidad Cancelada';
+$_['column_unfulfillable_quantity'] 	= 'Cantidad no Completa';
+$_['column_estimated_ship'] 			= 'Envío Estimado';
+$_['column_estimated_arrive'] 			= 'Llegada Estimada';
 
 // Errors
-$_['error_loading_fulfillment']         = 'There was a problem getting the fulfillment order information from Amazon';
-$_['error_ship']             			= 'There was a problem confirming the shipment with Amazon';
-$_['error_cancel']             			= 'There was a problem cancelling the fulfillment with Amazon';
-$_['error_missing_id']             		= 'Missing ID in the request';
-$_['error_no_shipping']             	= 'No shipping method found';
-$_['error_no_items']             		= 'No items found for this order';
-$_['error_amazon_request']             	= 'There was an error response from Amazon, please check the errors for the request';
+$_['error_loading_fulfillment']         = 'Hubo un problema al obtener la información de pedido de cumplimiento de Amazon.';
+$_['error_ship']             			= 'Hubo un problema al confirmar el envío con Amazon.';
+$_['error_cancel']             			= 'Hubo un problema al cancelar el cumplimiento con Amazon.';
+$_['error_missing_id']             		= 'ID Perdido en la Soliciutud.';
+$_['error_no_shipping']             	= 'No se encontró Método de Envío.';
+$_['error_no_items']             		= 'No se encontraron Artículos para este Pedido.';
+$_['error_amazon_request']             	= 'Hubo una respuesta de error de Amazon, comprobar los errores de la solicitud.';

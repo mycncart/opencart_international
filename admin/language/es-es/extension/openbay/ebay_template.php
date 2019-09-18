@@ -1,27 +1,27 @@
 <?php
 // Headings
-$_['heading_title']                 = 'Listing templates';
-$_['text_ebay']                     = 'eBay';
-$_['text_openbay']                  = 'OpenBay Pro';
+$_['heading_title']       = 'Lista de Plantillas';
+$_['text_ebay']           = 'eBay';
+$_['text_openbay']        = 'OpenBay Pro';
 
-// Columns
-$_['column_name']            		= 'Template name';
-$_['column_action']            		= 'Action';
+// Columnas
+$_['column_name']         = 'Nombre  del Diseño';
+$_['column_action']       = 'Acción';
 
 // Entry
-$_['entry_template_name']           = 'Name';
-$_['entry_template_html']           = 'HTML';
+$_['entry_template_name'] = 'Nombre';
+$_['entry_template_html'] = 'HTML';
 
 // Text
-$_['text_added']                    = 'New template has been added';
-$_['text_updated']                  = 'Template has been updated';
-$_['text_deleted']                  = 'Template has been deleted';
-$_['text_confirm_delete']           = 'Are you sure you want to delete the template?';
-$_['text_list']           			= 'Template list';
-$_['text_add']      				= 'Add profile';
-$_['text_edit']      				= 'Edit profile';
+$_['text_added']          = 'Nueva Plantilla Agregada';
+$_['text_updated']        = 'Plantilla Actualizada';
+$_['text_deleted']        = 'Plantilla eliminada';
+$_['text_confirm_delete'] = 'Seguro de Eliminar la Plantilla?';
+$_['text_list']           = 'Listado de Plantillas';
+$_['text_add']      	  = 'Agregar Perfil';
+$_['text_edit']      	  = 'Editar Perfil';
 
 // Error
-$_['error_name']               		= 'You must enter a template name';
-$_['error_permission']            	= 'You do not have permission to edit templates';
-$_['error_no_template']             = 'Template ID does not exist';
+$_['error_name']          = 'Se debe ingresar el Nombre de la Plantilla.';
+$_['error_permission']    = 'Sin permiso para editar Plantillas.';
+$_['error_no_template']   = 'El ID de la Plantilla no existe.';

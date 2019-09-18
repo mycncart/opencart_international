@@ -1,14 +1,14 @@
 <?php
 // Heading
-$_['heading_title']    = 'Lay-Buy Layout';
+$_['heading_title']    = 'Diseño Lay-Buy';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Lay-Buy Layout module!';
-$_['text_edit']        = 'Edit Lay-Buy Layout Module';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Diseño Lay-Buy Modificado.';
+$_['text_edit']        = 'Editar Módulo Diseño Lay-Buy';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Lay-Buy Layout module!';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Diseño Lay-Buy.';

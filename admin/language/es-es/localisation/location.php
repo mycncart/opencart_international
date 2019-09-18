@@ -1,38 +1,38 @@
 <?php
 // Heading
-$_['heading_title'] = 'Ubicaci&oacute;n del Comercio';
+$_['heading_title']    = 'Ubicaciones';
 
 // Text
-$_['text_success'] = 'Se ha modificado la ubicaci&oacute;n del Comercio.';
-$_['text_list'] = 'Listado Ubicaci&oacute;n del Comercio';
-$_['text_add'] = 'Agregar Ubicaci&oacute;n del Comercio';
-$_['text_edit'] = 'Editar Ubicaci&oacute;n del Comercio';
-$_['text_default'] = 'Por defecto';
-$_['text_time'] = 'Horario';
-$_['text_geocode'] = 'Geocode no se carg&oacute; por la siguiente raz&oacute;n:';
+$_['text_success']     = 'Operación Exitosa: Ubicación Modificada.';
+$_['text_list']        = 'Lista de Ubicaciones';
+$_['text_add']         = 'Agregar Ubicación';
+$_['text_edit']        = 'Editar Ubicación';
+$_['text_default']     = 'Por Defecto';
+$_['text_time']        = 'Horarios de Atención';
+$_['text_geocode']     = 'Código de Geolocalización incorrecto por la siguiente razón:';
 
 // Column
-$_['column_name'] = 'Nombre del Comercio';
-$_['column_address'] = 'Direcci&oacute;n';
-$_['column_action'] = 'Acci&oacute;n';
+$_['column_name']      = 'Nombre del Comercio';
+$_['column_address']   = 'Dirección';
+$_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name'] = 'Nombre del Comercio';
-$_['entry_address'] = 'Direcci&oacute;n';
-$_['entry_geocode'] = 'Geocode';
-$_['entry_telephone'] = 'Tel&eacute;fono';
-$_['entry_fax'] = 'Fax';
-$_['entry_image'] = 'Imagen';
-$_['entry_open'] = 'Horario';
-$_['entry_comment'] = 'Comentario';
+$_['entry_name']       = 'Nombre del Comercio';
+$_['entry_address']    = 'Dirección';
+$_['entry_geocode']    = 'Código de Geolocalización';
+$_['entry_telephone']  = 'Teléfono';
+$_['entry_fax']        = 'Fax';
+$_['entry_image']      = 'Imagen';
+$_['entry_open']       = 'Horarios de Atención';
+$_['entry_comment']    = 'Comentario';
 
 // Help
-$_['help_geocode'] = 'Introducir la Ubicaci&oacute;n codificada geogr&aacute;fica manualmente del Comercio.';
-$_['help_open'] = 'Horario de Atenci&oacute;n.';
-$_['help_comment'] = 'Comentarios Especiales.';
+$_['help_geocode']     = 'Ingresar el Código de Geolocalización manualmente.';
+$_['help_open']        = 'Completar Horarios de Atención.';
+$_['help_comment']     = 'En este campo incluir comunicados al Cliente, Por ejemplo: Este comercio no acepta cheques.';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar Ubicaciones de los Comercios.';
-$_['error_name'] = 'Nombre del Comercio debe contener al menos 1 car&aacute;cter.';
-$_['error_address'] = 'La Direcci&oacute;n debe contener entre 3 y 128 caracteres.';
-$_['error_telephone'] = 'El Tel&eacute;fono debe contener entre 3 y 32 caracteres.';
+$_['error_permission'] = 'Error: Sin permiso para modificar Ubicaciones.';
+$_['error_name']       = 'El Nombre del Comercio debe contener entre 3 y 32 caracteres.';
+$_['error_address']    = 'La Dirección debe contener entre 3 y 128 caracteres.';
+$_['error_telephone']  = 'El Teléfono debe contener entre 3 y 32 caracteres.';

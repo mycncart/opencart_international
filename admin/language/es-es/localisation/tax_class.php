@@ -1,30 +1,32 @@
 <?php
 // Heading
-$_['heading_title'] = 'Clases de Impuestos';
+$_['heading_title']     = 'Clases de Impuestos';
 
 // Text
-$_['text_success'] = 'Se han modificado las Clases de Impuestos.';
-$_['text_list'] = 'Clases de Impuestos';
-$_['text_add'] = 'Agregar clase de Impuestos ';
-$_['text_edit'] = 'Editar clase de Impuestos';
-$_['text_shipping'] = 'Direcci&oacute;n de Env&iacute;o ';
-$_['text_payment'] = 'Direcci&oacute;n de Pago ';
-$_['text_store'] = 'Direcci&oacute;n del Comercio';
+$_['text_success']      = 'Operación Exitosa: Clase de Impuesto Modificada.';
+$_['text_list']         = 'Lista de Clases de Impuestos';
+$_['text_add']          = 'Agregar Clase de Impuesto';
+$_['text_edit']         = 'Editar Clase de Impuesto';
+$_['text_tax_class']    = 'Clase de Impuesto';
+$_['text_tax_rate']     = 'Tasas de Impuestos';
+$_['text_shipping']     = 'Dirección de Envío';
+$_['text_payment']      = 'Dirección de Pago';
+$_['text_store']        = 'Dirección del Comercio';
 
 // Column
-$_['column_title'] = 'Nombre';
-$_['column_action'] = 'Acci&oacute;n';
+$_['column_title']      = 'Título de la Clase de Impuesto';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_title'] = 'Nombre de la Clase';
-$_['entry_description'] = 'Descripci&oacute;n';
-$_['entry_rate'] = 'Tasa de Impuesto ';
-$_['entry_based'] = 'Basado en la ';
-$_['entry_geo_zone'] = 'GeoZona';
-$_['entry_priority'] = 'Prioridad';
+$_['entry_title']       = 'Título de la Clase de Impuesto';
+$_['entry_description'] = 'Descripción';
+$_['entry_rate']        = 'Tasa de Impuesto';
+$_['entry_based']       = 'Basado en';
+$_['entry_geo_zone']    = 'Zona Geográfica';
+$_['entry_priority']    = 'Prioridad';
 
 // Error
-$_['error_permission'] = 'Sin permiso para modificar las Clases de Impuestos.';
-$_['error_title'] = 'El Nombre debe contener entre 3 y 32 caracteres.';
-$_['error_description'] = 'La Descripci&oacute;n debe contener entre 3 y 255 caracteres.';
-$_['error_product'] = 'Esta clase de impuestos no puede ser eliminada, ya que se asigna actualmente a los productos de% s.';
+$_['error_permission']  = 'Error: Sin permiso para modificar Clases de Impuestos.';
+$_['error_title']       = 'El Título de la Clase debe contener entre 3 y 32 caracteres.';
+$_['error_description'] = 'La Descripción debe contener entre 3 y 255 caracteres.';
+$_['error_product']     = 'Error: La Clase de Impuesto no puede ser eliminada porque está asignada a %s Productos.';

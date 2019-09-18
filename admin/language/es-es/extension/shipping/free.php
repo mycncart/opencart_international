@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']    = 'Env&iacute;o Gratuito';
+$_['heading_title']    = 'Envío Gratuito';
 
 // Text
-$_['text_shipping'] = 'Env&iacute;o Gratuito';
-$_['text_success'] = 'Genial: Se ha modificado el env&iacute;o gratuito!';
-$_['text_edit'] = 'Editar env&iacute;o gratuito ';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Envío Gratuito Modificado.';
+$_['text_edit']        = 'Editar Envío Gratuito';
 
-// Entrada
-$_['entry_total'] = 'total';
-$_['entry_geo_zone'] = 'Zona Geo';
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_total']      = 'Total';
+$_['entry_geo_zone']   = 'Zona Geográfica';
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
-// Ayuda
-$_['help_total'] = 'cantidad Sub-total necesaria antes de que el m�dulo libre del env&iacute;o est&eacute; disponible.';
+// Help
+$_['help_total']       = 'El SubTotal es Obligatorio antes que el Módulo Envío Gratuito esté disponible.';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el env&iacute;o libre';
+$_['error_permission'] = 'Error: Sin permiso para modificar Envíos Gratuito.';

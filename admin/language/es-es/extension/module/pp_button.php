@@ -1,14 +1,20 @@
 <?php
 // Heading
-$_['heading_title']    = 'PayPal Express Checkout';
+$_['heading_title']    = 'Botón de Pago PayPal Express';
 
 // Text
-$_['text_module'] = 'M&oacute;dulos';
-$_['text_success'] = 'Genial: Ha modificado m&oacute;dulo del bot&oacute;n Pago expr&eacute;s';
-$_['text_edit'] = 'M&oacute;dulo Editar bot&oacute;n Pago expr&eacute;s de PayPal';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Módulo Botón de Pago PayPal Express.';
+$_['text_edit']        = 'Editar Botón de Pago PayPal Express';
+$_['text_info']        = 'El Botón <u>no</u> debe mostrarse bajo ciertas condiciones:';
+$_['text_info_li1']    = 'El Carro de Compras está vacío y no hay Vouchers que pueden aplicarse.';
+$_['text_info_li2']    = 'El Carro de Compras tiene Descargas y Pagos y el Usuario no accedió al Sistema.';
+$_['text_info_li3']    = 'No se pueden vender artículos fuera del Stock y el Carro de Compras contiene uno.';
+$_['text_layouts']     = 'Luego de habilitar el Módulo usar el Gestor de Diseño para agregar el Botón al Comercio.';
+$_['text_layout_link'] = 'Cliquear aquí para acceder a la Página de Diseño';
 
-// Entrada
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_status']     = 'Estado';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el m&oacute;dulo del bot&oacute;n Pago expr&eacute;s de PayPal';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Módulo Botón de Pago PayPal Express.';

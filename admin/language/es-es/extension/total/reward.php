@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Puntos de Recompensa';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado los puntos de recompensa totales';
-$_['text_edit'] = 'Editar Total de puntos de recompensa';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Puntos de Recompensa Modificado.';
+$_['text_edit']        = 'Editar Total de Puntos de Recompensa';
 
-// Entrada
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar puntos de recompensa totales';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Puntos de Recompensa.';

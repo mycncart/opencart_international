@@ -1,16 +1,15 @@
 <?php
-// header
-$_['heading_title']  = 'Restablecer Contrase&ntilde;a';
+// Heading
+$_['heading_title']  = 'Resetear Contraseña';
 
 // Text
-$_['text_reset']     = 'Restablecer Contrase&ntilde;a.';
-$_['text_password']  = 'Introducir la nueva Contrase&ntilde;a.';
-$_['text_success']   = 'La Contrase&ntilde;a ha sido guardada.';
+$_['text_password']  = 'Ingrear la Nueva Contraseña.';
+$_['text_success']   = 'Operación Exitosa: Contraseña Actualizada.';
 
 // Entry
-$_['entry_password'] = 'Contrase&ntilde;a';
-$_['entry_confirm']  = 'Confirmar';
+$_['entry_password'] = 'Contraseña';
+$_['entry_confirm']  = 'Confirmación';
 
 // Error
-$_['error_password'] = 'La Contrase&ntilde;a debe contener entre 5 y 20 caracteres.';
-$_['error_confirm']  = 'La Contrase&ntilde;a y su confirmaci&oacute;n no coinciden.';
+$_['error_password'] = 'La Contraseña debe contener entre 4 y 20 caracteres.';
+$_['error_confirm']  = 'La Contraseña y su confirmación no coinciden.';

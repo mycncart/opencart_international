@@ -3,17 +3,17 @@
 $_['heading_title']    = 'Google Hangouts';
 
 // Text
-$_['text_module'] = 'm骴ulos';
-$_['text_success'] = 'Genial: Ha modificado el m骴ulo Google Hangouts';
-$_['text_edit'] = 'Editar m骴ulo Google Hangouts';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operaci贸n Exitosa: M贸dulo Google Hangouts Modificado.';
+$_['text_edit']        = 'Editar M贸dulo Google Hangouts';
 
 // Entry
-$_['entry_code'] = 'C骴igo Talk Google';
-$_['entry_status'] = 'Estado';
+$_['entry_code']       = 'C贸digo Google Talk';
+$_['entry_status']     = 'Estado';
 
 // Help
-$_['help_code'] = 'Ir a <a href="https://developers.google.com/+/hangouts/button" target="_blank"> Crear un Google Hangout chat de respuesta </a> y copiar & amp ; pegar el c骴igo generado en el cuadro de texto. ';
+$_['help_code']        = 'Ir a <a href="https://developers.google.com/+/hangouts/button" target="_blank">Crear una cuenta Google Hangout</a> y copiar y pegar el c贸digo generado.';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el m骴ulo Google Hangouts';
-$_['error_code'] = 'C骴igo Requerido';
+$_['error_permission'] = 'Error: Sin permiso para modificar el M贸dulo Google Hangouts.';
+$_['error_code']       = 'C贸digo Obligatorio';

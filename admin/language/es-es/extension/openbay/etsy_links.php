@@ -1,34 +1,34 @@
 <?php
 // Headings
-$_['heading_title']        		= 'Etsy links';
-$_['text_openbay']              = 'OpenBay Pro';
-$_['text_etsy']                 = 'Etsy';
+$_['heading_title']      = 'Enlaces Etsy';
+$_['text_openbay']       = 'OpenBay Pro';
+$_['text_etsy']          = 'Etsy';
 
 // Text
-$_['text_loading']              = 'Loading items';
-$_['text_new_link']             = 'Create new link';
-$_['text_current_links']        = 'Current links';
-$_['text_link_saved']           = 'Item has been linked';
-$_['text_no_links']           	= 'You have no products linked to Etsy items';
+$_['text_loading']       = 'Cargando Artículos';
+$_['text_new_link']      = 'Crear nuevo Enlace';
+$_['text_current_links'] = 'Enlaces Actuales';
+$_['text_link_saved']    = 'El Artículo ha sido enlazado';
+$_['text_no_links']      = 'No hay productos vinculados a Etsy';
 
-// Columns
-$_['column_product']			= 'Product name';
-$_['column_item_id']			= 'Etsy ID';
-$_['column_store_stock']		= 'Stock';
-$_['column_etsy_stock']			= 'Etsy Stock';
-$_['column_status']				= 'Link Status';
-$_['column_action']				= 'Action';
+// Columnas
+$_['column_product']	 = 'Nombre  del Producto';
+$_['column_item_id']	 = 'ID Etsy';
+$_['column_store_stock'] = 'Stock';
+$_['column_etsy_stock']	 = 'Stock Etsy';
+$_['column_status']		 = 'Estado de Enlaces';
+$_['column_action']		 = 'Acción';
 
 // Entry
-$_['entry_name']				= 'Product name';
-$_['entry_etsy_id']				= 'Etsy item ID';
+$_['entry_name']		 = 'Nombre del Producto';
+$_['entry_etsy_id']		 = 'ID de Artículos Etsy';
 
 // Error
-$_['error_product']				= 'Product does not exist in your store';
-$_['error_stock']				= 'You cannot link an item that has no stock';
-$_['error_product_id']			= 'Product ID required';
-$_['error_etsy_id']				= 'Etsy item ID required';
-$_['error_link_id']				= 'Link ID required';
-$_['error_link_exists']			= 'An active link already exists for this item';
-$_['error_etsy']				= 'Unable to link item, Etsy API response: ';
-$_['error_status']				= 'Status filter required';
+$_['error_product']		 = 'El Producto no existe en la Tienda.';
+$_['error_stock']		 = 'No se puede vincular un Item sin Stock.';
+$_['error_product_id']	 = 'ID de Producto Obligatorio.';
+$_['error_etsy_id']		 = 'ID de Artículo Etsy Obligatorio.';
+$_['error_link_id']		 = 'ID de Enlace Obligatorio.';
+$_['error_link_exists']	 = 'Ya existe un Enlace Activo para este Artículo.';
+$_['error_etsy']		 = 'Imposible vincular el Artículo, Respuesta de API Etsy: ';
+$_['error_status']		 = 'Filtro de Estado Obligatorio.';

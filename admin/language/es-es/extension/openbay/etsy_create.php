@@ -1,68 +1,66 @@
 <?php
 // Headings
-$_['heading_title']      		= 'New listing';
-$_['text_openbay']          	= 'OpenBay Pro';
-$_['text_etsy']             	= 'Etsy';
+$_['heading_title']      	 = 'Nueva Lista';
+$_['text_openbay']           = 'OpenBay Pro';
+$_['text_etsy']              = 'Etsy';
 
 // Tabs
-$_['tab_additional']      		= 'Additional information';
+$_['tab_additional']      	 = 'Información Adicional';
 
 // Text
-$_['text_option']      			= 'Select option';
-$_['text_category_selected']	= 'Category selected';
-$_['text_material_add']  		= 'Add Material';
-$_['text_material_remove']  	= 'Remove Material';
-$_['text_tag_add']  			= 'Add Tag';
-$_['text_tag_remove']  			= 'Remove Tag';
-$_['text_created']  			= 'Your listing has been created';
-$_['text_listing_id']  			= 'Listing ID';
-$_['text_img_upload']  			= 'Uploading image';
-$_['text_img_upload_done']  	= 'Uploaded image';
-$_['text_create']  				= 'Create a new Etsy listing';
+$_['text_option']      		 = 'Seleccionar Opción';
+$_['text_category_selected'] = 'Categoría Seleccionada';
+$_['text_material_add']  	 = 'Agregar Material';
+$_['text_material_remove']   = 'Eliminar Material';
+$_['text_tag_add']  		 = 'Agregar Etiqueta';
+$_['text_tag_remove']  		 = 'Eliminar Etiqueta';
+$_['text_created']  		 = 'Listas Creadas';
+$_['text_listing_id']  		 = 'Lisa ID';
+$_['text_img_upload']  		 = 'Subiendo Imagen';
+$_['text_img_upload_done']   = 'Imagen Subida';
+$_['text_create']  			 = 'Crear nueva Lista Etsy';
 
 // Entry
-$_['entry_title']      			= 'Product title';
-$_['entry_description']     	= 'Description';
-$_['entry_price']      			= 'Price';
-$_['entry_non_taxable']     	= 'Non taxable';
-$_['entry_category']     		= 'Top category';
-$_['entry_sub_category']    	= 'Sub category';
-$_['entry_sub_sub_category']	= 'Sub-sub category';
-$_['entry_who_made']			= 'Who made it?';
-$_['entry_when_made']			= 'When was it made?';
-$_['entry_recipient']			= 'Who is it for?';
-$_['entry_occasion']			= 'What occasion is it for?';
-$_['entry_is_supply']			= 'Is this a supply?';
-$_['entry_state']      			= 'Listing status';
-$_['entry_style']      			= 'Style Tag 1';
-$_['entry_style_2']      		= 'Style Tag 2';
-$_['entry_processing_min']  	= 'Processing time min';
-$_['entry_processing_max']  	= 'Processing time max';
-$_['entry_materials']  			= 'Materials';
-$_['entry_tags']  				= 'Tags';
-$_['entry_shipping']  			= 'Shipping profile';
-$_['entry_shop']  				= 'Shop section';
-$_['entry_is_custom']  			= 'Can it be customised?';
-$_['entry_image']  				= 'Main image';
-$_['entry_image_other']			= 'Other images';
+$_['entry_title']      		 = 'Título de Producto';
+$_['entry_description']      = 'Descripción';
+$_['entry_price']      		 = 'Precio';
+$_['entry_non_taxable']      = 'Sin Impuestos';
+$_['entry_category']     	 = 'Selección de Categoría';
+$_['entry_who_made']		 = 'Quién hizo ésto?';
+$_['entry_when_made']		 = 'Cuándo fue hecho?';
+$_['entry_recipient']		 = 'Para quién?';
+$_['entry_occasion']		 = 'Qué ocasión es?';
+$_['entry_is_supply']		 = 'Es ésto un suministro?';
+$_['entry_state']      		 = 'Estado de Lista';
+$_['entry_style']      		 = 'Etiqueta Estilo 1';
+$_['entry_style_2']      	 = 'Etiqueta Estilo 2';
+$_['entry_processing_min']   = 'Tiempo de procesamiento (en minutos)';
+$_['entry_processing_max']   = 'Tiempo máximo de procesamiento';
+$_['entry_materials']  		 = 'Materiales';
+$_['entry_tags']  			 = 'Etiquetas';
+$_['entry_shipping']  		 = 'Perfil de Envío';
+$_['entry_shop']  			 = 'Sección de la Tienda';
+$_['entry_is_custom']  		 = 'Puede ser Personalizado?';
+$_['entry_image']  			 = 'Imagen Principal';
+$_['entry_image_other']		 = 'Otras Imágenes';
 
 // Help
-$_['help_description']			= 'All HTML has been removed from your description as it is not supported on Etsy';
+$_['help_description']		 = 'Todo el HTML se ha eliminado de la descripción, ya que no es compatible con Etsy.';
 
 // Errors
-$_['error_no_shipping']  		= 'You have not setup any shipping profiles!';
-$_['error_no_shop_secton']  	= 'You have not setup any shop sections!';
-$_['error_no_img_url']  		= 'No image selected for upload';
-$_['error_no_listing_id']  		= 'No listing ID supplied';
-$_['error_title_length']  		= 'Title is too long';
-$_['error_title_missing']  		= 'Title is missing';
-$_['error_desc_missing']  		= 'Description is missing or empty';
-$_['error_price_missing']  		= 'Price is missing or empty';
-$_['error_category']  			= 'Category not selected';
-$_['error_style_1_tag']  		= 'Style 1 tag is not valid';
-$_['error_style_2_tag']  		= 'Style 2 tag is not valid';
-$_['error_materials']  			= 'You can only add 13 materials';
-$_['error_tags']  				= 'You can only add 13 tags';
-$_['error_stock_max']  			= 'The maximum stock you can list on Etsy is 999, you have %s in stock';
-$_['error_image_max']  			= 'The maximum number of images you can use on Etsy is 5, you have chosen %s';
-$_['error_variant']				= 'Variant items on Etsy.com are not yet supported by OpenBay Pro';
+$_['error_no_shipping']  	 = 'No se ha configurado ningún perfil de envío.';
+$_['error_no_shop_secton']   = 'No se ha configurado ninguna sección de tienda.';
+$_['error_no_img_url']  	 = 'No se seleccionaron Imágenes para subir.';
+$_['error_no_listing_id']  	 = 'No se incluye ID de Lista.';
+$_['error_title_length']  	 = 'Título demasiado largo.';
+$_['error_title_missing']  	 = 'Título vacío.';
+$_['error_desc_missing']  	 = 'Descripción vacía.';
+$_['error_price_missing']  	 = 'Precio vacío.';
+$_['error_category']  		 = 'Categoría no Seleccionada.';
+$_['error_style_1_tag']  	 = 'Estilo 1 de Etiqueta Inválida.';
+$_['error_style_2_tag']  	 = 'Estilo 2 de Etiqueta Inválida.';
+$_['error_materials']  		 = 'Sólo se puede agregar 13 materiales.';
+$_['error_tags']  			 = 'Sólo se puede agregar 13 etiquetas.';
+$_['error_stock_max']  		 = 'El Número Máximo de Stock a listar en Etsy es de 999, hay %s en Stock.';
+$_['error_image_max']  		 = 'El Número Máximo de Imágenes que se pueden utilizar en Etsy es de 5, se han elegido %s';
+$_['error_variant']			 = 'Los artículos variantes en Etsy.com aún no son compatibles con OpenBay Pro';

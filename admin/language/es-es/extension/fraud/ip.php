@@ -3,25 +3,25 @@
 $_['heading_title']      = 'Anti-Fraud IP';
 
 // Text
-$_['text_extension']     = 'Extensions';
-$_['text_success']       = 'Success: You have modified Anti-Fraud IP!';
-$_['text_edit']          = 'Edit Anti-Fraud IP';
-$_['text_ip_add']        = 'Add IP Address';
-$_['text_ip_list']       = 'Fraud IP Address List';
+$_['text_extension']     = 'Extensiones';
+$_['text_success']       = 'Operación Exitosa: Anti-Fraud IP Modificado.';
+$_['text_edit']          = 'Editar Anti-Fraud IP';
+$_['text_ip_add']        = 'Agregar Direcciones IP';
+$_['text_ip_list']       = 'Lista de Direcciones Fraud IP';
 
 // Column
 $_['column_ip']          = 'IP';
-$_['column_total']       = 'Total Accounts';
-$_['column_date_added']  = 'Date Added';
-$_['column_action']      = 'Action';
+$_['column_total']       = 'Total de Cuentas';
+$_['column_date_added']  = 'Fecha Alta';
+$_['column_action']      = 'Acción';
 
 // Entry
 $_['entry_ip']           = 'IP';
-$_['entry_status']       = 'Status';
-$_['entry_order_status'] = 'Order Status';
+$_['entry_status']       = 'Estado';
+$_['entry_order_status'] = 'Estado del Pedido';
 
 // Help
-$_['help_order_status']  = 'Customers that have a banned IP on their accounts will be assigned this order status and will not be allowed to reach the complete status automatically.';
+$_['help_order_status']  = 'A los clientes que tienen una IP prohibida en sus cuentas se les asignará este estado y no se les permitirá alcanzar el estado completo automáticamente.';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify Anti-Fraud IP!';
+$_['error_permission']   = 'Error: Sin permiso para modificar el Módulo Anti-Fraud IP.';

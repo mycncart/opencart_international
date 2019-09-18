@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Cup&oacute;n';
+$_['heading_title']    = 'Cupón';
 
 // Text
-$_['text_total'] = 'Pedidos Totales';
-$_['text_success'] = 'Genial: Ha modificado total de cup&oacute;n';
-$_['text_edit'] = 'Editar Cup&oacute;n';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Total de Cupón Modificado.';
+$_['text_edit']        = 'Editar Cupón';
 
-// Entrada
-$_['entry_status'] = 'Estado';
-$_['entry_sort_order'] = 'Pedido';
+// Entry
+$_['entry_status']     = 'Estado';
+$_['entry_sort_order'] = 'Orden';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el total de los cupones';
+$_['error_permission'] = 'Error: Sin permiso para modificar el Total de Cupón.';

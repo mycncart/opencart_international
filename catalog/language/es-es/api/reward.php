@@ -1,9 +1,9 @@
 <?php
 // Text
-$_['text_success']     = 'Puntos de Recompensa aplicados exitosamente.';
+$_['text_success']     = 'Operación Exitosa: El Descuento de Puntos de Recompensa ha sido aplicado.';
 
 // Error
-$_['error_permission'] = 'Sin permiso para acceder a la API.';
-$_['error_reward']     = 'Introducir la cantidad de Puntos de Recompensa para utilizar.';
-$_['error_points']     = 'Puntos de Recompensa: %s.';
-$_['error_maximum']    = 'El N&uacute;mero M&aacute;ximo de Puntos que se puede aplicar es %s.';
+$_['error_permission'] = 'Error: Sin permiso para acceder a la API.';
+$_['error_reward']     = 'Error: Ingresar la cantidad de Puntos de Recompensa a utilizar.';
+$_['error_points']     = 'Error: No hay %s Puntos de Recompensa.';
+$_['error_maximum']    = 'Error: El máximo número de Puntos de Recompensa que pueden aplicarse es de %s.';

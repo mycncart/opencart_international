@@ -1,92 +1,92 @@
 <?php
 // Heading
-$_['heading_title']					= 'Globalpay Remote';
+$_['heading_title']					 = 'Globalpay Remote';
 
 // Text
-$_['text_payment']					= 'Payment';
-$_['text_success']					= 'Success: You have modified Globalpay account details!';
-$_['text_edit']                     = 'Edit Globalpay Remote';
-$_['text_card_type']				= 'Card type';
-$_['text_enabled']					= 'Enabled';
-$_['text_use_default']				= 'Use default';
-$_['text_merchant_id']				= 'Merchant ID';
-$_['text_subaccount']				= 'Sub Account';
-$_['text_secret']					= 'Shared secret';
-$_['text_card_visa']				= 'Visa';
-$_['text_card_master']				= 'Mastercard';
-$_['text_card_amex']				= 'American Express';
-$_['text_card_switch']				= 'Switch/Maestro';
-$_['text_card_laser']				= 'Laser';
-$_['text_card_diners']				= 'Diners';
-$_['text_capture_ok']				= 'Capture was successful';
-$_['text_capture_ok_order']			= 'Capture was successful, order status updated to success - settled';
-$_['text_rebate_ok']				= 'Rebate was successful';
-$_['text_rebate_ok_order']			= 'Rebate was successful, order status updated to rebated';
-$_['text_void_ok']					= 'Void was successful, order status updated to voided';
-$_['text_settle_auto']				= 'Auto';
-$_['text_settle_delayed']			= 'Delayed';
-$_['text_settle_multi']				= 'Multi';
-$_['text_ip_message']				= 'You must supply your server IP address to your Globalpay account manager before going live';
-$_['text_payment_info']				= 'Payment information';
-$_['text_capture_status']			= 'Payment captured';
-$_['text_void_status']				= 'Payment voided';
-$_['text_rebate_status']			= 'Payment rebated';
-$_['text_order_ref']				= 'Order ref';
-$_['text_order_total']				= 'Total authorised';
-$_['text_total_captured']			= 'Total captured';
-$_['text_transactions']				= 'Transactions';
-$_['text_confirm_void']				= 'Are you sure you want to void the payment?';
-$_['text_confirm_capture']			= 'Are you sure you want to capture the payment?';
-$_['text_confirm_rebate']			= 'Are you sure you want to rebate the payment?';
-$_['text_globalpay_remote']			= '<a target="_blank" href="https://resourcecentre.globaliris.com/getting-started.php?id=OpenCart"><img src="view/image/payment/globalpay.png" alt="Globalpay" title="Globalpay" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_extension']				 = 'Extensiones';
+$_['text_success']					 = 'Operación Exitosa: Detalles de Cuenta Globalpay.';
+$_['text_edit']                      = 'Editar Globalpay Remote';
+$_['text_card_type']				 = 'Card type';
+$_['text_enabled']					 = 'Habilitado';
+$_['text_use_default']				 = 'Usar por Defecto';
+$_['text_merchant_id']				 = 'Comercio ID';
+$_['text_subaccount']				 = 'SubCuenta';
+$_['text_secret']					 = 'Secret Compartida';
+$_['text_card_visa']				 = 'Visa';
+$_['text_card_master']				 = 'Mastercard';
+$_['text_card_amex']				 = 'American Express';
+$_['text_card_switch']				 = 'Switch/Maestro';
+$_['text_card_laser']				 = 'Laser';
+$_['text_card_diners']				 = 'Diners';
+$_['text_capture_ok']				 = 'Captura Exitosa';
+$_['text_capture_ok_order']			 = 'Captura Exitosa, Estado del Pedido Actualizado - Liquidado';
+$_['text_rebate_ok']				 = 'Reembolso Exitoso';
+$_['text_rebate_ok_order']			 = 'Reembolso Exitoso, Estado del Pedido Actualizado';
+$_['text_void_ok']					 = 'Anulación Exitosa, Estado del Pedido Actualizado';
+$_['text_settle_auto']				 = 'Auto';
+$_['text_settle_delayed']			 = 'Retrasado';
+$_['text_settle_multi']				 = 'Multi';
+$_['text_ip_message']				 = 'Se debe proporcionar la Dirección IP del servidor al Administrador de Cuentas de Globalpay antes de publicar';
+$_['text_payment_info']				 = 'Información de Pago';
+$_['text_capture_status']			 = 'Pago Capturado';
+$_['text_void_status']				 = 'Pago Anulado';
+$_['text_rebate_status']			 = 'Pago Reembolsado';
+$_['text_order_ref']				 = 'Referencia de Pedido';
+$_['text_order_total']				 = 'Total Autorizado';
+$_['text_total_captured']			 = 'Total Capturado';
+$_['text_transactions']				 = 'Transacciones';
+$_['text_confirm_void']				 = 'Seguro de Anular el Pago?';
+$_['text_confirm_capture']			 = 'Seguro de Capturar el Pago?';
+$_['text_confirm_rebate']			 = 'Seguro de Reembolsar el Pago?';
+$_['text_globalpay_remote']			 = '<a target="_blank" href="https://resourcecentre.globaliris.com/getting-started.php?id=OpenCart"><img src="view/image/payment/globalpay.png" alt="Globalpay" title="Globalpay" style="border: 1px solid #EEEEEE;" /></a>';
 
 // Column
-$_['text_column_amount']			= 'Amount';
-$_['text_column_type']				= 'Type';
-$_['text_column_date_added']		= 'Created';
+$_['text_column_amount']			 = 'Monto';
+$_['text_column_type']				 = 'Tipo';
+$_['text_column_date_added']		 = 'Creado';
 
 // Entry
-$_['entry_merchant_id']				= 'Merchant ID';
-$_['entry_secret']					= 'Shared secret';
-$_['entry_rebate_password']			= 'Rebate password';
-$_['entry_total']					= 'Total';
-$_['entry_sort_order']				= 'Sort order';
-$_['entry_geo_zone']				= 'Geo zone';
-$_['entry_status']					= 'Status';
-$_['entry_debug']					= 'Debug logging';
-$_['entry_auto_settle']				= 'Settlement type';
-$_['entry_tss_check']				= 'TSS checks';
-$_['entry_card_data_status']		= 'Card info logging';
-$_['entry_3d']						= 'Enable 3D secure';
-$_['entry_liability_shift']			= 'Accept non-liability shifting scenarios';
-$_['entry_status_success_settled']	= 'Success - settled';
-$_['entry_status_success_unsettled'] = 'Success - not settled';
-$_['entry_status_decline']			= 'Decline';
-$_['entry_status_decline_pending']	= 'Decline - offline auth';
-$_['entry_status_decline_stolen']	= 'Decline - lost or stolen card';
-$_['entry_status_decline_bank']		= 'Decline - bank error';
-$_['entry_status_void']				= 'Voided';
-$_['entry_status_rebate']			= 'Rebated';
+$_['entry_merchant_id']				 = 'Comercio ID';
+$_['entry_secret']					 = 'Secret Compartida';
+$_['entry_rebate_password']			 = 'Contraseña de Reembolso';
+$_['entry_total']					 = 'Total';
+$_['entry_sort_order']				 = 'Orden';
+$_['entry_geo_zone']				 = 'Zona Geográfica';
+$_['entry_status']					 = 'Estado';
+$_['entry_debug']					 = 'Registro de Depuración';
+$_['entry_auto_settle']				 = 'Tipo de Liquidación';
+$_['entry_tss_check']				 = 'TSS checks';
+$_['entry_card_data_status']		 = 'Información de Acceso a la Tarjeta';
+$_['entry_3d']						 = 'Habilitar Seguridad 3D';
+$_['entry_liability_shift']			 = 'Aceptar no Responsabilidad de los Escenarios de Cambio';
+$_['entry_status_success_settled']	 = 'Operación Exitosa - Liquidado';
+$_['entry_status_success_unsettled'] = 'Operación Exitosa - No Liquidado';
+$_['entry_status_decline']			 = 'Declinado';
+$_['entry_status_decline_pending']	 = 'Declinado - Autenticación Fuera de Línea';
+$_['entry_status_decline_stolen']	 = 'Declinado - Tarjeta Perdida o Robada';
+$_['entry_status_decline_bank']		 = 'Declinado - Error del Banco';
+$_['entry_status_void']				 = 'Anulado';
+$_['entry_status_rebate']			 = 'Rechazado';
 
 // Help
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active';
-$_['help_card_select']				= 'Ask the user to choose thier card type before they are redirected';
-$_['help_notification']				= 'You need to supply this URL to Globalpay to get payment notifications';
-$_['help_debug']					= 'Enabling debug will write sensitive data to a log file. You should always disable unless instructed otherwise.';
-$_['help_liability']				= 'Accepting liability means you will still accept payments when a user fails 3D secure.';
-$_['help_card_data_status']			= 'Logs last 4 cards digits, expire, name, type and issuing bank information';
+$_['help_total']					 = 'Total del Pedido a Alcanzar antes de que el método de pago se active.';
+$_['help_card_select']				 = 'Solicitar al Usuario que seleccione su Tipo de Tarjeta antes de ser Redirigido.';
+$_['help_notification']				 = 'Se necesita proporcinar la URL a Globalpay para las Notificaciones de Pago.';
+$_['help_debug']					 = 'Al habilitar la depuración, se escribirán los datos confidenciales en un archivo de registro. Siempre desactivar a menos que se indique lo contrario.';
+$_['help_liability']				 = 'Aceptar responsabilidad significa que se seguirán aceptando pagos cuando un usuario falla en Seguridad 3D.';
+$_['help_card_data_status']			 = 'Registrar los últimos 4 dígitos de las tarjetas, caducidad, nombre, tipo e información bancaria de emisión';
 
 // Tab
-$_['tab_api']					    = 'API Details';
-$_['tab_account']				    = 'Accounts';
-$_['tab_order_status']				= 'Order Status';
-$_['tab_payment']					= 'Payment Settings';
+$_['tab_api']					     = 'Detalles de API';
+$_['tab_account']				     = 'Cuentas';
+$_['tab_order_status']				 = 'Estado del Pedido';
+$_['tab_payment']					 = 'Configuración de Pagos';
 
 // Button
-$_['button_capture']				= 'Capture';
-$_['button_rebate']					= 'Rebate / refund';
-$_['button_void']					= 'Void';
+$_['button_capture']				 = 'Capturar';
+$_['button_rebate']					 = 'Reembolso/Reembolso';
+$_['button_void']					 = 'Anular';
 
 // Error
-$_['error_merchant_id']				= 'Merchant ID is required';
-$_['error_secret']					= 'Shared secret is required';
+$_['error_merchant_id']				 = 'Comercio ID Obligatorio.';
+$_['error_secret']					 = 'Secret Compartida Obligatoria.';

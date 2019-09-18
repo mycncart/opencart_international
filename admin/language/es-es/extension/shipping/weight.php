@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Env&iacute;o basado en peso';
+$_['heading_title']    = 'Envío Por Peso';
 
 // Text
-$_['text_shipping'] = 'Env&iacute;o';
-$_['text_success'] = 'Genial: Ha modificado peso basado env&iacute;o!';
-$_['text_edit'] = 'Editar peso basado env&iacute;o';
+$_['text_extension']   = 'Extensiones';
+$_['text_success']     = 'Operación Exitosa: Envío por Peso Modificado.';
+$_['text_edit']        = 'Editar Envío por Peso';
 
-// Entrada
-$_['entry_rate'] = 'Tarifas';
-$_['entry_tax_class'] = 'Clase de Impuesto';
-$_['entry_geo_zone'] = 'Zona Geo';
-$_['entry_status'] = 'Estado';
+// Entry
+$_['entry_rate']       = 'Rates';
+$_['entry_tax_class']  = 'Clase de Impuesto';
+$_['entry_geo_zone']   = 'Zona Geográfica';
+$_['entry_status']     = 'Estado';
 $_['entry_sort_order'] = 'Orden';
 
-// Ayuda
-$_['help_rate'] = 'Ejemplo: 5: 10.00,7: 12,00 Peso: Costo, Peso: Costo, etc ..';
+// Help
+$_['help_rate']        = 'Ejemplo: 5:10.00,7:12.00 Peso:Costo,Peso:Costo, etc.';
 
 // Error
-$_['error_permission'] = 'Advertencia: Usted no tiene permiso para modificar el env&iacute;o basado en el peso';
+$_['error_permission'] = 'Error: Sin permiso para modificar Envíos por Peso.';
