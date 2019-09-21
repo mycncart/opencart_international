@@ -13,7 +13,6 @@ $_['entry_firstname']  = 'Nome:';
 $_['entry_lastname']   = 'Cognome:';
 $_['entry_email']      = 'E-Mail:';
 $_['entry_telephone']  = 'Telefono:';
-$_['entry_fax']        = 'Fax:';
 
 // Error
 $_['error_exists']     = 'Attenzione: L\'E-Mail &egrave; gi&agrave; registrata!';

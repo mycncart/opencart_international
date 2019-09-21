@@ -34,4 +34,3 @@ $_['error_address']          = 'Attenzione: questa nazione non pu&ograve; essere
 $_['error_affiliate']        = 'Attenzione: questa nazione non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s affiliati!';
 $_['error_zone']             = 'Attenzione: questa nazione non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s zone!';
 $_['error_zone_to_geo_zone'] = 'Attenzione: questa nazione non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s zone geografiche!';
-?>

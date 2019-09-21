@@ -8,3 +8,4 @@ $_['text_total_giftwrap_tax'] 	= 'Gift wrap tax';
 $_['text_total_sub'] 			= '소계';
 $_['text_tax'] 					= '세금';
 $_['text_total'] 				= '합계';
+$_['text_gift_message'] 		= '선물 메시지';

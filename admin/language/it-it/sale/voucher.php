@@ -9,7 +9,6 @@ $_['text_add']          = 'Aggiungi Buono Regalo';
 $_['text_edit']         = 'Modifica Buono Regalo';
 $_['text_sent']         = 'Il Buono Regalo &egrave; stato inviato con successo!';
 
-
 // Column
 $_['column_name']          = 'Nome Voucher';
 $_['column_code']          = 'Codice';
@@ -38,7 +37,6 @@ $_['entry_status']         = 'Stato';
 $_['help_code']         = 'Il codice che il cliente immette per attivare il buono regalo.';
 
 // Error
-$_['error_selection']   = 'Attenzione: Nessun Buono selezionato!';
 $_['error_permission']     = 'Attenzione: Non si hanno i permessi per modificare i Buoni Regalo!';
 $_['error_exists']      = 'Attenzione: Il codice Voucher &egrave; gi&agrave; in uso!';
 $_['error_code']           = 'Il Codice deve essere lungo dai 3 ai 10 caratteri!';
@@ -47,4 +45,3 @@ $_['error_from_name']      = 'Nome deve essere dai 1 ai 64 caratteri!';
 $_['error_email']          = 'L\'indirizzo E-Mail non sembra essere valido!';
 $_['error_amount']         = 'La Quantit&agrave; deve essere superiore o uguale a 1!';
 $_['error_order']       = 'Attenzione: Il voucher non pu&ograve; essere cancellato in quanto parte di un <a href="%s">ordine</a>!';
-?>

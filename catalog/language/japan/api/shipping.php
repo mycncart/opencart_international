@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Text
 $_['text_address']       = '配送先住所を設定しました!';
 $_['text_method']        = '配送方法を設定しました!';

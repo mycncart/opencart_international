@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Ritiro in sede';
 
 // Text 
-$_['text_shipping']    = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Hai modificato con successo il modulo Ritiro in negozio!';
 $_['text_edit']        = 'Modifica Ritiro in Sede';
 

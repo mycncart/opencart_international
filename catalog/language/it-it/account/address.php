@@ -5,7 +5,8 @@ $_['heading_title']     = 'Indirizzi';
 // Text
 $_['text_account']      = 'Account';
 $_['text_address_book'] = 'Rubrica';
-$_['text_edit_address'] = 'Modifica Indirizzi';
+$_['text_address_add']   = 'Inserisci Indirizzo';
+$_['text_address_edit'] = 'Modifica Indirizzi';
 $_['text_add']       = 'L\'indirizzo &egrave; stato aggiunto';
 $_['text_edit']       = 'L\'indirizzo &egrave; stato aggiornato';
 $_['text_delete']       = 'L\'indirizzo &egrave; stato eliminato';
@@ -29,7 +30,6 @@ $_['error_delete']      = 'Attenzione: devi avere almeno un indirizzo!';
 $_['error_default']     = 'Attenzione: non puoi eliminare il tuo indirizzo predefinito!';
 $_['error_firstname']   = 'Il Nome deve essere tra 1 e 32 caratteri!';
 $_['error_lastname']    = 'Il Cognome deve essere tra 1 e 32 caratteri!';
-$_['error_vat']         = 'Numero IVA non valido!';
 $_['error_address_1']   = 'L\'Indirizzo deve essere tra 3 e 128 caratteri!';
 $_['error_postcode']    = 'Il CAP deve essere tra 2 e 10 caratteri!';
 $_['error_city']        = 'La Citt&agrave; deve essere tra 3 e 128 caratteri!';

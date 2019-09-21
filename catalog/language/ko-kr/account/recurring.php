@@ -1,67 +1,52 @@
 <?php
 // Heading
-$_['heading_title']           = '할부';
+$_['heading_title']                        = 'Recurring Payments';
 
 // Text
-$_['text_account']            = '회원정보';
-$_['text_recurring']          = '할부정보';
-$_['text_recurring_detail']   = '할부상세정보';
-$_['text_order_recurring_id'] = '할부번호:';
-$_['text_date_added']         = '작성일:';
-$_['text_status']             = '상태:';
-$_['text_payment_method']     = '결제방법:';
-$_['text_order_id']           = '주문번호:';
-$_['text_product']            = '상품:';
-$_['text_quantity']           = '수량:';
-$_['text_description']        = '상세설명';
-$_['text_reference']          = '참조';
-$_['text_transaction']        = '거래내역';
-
-
-$_['text_status_1']           = '활성';
-$_['text_status_2']           = '비활성';
-$_['text_status_3']           = '취소';
-$_['text_status_4']           = '일시중지';
-$_['text_status_5']           = '만료';
-$_['text_status_6']           = '대기 중';
-
-$_['text_transaction_date_added'] = '생성됨';
-$_['text_transaction_payment'] = '결제';
-$_['text_transaction_outstanding_payment'] = '잔금결제';
-$_['text_transaction_skipped'] = '결제 생략됨';
-$_['text_transaction_failed'] = '결제 실패함';
-$_['text_transaction_cancelled'] = '취소됨';
-$_['text_transaction_suspended'] = '일시중지됨';
-$_['text_transaction_suspended_failed'] = '결제실패로 일시중지됨';
-$_['text_transaction_outstanding_failed'] = '잔금결제 실패함';
-$_['text_transaction_expired'] = '만료됨';
-
-
-
-
-$_['text_empty']                 = '할부내역을 찾을 수 없습니다';
-$_['text_error']                 = '요청하신 할부주문을 찾을 수 없습니다.';
-
-
-
-
-
-
-
-
-$_['text_cancelled'] = '할부를 취소했습니다';
+$_['text_account']                         = 'Account';
+$_['text_recurring']                       = 'Recurring Payment Information';
+$_['text_recurring_detail']                = 'Recurring Payment Details';
+$_['text_order_recurring_id']              = 'Recurring ID:';
+$_['text_date_added']                      = 'Date Added:';
+$_['text_status']                          = 'Status:';
+$_['text_payment_method']                  = 'Payment Method:';
+$_['text_order_id']                        = 'Order ID:';
+$_['text_product']                         = 'Product:';
+$_['text_quantity']                        = 'Quantity:';
+$_['text_description']                     = 'Description';
+$_['text_reference']                       = 'Reference';
+$_['text_transaction']                     = 'Transactions';
+$_['text_status_1']                        = 'Active';
+$_['text_status_2']                        = 'Inactive';
+$_['text_status_3']                        = 'Cancelled';
+$_['text_status_4']                        = 'Suspended';
+$_['text_status_5']                        = 'Expired';
+$_['text_status_6']                        = 'Pending';
+$_['text_transaction_date_added']          = 'Created';
+$_['text_transaction_payment']             = 'Payment';
+$_['text_transaction_outstanding_payment'] = 'Outstanding payment';
+$_['text_transaction_skipped']             = 'Payment skipped';
+$_['text_transaction_failed']              = 'Payment failed';
+$_['text_transaction_cancelled']           = 'Cancelled';
+$_['text_transaction_suspended']           = 'Suspended';
+$_['text_transaction_suspended_failed']    = 'Suspended from failed payment';
+$_['text_transaction_outstanding_failed']  = 'Outstanding payment failed';
+$_['text_transaction_expired']             = 'Expired';
+$_['text_empty']                           = 'No recurring payments found!';
+$_['text_error']                           = 'The recurring order you requested could not be found!';
+$_['text_cancelled']                       = 'Recurring payment has been cancelled';
 
 // Column
-$_['column_date_added']         = '생성됨';
-$_['column_type']               = '유형';
-$_['column_amount']             = '금액';
-$_['column_status']             = '상태';
-$_['column_product']            = '상품';
-$_['column_order_recurring_id'] = '할부번호';
+$_['column_date_added']                    = 'Date Added';
+$_['column_type']                          = 'Type';
+$_['column_amount']                        = 'Amount';
+$_['column_status']                        = 'Status';
+$_['column_product']                       = 'Product';
+$_['column_order_recurring_id']            = 'Recurring ID';
 
 // Error
-$_['error_not_cancelled'] = '오류: %s';
-$_['error_not_found']     = '할부를 취소할 수 없습니다';
+$_['error_not_cancelled']                  = 'Error: %s';
+$_['error_not_found']                      = 'Could not cancel recurring';
 
 // Button
-$_['button_return']       = '반품';
+$_['button_return']                        = 'Return';

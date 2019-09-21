@@ -22,4 +22,3 @@ $_['error_permission']  = 'Attenzione: Non si hanno i permessi per modificare i 
 $_['error_name']        = 'Nome Tema Voucher deve essere lungo dai 3 ai 32 caratteri!';
 $_['error_image']       = 'Immagine obbligatoria!';
 $_['error_voucher']     = 'Attenzione: Questo tema non pu&ograve; essere eliminato perch&eacute; &egrave; correntemente assegnato a %s voucher!';
-?>

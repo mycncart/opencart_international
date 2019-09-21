@@ -29,4 +29,3 @@ $_['error_permission']  = 'Attenzione: Non si hanno i permessi per modificare le
 $_['error_title']       = 'Il nome della classe di tassa deve essere tra 3 e 32 caratteri!';
 $_['error_description'] = 'La descrizione della classe di tassa deve essere tra 3 e 255 caratteri!';
 $_['error_product']     = 'Attenzione: questa classe di tassa non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s prodotti!';
-?>

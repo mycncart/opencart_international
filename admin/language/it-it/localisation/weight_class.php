@@ -27,4 +27,3 @@ $_['error_title']      = 'Il nome del peso deve essere tra 3 e 32 caratteri!';
 $_['error_unit']       = 'L\'unit&agrave; di misura deve essere tra 1 e 4 caratteri!';
 $_['error_default']    = 'Attenzione: questa classe di peso non pu&ograve; essere cancellata perch&eacute; &egrave; la classe di peso predefinita del negozio!';
 $_['error_product']    = 'Attenzione: questa classe di peso non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s prodotti!';
-?>

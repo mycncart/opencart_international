@@ -5,7 +5,8 @@ $_['heading_title']        = '주소록';
 // Text
 $_['text_account']         = '회원정보';
 $_['text_address_book']    = '주소록';
-$_['text_edit_address']    = '주소 수정';
+$_['text_address_add']     = '주소 추가';
+$_['text_address_edit']    = '주소 수정';
 $_['text_add']             = '주소를 추가했습니다.';
 $_['text_edit']            = '주소를 수정했습니다';
 $_['text_delete']          = '주소를 삭제했습니다';
@@ -28,7 +29,6 @@ $_['error_delete']                = '주의: 주소가 적어도 하나는 있�
 $_['error_default']               = '주의: 기본 주소는 삭제할 수 없습니다.';
 $_['error_firstname']             = '이름은 1~32 글자 이내로 입력해주세요.';
 $_['error_lastname']              = '성은 1~32 글자 이내로 입력해주세요.';
-$_['error_vat']                   = '사업자등록번호가 잘못되었습니다.';
 $_['error_address_1']             = '주소는 3~128 글자 이내로 입력해주세요.';
 $_['error_postcode']              = '우편번호는 2~10 글자 이내로 입력해주세요.';
 $_['error_city']                  = '시/군/구는 2~128 글자 이내로 입력해주세요.';

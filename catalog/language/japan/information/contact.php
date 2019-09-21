@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']  = 'お問合せ';
 
@@ -18,7 +17,6 @@ $_['text_success']   = '<p>お客様のお問合せメールは当ストア宛�
 $_['entry_name']     = 'お名前:';
 $_['entry_email']    = 'メールアドレス:';
 $_['entry_enquiry']  = 'お問合せ内容:';
-$_['entry_captcha']  = 'ボックスに表示されている確認コードを入力してください:';
 
 // Email
 $_['email_subject']  = 'お問合せ %s';
@@ -27,4 +25,3 @@ $_['email_subject']  = 'お問合せ %s';
 $_['error_name']     = 'お名前は3文字以上32文字以下で入力してください!';
 $_['error_email']    = '無効なメールアドレスです!';
 $_['error_enquiry']  = 'お問合せ内容は10文字以上3000文字以下で入力してください!';
-$_['error_captcha']  = '確認コードが表示されていたものと一致しませんでした。!';

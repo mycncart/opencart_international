@@ -15,10 +15,10 @@ $_['column_country']         = 'Zona';
 $_['column_action']          = 'Azione';
 
 // Entry
-$_['entry_status']           = 'Stato Zona';
 $_['entry_name']             = 'Nome Zona';
 $_['entry_code']             = 'Codice Zona';
 $_['entry_country']          = 'Zona';
+$_['entry_status']           = 'Stato Zona';
 
 // Error
 $_['error_permission']       = 'Attenzione: Non si hanno i permessi per modificare le Zone!';
@@ -28,4 +28,3 @@ $_['error_store']            = 'Attenzione: questa Zona non pu&ograve essere eli
 $_['error_address']          = 'Attenzione: questa Zona non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s indirizzi!';
 $_['error_affiliate']        = 'Attenzione: questa Zona non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s affiliati!';
 $_['error_zone_to_geo_zone'] = 'Attenzione: questa Zona non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s Zona delle zone geografiche!';
-?>

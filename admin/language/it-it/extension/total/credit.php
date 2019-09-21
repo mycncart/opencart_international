@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Credito';
 
 // Text
-$_['text_total']       = 'Totale ordine';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Hai modificato Credito con successo!';
 $_['text_edit']        = 'Modifica Totale Credito con Negozio';
 
@@ -13,4 +13,3 @@ $_['entry_sort_order'] = 'Ordinamento';
 
 // Error
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare Credito!';
-?>

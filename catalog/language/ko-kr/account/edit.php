@@ -13,7 +13,6 @@ $_['entry_firstname']    = '이름';
 $_['entry_lastname']     = '성';
 $_['entry_email']        = '이메일';
 $_['entry_telephone']    = '전화';
-$_['entry_fax']          = '팩스';
 
 // Error
 $_['error_exists']                = '주의: 이미 등록된 이메일입니다.';

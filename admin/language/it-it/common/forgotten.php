@@ -1,5 +1,5 @@
 <?php
-// header
+// Heading
 $_['heading_title']   = 'Password Dimenticata?';
 
 // Text
@@ -16,5 +16,4 @@ $_['entry_confirm']   = 'Conferma:';
 // Error
 $_['error_email']     = 'Errore: L\'indirizzo email specificato non &egrave; stato trovato!';
 $_['error_password']  = 'La Password deve essere tra 3 e 20 caratteri!';
-$_['error_confirm']   = 'Le due Password non coincidono!';
-?>
+$_['error_confirm']   = 'Le due Password non coincidono!'

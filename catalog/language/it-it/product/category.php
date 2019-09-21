@@ -22,4 +22,3 @@ $_['text_rating_desc']  = 'Punteggio (Il pi&ugrave; alto)';
 $_['text_model_asc']    = 'Modello (A - Z)';
 $_['text_model_desc']   = 'Modello (Z - A)';
 $_['text_limit']        = 'Mostra:';
-?>

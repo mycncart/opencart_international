@@ -26,4 +26,3 @@ $_['error_title']      = 'Il nome della misura deve essere lungo almeno 3 caratt
 $_['error_unit']       = 'L\'unit&agrave; di misura deve essere lunga almeno 1 caratterie e non pi&ugrave; di 4!';
 $_['error_default']    = 'Attenzione: questa classe di misura non pu&ograve; essere cancellata perch&eacute; &egrave; la classe di peso predefinita del negozio!';
 $_['error_product']    = 'Attenzione: questa classe di misura non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s prodotti!';
-?>

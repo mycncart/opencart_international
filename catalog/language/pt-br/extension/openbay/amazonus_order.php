@@ -8,3 +8,4 @@ $_['text_total_giftwrap_tax'] = 'Valor para embrulhar para presente';
 $_['text_total_sub']          = 'Sub-total';
 $_['text_tax']                = 'Impostos';
 $_['text_total']              = 'Total';
+$_['text_gift_message'] 	  = 'Mensagens de presente';

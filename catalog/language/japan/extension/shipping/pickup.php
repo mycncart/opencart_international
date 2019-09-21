@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'Pickup';
-$_['text_description'] = 'Pickup From Store';
+$_['text_title']       = 'µêÅn¤«¤é¤Î¥Ô¥Ã¥¯¥¢¥Ã¥×';
+$_['text_description'] = 'µêÅn¤«¤é¤Î¥Ô¥Ã¥¯¥¢¥Ã¥×';

@@ -2,7 +2,6 @@
 // Text
 $_['text_success']     = 'Success: ギフト券が適用されました!';
 $_['text_cart']        = 'Success: ショッピングカートを更新しました!';
-
 $_['text_for']         = '%s %s 様用ギフト券';
 
 // Error

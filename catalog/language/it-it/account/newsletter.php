@@ -9,4 +9,3 @@ $_['text_success']     = 'Iscrizione alla newsletter effettuata con successo!';
 
 // Entry
 $_['entry_newsletter'] = 'Sottoscrivi:';
-?>

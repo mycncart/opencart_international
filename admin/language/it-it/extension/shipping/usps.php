@@ -3,7 +3,7 @@
 $_['heading_title']         = 'Servizio postale degli Stati Uniti';
 
 // Text
-$_['text_shipping']         = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']          = 'Servizio postale degli Stati Uniti modificato correttamente!';
 $_['text_edit']             = 'Modifica spedizione Servizio postale degli Stati Uniti';
 $_['text_domestic_00']       = 'Prima Classe';

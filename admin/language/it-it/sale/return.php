@@ -12,6 +12,7 @@ $_['text_unopened']       = 'Non Aperto';
 $_['text_order']          = 'Informazioni ordine';
 $_['text_product']        = 'Informazione ordine e Motivazione Reso';
 $_['text_history']        = 'Aggiungi Storia Reso';
+$_['text_history_add']     = 'Inserisci Storia';
 
 // Column
 $_['column_return_id']     = 'ID Reso';
@@ -60,4 +61,3 @@ $_['error_email']               = 'L\'indirizzo e-mail non sembra essere valido!
 $_['error_telephone']           = 'Il Telefono deve essere lungo dai 3 ai 32 caratteri!';
 $_['error_product']       = 'Il nome del prodotto deve essere tra 3 e 255 caratteri!';
 $_['error_model']         = 'Il modello del prodotto deve essere tra 3 e 64 caratteri!';
-?>

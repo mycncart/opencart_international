@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']                 = 'アフィリエイトプログラム';
 
@@ -19,5 +18,5 @@ $_['entry_password']                = 'パスワード';
 
 // Error
 $_['error_login']                   = 'Warning: メールアドレス、またはパスワードが違います。';
+$_['error_attempts']                = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
 $_['error_approved']                = 'Warning: ログインするにはアカウント登録が承認される必要があります。';
-_['error_attempts']                = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';

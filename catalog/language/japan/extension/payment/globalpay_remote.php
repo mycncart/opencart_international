@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Text
 $_['text_title']				= 'Credit or Debit Card';
 $_['text_credit_card']			= 'Credit Card Details';

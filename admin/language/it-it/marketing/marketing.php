@@ -7,7 +7,7 @@ $_['text_success']      = 'Tracciamento Marketing modificato con successo!';
 $_['text_list']         = 'Lista Tracciamento Marketing';
 $_['text_add']          = 'Aggiungi';
 $_['text_edit']         = 'Modifica Tracciamento Marketing';
-
+$_['text_filter']       = 'Filtro';
 // Column
 $_['column_name']       = 'Nome Campagna';
 $_['column_code']       = 'Codice';

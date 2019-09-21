@@ -6,10 +6,13 @@ $_['heading_title']    = 'Backup / Ripristino';
 $_['text_success']     = 'Database importato con successo!';
 
 // Entry
-$_['entry_import']     = 'Importa';
+$_['entry_progress']   = 'Progress';
 $_['entry_export']     = 'Esporta';
+// Tab
+$_['tab_backup']       = 'di riserva';
+$_['tab_restore']      = 'Ristabilire';
 
 // Error
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare i backup!';
 $_['error_export']     = 'Attenzione: Selezionare almeno una tabella da esportare!';
-$_['error_empty']      = 'Attenzione: il file che hai caricato era vuoto!';
+$_['error_file']       = 'Impossibile trovare il file!';

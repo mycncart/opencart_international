@@ -4,6 +4,7 @@ $_['text_success']       = 'Clienti modificati con successo';
 
 // Error
 $_['error_permission']   = 'Attenzione: non si hanno i permessi per poter accedere alle API!';
+$_['error_customer']     = 'Devi selezionare un cliente!';
 $_['error_firstname']    = 'Il nome deve essere tra 1 e 32 caratteri!';
 $_['error_lastname']     = 'Il cognome deve essere tra 1 e 32 caratteri!';
 $_['error_email']        = 'L\'indirizzo E-Mail non sembra essere valido!';

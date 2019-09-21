@@ -5,6 +5,7 @@ $_['heading_title'] = 'Profili di Pagamento';
 // Text
 $_['text_success'] = 'Profili di Pagamento modificati con successo!';
 $_['text_list']                            = 'Elenco Profili Ricorrenti';
+$_['text_filter']                          = 'Filtro';
 $_['text_recurring_detail']                = 'Dettagli Ricorrenti';
 $_['text_order_detail']                    = 'Dettagli Ordine';
 $_['text_product_detail']                  = 'Dettagli Prodotto';

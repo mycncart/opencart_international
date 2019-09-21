@@ -7,6 +7,7 @@ $_['text_success']      = 'Recensioni modificate con successo!';
 $_['text_list']         = 'Lista Recensione';
 $_['text_add']          = 'Aggiungi Recensione';
 $_['text_edit']         = 'Modifica Recensione';
+$_['text_filter']       = 'Filtro';
 
 // Column
 $_['column_product']    = 'Prodotto';
@@ -33,4 +34,3 @@ $_['error_product']     = 'Prodotto obbligatorio!';
 $_['error_author']      = 'L\'autore deve essere tra 3 e 64 caratteri!';
 $_['error_text']        = 'Il testo della recensione deve essere di almeno 1 carattere!';
 $_['error_rating']      = 'Valutazione della Recensione obbligatoria!';
-?>

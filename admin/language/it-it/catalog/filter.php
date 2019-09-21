@@ -7,6 +7,8 @@ $_['text_success']      = 'Filtri modificati correttamente!';
 $_['text_list']         = 'Lista Filtro';
 $_['text_add']          = 'Aggiungi Filtro';
 $_['text_edit']         = 'Modifica Filtro';
+$_['text_group']        = 'Gruppo di filtri';
+$_['text_value']        = 'Valori di filtro';
 
 // Column
 $_['column_group']      = 'Gruppi Filtri';

@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Costo fisso';
 
 // Text
-$_['text_shipping']    = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Spedizione a costo fisso modificata correttamente!';
 $_['text_edit']        = 'Modifica Spedizione a costo fisso';
 

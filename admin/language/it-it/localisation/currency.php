@@ -36,4 +36,3 @@ $_['error_code']           = 'Il codice della valuta deve contenere 3 caratteri!
 $_['error_default']        = 'Attenzione: questa valuta non pu&ograve; essere cancellata perch&eacute; &egrave; la valuta  del negozio!';
 $_['error_store']          = 'Attenzione: questa valuta non pu&ograve essere eliminata poich&eacute &egrave impostata come predefinita in %s negozi!!';
 $_['error_order']          = 'Attenzione: questa valuta non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s ordini!';
-?>

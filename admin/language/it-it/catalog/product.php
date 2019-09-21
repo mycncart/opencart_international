@@ -7,6 +7,7 @@ $_['text_success']         = 'Prodotti modificati con successo';
 $_['text_list']              = 'Elenco Prodotti';
 $_['text_add']               = 'Aggiungi Prodotto';
 $_['text_edit']              = 'Modifica Prodotto';
+$_['text_filter']            = 'Filtro';
 $_['text_plus']            = '+';
 $_['text_minus']           = '-';
 $_['text_default']           = 'Predefinito';
@@ -14,6 +15,7 @@ $_['text_option']            = 'Opzioni';
 $_['text_option_value']      = 'Valore opzioni';
 $_['text_percent']           = 'Percentuale';
 $_['text_amount']            = 'Quantit&agrave; Fissata';
+$_['text_keyword']           = 'Utilizzare il carattere - (meno) al posto degli spazi ed assicurarsi che la keyword sia unica..';
 
 // Column
 $_['column_name']          = 'Nome prodotto';
@@ -31,6 +33,7 @@ $_['entry_meta_title'] = 'Titolo Meta Tag';
 
 $_['entry_meta_keyword']        = 'Keyword Meta Tag';
 $_['entry_meta_description']      = 'Descrizione Meta Tag';
+$_['entry_store']            = 'Negozi';
 $_['entry_keyword']          = 'Keyword SEO';
 $_['entry_model']            = 'Modello';
 $_['entry_sku']              = 'SKU';
@@ -42,7 +45,6 @@ $_['entry_mpn']              = 'MPN';
 $_['entry_location']         = 'Ubicazione';
 $_['entry_shipping']         = 'Richiede spedizione';
 $_['entry_manufacturer']     = 'Produttore';
-$_['entry_store']            = 'Negozi';
 $_['entry_date_available']   = 'Data disponibilit&agrave;';
 $_['entry_quantity']         = 'Quantit&agrave;';
 $_['entry_minimum']          = 'Quantit&agrave; minima';
@@ -83,7 +85,6 @@ $_['entry_layout']           = 'Layout da Sovrapporre';
 $_['entry_recurring']        = 'Profilo Ricorrente';
 
 // Help
-$_['help_keyword']           = 'Utilizzare il carattere - (meno) al posto degli spazi ed assicurarsi che la keyword sia unica..';
 $_['help_sku']               = 'Codice Identificativo Prodotto (SKU)';
 $_['help_upc']               = 'Codice Prodotto Universale (UPC)';
 $_['help_ean']               = 'Numero Articolo Europeo (EAN)';
@@ -107,3 +108,4 @@ $_['error_name']           = 'Il nome del prodotto deve essere lungo tra 3 e 255
 $_['error_meta_title']     = 'Il Titolo del Meta deve essere lungo tra 3 e 255 caratteri!';
 $_['error_model']          = 'Il codice del prodotto deve essere lungo almeno 3 caratteri e non pi&ugrave; di 24!';
 $_['error_keyword']          = 'Keyword SEO gi&agrave; presente!';
+$_['error_unique']           = 'SEO URL deve essere unico!';

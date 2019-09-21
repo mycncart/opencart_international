@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Contributo gestione ordine';
 
 // Text
-$_['text_total']       = 'Totali ordine';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Supplemento per contributo gestione ordine modificato con successo!';
 $_['text_edit']        = 'Modifica totale Costi Gestione ordine';
 
@@ -19,4 +19,3 @@ $_['help_total']       = 'Il totale che l\'ordine deve raggiungere prima prima c
 
 // Error
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare il contributo gestione ordine!';
-?>

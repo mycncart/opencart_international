@@ -3,7 +3,7 @@
 $_['heading_title']                = 'UPS';
 
 // Text
-$_['text_shipping']                = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']                 = 'Spedizione UPS modificata correttamente!';
 $_['text_edit']                    = 'Modifica Spedizione UPS';
 $_['text_regular_daily_pickup']    = 'Regular Daily Pickup';

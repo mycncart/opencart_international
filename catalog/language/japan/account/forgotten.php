@@ -11,13 +11,11 @@ $_['text_success']    = '新しいパスワードをご登録のメールアド�
 
 // Entry
 $_['entry_email']     = 'メールアドレス';
-
 $_['entry_password']  = '新パスワード';
 $_['entry_confirm']   = '確認';
 
 // Error
 $_['error_email']     = 'Warning: メールアドレスを見つけることができませんでした。ご確認の上もう一度ご入力をお願いします!';
-
 $_['error_approved']  = '警告: Your account requires approval before you can login.';
 $_['error_password']  = 'Password must be between 4 and 20 characters!';
 $_['error_confirm']   = 'パスワードと確認パスワードは違います!';

@@ -13,7 +13,7 @@ $_['text_open']      = 'orari di Apertura';
 $_['text_comment']   = 'Commenti';
 $_['text_success']   = '<p>La richiesta &egrave; stata correttamente inviata!</p>';
 
-// Entry Fields
+// Entry
 $_['entry_name']     = 'Nome:';
 $_['entry_email']    = 'Indirizzo E-Mail:';
 $_['entry_enquiry']  = 'Richiesta:';

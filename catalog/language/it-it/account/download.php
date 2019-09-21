@@ -11,4 +11,3 @@ $_['column_order_id']      = 'ID Ordine:';
 $_['column_name']       = 'Nome:';
 $_['column_size']       = 'Dimensione:';
 $_['column_date_added'] = 'Data Aggiunta:';
-?>

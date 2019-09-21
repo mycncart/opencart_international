@@ -1,5 +1,5 @@
 <?php
-// header
+// Heading
 $_['heading_title']  = 'Amministrazione';
 
 // Text
@@ -17,4 +17,3 @@ $_['button_login']   = 'Accedi';
 // Error
 $_['error_login']    = 'Nome Utente o Password Errati';
 $_['error_token']    = 'Sessione scaduta. Si prega di accedere nuovamente.';
-?>

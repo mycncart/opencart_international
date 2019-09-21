@@ -8,15 +8,10 @@ $_['text_services'] = 'Una volta effettuato il login, sarai in grado di generare
 $_['text_thanks']   = 'Grazie,';
 $_['text_new_affiliate']        = 'Nuovo Affiliato';
 $_['text_signup']		        = 'Un nuovo affiliato si è iscritto:';
-$_['text_store']		        = 'Negozio:';
+$_['text_website']        = 'Sito Web:';
+$_['text_customer_group'] = 'Gruppo Clienti:';
 $_['text_firstname']	        = 'Nome:';
 $_['text_lastname']		        = 'Cognome:';
 $_['text_company']		        = 'Azienda:';
 $_['text_email']		        = 'E-Mail:';
 $_['text_telephone']	        = 'Telefono:';
-$_['text_website']		        = 'Sito Web:';
-$_['text_order_id']             = 'ID ordine:';
-$_['text_transaction_subject']  = '%s - Commssioni Affiliato';
-$_['text_transaction_received'] = 'Hai ricevuto %s commissioni!';
-$_['text_transaction_total']    = 'Importo totale commissioni è di %s.';
-?>

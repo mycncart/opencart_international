@@ -55,7 +55,6 @@ $_['entry_confirm']                  = '비밀번호 확인';
 $_['entry_firstname']                = '이름';
 $_['entry_lastname']                 = '성';
 $_['entry_telephone']                = '전화';
-$_['entry_fax']                      = '팩스';
 $_['entry_address']                  = '주소 선택';
 $_['entry_company']                  = '회사';
 $_['entry_customer_group']           = '고객그룹';

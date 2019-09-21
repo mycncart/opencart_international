@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Costi per Klarna';
 
 // Text
-$_['text_total']       = 'Totali ordine';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Totale Costi Klarna modificato con successo!';
 $_['text_edit']        = 'Modifica totale costi Klarna';
 $_['text_sweden']      = 'Svezia';

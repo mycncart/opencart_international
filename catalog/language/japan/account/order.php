@@ -21,8 +21,8 @@ $_['text_error']            = 'ご注文情報が見つかりませんでした!
 
 // Column
 $_['column_order_id']       = 'ご注文番号';
-$_['column_product']        = '品番';
 $_['column_customer']       = 'お客様氏名';
+$_['column_product']        = '品番';
 $_['column_name']           = '品名';
 $_['column_model']          = '品番';
 $_['column_quantity']       = '数量';

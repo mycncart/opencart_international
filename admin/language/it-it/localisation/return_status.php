@@ -20,4 +20,3 @@ $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare lo 
 $_['error_name']       = 'Nome Stato deve essere tra 3 e 32 caratteri!';
 $_['error_default']    = 'Attenzione: Questo stato non pu&ograve; essere eliminato perch&eacute; &egrave; assegnato come stato predefinito!';
 $_['error_return']     = 'Attenzione: Questo stato non pu&ograve; essere eliminato perch&eacute; &egrave; assegnato a %s Resi!';
-?>

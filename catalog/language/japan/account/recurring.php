@@ -16,8 +16,6 @@ $_['text_quantity']           = '数量:';
 $_['text_description']        = '説明';
 $_['text_reference']          = 'Reference';
 $_['text_transaction']        = 'トランザクション履歴';
-
-
 $_['text_status_1']           = 'Active';
 $_['text_status_2']           = 'Inactive';
 $_['text_status_3']           = 'Cancelled';
@@ -35,10 +33,6 @@ $_['text_transaction_suspended'] = 'Suspended';
 $_['text_transaction_suspended_failed'] = 'Suspended from failed payment';
 $_['text_transaction_outstanding_failed'] = 'Outstanding payment failed';
 $_['text_transaction_expired'] = 'Expired';
-
-
-
-
 $_['text_empty']                 = '定期支払いはありません';
 $_['text_error']                 = 'The recurring order you requested could not be found!';
 

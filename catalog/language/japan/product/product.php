@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Text
 $_['text_search']                             = '検索';
 $_['text_brand']                              = 'ブランド';
@@ -25,7 +24,7 @@ $_['text_error']                              = '商品が見つかりません!
 $_['text_payment_recurring']                  = '支払いプロファイル';
 $_['text_trial_description']                  = '%sを %d %s毎に%d 回お支払の後、';
 $_['text_payment_description']                = '%sを %d %s毎に%d 回のお支払い';
-$_['text_payment_until_canceled_description'] = 'キャンセルされるまで%sを %d %s毎にお支払い';
+$_['text_payment_cancel'] = 'キャンセルされるまで%sを %d %s毎にお支払い';
 $_['text_day']                                = '日';
 $_['text_week']                               = '週';
 $_['text_semi_month']                         = '半月';
@@ -39,7 +38,6 @@ $_['entry_review']                            = 'レビュー内容:';
 $_['entry_rating']                            = '評価:';
 $_['entry_good']                              = '良い';
 $_['entry_bad']                               = '悪い';
-$_['entry_captcha']                           = '以下の文字コードを入力してください:';
 
 // Tabs
 $_['tab_description']                         = '説明';
@@ -50,4 +48,3 @@ $_['tab_review']                              = 'レビュー (%s)';
 $_['error_name']                              = 'Warning: レビューのお名前は3文字以上25文字以下で入力してください!';
 $_['error_text']                              = 'Warning: レビューの内容は25文字以上1000文字以下で入力してください!';
 $_['error_rating']                            = 'Warning: 評価を選んでください!';
-$_['error_captcha']                           = 'Warning: 入力された文字コードが違います!';

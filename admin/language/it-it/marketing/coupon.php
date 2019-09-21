@@ -9,6 +9,7 @@ $_['text_add']            = 'Aggiungi Coupon';
 $_['text_edit']           = 'Modifica Coupon';
 $_['text_percent']        = 'Percentuale';
 $_['text_amount']         = 'Importo Fisso';
+$_['text_coupon']         = 'Cronologia coupon';
 
 // Column
 $_['column_name']         = 'Nome Coupon';

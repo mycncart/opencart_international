@@ -32,4 +32,3 @@ $_['text_limit']        = 'Mostra:';
 // Entry
 $_['entry_search']      = 'Ricerca:';
 $_['entry_description'] = 'Ricerca in descrizione prodotto';
-?>

@@ -3,7 +3,7 @@
 $_['heading_title']                            = 'Fedex';
 
 // Text
-$_['text_shipping']                            = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']                             = 'Spedizioni Fedex modificate con successo!';
 $_['text_edit']                                = 'Modifica Spedizione Fedex';
 $_['text_europe_first_international_priority'] = 'Europe First International Priority';

@@ -14,4 +14,3 @@ $_['text_logout']        = 'Esci';
 $_['text_checkout']      = 'Cassa';
 $_['text_search']        = 'Cerca';
 $_['text_all']           = 'Mostra Tutto';
-?>

@@ -13,7 +13,6 @@ $_['entry_firstname']    = '氏名(姓)';
 $_['entry_lastname']     = '氏名(名)';
 $_['entry_email']        = 'メールアドレス';
 $_['entry_telephone']    = '電話番号';
-$_['entry_fax']          = 'FAX番号';
 
 // Error
 $_['error_exists']       = 'Warning: メールアドレスは既に登録されています!';

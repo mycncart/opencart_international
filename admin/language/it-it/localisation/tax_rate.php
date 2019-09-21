@@ -31,4 +31,3 @@ $_['error_permission']     = 'Attenzione: Non si hanno i permessi per modificare
 $_['error_tax_rule']       = 'Attenzione: Questa aliquota fiscale non pu&ograve; essere eliminata in quanto assegnata alle %s classi di tassazione!';
 $_['error_name']           = 'Il nome dell\'aliquota deve essere tra 3 e 32 caratteri!';
 $_['error_rate']           = 'Aliquota Fiscale obbligatoria!';
-?>

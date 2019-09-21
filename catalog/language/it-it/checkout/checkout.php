@@ -55,7 +55,6 @@ $_['entry_confirm']                  = 'Conferma Password:';
 $_['entry_firstname']                = 'Nome:';
 $_['entry_lastname']                 = 'Cognome:';
 $_['entry_telephone']                = 'Telefono:';
-$_['entry_fax']                      = 'Fax:';
 $_['entry_address']                  = 'Selezionare Indirizzo';
 $_['entry_company']                  = 'Azienda:';
 $_['entry_customer_group']           = 'Gruppo Clienti';

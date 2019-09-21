@@ -7,4 +7,3 @@ $_['text_message']  = '<p>Congratulazioni! Il tuo nuovo account &egrave; stato c
 $_['text_approval'] = '<p>Grazie per esserti registrato con %s!</p><p>Sarai notificato per e-mail quando il tuo account verr&agrave; attivato.</p><p>Se hai una qualsiasi domanda sulle operazioni effettuate da questo negozio online, cortesemente <a href="%s">contattaci</a>.</p>';
 $_['text_account']  = 'Account';
 $_['text_success']  = 'Successo';
-?>

@@ -18,5 +18,5 @@ $_['entry_password']               = 'パスワード';
 
 // Error
 $_['error_login']                  = 'Warning: メールアドレス、またはパスワードが違います。';
-$_['error_approved']               = 'Warning: お客様がログインするにはアカウント登録が承認される必要があります。';
 $_['error_attempts']               = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
+$_['error_approved']               = 'Warning: お客様がログインするにはアカウント登録が承認される必要があります。';

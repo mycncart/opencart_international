@@ -40,4 +40,3 @@ $_['error_warning']         = 'Attenzione: Si prega di verificare gli errori!';
 $_['error_permission']		= 'Attenzione: non si hanno i permessi per poter modificare i Profili Ricorrenti!';
 $_['error_name']			= 'Il nome del profilo deve essere tra 3 e 255 caratteri!';
 $_['error_product']			= 'Attenzione: Questo profilo ricorrente non pu&ograve; essere eliminato in quanto attualmente assegnato a %s prodotti!';
-?>

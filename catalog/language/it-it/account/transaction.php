@@ -12,4 +12,3 @@ $_['text_account']       = 'Account';
 $_['text_transaction']   = 'Le tue Transazioni';
 $_['text_total']         = 'Il tuo attuale bilancio &egrave;:';
 $_['text_empty']         = 'Non hai effettuato alcuna transazione!';
-?>

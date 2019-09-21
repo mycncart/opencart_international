@@ -4,6 +4,7 @@ $_['text_success']       = '顧客情報を更新しました';
 
 // Error
 $_['error_permission']   = 'Warning: APIを更新する権限がありません!';
+$_['error_customer']     = '顧客を選択する必要があります!';
 $_['error_firstname']    = '氏名(姓)は1文字以上32文字以下で入力してください!';
 $_['error_lastname']     = '氏名(名)は1文字以上32文字以下で入力してください!';
 $_['error_email']        = 'メールアドレスは無効です!';

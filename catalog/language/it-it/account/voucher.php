@@ -30,4 +30,3 @@ $_['error_email']      = 'L\'indirizzo E-Mail sembra non essere valido !';
 $_['error_theme']      = 'Si prega di selezionare un tema grafico!';
 $_['error_amount']     = 'L\'importo deve essere tra %s e %s!';
 $_['error_agree']      = 'Attenzione: Bisogna accettare i termini che prevedono che i Buoni Regalo non sono rimborsabili!';
-?>

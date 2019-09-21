@@ -1,8 +1,8 @@
 <?php
-// Text
+// Heading
 $_['heading_title']     = 'ブランドリスト';
 
-//
+//Text
 $_['text_brand']        = 'ブランド';
 $_['text_index']        = 'インデックス:';
 $_['text_error']        = 'ブランドが見つかりません!';

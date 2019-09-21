@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Supplemento per ordine piccolo';
 
 // Text
-$_['text_total']       = 'Totale ordine';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Supplemento per ordine piccolo modificata con successo!';
 $_['text_edit']        = 'Modifica Totale Supplemento per piccoli ordini';
 
@@ -19,4 +19,3 @@ $_['help_total']       = 'Il totale che l\'ordine deve raggiungere prima prima c
 
 // Error
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare il supplemento per ordine piccolo!';
-?>

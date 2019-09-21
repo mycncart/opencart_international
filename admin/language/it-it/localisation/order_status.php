@@ -22,4 +22,3 @@ $_['error_default']    = 'Attenzione: questo stato dell\'ordine non pu&ograve; e
 $_['error_download']   = 'Attenzione: questo stato di download non pu&ograve essere eliminato perc&eacute &egrave impostato come stato di download predefinito!';
 $_['error_store']      = 'Attenzione: questo stato dell\'ordine non pu&ograve essere eliminato poich&eacute &egrave impostato come predefinito in %s negozi!';
 $_['error_order']      = 'Attenzione: questo stato dell\'ordine non pu&ograve; essere cancellato perch&eacute; &egrave; assegnato a %s ordini!';
-?>

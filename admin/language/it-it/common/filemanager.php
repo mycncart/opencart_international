@@ -21,4 +21,3 @@ $_['error_filesize']   = 'Attenzione: Dimensione file non corretta!';
 $_['error_filetype']  = 'Attenzione: tipo di file non valido!';
 $_['error_upload']   = 'Attenzione: Impossibile caricare il File! Errore Sconosciuto';
 $_['error_delete']     = 'Attenzione: Impossibile eliminare questa cartella!';
-?>

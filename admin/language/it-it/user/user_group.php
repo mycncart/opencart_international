@@ -21,4 +21,3 @@ $_['entry_modify']     = 'Permessi di modifica:';
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare i gruppi di utenti!';
 $_['error_name']       = 'Il nome del gruppo deve essere lungo almeno 3 caratteri e non pi&ugrave; di 64!';
 $_['error_user']       = 'Attenzione: Questo gruppo non pu&ograve; essere cancellato perch&eacute; &egrave; assegnato a %s utenti!';
-?>

@@ -15,4 +15,3 @@ $_['text_checkout']    = 'Acquisti';
 $_['text_search']      = 'Ricerca';
 $_['text_information'] = 'Informazione';
 $_['text_contact']     = 'Contattaci';
-?>

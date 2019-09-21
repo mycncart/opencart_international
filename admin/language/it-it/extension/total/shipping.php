@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Spedizione';
 
 // Text
-$_['text_total']       = 'Totale ordine';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Spedizioni modificate con successo!';
 $_['text_edit']        = 'Modifica Totali Spedizione';
 
@@ -14,4 +14,3 @@ $_['entry_sort_order'] = 'Ordinamento';
 
 // Error
 $_['error_permission'] = 'Attenzione: Non si hanno i permessi per modificare la spedizione nel totale ordine!';
-?>

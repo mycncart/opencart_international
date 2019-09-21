@@ -3,7 +3,7 @@
 $_['heading_title']     = 'Per oggetto';
 
 // Text
-$_['text_shipping']    = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Hai modificato con successo il modulo prezzo spedizione per oggetto!';
 $_['text_edit']        = 'Modifica Spedizione per oggetto';
 

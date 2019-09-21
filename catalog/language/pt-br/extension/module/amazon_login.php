@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']         = 'Acessar com Amazon';
+$_['heading_title'] = 'Login with Amazon';
 
 // Text
 $_['text_module']           = 'Modules';

@@ -55,7 +55,6 @@ $_['entry_confirm']                  = 'Repetir a senha';
 $_['entry_firstname']                = 'Nome';
 $_['entry_lastname']                 = 'Sobrenome';
 $_['entry_telephone']                = 'Telefone';
-$_['entry_fax']                      = 'Fax';
 $_['entry_address']                  = 'Escolha o endereço';
 $_['entry_company']                  = 'Referência';
 $_['entry_customer_group']           = 'Quem está comprando?';
@@ -92,4 +91,3 @@ $_['error_no_shipping']              = 'Atenção: Não há opções de frete di
 $_['error_payment']                  = 'Atenção: Selecione o pagamento que deseja utilizar!';
 $_['error_no_payment']               = 'Atenção: Não há opções de pagamento disponíveis. Entre em <a href="%s">contato</a> e informe os detalhes do pedido!';
 $_['error_custom_field']             = 'O campo %s é obrigatório!';
-$_['error_custom_field_validate']    = 'O campo %s não é válido!';

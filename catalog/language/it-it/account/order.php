@@ -21,8 +21,8 @@ $_['text_error']            = 'L\'ordine da te richiesto non pu&ograve; essere t
 
 // Column
 $_['column_order_id']       = 'ID Ordine';
-$_['column_product']        = 'No. Prodotti';
 $_['column_customer']       = 'Clienti';
+$_['column_product']        = 'No. Prodotti';
 $_['column_name']           = 'Nome Prodotto';
 $_['column_model']          = 'Modello';
 $_['column_quantity']       = 'Quantit&agrave;';
@@ -35,4 +35,3 @@ $_['column_comment']        = 'Commento';
 
 // Error
 $_['error_reorder']         = '%s non &egrave; al momento possibile riordinarlo.';
-?>

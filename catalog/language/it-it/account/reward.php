@@ -12,4 +12,3 @@ $_['text_account']       = 'Account';
 $_['text_reward']        = 'Punti Fedelt&agrave;';
 $_['text_total']         = 'Il totale dei tuoi Punti Fedelt&agrave; &egrave;:';
 $_['text_empty']         = 'Non hai Punti Fedelt&agrave;!';
-?>

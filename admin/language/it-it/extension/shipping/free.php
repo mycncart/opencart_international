@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Spedizione gratuita';
 
 // Text 
-$_['text_shipping']    = 'Spedizione';
+$_['text_extension']     = Estensioni';
 $_['text_success']     = 'Hai modificato con successo il modulo Spedizione gratuita!';
 $_['text_edit']        = 'Modifica Spedizione gratuita';
 

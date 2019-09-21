@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['express_text_title']      = 'Confirm order';
+$_['express_text_title']      = '注文を確認する';
 
 // Text
 $_['text_title']              = 'PayPal Express Checkout';
@@ -23,3 +23,5 @@ $_['button_express_shipping'] = '配送の更新';
 // Error
 $_['error_heading_title']	  = 'エラーが発生しました';
 $_['error_too_many_failures'] = 'お支払いに失敗しました';
+$_['error_unavailable'] 	  = 'この注文では完全なチェックアウトを使用してください';
+$_['error_no_shipping']    	  = '警告：配送オプションはありません。 サポートが必要な場合は、<a href="%s">お問い合わせ</a>ください!';

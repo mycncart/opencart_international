@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']                  = 'お会計';
 
@@ -55,7 +54,6 @@ $_['entry_confirm']                  = 'パスワード(確認用)';
 $_['entry_firstname']      			 = '氏名(姓)';
 $_['entry_lastname']       			 = '氏名(名)';
 $_['entry_telephone']      			 = '電話番号';
-$_['entry_fax']            			 = 'FAX番号';
 $_['entry_address']                  = '住所を選択';
 $_['entry_company']        			 = '会社名等';
 $_['entry_customer_group']           = '顧客グループ';
@@ -71,6 +69,7 @@ $_['entry_shipping'] 	             = 'お届け先住所と請求先住所は同
 // Error
 $_['error_warning']                  = 'ご注文処理中に問題が発生いたしました! 問題が解決しない場合は、別のお支払方法を選択するか、 <a href="%s">こちら</a> をクリックして担当者にメールにて連絡をしてください。';
 $_['error_login']                    = 'Warning: メールアドレスまたは、パスワードが一致しませんでした。';
+$_['error_attempts']                 = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
 $_['error_approved']                 = 'Warning: ログインするにはアカウント登録が承認される必要があります。';
 $_['error_exists']                   = 'メールアドレスは既に登録されています!';
 $_['error_firstname']                = '氏名(姓)は1文字以上32文字以下で入力してください!';
@@ -91,5 +90,3 @@ $_['error_no_shipping']              = 'Warning: ご利用可能な配送方法�
 $_['error_payment']                  = 'Warning: お支払方法が必要です!';
 $_['error_no_payment']               = 'Warning: ご利用可能なお支払方法がございません。 お手数をお掛けいたしますが、 <a href="%s">こちら</a> までメールにて連絡をお願いします。';
 $_['error_custom_field']             = '%s を入力してください!';
-$_['text_recurring_item']            = 'Recurring Item';
-$_['error_attempts']                 = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
