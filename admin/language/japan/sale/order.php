@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']              = '注文管理';
 
@@ -8,20 +7,21 @@ $_['text_success']               = '修正成功';
 $_['text_list']                  = '注文の追加';
 $_['text_add']                   = '注文の追加';
 $_['text_edit']                  = '注文の編集';
+$_['text_filter']                = 'フィルタ';
 $_['text_order_detail']          = '注文情報';
 $_['text_customer_detail']       = 'お客様情報';
-$_['text_option']                = 'Options';
+$_['text_option']                = 'オプション';
 $_['text_store']                 = 'ストア名';
 $_['text_date_added']            = '注文日';
 $_['text_payment_method']        = '支払方法';
 $_['text_shipping_method']       = '配送方法';
-$_['text_customer']                           = '顧客名:';
-$_['text_customer_group']                     = '顧客グループ:';
-$_['text_email']                              = 'メールアドレス:';
-$_['text_telephone']                          = '電話番号:';
-
+$_['text_customer']              = '顧客名:';
+$_['text_customer_group']        = '顧客グループ:';
+$_['text_email']                 = 'メールアドレス:';
+$_['text_telephone']             = '電話番号:';
+$_['text_fax']                   = 'Fax:';
 $_['text_invoice']               = 'Invoice';
-$_['text_reward']                = 'Reward Points';
+$_['text_reward']                = '報酬ポイント';
 $_['text_affiliate']             = 'アフィリエイト';
 $_['text_order']                 = 'Order (#%s)';
 $_['text_payment_address']       = '支払 アドレス';
@@ -38,7 +38,6 @@ $_['text_forwarded_ip']          = 'Forwarded IP';
 $_['text_user_agent']            = 'ユザー Agent';
 $_['text_accept_language']       = 'Accept 言語';
 $_['text_order_id']              = 'Order ID:';
-$_['text_fax']                   = 'Fax:';
 $_['text_website']               = 'Web Site:';
 $_['text_invoice_no']            = '請求番号:';
 $_['text_invoice_date']          = '発行日付:';
@@ -52,7 +51,6 @@ $_['text_missing']               = '不明な注文';
 $_['text_default']                            = 'デフォルト';
 $_['text_product']                            = '商品を追加する';
 $_['text_voucher']                            = 'ギフト券を追加する';
-
 $_['text_shipping']              = 'Shipping';
 $_['text_contact']               = 'Contact';
 $_['text_reward_added']                       = '成功: ポイントを追加しました!';
@@ -61,7 +59,6 @@ $_['text_commission_added']                   = '成功: アフィリエイト�
 $_['text_commission_removed']                 = '成功: アフィリエイトコミッションを戻しました!';
 $_['text_restock']                            = '成功: 商品を戻しました!';
 $_['text_upload']                             = 'ファイルをアップロードしました!';
-
 $_['text_picklist']              = '発送用注記';
 
 // Column
@@ -91,7 +88,6 @@ $_['entry_firstname']   	                  = '顧客名(姓):';
 $_['entry_lastname']    	                  = '顧客名(名):';
 $_['entry_email']       	                  = 'メールアドレス:';
 $_['entry_telephone']   	                  = '電話番号:';
-$_['entry_fax']         	                  = 'FAX番号:';
 $_['entry_address']                           = '住所を選択してください:';
 $_['entry_company']                           = '会社名等';
 $_['entry_address_1']                         = '丁目番地:';
@@ -114,7 +110,6 @@ $_['entry_amount']                            = '金額:';
 $_['entry_affiliate']                         = 'アフィリエイト:';
 $_['entry_order_status']                      = '注文ステータス:';
 $_['entry_notify']                            = '顧客に通知する:';
-
 $_['entry_override']             = 'Override';
 $_['entry_comment']              = 'コメント';
 $_['entry_currency']             = '通貨';

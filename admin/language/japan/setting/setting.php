@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']                    = 'ストア設定';
 
@@ -15,7 +14,6 @@ $_['text_account']                     = 'アカウント';
 $_['text_checkout']                    = 'チェックアウト';
 $_['text_stock']                       = '在庫';
 $_['text_affiliate']                   = 'アフィリエイト';
-
 $_['text_captcha']                 = 'Captcha';
 $_['text_register']                = 'Register';
 $_['text_guest']                   = 'Guest Checkout';
@@ -61,12 +59,9 @@ $_['entry_currency']                   = '表示通貨';
 $_['entry_currency_auto']              = '通貨の自動更新';
 $_['entry_length_class']               = '長さの単位';
 $_['entry_weight_class']               = '重さの単位';
-
-
 $_['entry_limit_admin']                = '商品の表示数 (管理画面)';
 $_['entry_product_count']              = 'カテゴリー商品数表示';
 $_['entry_review']                     = 'レビューを許可';
-
 $_['entry_review_guest']               = 'ゲストのレビューを許可する';
 $_['entry_voucher_min']                = 'ギフト券下限金額';
 $_['entry_voucher_max']                = 'ギフト券上限金額';
@@ -74,7 +69,6 @@ $_['entry_tax']                        = '価格を税込みで表示';
 $_['entry_tax_default']                = '税金の算定基準';
 $_['entry_tax_customer']               = '税金の算定基準となる住所';
 $_['entry_customer_online']            = '顧客のオンライン状況';
-
 $_['entry_customer_activity']      = 'Customers Activity';
 $_['entry_customer_search']        = 'Log Customer Searches';
 $_['entry_customer_group']             = '顧客グループ';
@@ -82,7 +76,6 @@ $_['entry_customer_group_display']     = '顧客グループの表示';
 $_['entry_customer_price']             = 'ログイン後に価格を表示';
 $_['entry_login_attempts']             = '最大ログイン試行回数';
 $_['entry_account']                    = 'アカウント作成時の条件';
-
 $_['entry_cart_weight']                = 'カートページに重さを表示';
 $_['entry_checkout_guest']             = 'ゲスト購入';
 $_['entry_checkout']                   = '購入時の条件';
@@ -90,34 +83,24 @@ $_['entry_invoice_prefix']             = '請求書の接頭辞';
 $_['entry_order_status']               = '注文ステータス';
 $_['entry_processing_status']          = '手続きオーダーステータス';
 $_['entry_complete_status']            = '処理完了ステータス';
-
 $_['entry_fraud_status']           = 'Fraud Order Status';
 $_['entry_api']                    = 'API User';
 $_['entry_stock_display']              = '在庫数量を表示';
 $_['entry_stock_warning']              = '在庫がない場合に警告を表示';
 $_['entry_stock_checkout']             = '在庫がない場合でも購入を許可する';
+$_['entry_affiliate_group']            = 'アフィリエイト グループ';
 $_['entry_affiliate_approval']         = 'アフィリエイトは承認が必要';
 $_['entry_affiliate_auto']             = '自動的にコミッションを追加する';
 $_['entry_affiliate_commission']       = 'アフィリエイトコミッション (%)';
 $_['entry_affiliate']                  = 'アフィリエイト参加時の条件';
-
 $_['entry_return']                     = '返品時の条件';
 $_['entry_return_status']              = '返品ステータス';
-
 $_['entry_captcha']                = 'Captcha';
 $_['entry_captcha_page']           = 'Captcha Page';
 $_['entry_logo']                       = 'ストアのロゴ';
 $_['entry_icon']                       = 'アイコン';
-
-$_['entry_ftp_hostname']                   = 'FTPホスト';
-$_['entry_ftp_port']                   = 'FTPポート';
-$_['entry_ftp_username']               = 'FTPユーザー名';
-$_['entry_ftp_password']               = 'FTPパスワード';
-$_['entry_ftp_root']                   = 'FTPルート';
-$_['entry_ftp_status']                 = 'FTPを有効にする';
-$_['entry_mail_protocol']              = 'メールの送信・接続方法';
+$_['entry_mail_engine']              = 'Mail Engine';
 $_['entry_mail_parameter']             = 'メールパラメーター';
-
 $_['entry_mail_smtp_hostname']     = 'SMTP ホスト';
 $_['entry_mail_smtp_username']     = 'SMTP ユーザー名';
 $_['entry_mail_smtp_password']     = 'SMTP パスワード';
@@ -138,7 +121,6 @@ $_['entry_encryption']                 = '暗号化キー';
 $_['entry_compression']                = '出力圧縮レベル';
 $_['entry_error_display']              = 'エラーを表示する';
 $_['entry_error_log']                  = 'エラーログを記録する';
-
 $_['entry_error_filename']         = 'エラーログのファイル名';
 $_['entry_status']                 = 'Status';
 
@@ -184,8 +166,7 @@ $_['help_return']                  = 'Forces people to agree to terms before a r
 $_['help_return_status']           = 'Set the default return status when a return request is submitted.';
 $_['help_captcha']                 = 'Captcha to use for registration, login, contact and reviews.';
 $_['help_icon']                    = 'The icon should be a PNG that is 16px x 16px.';
-$_['help_ftp_root']                = 'The directory your OpenCart installation is stored in. Normally \'public_html/\'.';
-$_['help_mail_protocol']           = 'Only choose \'Mail\' unless your host has disabled the php mail function.';
+$_['help_mail_engine']               = 'Only choose \'Mail\' unless your host has disabled the php mail function.';
 $_['help_mail_parameter']          = 'When using \'Mail\', additional mail parameters can be added here (e.g. -f email@storeaddress.com).';
 $_['help_mail_smtp_hostname']      = 'Add \'tls://\' or \'ssl://\' prefix if security connection is required. (e.g. tls://smtp.gmail.com, ssl://smtp.gmail.com).';
 $_['help_mail_smtp_password']      = 'For gmail you might need to setup a application specific password here: https://security.google.com/settings/security/apppasswords.';
@@ -198,8 +179,6 @@ $_['help_seo_url']                     = 'SEO URLを利用する場合、apache�
 $_['help_file_max_size']               = 'イメージマネージャでアップロードすることができる画像の最大ファイルサイズ。バイト単位で入力します。';
 $_['help_file_ext_allowed']            = '拡張子を設定します。改行すると、複数の拡張子を設定できます。';
 $_['help_file_mime_allowed']           = 'Mimeタイプを設定します。改行すると、複数のMimeタイプを設定できます。';
-
-
 $_['help_maintenance']                 = '顧客にはメンテナンスである旨が表示されます。管理者としてログインすると、通常通りにストアが表示されます。';
 $_['help_password']                    = '管理に使用するパスワードを忘れた場合に許可する。システムがハッキングを検出した場合、自動的に無効になります。';
 $_['help_encryption']                  = '注文情報を処理する際に個人情報を暗号化するために使用します。';
@@ -208,12 +187,12 @@ $_['help_compression']                 = 'パケットを圧縮して送信し�
 // Error
 $_['error_warning']                    = '警告: 入力内容にエラーがあります。確認してください!';
 $_['error_permission']                 = '警告: ストア設定を更新する権限がありません!';
+$_['error_meta_title']                 = 'メタタグ:titleは3文字以上32文字以下で入力してください!';
 $_['error_name']                       = 'ストア名は3文字以上32文字以下で入力してください!';
 $_['error_owner']                      = 'ストアオーナー名は3文字以上64文字以下で入力してください!';
 $_['error_address']                    = '住所は10文字以上256文字以下で入力してください!';
 $_['error_email']                      = 'メールアドレスが正しくありません!';
 $_['error_telephone']                  = '電話番号は3文字以上32文字以下で入力してください!';
-$_['error_meta_title']                 = 'メタタグ:titleは3文字以上32文字以下で入力してください!';
 $_['error_limit']                      = '項目の表示数を入力してください!';
 $_['error_login_attempts']       	   = 'ログイン試行回数は、1以上で入力してください!';
 $_['error_customer_group_display']     = 'デフォルトの顧客グループを含める必要があります!';
@@ -221,10 +200,7 @@ $_['error_voucher_min']                = 'ギフト券下限金額を入力し�
 $_['error_voucher_max']                = 'ギフト券上限金額を入力してください!';
 $_['error_processing_status']          = '最低1つは選択してください';
 $_['error_complete_status']            = '最低1つは選択してください';
-$_['error_ftp_hostname']               = 'FTP Hostを入力してください!';
-$_['error_ftp_port']                   = 'FTP Portを入力してください!';
-$_['error_ftp_username']               = 'FTP ユーザー名を入力してください!';
-$_['error_ftp_password']               = 'FTP パスワードを入力してください!';
-$_['error_error_filename']             = 'エラーログのファイル名を入力してください!';
+$_['error_log_required']             = 'Error Log Filename required!';
+$_['error_log_invalid']              = 'Error Log Filename invalid!';
+$_['error_log_extension']            = 'Error Log Filename extension needs to be .log!';
 $_['error_encryption']                 = '暗号化キーは3文字以上32文字以下で入力してください!';
-$_['error_malformed_filename']	   = 'Error Malformed Log Filename!';

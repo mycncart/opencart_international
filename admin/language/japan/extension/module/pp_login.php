@@ -3,7 +3,7 @@
 $_['heading_title']        = 'Log In with PayPal';
 
 // Text
-$_['text_extension']       = 'Extensions';
+$_['text_extension']       = '拡張機能';
 $_['text_success']         = '成功: Log In with PayPal を更新しました!';
 $_['text_edit']            = 'Log In with PayPal の編集';
 

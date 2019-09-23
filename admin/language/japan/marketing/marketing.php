@@ -7,6 +7,7 @@ $_['text_success']      = '成功: トラッキングを更新しました!';
 $_['text_list']         = 'トラッキングリスト';
 $_['text_add']          = 'トラッキングの追加';
 $_['text_edit']         = 'トラッキングの編集';
+$_['text_filter']       = 'フィルタ';
 
 // Column
 $_['column_name']       = 'キャンペーン名';
@@ -31,5 +32,4 @@ $_['help_example']      = 'システムが紹介を追跡するには、あな�
 $_['error_permission']  = '警告: トラッキングを更新する権限がありません!';
 $_['error_name']        = 'キャンペーン名は1文字以上32文字以下で入力してください!';
 $_['error_code']        = 'トラッキングコードを入力してください!';
-
-$_['error_exists']      = 'Tracking code is being used by another campaign!';
+$_['error_exists']      = 'トラッキングコードは別のキャンペーンで使用されています!';

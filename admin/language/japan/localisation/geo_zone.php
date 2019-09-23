@@ -7,6 +7,7 @@ $_['text_success']       = '成功: ジオゾーンを更新しました!';
 $_['text_list']          = 'ジオゾーンリスト';
 $_['text_add']           = 'ジオゾーンの追加';
 $_['text_edit']          = 'ジオゾーンの編集';
+$_['text_geo_zone']      = 'ジオゾーン';
 
 // Column
 $_['column_name']        = 'ジオゾーン名';

@@ -3,7 +3,7 @@
 $_['heading_title']    = 'クーポン';
 
 // Text
-$_['text_total']       = '注文合計項目設定';
+$_['text_extension']   = '拡張機能';
 $_['text_success']     = '成功: クーポンを更新しました!';
 $_['text_edit']        = 'クーポンの編集';
 

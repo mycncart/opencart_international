@@ -61,7 +61,6 @@ $_['column_action']                         = 'Action';
 
 // Entry
 $_['entry_order_recurring_id']             = 'Recurring ID';
-$_['entry_cancel_payment'] 				   = '支払いをキャンセル';
 $_['entry_order_id'] 					   = '注文番号';
 $_['entry_reference'] 					   = '照会番号';
 $_['entry_customer'] 					   = '顧客名';
@@ -76,7 +75,7 @@ $_['entry_quantity'] 					   = "数量:";
 $_['entry_amount'] 						   = "金額:";
 $_['entry_recurring'] 					   = "プロファイル:";
 $_['entry_payment_method'] 				   = "支払い方法:";
-
+$_['entry_cancel_payment'] 				   = '支払いをキャンセル';
 
 // Error
 $_['error_not_cancelled']                  = 'エラー: %s';

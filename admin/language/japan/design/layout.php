@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']       = 'レイアウト設定';
 
@@ -8,7 +7,6 @@ $_['text_success']        = '成功: レイアウトを更新しました!';
 $_['text_list']           = 'レイアウトリスト';
 $_['text_add']            = 'レイアウトの追加';
 $_['text_edit']           = 'レイアウトの編集';
-
 $_['text_remove']         = 'Remove';
 $_['text_route']          = 'Choose the store and routes to be used with this layout';
 $_['text_module']         = 'Choose the position of the modules';
@@ -17,7 +15,6 @@ $_['text_content_top']    = 'コンテンツ上部';
 $_['text_content_bottom'] = 'コンテンツ下部';
 $_['text_column_left']    = 'コンテンツ左部';
 $_['text_column_right']   = 'コンテンツ右部';
-
 
 // Column
 $_['column_name']         = 'レイアウト名';

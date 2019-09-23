@@ -1,10 +1,9 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']    = '取扱手数料';
 
 // Text
-$_['text_total']       = '注文合計項目設定';
+$_['text_extension']   = '拡張機能';
 $_['text_success']     = '取扱手数料を更新しました!';
 $_['text_edit']        = '取扱手数料の編集';
 

@@ -12,6 +12,7 @@ $_['text_unopened']       = '未開梱';
 $_['text_order']          = '注文情報';
 $_['text_product']        = '商品情報 &amp; 返品理由';
 $_['text_history']        = '返品履歴を追加';
+$_['text_history_add']     = '履歴を追加';
 
 // Column
 $_['column_return_id']     = '返品番号';

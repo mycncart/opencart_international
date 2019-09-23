@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']     = 'ギフト券管理';
 
@@ -38,7 +37,6 @@ $_['entry_status']      = 'ステータス';
 $_['help_code']         = 'ギフト券を使用するためのコード。';
 
 // Error
-$_['error_selection']   = '警告: ギフト券が選択されていません!';
 $_['error_permission']  = '警告: ギフト券を更新する権限がありません!';
 $_['error_exists']      = '警告: 既に登録済みのギフト券コードです!';
 $_['error_code']        = 'コードは3文字以上10文字以下で入力してください!';

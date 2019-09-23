@@ -15,10 +15,10 @@ $_['column_country']         = '国';
 $_['column_action']          = '処理';
 
 // Entry
-$_['entry_status']           = 'ステータス';
 $_['entry_name']             = '地域(都道府県)名';
 $_['entry_code']             = '地域(都道府県)コード';
 $_['entry_country']          = '国';
+$_['entry_status']           = 'ステータス';
 
 // Error
 $_['error_permission']       = '警告: 地域(都道府県)を更新する権限がありません!';

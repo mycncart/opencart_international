@@ -17,9 +17,7 @@ $_['error_filename']   = '警告: ファイル名は、3文字以上255文字以
 $_['error_folder']     = '警告: フォルダ名は、3文字以上255文字以下で入力してください!';
 $_['error_exists']     = '警告: 同じ名前のファイルまたはディレクトリがすでに存在します!';
 $_['error_directory']  = '警告: ディレクトリが存在しません!';
+$_['error_filesize']   = '警告：不正なファイルサイズ!';
 $_['error_filetype']   = '警告: ファイル形式に誤りがあります!';
 $_['error_upload']     = '警告: ファイルはアップロードできませんでした!';
 $_['error_delete']     = '警告: このディレクトリは削除できません!';
-
-
-$_['error_filesize']   = 'Warning: Incorrect file size!';

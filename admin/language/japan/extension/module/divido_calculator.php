@@ -3,7 +3,7 @@
 $_['heading_title']	   = 'Divido Product Page Calculator';
 
 // Text
-$_['text_extension']   = 'Extensions';
+$_['text_extension']   = '拡張機能';
 $_['text_success']	   = 'Success: You have modified Divido Product Page Calculator!';
 $_['text_edit']		   = 'Edit Divido Product Page Calculator';
 

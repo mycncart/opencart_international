@@ -9,6 +9,7 @@ $_['text_add']            = 'クーポンの追加';
 $_['text_edit']           = 'クーポンの編集';
 $_['text_percent']        = 'パーセント';
 $_['text_amount']         = '金額';
+$_['text_coupon']         = 'クーポン履歴';
 
 // Column
 $_['column_name']         = 'クーポン名';

@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Google Hangouts';
 
 // Text
-$_['text_extension']   = 'Extensions';
+$_['text_extension']   = '拡張機能';
 $_['text_success']        = '成功: Google Hangoutsを更新しました!';
 $_['text_edit']           = 'Google Hangoutsの編集';
 

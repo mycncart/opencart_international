@@ -3,7 +3,7 @@
 $_['heading_title']    = '重量別料金';
 
 // Text
-$_['text_shipping']    = '配送設定';
+$_['text_extension']   = '拡張機能';
 $_['text_success']     = '成功: 重量別料金を更新しました!';
 $_['text_edit']        = '重量別料金の編集';
 

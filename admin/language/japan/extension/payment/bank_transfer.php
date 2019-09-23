@@ -3,7 +3,7 @@
 $_['heading_title']		 = '銀行振込';
 
 // Text
-$_['text_extension']	 = 'Extensions';
+$_['text_extension']	 = '拡張機能';
 $_['text_success']       = '銀行振込を更新しました!';
 $_['text_edit']          = '銀行振込の編集';
 

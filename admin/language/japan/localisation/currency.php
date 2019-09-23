@@ -35,4 +35,3 @@ $_['error_code']           = '通貨コードは3文字で入力してくださ�
 $_['error_default']        = '警告: この通貨はデフォルトストアで使用されているため、削除できません!';
 $_['error_store']          = '警告: この通貨は %s 件のストアで使用されているため、削除できません!';
 $_['error_order']          = '警告: この通貨は %s 件の注文で使用されているため、削除できません!';
-$_['text_iso']             = 'You can find a full list of ISO currency codes and settings <a href="http://www.xe.com/iso4217.php" target="_blank">here</a>.';

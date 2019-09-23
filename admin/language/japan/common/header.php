@@ -1,25 +1,12 @@
 <?php
 // Heading
-$_['heading_title']        = 'OpenCart ¹ÜÀí»­Ãæ';
+$_['heading_title']      = 'OpenCart';
 
 // Text
-$_['text_order']           = '×¢ÎÄ';
-$_['text_order_status']    = 'Î´„IÀí';
-$_['text_complete_status'] = '„IÀíœg';
-$_['text_customer']        = 'î™¿Í';
-$_['text_online']          = '¥ª¥ó¥é¥¤¥óÖÐ¤Îî™¿Í';
-$_['text_approval']        = '³ÐÕJ´ý¤Á';
-$_['text_product']         = 'ÉÌÆ·';
-$_['text_stock']           = 'ÔÚŽìÇÐ¤ì';
-$_['text_review']          = '¥ì¥Ó¥å©`';
-$_['text_return']          = '·µÆ·';
-$_['text_affiliate']       = '¥¢¥Õ¥£¥ê¥¨¥¤¥È';
-$_['text_store']           = '¥¹¥È¥¢';
-$_['text_front']           = '¥¹¥È¥¢»­Ãæ';
-$_['text_help']            = '¥Ø¥ë¥×';
-$_['text_homepage']        = '¥ª¥Õ¥£¥·¥ã¥ë¥µ¥¤¥È';
-$_['text_support']         = '¥µ¥Ý©`¥È¥Õ¥©©`¥é¥à';
-$_['text_documentation']   = '¥É¥­¥å¥á¥ó¥È';
-$_['text_logout']          = '¥í¥°¥¢¥¦¥È';
-
-$_['text_processing_status'] = 'Î´„IÀí';
+$_['text_profile']       = 'ã‚ãªãŸã®ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«';
+$_['text_store']         = 'åº—èˆ—';
+$_['text_help']          = 'åŠ©ã‘ã¦';
+$_['text_homepage']      = 'OpenCart ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸';
+$_['text_support']       = 'ã‚µãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ¼ãƒ©ãƒ ';
+$_['text_documentation'] = 'ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³';
+$_['text_logout']        = 'ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ';

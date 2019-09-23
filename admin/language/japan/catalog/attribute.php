@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']          = '属性管理';
 
@@ -22,7 +21,6 @@ $_['entry_sort_order']       = '表示順';
 
 // Error
 $_['error_permission']       = '警告:属性を更新する権限がありません!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
 $_['error_name']             = '属性名は3文字以上64文字以下で入力してください!';
 $_['error_product']          = '警告: この属性は、現在 %s 点の商品に使用されているため、削除できません!';
-
-$_['error_attribute_group']  = 'Attribute Group Required!';

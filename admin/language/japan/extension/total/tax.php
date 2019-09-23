@@ -3,7 +3,7 @@
 $_['heading_title']    = '税金';
 
 // Text
-$_['text_total']       = '注文合計項目設定';
+$_['text_extension']   = '拡張機能';
 $_['text_success']     = '成功: 税金を更新しました!';
 $_['text_edit']        = '税金の編集';
 

@@ -11,7 +11,6 @@ $_['text_choose']         = '選択タイプ';
 $_['text_select']         = 'セレクトボックス';
 $_['text_radio']          = 'ラジオボタン';
 $_['text_checkbox']       = 'チェックボックス';
-$_['text_image']          = '画像';
 $_['text_input']          = '入力タイプ';
 $_['text_text']           = 'テキスト';
 $_['text_textarea']       = 'テキストエリア';
@@ -19,6 +18,8 @@ $_['text_file']           = 'ファイル';
 $_['text_date']           = '日付';
 $_['text_datetime']       = '日付 &amp; 時刻';
 $_['text_time']           = '時刻';
+$_['text_option']        = 'オプション';
+$_['text_value']         = 'オプション値';
 
 // Column
 $_['column_name']         = 'オプション名';

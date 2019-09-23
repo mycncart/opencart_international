@@ -1,9 +1,8 @@
 <?php
-// header
+// Heading
 $_['heading_title']  = 'パスワードをリセットします';
 
 // Text
-$_['text_reset']     = 'パスワードをリセットします!';
 $_['text_password']  = '新しいパスワードを入力してください。';
 $_['text_success']   = '成功: パスワードを更新しました。';
 

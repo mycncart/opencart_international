@@ -1,10 +1,9 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']         = 'United States Postal Service';
 
 // Text
-$_['text_shipping']         = 'Shipping';
+$_['text_extension']        = '拡張機能';
 $_['text_success']          = 'Success: You have modified United States Postal Service!';
 $_['text_edit']             = 'Edit United States Postal Service Shipping';
 $_['text_domestic_00']      = 'First-Class Mail Parcel';

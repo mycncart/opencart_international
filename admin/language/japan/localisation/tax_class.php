@@ -1,5 +1,4 @@
 <?php
-//made by bestshop24h,support email:support@bestshop24h.com  or 95672639@qq.com
 // Heading
 $_['heading_title']     = '税区分設定';
 
@@ -8,6 +7,8 @@ $_['text_success']      = '成功:税区分を更新しました!';
 $_['text_list']         = '税区分リスト';
 $_['text_add']          = '税区分の追加';
 $_['text_edit']         = '税区分の編集';
+$_['text_tax_class']    = '税クラス';
+$_['text_tax_rate']     = '税率';
 $_['text_shipping']     = '配送住所';
 $_['text_payment']      = '支払住所';
 $_['text_store']        = 'ストア住所';

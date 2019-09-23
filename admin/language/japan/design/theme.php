@@ -1,17 +1,23 @@
 <?php
 // Heading
-$_['heading_title']    = 'Theme Editor';
+$_['heading_title']     = 'テーマエディター';
 
 // Text
-$_['text_success']     = 'Success: You have modified themes!';
-$_['text_edit']        = 'Edit Theme';
-$_['text_store']       = 'Choose your store';
-$_['text_template']    = 'Choose a template';
-$_['text_default']     = 'Default';
-$_['text_warning']     = 'Warning: Security can be compromised using the theme editor!';
-$_['text_access']      = 'Make sure that only the correct admin users are allowed to access this page as you can directly access your stores souce code.';
-$_['text_permission']  = 'You can change the user permissions <a href="%s" class="alert-link">here</a>.';
-$_['text_begin']       = 'Select a theme file from the left side to begin editing.';
+$_['text_success']      = '成功：テーマを変更しました!';
+$_['text_edit']         = 'テーマを編集';
+$_['text_store']        = '店舗を選択してください';
+$_['text_template']     = 'テンプレートを選択してください';
+$_['text_default']      = 'デフォルト';
+$_['text_history']      = 'テーマの歴史';
+$_['text_twig']         = 'テーマエディターはテンプレート言語Twigを使用します。 <a href="http://twig.sensiolabs.org/documentation" target="_blank" class="alert-link"> Twig構文についてはこちら</a>をご覧ください。';
+
+// Column
+$_['column_store']      = '格納';
+$_['column_route']      = 'ルート';
+$_['column_theme']      = 'テーマ';
+$_['column_date_added'] = '追加日';
+$_['column_action']     = 'アクション';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify the theme editor!';
+$_['error_permission']  = '警告：テーマエディターを変更する権限がありません!';
+$_['error_twig']        = '警告：.twig ファイルのみを保存できます!';

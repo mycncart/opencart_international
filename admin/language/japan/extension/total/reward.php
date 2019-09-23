@@ -3,7 +3,7 @@
 $_['heading_title']    = 'ポイント';
 
 // Text
-$_['text_total']       = '注文合計項目設定';
+$_['text_extension']   = '拡張機能';
 $_['text_success']     = '成功: ポイントを更新しました!';
 $_['text_edit']        = 'ポイントの編集';
 

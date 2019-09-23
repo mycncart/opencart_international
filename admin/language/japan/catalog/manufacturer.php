@@ -10,6 +10,7 @@ $_['text_edit']          = 'メーカーの編集';
 $_['text_default']       = 'デフォルト';
 $_['text_percent']       = 'パーセント';
 $_['text_amount']        = '定額';
+$_['text_keyword']       = 'スペースを使用しないでください。また、システム全体でキーワードが一意である必要があります。';
 
 // Column
 $_['column_name']        = 'メーカー名';
@@ -24,11 +25,9 @@ $_['entry_image']        = '画像';
 $_['entry_sort_order']   = '表示順';
 $_['entry_type']         = 'タイプ';
 
-// Help
-$_['help_keyword']       = 'スペースを使用しないでください。また、システム全体でキーワードが一意である必要があります。';
-
 // Error
 $_['error_permission']   = '警告: メーカーを更新する権限がありません!';
 $_['error_name']         = 'メーカー名は3文字以上64文字以下で入力してください!';
+$_['error_keyword']     = 'SEO URL すでに使用されています!';
+$_['error_unique']      = 'SEO URL 一意でなければなりません!';
 $_['error_product']      = '警告: このメーカーは、現在 %s 点の商品に使用されているため、削除できません!';
-$_['error_keyword']     = 'SEO URL already in use!';

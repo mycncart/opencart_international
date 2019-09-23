@@ -3,7 +3,7 @@
 $_['heading_title']    = 'PayPal Express Checkout Button';
 
 // Text
-$_['text_extension']   = 'Extensions';
+$_['text_extension']   = '拡張機能';
 $_['text_success']        = '成功: PayPal Express Checkout button を更新しました!';
 $_['text_edit']           = 'Edit PayPal Express Checkout Button の編集';
 
