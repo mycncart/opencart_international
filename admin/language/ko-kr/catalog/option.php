@@ -18,6 +18,8 @@ $_['text_file']          = 'File';
 $_['text_date']          = 'Date';
 $_['text_datetime']      = 'Date &amp; Time';
 $_['text_time']          = 'Time';
+$_['text_option']        = '선택권';
+$_['text_value']         = '옵션 값';
 
 // Column
 $_['column_name']        = '옵션 이름';

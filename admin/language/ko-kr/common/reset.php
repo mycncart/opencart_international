@@ -1,5 +1,5 @@
 <?php
-// header
+// Heading
 $_['heading_title']  = '비밀번호 재설정';
 
 // Text

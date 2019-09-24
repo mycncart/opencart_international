@@ -20,7 +20,10 @@ $_['text_datetime']        = 'Date &amp; Time';
 $_['text_time']            = 'Time';
 $_['text_account']         = '회원정보';
 $_['text_address']         = '주소';
+$_['text_affiliate']       = '제휴사';
 $_['text_regex']           = '정규표현식';
+$_['text_custom_field']    = '사용자 정의 필드';
+$_['text_value']           = '사용자 정의 필드 값';
 
 // Column
 $_['column_name']          = '사용자정의 필드 이름';

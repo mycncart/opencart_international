@@ -14,6 +14,7 @@ $_['text_option']            = '옵션';
 $_['text_option_value']      = '옵션값';
 $_['text_percent']           = '비율';
 $_['text_amount']            = '고정금액';
+$_['text_keyword']           = '공백문자를 사용하지 마시고, 대신에 하이픈(-)을 사용하세요. 전역적으로 유일한 키워드인지도 확인하시기 바랍니다.';
 
 // Column
 $_['column_name']            = '상품명';
@@ -30,6 +31,7 @@ $_['entry_description']      = '상품소개';
 $_['entry_meta_title'] 	     = '메타 태그 제목';
 $_['entry_meta_keyword'] 	 = '메타 태그 키워드';
 $_['entry_meta_description'] = '메타 태그 설명';
+$_['entry_store']            = '쇼핑몰';
 $_['entry_keyword']          = 'SEO URL';
 $_['entry_model']            = '모델명';
 $_['entry_sku']              = 'SKU';
@@ -41,7 +43,6 @@ $_['entry_mpn']              = 'MPN';
 $_['entry_location']         = '위치';
 $_['entry_shipping']         = '배송 필수';
 $_['entry_manufacturer']     = '제조사';
-$_['entry_store']            = '쇼핑몰';
 $_['entry_date_available']   = '진열 시작일';
 $_['entry_quantity']         = '수량';
 $_['entry_minimum']          = '최소 주문수량';
@@ -82,7 +83,6 @@ $_['entry_layout']           = '레이아웃 재정의';
 $_['entry_recurring']        = '할부방식';
 
 // Help
-$_['help_keyword']           = '공백문자를 사용하지 마시고, 대신에 하이픈(-)을 사용하세요. 전역적으로 유일한 키워드인지도 확인하시기 바랍니다.';
 $_['help_sku']               = '재고유지단위(SKU)';
 $_['help_upc']               = '범용상품코드(UPC)';
 $_['help_ean']               = '유럽상품번호(EAN)';
@@ -106,3 +106,4 @@ $_['error_name']             = '상품명은 3~255 글자 이내로 입력해주
 $_['error_meta_title']       = '메타 태그 제목은 3~255 글자 이내로 입력해주세요.';
 $_['error_model']            = '상품 모델명은 1~64 글자 이내로 입력해주세요.';
 $_['error_keyword']          = '이미 사용 중인 SEO URL입니다.';
+$_['error_unique']           = 'SEO URL 특별해야 해!';

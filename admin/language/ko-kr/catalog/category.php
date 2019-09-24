@@ -8,6 +8,7 @@ $_['text_list']              = '상품분류 목록';
 $_['text_add']               = '상품분류 추가';
 $_['text_edit']              = '상품분류 수정';
 $_['text_default']           = '기본값';
+$_['text_keyword']           = '공백문자를 사용하지 마시고, 대신에 하이픈(-)을 사용하세요. 전역적으로 유일한 키워드인지도 확인하시기 바랍니다.';
 
 // Column
 $_['column_name']            = '상품분류명';
@@ -17,7 +18,7 @@ $_['column_action']          = '작업';
 // Entry
 $_['entry_name']             = '상품분류명';
 $_['entry_description']      = '상세설명';
-$_['entry_meta_title'] 	   = '메타 태그 제목';
+$_['entry_meta_title'] 	   	 = '메타 태그 제목';
 $_['entry_meta_keyword']     = '메타 태그 키워드';
 $_['entry_meta_description'] = '메타 태그 설명';
 $_['entry_keyword']          = 'SEO URL';
@@ -33,7 +34,6 @@ $_['entry_layout']           = '레이아웃 재정의';
 
 // Help
 $_['help_filter']            = '(자동완성)';
-$_['help_keyword']           = '공백문자를 사용하지 마시고, 대신에 하이픈(-)을 사용하세요. 전역적으로 유일한 키워드인지도 확인하시기 바랍니다.';
 $_['help_top']               = '상단 메뉴바에 표시합니다. 최상위 카테고리에만 적용됩니다.';
 $_['help_column']            = '하위 3개 카테고리를 위한 컬럼 수. 최상위 카테고리에만 적용됩니다.';
 
@@ -43,4 +43,5 @@ $_['error_permission']       = '주의: 상품분류를 수정할 수 있는 권
 $_['error_name']             = '상품분류명은 2~255 글자 이내로 입력해주세요.';
 $_['error_meta_title']       = '메타 태그 제목은 3~255 글자 이내로 입력해주세요.';
 $_['error_keyword']          = '이미 사용 중인 SEO URL입니다.';
+$_['error_unique']           = 'SEO URL 특별해야 해!';
 $_['error_parent']           = '선택하신 상위분류는 이 상품분류의 하위분류입니다.';
