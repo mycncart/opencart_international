@@ -3,7 +3,7 @@
 $_['heading_title']    = '예치금 합계항목';
 
 // Text
-$_['text_total']       = '주문 합계항목';
+$_['text_extension']   = '확장 기능';
 $_['text_success']     = '완료: 예치금 합계항목을 수정했습니다.';
 $_['text_edit']        = '예치금 합계항목 수정';
 

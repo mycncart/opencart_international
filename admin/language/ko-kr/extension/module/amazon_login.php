@@ -3,6 +3,7 @@
 $_['heading_title']         = 'Login with Amazon';
 
 // Text
+$_['text_module'] = '모듈';
 $_['text_extension']        = '확장기능';
 $_['text_success']          = '완료: Login with Amazon 모듈을 수정했습니다.';
 $_['text_content_top']      = 'Content Top';

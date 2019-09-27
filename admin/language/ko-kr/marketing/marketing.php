@@ -7,6 +7,7 @@ $_['text_success']      = '완료: 마케팅 트래킹을 수정했습니다.';
 $_['text_list']         = '마케팅 트래킹 목록';
 $_['text_add']          = '마케팅 트래킹 추가';
 $_['text_edit']         = '마케팅 트래킹 수정';
+$_['text_filter']       = '필터';
 
 // Column
 $_['column_name']       = '캠페인 이름';

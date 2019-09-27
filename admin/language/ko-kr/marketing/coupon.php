@@ -9,6 +9,7 @@ $_['text_add']            = '쿠폰 추가';
 $_['text_edit']           = '쿠폰 수정';
 $_['text_percent']        = '비율';
 $_['text_amount']         = '고정금액';
+$_['text_coupon']         = '쿠폰 이력';
 
 // Column
 $_['column_name']         = '쿠폰 이름';

@@ -3,7 +3,7 @@
 $_['heading_title']           = 'Parcelforce 48';
 
 // Text
-$_['text_shipping']           = '배송방법';
+$_['text_extension']          = '확장 기능';
 $_['text_success']            = '완료: Parcelforce 48 배송방법을 수정했습니다.';
 $_['text_edit']               = 'Parcelforce 48 배송방법 수정';
 

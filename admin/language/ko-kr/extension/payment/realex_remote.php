@@ -3,7 +3,7 @@
 $_['heading_title']					 = 'Realex Remote';
 
 // Text
-$_['text_extension']				 = '확장기능';
+$_['text_extension']				 = 'Extensions';
 $_['text_success']					 = 'Success: You have modified Realex account details!';
 $_['text_edit']                      = 'Edit Realex Remote';
 $_['text_card_type']				 = 'Card type';

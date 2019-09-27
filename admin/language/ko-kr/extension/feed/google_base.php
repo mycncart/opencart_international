@@ -3,9 +3,9 @@
 $_['heading_title']          = '구글 베이스';
 
 // Text
-$_['text_feed']              = '피드';
-$_['text_success']           = '완료: 구글 베이스 피드를 수정했습니다.';
 $_['text_edit']              = '구글 베이스 수정';
+$_['text_success']           = '완료: 구글 베이스 피드를 수정했습니다.';
+$_['text_edit']              = 'Google Base 수정';
 $_['text_import']            = 'To download the latest Google category list by <a href="https://support.google.com/merchants/answer/160081?hl=en" target="_blank" class="alert-link">clicking here</a> and choose taxonomy with numeric IDs in Plain Text (.txt) file. Upload via the green import button.';
 
 // Column

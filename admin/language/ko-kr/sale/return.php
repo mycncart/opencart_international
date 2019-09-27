@@ -12,6 +12,7 @@ $_['text_unopened']       = '미개봉';
 $_['text_order']          = '주문정보';
 $_['text_product']        = '상품정보 &amp; 반품사유';
 $_['text_history']        = '반품진행이력 추가';
+$_['text_history_add']     = '기록 추가';
 
 // Column
 $_['column_return_id']     = '반품번호';

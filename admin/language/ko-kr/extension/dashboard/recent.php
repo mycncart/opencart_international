@@ -19,7 +19,7 @@ $_['column_action']     = '작업';
 // Entry
 $_['entry_status']      = '상태';
 $_['entry_sort_order']  = '정렬순서';
-$_['entry_width']       = 'Width';
+$_['entry_width']       = '폭';
 
 // Error
 $_['error_permission']  = '주의: 대시보드 최근 주문을 수정할 수 있는 권한이 없습니다.';

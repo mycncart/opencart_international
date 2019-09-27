@@ -1,15 +1,16 @@
 <?php
 // Heading
-$_['heading_title']         = 'Pay with Amazon';
+$_['heading_title'] = 'Amazon Pay';
 
 // Text
+$_['text_module'] = '모듈';
 $_['text_extension']        = '확장기능';
-$_['text_success']          = '완료: Pay with Amazon 모듈을 수정했습니다.';
+$_['text_success']          = '완료: Amazon Pay 모듈을 수정했습니다.';
 $_['text_content_top']      = 'Content Top';
 $_['text_content_bottom']   = 'Content Bottom';
 $_['text_column_left']      = 'Column Left';
 $_['text_column_right']     = 'Column Right';
-$_['text_pwa_button']       = 'Pay with Amazon';
+$_['text_pwa_button'] = 'Amazon Pay';
 $_['text_pay_button']       = 'Pay';
 $_['text_a_button']         = 'A';
 $_['text_gold_button']      = 'Gold';

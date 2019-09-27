@@ -3,7 +3,7 @@
 $_['heading_title']    = 'Klarna 수수료 합계항목';
 
 // Text
-$_['text_total']       = '주문 합계항목';
+$_['text_extension']   = '확장 기능';
 $_['text_success']     = '완료: Klarna 수수료 합계항목을 수정했습니다.';
 $_['text_edit']        = 'Klarna 수수료 합계항목 수정';
 $_['text_sweden']      = '스웨덴';

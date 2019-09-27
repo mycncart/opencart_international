@@ -3,8 +3,8 @@
 $_['heading_title']     = '이베이 리스팅';
 
 // Text
-$_['text_module']       = '모듈';
-$_['text_success']      = '완료: 이베이 모듈을 수정했습니다.';
+$_['text_extension']    = '확장 기능';
+$_['text_success']      = '성공 : eBay 기능 모듈을 수정했습니다!';
 $_['text_edit']        	= '이베이 모듈 수정';
 $_['text_list']         = '레이아웃 목록';
 $_['text_register']     = '이베이 OpenBay Pro에 등록 및 활성화하셔야 합니다.';

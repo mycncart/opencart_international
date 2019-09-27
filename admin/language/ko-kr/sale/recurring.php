@@ -5,6 +5,7 @@ $_['heading_title']                        = '할부주문';
 // Text
 $_['text_success']                         = '완료: 할부방식을 수정했습니다.';
 $_['text_list']                            = '할부주문 목록';
+$_['text_filter']                          = '필터';
 $_['text_recurring_detail']                = '할부정보';
 $_['text_order_detail']                    = '주문정보';
 $_['text_product_detail']                  = '상품정보';

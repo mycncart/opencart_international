@@ -6,6 +6,7 @@ $_['heading_title']     = '결제방법';
 $_['text_success']      = '완료: 결제방법을 수정했습니다.';
 $_['text_list']         = '결제방법 목록';
 
+
 // Column
 $_['column_name']       = '결제방법';
 $_['column_status']     = '상태';
