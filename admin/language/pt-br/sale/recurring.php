@@ -5,6 +5,7 @@ $_['heading_title']                        = 'Assinaturas';
 // Text
 $_['text_success']                         = 'Assinatura modificada com sucesso.';
 $_['text_list']                            = 'Listando assinaturas';
+$_['text_filter']                          = 'Filtro';
 $_['text_recurring_detail']                = 'Destalhes da assinatura';
 $_['text_order_detail']                    = 'Detalhes do pedido';
 $_['text_product_detail']                  = 'Detalhes do produto';
@@ -32,6 +33,7 @@ $_['text_status_3']                        = 'Cancelada';
 $_['text_status_4']                        = 'Suspensa';
 $_['text_status_5']                        = 'Expirada';
 $_['text_status_6']                        = 'Pendente';
+
 $_['text_transactions']                    = 'Transações';
 $_['text_cancel_confirm']                  = 'O cancelamento do tipo de assinatura não pode ser desfeito! Tem certeza que deseja fazer isso?';
 $_['text_transaction_date_added']          = 'Cadastro';

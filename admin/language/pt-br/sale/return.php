@@ -12,6 +12,7 @@ $_['text_unopened']        = 'Lacrada';
 $_['text_order']           = 'Informações do pedido';
 $_['text_product']         = 'Informções do produto &amp; Motivos da devolução';
 $_['text_history']         = 'Adicionar histórico';
+$_['text_history_add']     = 'Adicionar histórico';
 
 // Column
 $_['column_return_id']     = 'Devolução nº';

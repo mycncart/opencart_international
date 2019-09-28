@@ -20,7 +20,10 @@ $_['text_datetime']        = 'Data e hora';
 $_['text_time']            = 'Hora';
 $_['text_account']         = 'Dados do cliente';
 $_['text_address']         = 'Endereço do cliente';
+$_['text_affiliate']       = 'Afiliado';
 $_['text_regex']           = 'Validação por regex';
+$_['text_custom_field']    = 'Campo customizado';
+$_['text_value']           = 'Valores de campo personalizados';
 
 // Column
 $_['column_name']          = 'Nome do Campo';

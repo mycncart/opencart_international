@@ -9,6 +9,7 @@ $_['text_add']            = 'Novo cupom';
 $_['text_edit']           = 'Editando cupom';
 $_['text_percent']        = 'Percentual';
 $_['text_amount']         = 'Valor fixo';
+$_['text_coupon']         = 'Histórico do Cupom';
 
 // Column
 $_['column_name']         = 'Cupom';

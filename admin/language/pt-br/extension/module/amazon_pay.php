@@ -3,6 +3,7 @@
 $_['heading_title']         = 'Pagar com Amazon';
 
 // Text
+$_['text_module'] = 'Módulos';
 $_['text_extension']        = 'Extensões';
 $_['text_success']          = 'Pagar com Amazon modificado com sucesso!';
 $_['text_content_top']      = 'Topo do conteúdo';
@@ -26,7 +27,7 @@ $_['entry_button_colour']   = 'Cor do botão';
 $_['entry_button_size']     = 'Tamanho do botão';
 $_['entry_layout']          = 'Layout';
 $_['entry_position']        = 'Local';
-$_['entry_status']          = 'Situação';
+$_['entry_status']          = 'Status';
 $_['entry_sort_order']      = 'Posição';
 
 //Error
