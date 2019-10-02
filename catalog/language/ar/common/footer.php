@@ -14,4 +14,4 @@ $_['text_account']      = 'حسابي';
 $_['text_order']        = 'طلباتي';
 $_['text_wishlist']     = 'قائمة رغباتي';
 $_['text_newsletter']   = 'القائمة البريدية';
-$_['text_powered']      = 'ترجمة <a href="http://www.opencartarab.com" target="_blank">OpenCartArab</a> | دعـم <a href="http://www.opencart.com" target="_blank">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Powered By <a href="http://www.mycncart.com" target="_blank">MyCnCart</a>&amp;&amp;<a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
