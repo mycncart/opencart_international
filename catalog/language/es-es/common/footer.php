@@ -14,4 +14,4 @@ $_['text_account']      = 'Mi Cuenta';
 $_['text_order']        = 'Historial de Pedidos';
 $_['text_wishlist']     = 'Favoritos';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Powered By <a href="http://www.mycncart.com" target="_blank">MyCnCart</a>&amp;&amp;<a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Powered By <a href="http://www.mycncart.com" target="_blank">MyCnCart</a> &amp; <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';

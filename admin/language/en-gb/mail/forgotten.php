@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_subject']  = '%s - Password reset request';
-$_['text_greeting'] = 'A new password was requested for %s administration.';
-$_['text_change']   = 'To reset your password click on the link below:';
-$_['text_ip']       = 'The IP used to make this request was:';
+$_['text_subject']  = '%s - 密码重置请求';
+$_['text_greeting'] = '管理员 %s 请求重置新密码。';
+$_['text_change']   = '若要重置密码，请点击如下链接:';
+$_['text_ip']       = '发起该请求所用IP地址为：';

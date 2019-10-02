@@ -3,7 +3,7 @@
 $_['heading_title']                    = 'Tema Predefinito del Negozio';
 
 // Text
-$_['text_extension']     = Estensioni';
+$_['text_extension']     = 'Estensioni';
 $_['text_success']                     = 'Temi predefiniti del negozio modificati correttamente!';
 $_['text_edit']                        = 'Modifica il Tema predefinito del negozio';
 $_['text_general']                     = 'Generale';

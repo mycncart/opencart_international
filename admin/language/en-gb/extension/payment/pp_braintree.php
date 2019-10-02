@@ -3,7 +3,7 @@
 $_['heading_title']					 = 'PayPal (Powered by Braintree)';
 
 // Text
-$_['text_extension']		 		 = 'Extensions';
+$_['text_extension']   = '扩展功能';
 $_['text_pp_braintree']				 = '<img src="view/image/payment/paypal.png" alt="PayPal (Powered by Braintree)" title="PayPal (Powered by Braintree)" style="border: 1px solid #EEEEEE;" />';
 $_['text_payment']					 = 'Payment';
 $_['text_success']					 = 'Success: You have modified Braintree account details!';
@@ -47,11 +47,11 @@ $_['text_paypal_preview']		 	 = 'Button preview<br />Save to view changes';
 $_['text_braintree_learn']		 	 = 'To start accepting credit/debit cards and PayPal, click Connect with Braintree. <a href="https://www.braintreepayments.com/partners/learn-more" target="_blank">Learn more</a>';
 $_['text_3ds']		 	 			 = '3D Secure';
 $_['text_cvv']		 	 			 = 'CVV Number';
-$_['text_promotion_main']		 	 = 'Designed for businesses of all sizes, from small to large enterprise, easily accept and process payments to help maximise business opportunities and revenue growth, with no setup or monthly fees';
-$_['text_promotion_li_1']			 = 'All the benefits of PayPal, plus cards acceptance on your checkout page';
-$_['text_promotion_li_2']			 = 'Fast configuration and setup';
-$_['text_promotion_li_3']			 = 'Achieve PCI DSS v3.0 SAQ-A compliance using Hosted Fields';
-$_['text_promotion_li_4']			 = 'Allow customers to vault card details';
+$_['text_preferred_main']		 	 = 'Designed for businesses of all sizes, from small to large enterprise, easily accept and process payments to help maximise business opportunities and revenue growth, with no setup or monthly fees';
+$_['text_preferred_li_1']			 = 'All the benefits of PayPal, plus cards acceptance on your checkout page';
+$_['text_preferred_li_2']			 = 'Fast configuration and setup';
+$_['text_preferred_li_3']			 = 'Achieve PCI DSS v3.0 SAQ-A compliance using Hosted Fields';
+$_['text_preferred_li_4']			 = 'Allow customers to vault card details';
 $_['text_learn_more']			 	 = '(Learn more)';
 $_['text_accept']			 	 	 = 'Accept';
 $_['text_decline']			 	 	 = 'Decline';
